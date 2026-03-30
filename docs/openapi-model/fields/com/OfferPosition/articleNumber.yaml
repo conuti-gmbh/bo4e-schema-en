@@ -1,0 +1,6 @@
+components:
+  schemas:
+    articleNumber:
+      $ref: >-
+        ../../../enum/BDEWArticleNumber.yaml#/components/schemas/BDEWArticleNumber
+      description: BDEW Artikelnummer

@@ -1,0 +1,8 @@
+components:
+  schemas:
+    meteringService:
+      type: array
+      items:
+        $ref: ../../../com/Service.yaml#/components/schemas/Service
+      description: Liste der Messdienstleistungen, die zu dieser Messstelle gehört.
+      nullable: true

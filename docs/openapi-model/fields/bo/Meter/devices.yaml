@@ -1,0 +1,8 @@
+components:
+  schemas:
+    devices:
+      type: array
+      items:
+        $ref: ../../../com/Device.yaml#/components/schemas/Device
+      description: Liste der Geräte, die zu diesem Zähler gehören.
+      nullable: true

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    changeTimestamp:
+      type: string
+      format: date-time
+      description: aenderungszeitpunkt

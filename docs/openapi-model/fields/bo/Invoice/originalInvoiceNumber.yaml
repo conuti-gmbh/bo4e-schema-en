@@ -1,0 +1,7 @@
+components:
+  schemas:
+    originalInvoiceNumber:
+      type: string
+      description: >-
+        Im Falle einer Stornorechnung (storno = true) steht hier die
+        Rechnungsnummer der stornierten Rechnung.

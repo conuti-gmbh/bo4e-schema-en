@@ -1,0 +1,131 @@
+{
+  "boType": "ORDER",
+  "structureVersion": "1",
+  "executionDate": "1914-02-04T18:56:03.0Z",
+  "completionDate": "1946-12-21T10:50:55.0Z",
+  "startDate": "1933-10-10T19:14:03.0Z",
+  "endDate": "1964-02-15T10:58:01.0Z",
+  "sector": "WASTEWATER",
+  "deliveryAddress": {
+    "postalCode": "56721",
+    "city": "Duisburg",
+    "street": "Vincent-van-Gogh-Str.",
+    "houseNumber": "15a",
+    "poBox": "sit",
+    "addressSupplement": "laboris",
+    "coSupplement": "fugiat voluptate enim sunt irure",
+    "countryCode": "PE",
+    "district": "Neu Thaliastadt",
+    "additionalInformation": {
+      "supplement1": "officia sint dolor ullamco",
+      "supplement2": "laboris sit in non occaecat",
+      "supplement3": "cupidatat incididunt",
+      "supplement4": "magna sit sint fugiat",
+      "supplement5": "ad voluptate commodo"
+    }
+  },
+  "marketLocationId": "01481783720",
+  "minimumPrice": {
+    "value": 4.25,
+    "amount": 92298307,
+    "unit": "EUR",
+    "referenceValue": "KW",
+    "status": "PROVISIONAL",
+    "priceType": "SETUP_PRICE"
+  },
+  "maximumPrice": {
+    "value": 6,
+    "amount": -51191867,
+    "unit": "EUR",
+    "referenceValue": "KVARH",
+    "status": "PROVISIONAL",
+    "priceType": "OPERATING_PRICE"
+  },
+  "energyDirection": "FEED_IN",
+  "calculationPrice": 3.75,
+  "totalSum": 12.75,
+  "postponedDeregistrationDate": "1931-06-05T08:40:22.0Z",
+  "resolutionTimestamp": "1957-11-05T23:32:17.0Z",
+  "deliveryAddressOldDevices": {
+    "boType": "BUSINESS_PARTNER",
+    "structureVersion": "1",
+    "salutation": "Dr.",
+    "name1": "Schroder",
+    "name2": "Josefin",
+    "name3": "consectetur Excepteur minim Ut",
+    "name4": "aliquip id sit do quis",
+    "vatId": "DE000101100",
+    "creditorId": "127368",
+    "emailAddress": "Aliya82@hotmail.com",
+    "website": "https://lustig-wind.info/",
+    "commercialClassification": true,
+    "commercialRegisterNumber": "226901",
+    "courtOfRegistration": "Bozsikburg",
+    "partnerAddress": {
+      "postalCode": "28337",
+      "city": "Miastadt",
+      "street": "Elisabeth-Langgässer-Str.",
+      "houseNumber": "13b",
+      "poBox": "dolore dolor sint veniam aute",
+      "addressSupplement": "Ut commodo ipsum enim",
+      "coSupplement": "ex Lorem sint",
+      "countryCode": "MT",
+      "district": "Herschmannland",
+      "additionalInformation": {
+        "supplement1": "minim",
+        "supplement2": "fugiat",
+        "supplement3": "proident occaecat",
+        "supplement4": "commodo irure incididunt sit",
+        "supplement5": "in nisi elit"
+      }
+    },
+    "externalCustomerNumberSupplier": "204389",
+    "externalReferences": [
+      {
+        "externalReferenceName": "Kundennummer beim Altlieferanten",
+        "externalReferenceValue": "6931060841"
+      }
+    ],
+    "businessPartnerRole": [
+      "SERVICE_PROVIDER"
+    ],
+    "contactChannel": [
+      "EMAIL"
+    ]
+  },
+  "definitionType": "METERING_TIME",
+  "positionData": [
+    {
+      "positionNumber": 59339783,
+      "offerPositionNumber": "277442",
+      "energyCapture": "CAPTURED_SEPARATELY",
+      "articleNumber": "POWER_FLAT_RATE",
+      "positionAmount": "06",
+      "startDate": "1907-12-17T11:03:06.0Z",
+      "endDate": "1926-08-16T04:58:26.0Z",
+      "isExisting": "4",
+      "obisNumber": "amet anim",
+      "requestReason": "CONFIGURATION_UNCHANGED",
+      "generalInformation": {
+        "info1": "sit enim ex ea Duis",
+        "info2": "incididunt eiusmod amet",
+        "info3": "commodo",
+        "info4": "dolore",
+        "info5": "commodo"
+      },
+      "discrepancyInfo": {
+        "discrepancy1": "mollit do ut",
+        "discrepancy2": "nisi pariatur",
+        "discrepancy3": "do veniam",
+        "discrepancy4": "occaecat",
+        "discrepancy5": "ad nulla culpa"
+      },
+      "definitionType": "LOAD_CURVES",
+      "locationId": "13878175112",
+      "meterRegister": 2
+    }
+  ],
+  "remarks": [
+    "Vel vitae blanditiis quidem minus."
+  ]
+}

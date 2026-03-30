@@ -1,0 +1,9 @@
+components:
+  schemas:
+    PriceStatus:
+      title: PriceStatus
+      type: string
+      enum:
+        - PROVISIONAL
+        - FINAL
+      description: Preisstatus

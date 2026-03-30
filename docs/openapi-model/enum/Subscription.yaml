@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Subscription:
+      title: Subscription
+      type: string
+      enum:
+        - START_SUBSCRIPTION
+        - END_SUBSCRIPTION
+        - WITHOUT_SUBSCRIPTION
+      description: Abonnement

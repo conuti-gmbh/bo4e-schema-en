@@ -1,0 +1,19 @@
+{
+  "boType": "SWITCHING_TIME_DEFINITION",
+  "structureVersion": "1",
+  "beginDate": "1947-01-28T18:26:29.0Z",
+  "closingDate": "1907-12-27T06:42:34.0Z",
+  "version": "1945-06-06T21:48:27.0Z",
+  "code": "CODE_110111",
+  "necessity": "METERING_TIME_DEFINITIONS_NOT_USED",
+  "switchingTimes": [
+    {
+      "code": "CODE_101110",
+      "changeTimestamp": "1922-02-04T18:30:58.0Z",
+      "frequency": "ONE_TIME",
+      "transmissibility": "NON_ELECTRONIC",
+      "switchingAction": "POWER_OFF",
+      "configurationProduct": "proident magna occaecat et tempor"
+    }
+  ]
+}

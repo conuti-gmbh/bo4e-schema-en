@@ -1,0 +1,7 @@
+components:
+  schemas:
+    involvedMarketPartner:
+      description: >-
+        MP-ID des beteiligten Marktteilnehmers / ORDERS NAD+VY NAD+DDM / APERAK
+        RFF+Z08
+      $ref: ../../../bo/MarketParticipant.yaml#/components/schemas/MarketParticipant

@@ -1,0 +1,12 @@
+components:
+  schemas:
+    BankAccountPurposeOfUse:
+      title: BankAccountPurposeOfUse
+      type: string
+      enum:
+        - BV_PAYMENT_NNA
+        - BV_PAYMENT_MMMA
+        - BV_PAYMENT_MSB_BILLING
+        - BV_PAYMENT_UNLOCK_BILLING
+        - BV_OTHER
+      description: BankverbindungVerwendungszweck

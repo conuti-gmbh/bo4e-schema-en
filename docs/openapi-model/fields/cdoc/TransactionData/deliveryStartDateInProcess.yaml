@@ -1,0 +1,6 @@
+components:
+  schemas:
+    deliveryStartDateInProcess:
+      description: Lieferbeginndatum in Bearbeitung / DTM+Z07
+      type: string
+      format: date-time

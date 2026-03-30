@@ -1,0 +1,22 @@
+{
+  "boType": "TRADE_DISCREPANCY",
+  "structureVersion": "1",
+  "number": "696641",
+  "typeValue": "DELIVERY_NOTE_BASE_ENERGY_PRICE",
+  "justification": {
+    "correctness": "INVOIC",
+    "referenceDar": "DAR010110",
+    "referenceNumber": "REF101100",
+    "confirmationDar": "DAR101111",
+    "acknowledgmentNotification": "sunt proident",
+    "reason": "BILLING_REACTIVE_ENERGY_SECTOR_GAS_NOT_RELEVANT",
+    "hint": "Ut incididunt non",
+    "references": [
+      "REF110110"
+    ]
+  },
+  "toPay": {
+    "value": 9.5,
+    "currency": "est ut voluptate nulla cillum"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json",
+  "title": "StatusNotification",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "STATUS_NOTIFICATION"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "statusObject": {
+      "$ref": "../enum/StatusObject.schema.json"
+    },
+    "statusOccasion": {
+      "$ref": "../enum/Status.schema.json"
+    },
+    "orderStatus": {
+      "$ref": "../enum/OrderStatus.schema.json"
+    },
+    "positionData": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/StatusNotificationPosition.schema.json"
+      },
+      "description": "positionsdaten"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

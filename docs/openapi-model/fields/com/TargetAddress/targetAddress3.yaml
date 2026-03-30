@@ -1,0 +1,5 @@
+components:
+  schemas:
+    targetAddress3:
+      type: string
+      description: zieladresse3

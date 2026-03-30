@@ -1,0 +1,7 @@
+components:
+  schemas:
+    contactPerson:
+      $ref: ../../../bo/ContactPerson.yaml#/components/schemas/ContactPerson
+      description: >-
+        Ansprechpartner as in EDIFACT NAD+MS, that includes e.g. the email
+        address of a natural person.

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    tariffType:
+      $ref: ../../../enum/TariffType.yaml#/components/schemas/TariffType
+      description: Spezifikation bezüglich unterstützter Tarifarten.

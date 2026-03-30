@@ -1,0 +1,5 @@
+components:
+  schemas:
+    positionQuantity:
+      $ref: ../../../com/Quantity.yaml#/components/schemas/Quantity
+      description: Die abgerechnete Menge mit Einheit. Z.B. 4372 kWh. Details Menge

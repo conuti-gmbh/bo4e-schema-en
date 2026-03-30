@@ -1,0 +1,5 @@
+components:
+  schemas:
+    adviceNoteType:
+      $ref: ../../../enum/AdviceNoteType.yaml#/components/schemas/AdviceNoteType
+      description: Gibt den Typ des Avis an.

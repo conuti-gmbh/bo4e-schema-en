@@ -1,0 +1,7 @@
+components:
+  schemas:
+    processReferenceNumber:
+      description: >-
+        Referenznummer des Vorgangs der Anmeldung nach WiM / ORDERS RFF+Z41 /
+        IFTSTA RFF+ACW
+      type: string

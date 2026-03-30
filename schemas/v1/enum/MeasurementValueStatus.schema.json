@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwertstatus.schema.json",
+  "title": "MeasurementValueStatus",
+  "type": "string",
+  "enum": [
+    "READ",
+    "SUBSTITUTE_VALUE",
+    "SUGGESTED_VALUE",
+    "NOT_USABLE",
+    "FORECAST_VALUE",
+    "ENERGY_QUANTITY_SUMMED",
+    "PROVISIONAL_VALUE",
+    "MISSING",
+    "SPECIFICATION_FOR_DELIVERY_NOTE",
+    "BASIS_POG_DETERMINATION"
+  ],
+  "description": "Der Status eines Zählerstandes"
+}

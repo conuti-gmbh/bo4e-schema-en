@@ -1,0 +1,12 @@
+components:
+  schemas:
+    contractPartner2:
+      type: array
+      items:
+        $ref: ../../../bo/BusinessPartner.yaml#/components/schemas/BusinessPartner
+      description: >-
+        Der "zweitgenannte" Vertragspartner. In der Regel der Empfänger des
+        Vertrags. Beispiel "Vertrag zwischen
+
+        Vertagspartner 1 und Vertragspartner 2". Siehe BO Geschaeftspartner
+      nullable: true

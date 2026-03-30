@@ -1,0 +1,5 @@
+components:
+  schemas:
+    contractNumber:
+      type: string
+      description: Eine im Verwendungskontext eindeutige Nummer für den Vertrag

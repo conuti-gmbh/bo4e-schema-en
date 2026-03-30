@@ -1,0 +1,5 @@
+components:
+  schemas:
+    serviceProvider:
+      type: string
+      description: dienstanbieter

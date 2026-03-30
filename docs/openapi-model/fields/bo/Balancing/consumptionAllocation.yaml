@@ -1,0 +1,5 @@
+components:
+  schemas:
+    consumptionAllocation:
+      $ref: ../../../com/Quantity.yaml#/components/schemas/Quantity
+      description: Verbrauchsaufteilung

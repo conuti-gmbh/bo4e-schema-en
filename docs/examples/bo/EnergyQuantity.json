@@ -1,0 +1,37 @@
+{
+  "boType": "ENERGY_QUANTITY",
+  "structureVersion": "1",
+  "locationId": "59089283162",
+  "locationType": "TECHNICAL_RESOURCE",
+  "completionDate": "1969-09-27T01:07:55.0Z",
+  "startDate": "1918-10-13T23:26:13.0Z",
+  "endDate": "1943-11-30T18:58:09.0Z",
+  "balancingDate": "1909-02-10T16:14:22.0Z",
+  "beginDate": "1944-06-26T22:21:29.0Z",
+  "referenceMasterDataNotificationMsb": "REF101001",
+  "configuration": "veniam",
+  "energyConsumption": [
+    {
+      "startDate": "1932-12-01T22:17:41.0Z",
+      "endDate": "1934-10-30T12:24:47.0Z",
+      "valueDeterminationMethod": "MEASUREMENT",
+      "measurementValueStatus": "FORECAST_VALUE",
+      "obisNumber": "do cupidatat amet",
+      "value": 14.5,
+      "unit": "KWHK",
+      "type": "ESTIMATED_ANNUAL_QUANTITY",
+      "tariffLevel": "TARIFF_LEVEL_0",
+      "usageTimestamp": "1933-12-07T19:51:57.0Z",
+      "executionTimestamp": "1952-11-17T01:57:58.0Z",
+      "position": 5534132191,
+      "readingDate": "1917-06-21T07:14:40.0Z",
+      "servicePeriod": "331754",
+      "statusAdditionalInformation": [
+        {
+          "kind": "REASON_SUBSTITUTE_VALUE_FORMATION_METHOD",
+          "status": "PLAUSIBLE_DUE_TO_CONTROL_READING"
+        }
+      ]
+    }
+  ]
+}

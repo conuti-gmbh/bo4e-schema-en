@@ -1,0 +1,6 @@
+components:
+  schemas:
+    businessPartnerRole:
+      $ref: >-
+        ../../../enum/BusinessPartnerRole.yaml#/components/schemas/BusinessPartnerRole
+      description: Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).

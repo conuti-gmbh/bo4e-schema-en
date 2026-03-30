@@ -1,0 +1,5 @@
+components:
+  schemas:
+    processNumber:
+      description: Nummer des Vorgangs / UTILMD UTILTS IDE+24 / INSRPT INVOIC DOC
+      type: string

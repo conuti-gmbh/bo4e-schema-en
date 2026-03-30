@@ -1,0 +1,8 @@
+components:
+  schemas:
+    loadCurves:
+      type: array
+      items:
+        $ref: ../../../com/LoadCurve.yaml#/components/schemas/LoadCurve
+      description: leistungskurven
+      nullable: true

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    marketRoles:
+      type: array
+      items:
+        $ref: >-
+          ../../../bo/MarketParticipant.yaml#/components/schemas/MarketParticipant
+      description: marktrollen für EDIFACT mapping
+      nullable: true

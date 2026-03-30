@@ -1,0 +1,10 @@
+components:
+  schemas:
+    phoneNumbers:
+      type: array
+      items:
+        $ref: ../../../com/PhoneNumber.yaml#/components/schemas/PhoneNumber
+      description: >-
+        Liste der Telefonnummern, unter denen der Ansprechpartner erreichbar
+        ist.
+      nullable: true

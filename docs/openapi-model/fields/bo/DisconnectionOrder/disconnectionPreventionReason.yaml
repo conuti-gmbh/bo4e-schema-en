@@ -1,0 +1,6 @@
+components:
+  schemas:
+    disconnectionPreventionReason:
+      $ref: >-
+        ../../../enum/DisconnectionPreventionReason.yaml#/components/schemas/DisconnectionPreventionReason
+      description: Falls Sperrauftragsstatus = GESCHEITERT

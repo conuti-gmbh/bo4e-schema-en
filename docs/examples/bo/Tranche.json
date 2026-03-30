@@ -1,0 +1,449 @@
+{
+  "boType": "TRANCHE",
+  "structureVersion": "1",
+  "trancheId": "00607201960",
+  "sector": "GAS",
+  "energyDirection": "FEED_IN",
+  "balancingMethod": "IMS",
+  "consumptionType": [
+    "KL"
+  ],
+  "interruptible": false,
+  "gridLevel": "HSS",
+  "gridOperatorCodeNumber": "in esse laborum",
+  "areaType": "TRANSMISSION_GRID",
+  "gridAreaNumber": "do tempor consequat elit",
+  "balancingArea": "aliquip veniam irure in do",
+  "defaultSupplierCodeNumber": "aliqua anim",
+  "gasQuality": "H_GAS",
+  "endCustomer": {
+    "boType": "BUSINESS_PARTNER",
+    "structureVersion": "1",
+    "salutation": "Frau",
+    "name1": "Kühnemund",
+    "name2": "Eric",
+    "name3": "irure veniam tempor",
+    "name4": "et sunt amet laborum",
+    "vatId": "DE011100000",
+    "creditorId": "247729",
+    "emailAddress": "Clara1@hotmail.com",
+    "website": "https://rigoros-feuer.com/",
+    "commercialClassification": false,
+    "commercialRegisterNumber": "898499",
+    "courtOfRegistration": "Bourrouagdorf",
+    "partnerAddress": {
+      "postalCode": "48543",
+      "city": "Nord Mariamland",
+      "street": "Eifgenstr.",
+      "houseNumber": "68a",
+      "poBox": "voluptate irure",
+      "addressSupplement": "sed pariatur in culpa non",
+      "coSupplement": "cillum eu ea",
+      "countryCode": "WF",
+      "district": "Lucburg",
+      "additionalInformation": {
+        "supplement1": "tempor Excepteur labore quis",
+        "supplement2": "ad elit eiusmod",
+        "supplement3": "magna in dolore aliqua proident",
+        "supplement4": "dolore velit ad non aliqua",
+        "supplement5": "dolore ipsum eiusmod Ut"
+      }
+    },
+    "externalCustomerNumberSupplier": "206440",
+    "externalReferences": [
+      {
+        "externalReferenceName": "Kundennummer beim Altlieferanten",
+        "externalReferenceValue": "0657297949"
+      }
+    ],
+    "businessPartnerRole": [
+      "MARKET_PARTNER"
+    ],
+    "contactChannel": [
+      "FAX"
+    ]
+  },
+  "locationAddress": {
+    "postalCode": "41132",
+    "city": "Henrikburg",
+    "street": "Wannseestr.",
+    "houseNumber": "8",
+    "poBox": "in est sint aliquip tempor",
+    "addressSupplement": "veniam sint",
+    "coSupplement": "qui",
+    "countryCode": "TF",
+    "district": "Fridadorf",
+    "additionalInformation": {
+      "supplement1": "Lorem",
+      "supplement2": "Duis ipsum adipisicing",
+      "supplement3": "Ut laboris",
+      "supplement4": "laborum do officia non mollit",
+      "supplement5": "ipsum est"
+    }
+  },
+  "cadastralInformation": {
+    "cadastralDistrict": "in adipisicing in est",
+    "parcel": "do exercitation enim",
+    "parcelNumber": "et exercitation"
+  },
+  "controlZone": "commodo enim",
+  "marketArea": "exercitation eu pariatur sit",
+  "timeSeriesType": "FPE",
+  "meteringTechnicalClassification": "IMS",
+  "lockStatus": "UNLOCKED",
+  "referenceMarketLocationId": "86385756756",
+  "supplyType": "EMERGENCY_DELIVERY",
+  "remoteControllability": "REMOTELY_CONTROLLABLE_BY_SUPPLIER",
+  "compensationRecipient": "CUSTOMER",
+  "promotionCountry": "commodo ea Excepteur sunt et",
+  "statusGeneratingMalo": "MARKETING_WITHOUT_STATUTORY_REMUNERATION",
+  "referenceTranche": "66539918890",
+  "allocationQuantity": {
+    "value": 4,
+    "unit": "PERCENT"
+  },
+  "balancingGroup": "reprehenderit irure",
+  "trancheFormationSize": "PERCENTAGE",
+  "futureReportingPoint": false,
+  "locationAssignment": "STARTS",
+  "involvedMarketPartner": {
+    "boType": "MARKET_PARTICIPANT",
+    "structureVersion": "1",
+    "businessPartnerRole": "READING_CARD_RECIPIENT",
+    "salutation": "Prof. Dr.",
+    "name1": "Raukuc",
+    "name2": "Allegra",
+    "name3": "tempor",
+    "name4": "exercitation commodo",
+    "partnerAddress": {
+      "postalCode": "50925",
+      "city": "Patzwahlland",
+      "street": "Hummelsheim",
+      "houseNumber": "32c",
+      "poBox": "dolor magna Ut",
+      "addressSupplement": "eiusmod qui reprehenderit",
+      "coSupplement": "sed sint irure adipisicing",
+      "countryCode": "CA",
+      "district": "Lehnerdorf",
+      "additionalInformation": {
+        "supplement1": "labore non",
+        "supplement2": "aliquip quis",
+        "supplement3": "officia aute",
+        "supplement4": "magna",
+        "supplement5": "qui commodo"
+      }
+    },
+    "commercialClassification": false,
+    "externalCustomerNumberSupplier": "ex adipisicing reprehenderit do cillum",
+    "marketRole": "ESA",
+    "roleCodeNumber": "420358838",
+    "roleCodeType": "GLN",
+    "vatId": "DE111101000",
+    "taxNumber": "323263905",
+    "contactPerson": {
+      "boType": "CONTACT_PERSON",
+      "structureVersion": "1",
+      "lastName": "Löwa",
+      "eMailAddress": "Elsa43@hotmail.com",
+      "phoneNumbers": [
+        {
+          "numberType": "FAX_EXTENSION",
+          "phoneNumber": "+49-167-7465611"
+        }
+      ]
+    },
+    "makoAddress": "consequat adipisicing enim eiusmod",
+    "certificateDownloadLink": "https://loyal-legierung.ch",
+    "courtOfRegistration": "Mariusstadt",
+    "commercialRegisterNumber": "229213",
+    "website": "https://unterstutzend-geburtenkontrolle.net",
+    "faxNumber": "+49-9711-83427873",
+    "communicationRole": "MASTER_DATA_PROCESSES",
+    "subContracted": false,
+    "communicationParameters": {
+      "targetAddress": {
+        "targetAddress1": "consequat labore ex",
+        "targetAddress2": "adipisicing sint",
+        "targetAddress3": "sint ipsum",
+        "targetAddress4": "sit dolore",
+        "targetAddress5": "mollit ut"
+      },
+      "certificateIssuer": {
+        "certificateIssuer1": "consequat elit pariatur sunt tempor",
+        "certificateIssuer2": "id officia non",
+        "certificateIssuer3": "officia",
+        "certificateIssuer4": "minim cillum",
+        "certificateIssuer5": "veniam et non"
+      },
+      "certificateUser": {
+        "certificateUser1": "laboris ut exercitation consectetur Ut",
+        "certificateUser2": "ut Excepteur cillum veniam ea",
+        "certificateUser3": "in anim non eu",
+        "certificateUser4": "est",
+        "certificateUser5": "in in pariatur"
+      }
+    },
+    "meteringPointOperatorAttribute": "COMPETITIVE_METERING_POINT_OPERATOR",
+    "bankAccount": [
+      {
+        "purposeOfUse": "BV_PAYMENT_MSB_BILLING",
+        "iban": "TN5239642170433995007209",
+        "accountHolder": "Corinna Kappler",
+        "bic": "KDFPSRGY",
+        "creditInstitution": "Jahn-Cleem"
+      }
+    ],
+    "reachability": [
+      {
+        "availability": "WEDNESDAY",
+        "time": "anim laboris"
+      }
+    ],
+    "ipAddress": "d5c1:fffb:8c04:acc7:ac90:fdcf:604c:0fa9",
+    "ipRange": {
+      "lowerLimit": "ee4c:4972:f859:3df2:cebe:ec5f:e33d:5ccc",
+      "upperLimit": "61.35.88.8"
+    },
+    "assignmentFrom": "1937-05-23T23:12:50.0Z",
+    "assignmentTo": "1931-01-18T10:11:30.0Z",
+    "balancingGroup": "nostrud deserunt",
+    "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_EEG"
+  },
+  "marketRoles": [
+    {
+      "boType": "MARKET_PARTICIPANT",
+      "structureVersion": "1",
+      "businessPartnerRole": "CORRESPONDENCE_RECIPIENT",
+      "salutation": "Frau",
+      "name1": "Markowski",
+      "name2": "Isabell",
+      "name3": "incididunt eu esse do Ut",
+      "name4": "laboris irure magna ut",
+      "partnerAddress": {
+        "postalCode": "48994",
+        "city": "Süd Jesse",
+        "street": "Marienwerderstr.",
+        "houseNumber": "80c",
+        "poBox": "velit non laborum",
+        "addressSupplement": "ullamco",
+        "coSupplement": "dolore Lorem qui in consectetur",
+        "countryCode": "PL",
+        "district": "Ninoland",
+        "additionalInformation": {
+          "supplement1": "anim reprehenderit sed labore",
+          "supplement2": "ullamco anim qui nostrud",
+          "supplement3": "magna aute velit",
+          "supplement4": "ut",
+          "supplement5": "et sit ipsum"
+        }
+      },
+      "commercialClassification": false,
+      "externalCustomerNumberSupplier": "esse dolore ad sed",
+      "marketRole": "UENB",
+      "roleCodeNumber": "574725633",
+      "roleCodeType": "BDEW",
+      "vatId": "DE110111101",
+      "taxNumber": "060146480",
+      "contactPerson": {
+        "boType": "CONTACT_PERSON",
+        "structureVersion": "1",
+        "lastName": "Wurm",
+        "eMailAddress": "Dominic.Rodowski@gmail.com",
+        "phoneNumbers": [
+          {
+            "numberType": "FAX_EXTENSION",
+            "phoneNumber": "(0755) 110378710"
+          }
+        ]
+      },
+      "makoAddress": "exercitation",
+      "certificateDownloadLink": "https://rauchfrei-durchfall.ch/",
+      "courtOfRegistration": "Isabellland",
+      "commercialRegisterNumber": "131429",
+      "website": "https://unverkennbar-masse.org/",
+      "faxNumber": "(08012) 3861471",
+      "communicationRole": "FEED_IN_PROCESSES",
+      "subContracted": false,
+      "communicationParameters": {
+        "targetAddress": {
+          "targetAddress1": "nisi",
+          "targetAddress2": "cupidatat in dolor sunt occaecat",
+          "targetAddress3": "in do fugiat",
+          "targetAddress4": "id in ullamco commodo",
+          "targetAddress5": "nostrud ex in"
+        },
+        "certificateIssuer": {
+          "certificateIssuer1": "qui ut magna Lorem",
+          "certificateIssuer2": "esse",
+          "certificateIssuer3": "sint voluptate ut cillum anim",
+          "certificateIssuer4": "cillum non veniam voluptate",
+          "certificateIssuer5": "laboris consequat est"
+        },
+        "certificateUser": {
+          "certificateUser1": "ea occaecat non reprehenderit irure",
+          "certificateUser2": "non dolor magna in",
+          "certificateUser3": "dolor qui laborum ut",
+          "certificateUser4": "elit quis",
+          "certificateUser5": "eiusmod proident tempor"
+        }
+      },
+      "meteringPointOperatorAttribute": "COMPETITIVE_METERING_POINT_OPERATOR",
+      "bankAccount": [
+        {
+          "purposeOfUse": "BV_PAYMENT_UNLOCK_BILLING",
+          "iban": "BH76OGRFN58C4B680B812C",
+          "accountHolder": "Ceylin Rehwagen",
+          "bic": "BEMWTH80",
+          "creditInstitution": "Lichtenfeld GmbH & Co. KG"
+        }
+      ],
+      "reachability": [
+        {
+          "availability": "THURSDAY",
+          "time": "ea culpa Excepteur"
+        }
+      ],
+      "ipAddress": "195.45.109.51",
+      "ipRange": {
+        "lowerLimit": "83.139.55.226",
+        "upperLimit": "35.185.193.143"
+      },
+      "assignmentFrom": "1890-02-23T23:52:06.0Z",
+      "assignmentTo": "1913-02-03T16:27:33.0Z",
+      "balancingGroup": "in",
+      "balancingGroupPurpose": "OTHER_GENERATING_MARKET_LOCATION"
+    }
+  ],
+  "meterRegisters": [
+    {
+      "meterRegisterId": "027272702",
+      "designation": "et",
+      "direction": "FEED_OUT",
+      "obisCode": "dolor id consectetur commodo adipisicing",
+      "transformerFactor": 4,
+      "unit": "COUNT",
+      "offPeakCapable": "OFF_PEAK_CAPABLE",
+      "consumptionType": [
+        "SW"
+      ],
+      "interruptibility": "NUV",
+      "heatUsage": "HEAT_PUMP_HEATING",
+      "concessionFee": {
+        "rate": "TKS",
+        "costs": 99930166.10780215,
+        "category": "proident laborum consequat irure ea"
+      },
+      "taxExempt": true,
+      "integerDigits": 7,
+      "decimalPlaces": 6,
+      "billingRelevant": true,
+      "numberOfReadings": 8,
+      "meteringTimes": {
+        "register": "veniam",
+        "meteringTimeDefinition": "elit sed",
+        "offPeakCapable": "OFF_PEAK_CAPABLE"
+      },
+      "configuration": "tempor nostrud laborum incididunt velit",
+      "meteringProduct": "elit",
+      "valueGranularity": "MONTHLY",
+      "necessitySecondMeasurement": "NOT_PRESENT",
+      "valueTransmissionPurpose": "PRESENT",
+      "typeElectricMobility": "LP",
+      "configurationProduct": "Ut",
+      "noConfigurationProduct": true,
+      "loadCurveDefinition": "ad laboris dolor ea ullamco",
+      "purposesOfUse": [
+        {
+          "marketRole": "MSBA",
+          "purpose": [
+            "DETERMINATION_OF_BALANCING_GROUP_BALANCE"
+          ]
+        }
+      ]
+    }
+  ],
+  "meterRegistersInvolvedMarketRole": [
+    "CUSTOMER"
+  ],
+  "consumptionQuantity": [
+    {
+      "startDate": "1932-10-20T09:57:04.0Z",
+      "endDate": "1927-06-19T04:16:24.0Z",
+      "valueDeterminationMethod": "FORECAST",
+      "measurementValueStatus": "SUGGESTED_VALUE",
+      "obisNumber": "sed adipisicing ea enim minim",
+      "value": 15.5,
+      "unit": "PERCENT",
+      "type": "TUM_CUSTOMER_VALUE",
+      "tariffLevel": "TARIFF_LEVEL_5",
+      "usageTimestamp": "1949-12-18T15:57:03.0Z",
+      "executionTimestamp": "1918-12-14T12:49:08.0Z",
+      "position": 6433661858,
+      "readingDate": "1929-11-08T22:25:09.0Z",
+      "servicePeriod": "866607",
+      "statusAdditionalInformation": [
+        {
+          "kind": "MEASUREMENT_CLASSIFICATION",
+          "status": "TARIFF_SWITCHING_DEVICE_DEFECTIVE"
+        }
+      ]
+    }
+  ],
+  "associatedMeteringLocations": [
+    {
+      "meteringLocationId": "667009141277612612901128961052999",
+      "arithmetic": "SUBTRACTION",
+      "validSince": "1941-03-15T11:08:12.0Z",
+      "validTo": "1920-10-06T02:55:22.0Z"
+    }
+  ],
+  "gridAccessBillingData": [
+    {
+      "articleId": "9567216006",
+      "articleIdType": "ARTICLE_ID",
+      "quantity": 8,
+      "municipalDiscount": 1,
+      "surcharge": 9.5,
+      "installment": 8.75,
+      "singularEquipment": {
+        "value": 8.5,
+        "unit": "MONTH"
+      },
+      "priceSingularEquipment": {
+        "value": 2,
+        "amount": -96511070,
+        "unit": "CT",
+        "referenceValue": "KW",
+        "status": "FINAL",
+        "priceType": "OPERATING_PRICE"
+      },
+      "billingReactivePower": false,
+      "payerReactivePower": "SUPPLIER",
+      "payerReactivePowerSupplier": false,
+      "differenceData": false,
+      "meteringTimes": {
+        "register": "in",
+        "meteringTimeDefinition": "nisi proident",
+        "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
+      }
+    }
+  ],
+  "energyOrigin": [
+    {
+      "generationType": "OTHER",
+      "sharePercent": 94.5
+    }
+  ],
+  "dataQuality": "DIFFERENCE_SYSTEM_PRESENT_DATA",
+  "validityPeriod": {
+    "timeUnit": "SECOND",
+    "duration": 10,
+    "startDate": "1943-12-19T14:58:51.0Z",
+    "endDate": "1907-06-07T01:49:32.0Z",
+    "unit": "QUARTER",
+    "readingPeriod": "951214",
+    "billingPeriod": "876517",
+    "periodText": "nulla labore laboris veniam",
+    "periodId": 7
+  }
+}

@@ -1,0 +1,7 @@
+components:
+  schemas:
+    performanceType:
+      $ref: ../../../enum/PerformanceType.yaml#/components/schemas/PerformanceType
+      description: >-
+        Standardisierte Bezeichnung für die abgerechnete Leistungserbringung.
+        Details Leistungstyp

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    deviceRemovalDate:
+      description: Geräteausbaudatum / DTM+206
+      type: string
+      format: date-time

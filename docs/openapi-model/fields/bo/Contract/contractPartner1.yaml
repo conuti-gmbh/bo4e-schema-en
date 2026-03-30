@@ -1,0 +1,12 @@
+components:
+  schemas:
+    contractPartner1:
+      type: array
+      items:
+        $ref: ../../../bo/BusinessPartner.yaml#/components/schemas/BusinessPartner
+      description: >-
+        Der "erstgenannte" Vertragspartner. In der Regel der Aussteller des
+        Vertrags. Beispiel: "Vertrag zwischen
+
+        Vertagspartner 1 ..." Siehe BO Geschaeftspartner
+      nullable: true

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    meteringTimeDefinition:
+      type: string
+      description: Zählzeitdefinition

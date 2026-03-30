@@ -1,0 +1,5 @@
+components:
+  schemas:
+    terminationDate:
+      type: string
+      description: kuendigungstermin

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    eMailAddress:
+      type: string
+      description: E-Mail Adresse

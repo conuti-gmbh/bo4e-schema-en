@@ -1,0 +1,10 @@
+components:
+  schemas:
+    variants:
+      type: array
+      items:
+        $ref: ../../../com/OfferVariant.yaml#/components/schemas/OfferVariant
+      description: >-
+        Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein
+        Angebot besteht mindestens aus einer Variante.
+      nullable: true

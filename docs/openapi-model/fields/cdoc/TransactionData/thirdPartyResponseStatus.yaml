@@ -1,0 +1,5 @@
+components:
+  schemas:
+    thirdPartyResponseStatus:
+      description: Antwortstatus / STS+Z35
+      type: string

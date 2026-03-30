@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenceDocumentNumber:
+      type: string
+      description: referenzDokumentennummer

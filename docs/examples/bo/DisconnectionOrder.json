@@ -1,0 +1,28 @@
+{
+  "boType": "DISCONNECTION_ORDER",
+  "structureVersion": "1",
+  "meetingPoint": {
+    "postalCode": "61396",
+    "city": "Nord Linn",
+    "street": "Friesenweg",
+    "houseNumber": "84c",
+    "poBox": "commodo esse",
+    "addressSupplement": "cupidatat sunt ea",
+    "coSupplement": "id aliquip deserunt laboris fugiat",
+    "countryCode": "AG",
+    "district": "Neu Jamie",
+    "additionalInformation": {
+      "supplement1": "sit quis consectetur laborum Ut",
+      "supplement2": "dolor reprehenderit cillum non ullamco",
+      "supplement3": "proident ex eiusmod Ut",
+      "supplement4": "laboris et sunt id in",
+      "supplement5": "labore ex qui nisi"
+    }
+  },
+  "disconnectionOrderType": "UNLOCK",
+  "disconnectionOrderStatus": "ENFG_ELECTRICALLY_DRIVEN_HEAT_PUMPS",
+  "disconnectionOrderRejectionReason": "OTHER_FUTURE_SUPPLIER",
+  "disconnectionPreventionReason": "ACTUAL_PREVENTION_REASON",
+  "meterNumber": "ZAEHLER_000010",
+  "isOrderedByBailiff": true
+}

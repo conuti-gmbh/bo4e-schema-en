@@ -1,0 +1,5 @@
+components:
+  schemas:
+    sector:
+      type: string
+      description: Strom oder Gas.

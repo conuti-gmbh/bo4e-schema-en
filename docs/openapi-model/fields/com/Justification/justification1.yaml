@@ -1,0 +1,5 @@
+components:
+  schemas:
+    justification1:
+      type: string
+      description: Begruendung Zeile 1

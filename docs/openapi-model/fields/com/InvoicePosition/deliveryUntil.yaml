@@ -1,0 +1,6 @@
+components:
+  schemas:
+    deliveryUntil:
+      type: string
+      format: date-time
+      description: Ende der Lieferung für die abgerechnete Leistung.

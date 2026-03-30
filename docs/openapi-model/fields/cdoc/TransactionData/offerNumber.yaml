@@ -1,0 +1,5 @@
+components:
+  schemas:
+    offerNumber:
+      description: Angebotsnummer / RFF+AAG
+      type: string

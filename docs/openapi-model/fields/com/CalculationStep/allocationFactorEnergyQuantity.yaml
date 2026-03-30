@@ -1,0 +1,6 @@
+components:
+  schemas:
+    allocationFactorEnergyQuantity:
+      type: number
+      format: float
+      description: aufteilungsfaktorEnergiemenge

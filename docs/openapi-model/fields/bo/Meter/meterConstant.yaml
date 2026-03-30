@@ -1,0 +1,6 @@
+components:
+  schemas:
+    meterConstant:
+      type: number
+      format: float
+      description: Zählerkonstante auf dem Zähler.

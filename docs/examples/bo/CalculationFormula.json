@@ -1,0 +1,51 @@
+{
+  "boType": "CALCULATION_FORMULA",
+  "structureVersion": "1",
+  "beginDate": "1954-03-08T09:52:35.0Z",
+  "necessity": "CALCULATION_FORMULA_NOT_NECESSARY",
+  "deliveryDirection": "FEED_OUT",
+  "calculationStepId": 7,
+  "calculationStep": {
+    "calculationStepComponentId": 7,
+    "referenceCalculationStepId": 1,
+    "operation": "POSITIVE_VALUE",
+    "lossFactorTransformer": 9.25,
+    "lossFactorLine": 5.5,
+    "allocationFactorEnergyQuantity": 5.75,
+    "meteringLocationId": "498977019646798653178266182821138",
+    "energyFlowDirection": "FEED_IN"
+  },
+  "calculationSteps": [
+    {
+      "calculationStepComponentId": 9,
+      "referenceCalculationStepId": 10,
+      "operation": "DIVISION",
+      "lossFactorTransformer": 10,
+      "lossFactorLine": 4,
+      "allocationFactorEnergyQuantity": 9.75,
+      "meteringLocationId": "174821720734852601357762249886716",
+      "energyFlowDirection": "FEED_OUT"
+    }
+  ],
+  "purposeOfUse": [
+    {
+      "marketRole": "DL",
+      "purpose": [
+        "END_CUSTOMER_BILLING"
+      ]
+    }
+  ],
+  "validityPeriod": {
+    "timeUnit": "QUARTER_HOUR",
+    "duration": 8,
+    "startDate": "1962-06-26T22:56:16.0Z",
+    "endDate": "1942-06-01T04:01:30.0Z",
+    "unit": "WEEK",
+    "readingPeriod": "058930",
+    "billingPeriod": "289370",
+    "periodText": "ipsum consectetur exercitation fugiat cupidatat",
+    "periodId": 2
+  },
+  "locationId": "66723223323",
+  "locationType": "MALO"
+}

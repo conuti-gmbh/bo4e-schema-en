@@ -1,0 +1,5 @@
+components:
+  schemas:
+    notificationNumber:
+      description: Referenz Vorgangsnummer / RFF+ADY
+      type: string

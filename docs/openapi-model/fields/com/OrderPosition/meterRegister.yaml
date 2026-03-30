@@ -1,0 +1,5 @@
+components:
+  schemas:
+    meterRegister:
+      type: integer
+      description: Zaehlwerk

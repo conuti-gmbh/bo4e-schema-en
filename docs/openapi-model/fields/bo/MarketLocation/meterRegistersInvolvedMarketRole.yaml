@@ -1,0 +1,8 @@
+components:
+  schemas:
+    meterRegistersInvolvedMarketRole:
+      type: array
+      items:
+        $ref: ../../../enum/MarketRole.yaml#/components/schemas/MarketRole
+      description: Liste der Zählwerke der beteiligten Martrolle
+      nullable: true

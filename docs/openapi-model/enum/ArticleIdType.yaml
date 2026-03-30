@@ -1,0 +1,11 @@
+components:
+  schemas:
+    ArticleIdType:
+      title: ArticleIdType
+      type: string
+      enum:
+        - ARTICLE_ID
+        - GROUP_ARTICLE_ID
+      description: >-
+        Liste von Artikel-IDs, z.B. für standardisierte vom BDEW herausgegebene
+        Artikel, die im Strommarkt die BDEW-Artikelnummer ablösen

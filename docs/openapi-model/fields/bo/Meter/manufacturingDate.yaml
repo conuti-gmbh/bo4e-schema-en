@@ -1,0 +1,5 @@
+components:
+  schemas:
+    manufacturingDate:
+      type: string
+      description: herstellungsdatum

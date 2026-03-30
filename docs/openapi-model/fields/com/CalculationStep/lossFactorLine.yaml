@@ -1,0 +1,6 @@
+components:
+  schemas:
+    lossFactorLine:
+      type: number
+      format: float
+      description: verlustfaktorLeitung

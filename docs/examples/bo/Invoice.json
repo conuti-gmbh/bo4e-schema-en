@@ -1,0 +1,129 @@
+{
+  "boType": "INVOICE",
+  "structureVersion": "1",
+  "isSelfIssued": false,
+  "processingDate": "1934-01-14T08:50:42.0Z",
+  "invoiceDate": "1964-10-27T08:57:09.0Z",
+  "dueDate": "1919-10-13T19:11:20.0Z",
+  "invoiceStatus": "CANCELLED",
+  "provisionalBillingPeriod": {
+    "timeUnit": "HOUR",
+    "duration": 5,
+    "startDate": "1915-04-07T21:17:33.0Z",
+    "endDate": "1918-02-10T21:14:36.0Z",
+    "unit": "HALF_YEAR",
+    "readingPeriod": "892349",
+    "billingPeriod": "260068",
+    "periodText": "incididunt cupidatat fugiat exercitation",
+    "periodId": 2
+  },
+  "invoicePeriod": {
+    "timeUnit": "DAY",
+    "duration": 4,
+    "startDate": "1925-06-05T22:27:59.0Z",
+    "endDate": "1905-05-30T01:49:25.0Z",
+    "unit": "DAY",
+    "readingPeriod": "750358",
+    "billingPeriod": "814001",
+    "periodText": "quis tempor occaecat",
+    "periodId": 1
+  },
+  "invoiceType": "DISCONNECTION_COMMISSIONING",
+  "isReverseCharge": false,
+  "totalGrossAmount": {
+    "value": 7,
+    "currency": "commodo dolore Duis"
+  },
+  "toPay": {
+    "value": 3,
+    "currency": "mollit deserunt aute sit"
+  },
+  "originalInvoiceNumber": "RN_010011",
+  "referenceMessageDate": "REF_110000",
+  "referenceDocumentNumber": "DOC_010011",
+  "referencePredecessorInvoice": "RN_100010",
+  "predecessorInvoiceDate": "1917-07-28T03:30:56.0Z",
+  "priceGridOperatorCodeNumber": "cillum enim Ut",
+  "gridAccount": "aliquip mollit",
+  "prepaid": {
+    "value": 2.25,
+    "currency": "elit minim ea"
+  },
+  "municipalDiscount": {
+    "value": 11.75,
+    "unit": "tempor fugiat",
+    "typeValue": "enim",
+    "assessmentBase": 17.25
+  },
+  "executionDate": "1957-12-17T19:15:36.0Z",
+  "specialBillingType": "OFFSHORE_LEVY",
+  "specialBillingTypes": [
+    "INDIVIDUAL_SINGULAR"
+  ],
+  "energyDirection": "FEED_OUT",
+  "balancingPeriodStart": "1892-09-20T08:53:22.0Z",
+  "gridAccessPeriodEnd": "1947-06-22T12:46:31.0Z",
+  "taxAmounts": [
+    {
+      "taxCode": "ut velit ullamco dolor officia",
+      "baseValue": 16.75,
+      "taxValue": 18.75,
+      "currency": "cupidatat laborum",
+      "baseValuePrepaid": 19.25,
+      "taxValuePrepaid": 18.25
+    }
+  ],
+  "invoicePositions": [
+    {
+      "individualPrice": {
+        "value": 3,
+        "amount": 73263989,
+        "unit": "EUR",
+        "referenceValue": "KWT",
+        "status": "PROVISIONAL",
+        "priceType": "TRANSACTION_PRICE"
+      },
+      "deliveryUntil": "1968-04-18T22:47:54.0Z",
+      "deliveryFrom": "1896-01-25T22:30:40.0Z",
+      "positionQuantity": {
+        "value": 8.75,
+        "unit": "PIECE"
+      },
+      "positionNumber": 9,
+      "articleNumber": "6611586596",
+      "subtotalNet": {
+        "value": 3.5,
+        "currency": "ea dolore"
+      },
+      "subtotalTax": {
+        "taxCode": "Excepteur occaecat",
+        "baseValue": 17.5,
+        "taxValue": 18.5,
+        "currency": "pariatur",
+        "baseValuePrepaid": 19.75,
+        "taxValuePrepaid": 11
+      },
+      "timeRelatedQuantity": {
+        "value": 2,
+        "unit": "HOUR"
+      },
+      "installment": {
+        "typeValue": "MUNICIPAL_DISCOUNT_KAV",
+        "percent": 19.75
+      },
+      "surcharge": {
+        "typeValue": "ADJUSTMENT_FLAT_RATE_GRID_FEE_REDUCTION_P14A_ENWG_AT_LEVEL_OF_NNE",
+        "percent": 10
+      },
+      "municipalDiscount": {
+        "value": 10.75,
+        "unit": "nisi nulla elit",
+        "typeValue": "dolore eiusmod exercitation mollit nisi",
+        "assessmentBase": 11.75
+      },
+      "totalSurchargeDiscountAmount": 19.5,
+      "correctionFactor": 12.75,
+      "executionDate": "1931-10-11T07:54:41.0Z"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "boType": "BALANCING",
+  "structureVersion": "1",
+  "marketLocationId": "61091407391",
+  "aggregationResponsibility": "UENB",
+  "timeSeriesType": "BIT",
+  "forecastBasis": "PROFILES",
+  "balancingStart": "1966-12-21T04:10:29.0Z",
+  "balancingEnd": "1946-08-08T11:04:10.0Z",
+  "balancingGroup": "laboris aute voluptate",
+  "balancingGroups": [
+    {
+      "boType": "BALANCING_GROUP",
+      "structureVersion": "1",
+      "designation": "elit esse",
+      "priority": 8
+    }
+  ],
+  "caseGroupAssignment": "GABI_RLMoT",
+  "temperatureWork": {
+    "value": 6.25,
+    "unit": "MONTH"
+  },
+  "annualConsumptionForecast": {
+    "value": 6,
+    "unit": "HOUR"
+  },
+  "customerValue": {
+    "value": 8,
+    "unit": "KVAR"
+  },
+  "consumptionAllocation": {
+    "value": 1.75,
+    "unit": "COUNT"
+  },
+  "forecastBasisChoiceRight": "NOT_DUE_TO_ENWG",
+  "forecastBasisChoiceRightReason": "BY_SUPPLIER",
+  "settlementModel": "MODEL_2_BALANCING_IN_BALANCING_AREA",
+  "priorYearConsumption": {
+    "value": 5.25,
+    "unit": "VAR"
+  },
+  "dataQuality": "NO_DATA_PRESENT_IN_SYSTEM",
+  "validityPeriod": {
+    "timeUnit": "WEEK",
+    "duration": 9,
+    "startDate": "1944-03-03T14:20:45.0Z",
+    "endDate": "1892-07-13T16:38:23.0Z",
+    "unit": "MONTH",
+    "readingPeriod": "859792",
+    "billingPeriod": "020642",
+    "periodText": "voluptate sint magna aliquip proident",
+    "periodId": 5
+  },
+  "loadProfiles": [
+    {
+      "designation": "eu veniam",
+      "procedure": "ANALYTICAL",
+      "profileType": "TYPE_LOAD_PROFILE",
+      "profileFamily": "eiusmod qui",
+      "feedIn": true,
+      "publisher": "commodo",
+      "dailyParameters": {
+        "climateZone": "anim deserunt minim magna consectetur",
+        "temperatureMeasuringPoint": "nisi veniam",
+        "serviceProvider": "commodo Excepteur incididunt",
+        "publisher": "TUM"
+      },
+      "referenceProfileDesignation": "Ut nostrud"
+    }
+  ],
+  "loadProfilesBalancingParty": [
+    {
+      "designation": "do",
+      "procedure": "ANALYTICAL",
+      "profileType": "TYPE_DAILY_PARAMETER_DEPENDENT_LOAD_PROFILE",
+      "profileFamily": "et adipisicing minim cupidatat",
+      "feedIn": true,
+      "publisher": "ex Duis et do",
+      "dailyParameters": {
+        "climateZone": "voluptate nostrud consectetur occaecat Ut",
+        "temperatureMeasuringPoint": "ex ut labore",
+        "serviceProvider": "commodo sed voluptate sunt",
+        "publisher": "TUM"
+      },
+      "referenceProfileDesignation": "incididunt eu laborum"
+    }
+  ],
+  "forecastBasisDetails": [
+    "SLP_SEP"
+  ]
+}

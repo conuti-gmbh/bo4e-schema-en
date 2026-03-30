@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenceLocationId:
+      type: string
+      description: referenzLokationsId

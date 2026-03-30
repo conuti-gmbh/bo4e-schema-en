@@ -1,0 +1,11 @@
+components:
+  schemas:
+    marketLocationType:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/MarketLocationTyping.yaml#/components/schemas/MarketLocationTyping
+      description: >-
+        Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher
+        Gültigkeit
+      nullable: true

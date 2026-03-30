@@ -1,0 +1,6 @@
+components:
+  schemas:
+    endAtDate:
+      description: Kündigungsdatum / DTM+471
+      type: string
+      format: date-time

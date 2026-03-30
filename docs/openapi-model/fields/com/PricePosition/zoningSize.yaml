@@ -1,0 +1,8 @@
+components:
+  schemas:
+    zoningSize:
+      $ref: >-
+        ../../../enum/MeasurementQuantity.yaml#/components/schemas/MeasurementQuantity
+      description: >-
+        Mit der Menge der hier angegebenen Größe wird die Staffelung/Zonung
+        durchgeführt. Z.B. Vollbenutzungsstunden.

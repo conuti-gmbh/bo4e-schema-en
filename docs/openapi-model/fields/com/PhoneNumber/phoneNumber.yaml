@@ -1,0 +1,5 @@
+components:
+  schemas:
+    phoneNumber:
+      type: string
+      description: rufnummer

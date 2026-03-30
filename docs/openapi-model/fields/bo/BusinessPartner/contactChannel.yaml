@@ -1,0 +1,8 @@
+components:
+  schemas:
+    contactChannel:
+      type: array
+      items:
+        $ref: ../../../enum/ContactType.yaml#/components/schemas/ContactType
+      description: Bevorzugter Kontaktweg des Geschäftspartners.
+      nullable: true

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    category:
+      description: Qualifier aus dem Beginn der EDIFact Nachricht / BGM
+      type: string

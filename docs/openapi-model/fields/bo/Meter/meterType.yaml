@@ -1,0 +1,5 @@
+components:
+  schemas:
+    meterType:
+      $ref: ../../../enum/MeterType.yaml#/components/schemas/MeterType
+      description: Typisierung des Zählers

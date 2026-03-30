@@ -1,0 +1,12 @@
+components:
+  schemas:
+    gridLevel:
+      $ref: ../../../enum/GridLevel.yaml#/components/schemas/GridLevel
+      description: >-
+        Netzebene, in der der Bezug der Energie erfolgt. Bei Strom
+        Spannungsebene der
+
+        Lieferung, bei Gas Druckstufe. Beispiel Strom: Niederspannung Beispiel
+        Gas:
+
+        Niederdruck.

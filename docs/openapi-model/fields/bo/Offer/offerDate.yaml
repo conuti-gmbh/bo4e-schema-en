@@ -1,0 +1,6 @@
+components:
+  schemas:
+    offerDate:
+      type: string
+      format: date-time
+      description: Erstellungsdatum des Angebots

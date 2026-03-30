@@ -1,0 +1,306 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json",
+  "title": "MarketLocation",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "MARKET_LOCATION"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "marketLocationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "Identifikationsnummer einer Marktlokation, an der Energie entweder\nverbraucht, oder erzeugt wird"
+    },
+    "sector": {
+      "type": "string",
+      "description": "Strom oder Gas."
+    },
+    "energyDirection": {
+      "$ref": "../enum/EnergyDirection.schema.json",
+      "description": "Kennzeichnung, ob Energie eingespeist oder entnommen (ausgespeist) wird."
+    },
+    "balancingMethod": {
+      "$ref": "../enum/BalancingMethod.schema.json",
+      "description": "Bilanzierungsmethode"
+    },
+    "consumptionType": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../enum/ConsumptionType.schema.json"
+      },
+      "description": "Stromverbrauchsart/Verbrauchsart Marktlokation"
+    },
+    "interruptible": {
+      "type": "boolean",
+      "description": "Gibt an, ob es sich um eine unterbrechbare Belieferung handelt."
+    },
+    "gridLevel": {
+      "$ref": "../enum/GridLevel.schema.json",
+      "description": "Netzebene, in der der Bezug der Energie erfolgt. Bei Strom Spannungsebene der\nLieferung, bei Gas Druckstufe. Beispiel Strom: Niederspannung Beispiel Gas:\nNiederdruck."
+    },
+    "transformation": {
+      "$ref": "../enum/GridLevel.schema.json"
+    },
+    "gridOperatorCodeNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "Codenummer des Netzbetreibers, an dessen Netz diese Marktlokation\nangeschlossen ist."
+    },
+    "areaType": {
+      "$ref": "../enum/AreaType.schema.json",
+      "description": "Typ des Netzgebietes,z.B.Verteilnetz."
+    },
+    "gridAreaNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "Die Nummer des Netzgebietes in der ene't-Datenbank."
+    },
+    "balancingArea": {
+      "type": "string",
+      "description": "Bilanzierungsgebiet, dem das Netzgebiet zugeordnet ist - im Falle eines Strom Netzes."
+    },
+    "defaultSupplierCodeNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "CodeNummer des Grundversorgers, der für diese Marktlokation zuständig ist."
+    },
+    "gasQuality": {
+      "$ref": "../enum/GasQuality.schema.json",
+      "description": "gasqualitaet für EDIFACT mapping"
+    },
+    "endCustomer": {
+      "$ref": "../bo/BusinessPartner.schema.json",
+      "description": "Link zum Geschäftspartner, dem diese Marktlokation gehört."
+    },
+    "locationAddress": {
+      "$ref": "../com/Address.schema.json",
+      "description": "Die Adresse, an der die Energie-Lieferung oder -Einspeisung erfolgt."
+    },
+    "cadastralInformation": {
+      "$ref": "../com/CadastralAddress.schema.json",
+      "description": "Alternativ zu einer postalischen Adresse und Geokoordinaten kann hier eine\nOrtsangabe mittels Gemarkung und Flurstück erfolgen.\nAchtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein (entweder\neine Adresse oder eine GeoKoordinate oder eine Katasteradresse."
+    },
+    "controlZone": {
+      "type": "string",
+      "description": "für EDIFACT mapping"
+    },
+    "marketArea": {
+      "type": "string",
+      "description": "für EDIFACT mapping"
+    },
+    "timeSeriesType": {
+      "$ref": "../enum/TimeSeriesType.schema.json",
+      "description": "für EDIFACT mapping"
+    },
+    "meteringTechnicalClassification": {
+      "$ref": "../enum/MeteringTechnicalClassification.schema.json",
+      "description": "Messtechnische Einordnung aus der UTILMD (IMS, KME_MME, KEINE_MESSUNG)"
+    },
+    "lockStatus": {
+      "$ref": "../enum/LockStatus.schema.json",
+      "description": "Sperrstatus"
+    },
+    "referenceMarketLocationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "referenzMarktlokationsId"
+    },
+    "supplyType": {
+      "$ref": "../enum/SupplyType.schema.json"
+    },
+    "owner": {
+      "$ref": "../bo/BusinessPartner.schema.json"
+    },
+    "propertyManager": {
+      "$ref": "../bo/BusinessPartner.schema.json"
+    },
+    "compensationRecipient": {
+      "$ref": "../enum/CompensationRecipient.schema.json"
+    },
+    "statusGeneratingMalo": {
+      "$ref": "../enum/StatusGeneratingMarketLocation.schema.json"
+    },
+    "remoteControllability": {
+      "$ref": "../enum/RemoteControllability.schema.json"
+    },
+    "promotionCountry": {
+      "type": "string",
+      "description": "foerderungsLand"
+    },
+    "redispatch": {
+      "type": "boolean",
+      "description": "redispatch"
+    },
+    "futureReportingPoint": {
+      "type": "boolean",
+      "description": "zukuenftigerMeldepunkt"
+    },
+    "locationAssignment": {
+      "$ref": "../enum/LocationAssignment.schema.json"
+    },
+    "configurationProduct": {
+      "type": "string",
+      "description": "konfigurationsprodukt"
+    },
+    "loadCurveDefinition": {
+      "type": "string",
+      "description": "Code der Zugeordnete Leistungskurvendefinition für das Objekt"
+    },
+    "productDataRelevantRole": {
+      "$ref": "../enum/MarketRole.schema.json"
+    },
+    "involvedMarketPartner": {
+      "$ref": "../bo/MarketParticipant.schema.json"
+    },
+    "gridFeeModule": {
+      "$ref": "../enum/GridFeeModule.schema.json"
+    },
+    "dataQuality": {
+      "$ref": "../enum/DataQuality.schema.json"
+    },
+    "validityPeriod": {
+      "$ref": "../com/TimePeriod.schema.json"
+    },
+    "marketRoles": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../bo/MarketParticipant.schema.json"
+      },
+      "description": "marktrollen für EDIFACT mapping"
+    },
+    "meterRegisters": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/MeterRegister.schema.json"
+      },
+      "description": "Die Zählwerke des Zählers."
+    },
+    "meterRegistersInvolvedMarketRole": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../enum/MarketRole.schema.json"
+      },
+      "description": "Liste der Zählwerke der beteiligten Martrolle"
+    },
+    "consumptionQuantity": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/Consumption.schema.json"
+      },
+      "description": "für EDIFACT mapping"
+    },
+    "associatedMeteringLocations": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/MeteringLocationAssignment.schema.json"
+      },
+      "description": "Aufzählung der Messlokationen, die zu dieser Marktlokation gehören."
+    },
+    "gridAccessBillingData": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/GridAccessBillingData.schema.json"
+      },
+      "description": "Daten für die Prüfung der Netznutzungsabrechnung"
+    },
+    "meteringPointOperationBillingData": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/MeteringPointOperationBillingData.schema.json"
+      },
+      "description": "messstellenbetriebsabrechnungsdaten"
+    },
+    "energyOrigin": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/EnergyOrigin.schema.json"
+      },
+      "description": "energieherkunft"
+    },
+    "requiredProductPackage": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/ProductPackage.schema.json"
+      },
+      "description": "erforderlichesProduktpaket"
+    },
+    "geoCoordinates": {
+      "$ref": "../com/GeoCoordinates.schema.json"
+    },
+    "packageId": {
+      "type": "string",
+      "description": "paketId"
+    },
+    "marketLocationType": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/MarketLocationTyping.schema.json"
+      },
+      "description": "Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gültigkeit"
+    },
+    "associatedMarketLocations": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/MarketLocationReference.schema.json"
+      },
+      "description": "Referenzen zugehöriger Marktlokationen"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

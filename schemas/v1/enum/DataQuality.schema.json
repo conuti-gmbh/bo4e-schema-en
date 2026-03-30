@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json",
+  "title": "DataQuality",
+  "type": "string",
+  "enum": [
+    "EXPECTED_DATA",
+    "DATA_PRESENT_IN_SYSTEM",
+    "INFORMATIVE_DATA",
+    "VALID_DATA",
+    "NO_DATA",
+    "NO_DATA_PRESENT_IN_SYSTEM",
+    "NO_DATA_EXPECTED",
+    "DIFFERENCE_DATA",
+    "DIFFERENCE_EXPECTED_DATA",
+    "DIFFERENCE_SYSTEM_PRESENT_DATA"
+  ],
+  "description": "Datenqualitaet"
+}

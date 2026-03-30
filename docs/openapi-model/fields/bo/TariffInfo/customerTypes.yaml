@@ -1,0 +1,8 @@
+components:
+  schemas:
+    customerTypes:
+      type: array
+      items:
+        $ref: ../../../enum/CustomerType.yaml#/components/schemas/CustomerType
+      description: Kundentypen für den der Tarif gilt, z.B. Privatkunden
+      nullable: true

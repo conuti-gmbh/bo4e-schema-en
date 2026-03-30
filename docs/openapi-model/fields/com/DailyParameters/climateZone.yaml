@@ -1,0 +1,5 @@
+components:
+  schemas:
+    climateZone:
+      type: string
+      description: klimazone

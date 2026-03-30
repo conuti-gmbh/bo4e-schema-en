@@ -1,0 +1,46 @@
+{
+  "boType": "STATUS_NOTIFICATION",
+  "structureVersion": "1",
+  "statusObject": "LOCK",
+  "statusOccasion": "HANDLING_AND_CORRECTION_QUANTITIES",
+  "orderStatus": "FAULTY",
+  "positionData": [
+    {
+      "positionNumber": 8,
+      "processingDate": "1966-07-26T20:11:14.0Z",
+      "usageFrom": "1933-01-11T12:48:33.0Z",
+      "usageTo": "1936-12-11T21:57:47.0Z",
+      "endDate": "1960-03-11T11:05:15.0Z",
+      "orderStatus": "CONTRADICTED",
+      "statusOccasion": "NO_FAULT_DETECTABLE",
+      "responseStatus": "adipisicing aliquip aliqua cupidatat enim",
+      "errorDescription": {
+        "description1": "id consequat",
+        "description2": "sed",
+        "description3": "sunt",
+        "description4": "tempor sit",
+        "description5": "Lorem non occaecat officia"
+      },
+      "justification": {
+        "justification1": "exercitation Ut",
+        "justification2": "exercitation culpa",
+        "justification3": "nostrud et velit cupidatat dolore",
+        "justification4": "proident ad tempor voluptate velit",
+        "justification5": "sed"
+      },
+      "locationId": "60826944512",
+      "referenceMelo": "779740426969615026007065382857668",
+      "generalInformation": {
+        "info1": "nisi cillum aliqua",
+        "info2": "labore id commodo mollit Ut",
+        "info3": "consequat non veniam Ut ad",
+        "info4": "voluptate id consectetur aute",
+        "info5": "deserunt veniam"
+      },
+      "statusChangeTimestamp": "1939-05-03T08:16:45.0Z",
+      "orderStatusList": [
+        "NO_CHANGE_OF_DATA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "boType": "STATUS_REPORT",
+  "structureVersion": "1",
+  "status": "SUCCESSFUL",
+  "auditObject": "nisi ut esse",
+  "reviewDate": "1896-11-19T20:02:34.0Z",
+  "error": {
+    "typeValue": "PROCESSING",
+    "errorDetails": [
+      {
+        "code": "NUMBER_OF_CODES_EXCEEDED",
+        "cause": {
+          "document": "sit",
+          "message": "fugiat",
+          "transaction": "sed in consectetur",
+          "group": {
+            "group1": "in quis sed",
+            "group2": "dolor"
+          },
+          "segment": "est voluptate",
+          "description": {
+            "description1": "qui laboris cupidatat amet",
+            "description2": "laborum irure ullamco"
+          }
+        },
+        "description": {
+          "description1": "aute quis minim proident esse",
+          "description2": "Lorem irure officia"
+        }
+      }
+    ]
+  },
+  "senderReference": "mollit",
+  "transactionReferenceNumber": "eiusmod tempor ullamco"
+}

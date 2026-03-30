@@ -1,0 +1,9 @@
+components:
+  schemas:
+    ConfigurationChangeOption:
+      title: ConfigurationChangeOption
+      type: string
+      enum:
+        - REQUIRED
+        - NOT_REQUIRED
+      description: AenderungsmoeglichkeitKonfiguration

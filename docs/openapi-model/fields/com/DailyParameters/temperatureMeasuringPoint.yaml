@@ -1,0 +1,5 @@
+components:
+  schemas:
+    temperatureMeasuringPoint:
+      type: string
+      description: temperaturmessstelle

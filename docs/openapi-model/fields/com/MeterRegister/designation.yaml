@@ -1,0 +1,5 @@
+components:
+  schemas:
+    designation:
+      type: string
+      description: Zusätzliche Bezeichnung, z.B. Zählwerk_Wirkarbeit.

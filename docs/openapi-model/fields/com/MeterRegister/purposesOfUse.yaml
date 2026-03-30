@@ -1,0 +1,8 @@
+components:
+  schemas:
+    purposesOfUse:
+      type: array
+      items:
+        $ref: ../../../com/PurposeOfUse.yaml#/components/schemas/PurposeOfUse
+      description: Verwendungungszweck der Werte Marktlokation
+      nullable: true

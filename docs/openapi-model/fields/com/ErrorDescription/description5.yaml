@@ -1,0 +1,5 @@
+components:
+  schemas:
+    description5:
+      type: string
+      description: Fehler Beschreibung Zeile 5

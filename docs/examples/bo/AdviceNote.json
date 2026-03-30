@@ -1,0 +1,80 @@
+{
+  "boType": "ADVICE_NOTE",
+  "structureVersion": "1",
+  "adviceNoteNumber": "8453548784",
+  "adviceNoteType": "PAYMENT_ADVICE",
+  "toPay": {
+    "value": 2.5,
+    "currency": "in"
+  },
+  "positions": [
+    {
+      "invoiceNumber": "03945602616",
+      "billingDate": "1951-06-10T14:55:23.0Z",
+      "isCancellation": false,
+      "isSelfIssued": false,
+      "totalGross": {
+        "value": 8.75,
+        "currency": "dolore incididunt"
+      },
+      "toPay": {
+        "value": 1.5,
+        "currency": "aliquip do eiusmod commodo"
+      },
+      "reference": "REF010001",
+      "discrepancy": [
+        {
+          "discrepancyReason": "BILLING_START_NOT_EQUAL_CONTRACT_START",
+          "discrepancyReasonNote": "quis sunt nostrud sint",
+          "associatedInvoice": "RN010111",
+          "associatedOrder": "BEST100100",
+          "discrepancyReasonCode": "in Ut laboris",
+          "discrepancyReasonCodeList": "sunt",
+          "missingPositions1": "sit",
+          "missingPositions2": "proident voluptate",
+          "missingPositions3": "Lorem",
+          "missingPositions4": "officia",
+          "missingPositions5": "incididunt ad",
+          "discrepancyReasonNote1": "tempor Duis nulla anim cupidatat",
+          "discrepancyReasonNote2": "ex incididunt in",
+          "discrepancyReasonNote3": "sed non cillum",
+          "discrepancyReasonNote4": "minim dolor proident",
+          "discrepancyReasonNote5": "ut magna consequat nostrud",
+          "reference": "REF100000",
+          "installmentInvoices": [
+            "eiusmod"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "positionNumber": 99082111100,
+          "discrepancy": [
+            {
+              "discrepancyReason": "REVERSE_CHARGE_APPLICATION_MISSING_OR_INCORRECT",
+              "discrepancyReasonNote": "enim ex sunt",
+              "associatedInvoice": "RN100000",
+              "associatedOrder": "BEST010110",
+              "discrepancyReasonCode": "in esse",
+              "discrepancyReasonCodeList": "Ut sint exercitation sit",
+              "missingPositions1": "aliqua reprehenderit",
+              "missingPositions2": "velit ipsum enim Lorem",
+              "missingPositions3": "et Lorem quis in voluptate",
+              "missingPositions4": "nisi do adipisicing",
+              "missingPositions5": "minim sint aliqua et",
+              "discrepancyReasonNote1": "do enim ea",
+              "discrepancyReasonNote2": "incididunt commodo",
+              "discrepancyReasonNote3": "sunt ea dolor",
+              "discrepancyReasonNote4": "laborum sit",
+              "discrepancyReasonNote5": "ea laborum",
+              "reference": "REF101101",
+              "installmentInvoices": [
+                "laboris consectetur dolore"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

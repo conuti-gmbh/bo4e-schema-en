@@ -1,0 +1,5 @@
+components:
+  schemas:
+    marketLocationId:
+      type: string
+      description: marktlokationsId

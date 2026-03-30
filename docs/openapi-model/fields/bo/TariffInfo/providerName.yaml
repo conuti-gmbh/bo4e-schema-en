@@ -1,0 +1,5 @@
+components:
+  schemas:
+    providerName:
+      type: string
+      description: Der Name des Marktpartners, der den Tarif anbietet

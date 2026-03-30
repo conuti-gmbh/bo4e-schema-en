@@ -1,0 +1,7 @@
+components:
+  schemas:
+    direction:
+      $ref: ../../../enum/EnergyDirection.yaml#/components/schemas/EnergyDirection
+      description: >-
+        Die Energierichtung, Einspeisung oder Ausspeisung. Details
+        Energierichtung

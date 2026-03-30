@@ -1,0 +1,6 @@
+components:
+  schemas:
+    postponedDeregistrationDate:
+      type: string
+      format: date-time
+      description: verschobenerAbmeldetermin

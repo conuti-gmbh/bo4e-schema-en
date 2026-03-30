@@ -1,0 +1,14 @@
+components:
+  schemas:
+    ContactType:
+      title: ContactType
+      type: string
+      enum:
+        - WRITTEN_LETTER
+        - PHONE_CALL
+        - FAX
+        - EMAIL
+        - SMS
+      description: >-
+        Gibt an, auf welchem Weg die Person oder der Geschäftspartner
+        kontaktiert werden kann

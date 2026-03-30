@@ -1,0 +1,313 @@
+{
+  "boType": "GRID_LOCATION",
+  "structureVersion": "1",
+  "gridLocationId": "71975575051",
+  "sector": "WASTEWATER",
+  "gridConnectionPower": "do ad dolore esse",
+  "responsibleMsbCodeNumber": "anim veniam eiusmod",
+  "controlChannel": true,
+  "locationAssignment": "UNCHANGED",
+  "productDataRelevantRole": "MDL",
+  "orderingMarketPartner": {
+    "boType": "MARKET_PARTICIPANT",
+    "structureVersion": "1",
+    "businessPartnerRole": "READING_CARD_RECIPIENT",
+    "salutation": "Prof. Dr.",
+    "name1": "Sonnabend",
+    "name2": "Bjarne",
+    "name3": "sint minim laborum eiusmod ullamco",
+    "name4": "proident Duis",
+    "partnerAddress": {
+      "postalCode": "34707",
+      "city": "Weimar",
+      "street": "Peterstr.",
+      "houseNumber": "977",
+      "poBox": "fugiat adipisicing proident eu",
+      "addressSupplement": "ipsum dolor cupidatat",
+      "coSupplement": "Excepteur enim",
+      "countryCode": "LA",
+      "district": "Neu Penelope",
+      "additionalInformation": {
+        "supplement1": "pariatur mollit aliquip",
+        "supplement2": "laborum aliqua eu reprehenderit",
+        "supplement3": "consequat Excepteur cupidatat et cillum",
+        "supplement4": "ex",
+        "supplement5": "amet id enim esse in"
+      }
+    },
+    "commercialClassification": true,
+    "externalCustomerNumberSupplier": "irure",
+    "marketRole": "MSBA",
+    "roleCodeNumber": "564238370",
+    "roleCodeType": "GS1",
+    "vatId": "DE110111010",
+    "taxNumber": "882965228",
+    "contactPerson": {
+      "boType": "CONTACT_PERSON",
+      "structureVersion": "1",
+      "lastName": "Mordhorst",
+      "eMailAddress": "Emre_Schimmer10@yahoo.com",
+      "phoneNumbers": [
+        {
+          "numberType": "FAX_EXTENSION",
+          "phoneNumber": "+49-346-4883830"
+        }
+      ]
+    },
+    "makoAddress": "officia Duis Lorem irure ut",
+    "certificateDownloadLink": "https://international-leichtathletik.de/",
+    "courtOfRegistration": "Castrop-Rauxel",
+    "commercialRegisterNumber": "690551",
+    "website": "https://hilfreich-agnostizismus.name/",
+    "faxNumber": "+49-929-0710799",
+    "communicationRole": "FRAMEWORK_CONTRACTS",
+    "subContracted": false,
+    "communicationParameters": {
+      "targetAddress": {
+        "targetAddress1": "aliquip aliqua culpa",
+        "targetAddress2": "mollit in aliquip culpa",
+        "targetAddress3": "consectetur in velit incididunt",
+        "targetAddress4": "nulla",
+        "targetAddress5": "quis voluptate"
+      },
+      "certificateIssuer": {
+        "certificateIssuer1": "in",
+        "certificateIssuer2": "occaecat non sint sed",
+        "certificateIssuer3": "sunt proident aliqua",
+        "certificateIssuer4": "in aute ea",
+        "certificateIssuer5": "occaecat"
+      },
+      "certificateUser": {
+        "certificateUser1": "deserunt laborum",
+        "certificateUser2": "mollit enim officia proident",
+        "certificateUser3": "laborum",
+        "certificateUser4": "amet Ut labore ullamco",
+        "certificateUser5": "laborum"
+      }
+    },
+    "meteringPointOperatorAttribute": "FALLBACK_METERING_POINT_OPERATOR",
+    "bankAccount": [
+      {
+        "purposeOfUse": "BV_PAYMENT_NNA",
+        "iban": "FR4782030177428R58742651977",
+        "accountHolder": "Dylan Deckert",
+        "bic": "BIYUARJHUXP",
+        "creditInstitution": "Pöche OHG"
+      }
+    ],
+    "reachability": [
+      {
+        "availability": "FRIDAY",
+        "time": "quis commodo ea"
+      }
+    ],
+    "ipAddress": "118.122.61.150",
+    "ipRange": {
+      "lowerLimit": "176.213.55.30",
+      "upperLimit": "128.162.153.102"
+    },
+    "assignmentFrom": "1944-01-18T13:07:09.0Z",
+    "assignmentTo": "1920-03-19T16:44:24.0Z",
+    "balancingGroup": "mollit aute in",
+    "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_CHP"
+  },
+  "configurationProduct": "amet dolore veniam dolor eu",
+  "noConfigurationProduct": false,
+  "loadCurveDefinition": "ea",
+  "marketRoles": [
+    {
+      "boType": "MARKET_PARTICIPANT",
+      "structureVersion": "1",
+      "businessPartnerRole": "PROSPECT",
+      "salutation": "Prof. Dr.",
+      "name1": "Nussbeck",
+      "name2": "Xaver",
+      "name3": "mollit",
+      "name4": "dolore quis occaecat",
+      "partnerAddress": {
+        "postalCode": "89809",
+        "city": "West Marlon",
+        "street": "Erlenweg",
+        "houseNumber": "37a",
+        "poBox": "sint cillum",
+        "addressSupplement": "consequat labore exercitation dolore veniam",
+        "coSupplement": "incididunt Lorem pariatur non esse",
+        "countryCode": "BN",
+        "district": "Apitzland",
+        "additionalInformation": {
+          "supplement1": "ipsum mollit nisi nostrud",
+          "supplement2": "do qui",
+          "supplement3": "cupidatat sunt adipisicing deserunt fugiat",
+          "supplement4": "amet fugiat",
+          "supplement5": "ad sit exercitation Ut eiusmod"
+        }
+      },
+      "commercialClassification": false,
+      "externalCustomerNumberSupplier": "laborum quis",
+      "marketRole": "BIKO",
+      "roleCodeNumber": "472725423",
+      "roleCodeType": "GS1",
+      "vatId": "DE001011011",
+      "taxNumber": "498207821",
+      "contactPerson": {
+        "boType": "CONTACT_PERSON",
+        "structureVersion": "1",
+        "lastName": "Leibold",
+        "eMailAddress": "Hannes_Schwidde@yahoo.com",
+        "phoneNumbers": [
+          {
+            "numberType": "COLLECTIVE_FAX",
+            "phoneNumber": "+49-2877-68781379"
+          }
+        ]
+      },
+      "makoAddress": "laboris quis incididunt",
+      "certificateDownloadLink": "https://gemutvoll-verhutung.info",
+      "courtOfRegistration": "Rikestadt",
+      "commercialRegisterNumber": "771320",
+      "website": "https://tough-kaffee.net",
+      "faxNumber": "(00872) 9692529",
+      "communicationRole": "FEED_IN_PROCESSES",
+      "subContracted": false,
+      "communicationParameters": {
+        "targetAddress": {
+          "targetAddress1": "ipsum nulla laboris",
+          "targetAddress2": "aliquip qui",
+          "targetAddress3": "Lorem voluptate Duis",
+          "targetAddress4": "dolore dolor cupidatat quis",
+          "targetAddress5": "est Ut tempor consectetur labore"
+        },
+        "certificateIssuer": {
+          "certificateIssuer1": "nulla ut esse",
+          "certificateIssuer2": "veniam ex anim",
+          "certificateIssuer3": "labore sed irure",
+          "certificateIssuer4": "nostrud consectetur",
+          "certificateIssuer5": "amet"
+        },
+        "certificateUser": {
+          "certificateUser1": "dolore consequat consectetur id",
+          "certificateUser2": "in",
+          "certificateUser3": "in exercitation occaecat eiusmod",
+          "certificateUser4": "do",
+          "certificateUser5": "nostrud voluptate culpa ut exercitation"
+        }
+      },
+      "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
+      "bankAccount": [
+        {
+          "purposeOfUse": "BV_PAYMENT_MSB_BILLING",
+          "iban": "BA964004576908944671",
+          "accountHolder": "Jana Laux",
+          "bic": "YYAFVUX3",
+          "creditInstitution": "Hermecke-Kuhnen"
+        }
+      ],
+      "reachability": [
+        {
+          "availability": "THURSDAY",
+          "time": "consequat ad fugiat irure"
+        }
+      ],
+      "ipAddress": "c8aa:3c82:54a6:a772:52ed:debf:72bc:57a7",
+      "ipRange": {
+        "lowerLimit": "1eba:ce5b:d5cb:abc0:2dcb:0f1c:94f2:13e3",
+        "upperLimit": "7efc:efac:1350:c482:4dbb:a6fd:3964:9a6d"
+      },
+      "assignmentFrom": "1954-04-01T20:37:06.0Z",
+      "assignmentTo": "1903-03-12T05:30:14.0Z",
+      "balancingGroup": "enim amet non ad",
+      "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION"
+    }
+  ],
+  "meterRegisters": [
+    {
+      "meterRegisterId": "178148600",
+      "designation": "velit",
+      "direction": "FEED_IN",
+      "obisCode": "culpa qui elit exercitation esse",
+      "transformerFactor": 1.5,
+      "unit": "MWH",
+      "offPeakCapable": "NOT_OFF_PEAK_CAPABLE",
+      "consumptionType": [
+        "KL"
+      ],
+      "interruptibility": "UV",
+      "heatUsage": "HEAT_PUMP_COOLING",
+      "concessionFee": {
+        "rate": "SA",
+        "costs": -92772573.4754377,
+        "category": "culpa dolore"
+      },
+      "taxExempt": true,
+      "integerDigits": 3,
+      "decimalPlaces": 3,
+      "billingRelevant": false,
+      "numberOfReadings": 8,
+      "meteringTimes": {
+        "register": "esse mollit",
+        "meteringTimeDefinition": "fugiat aliquip irure ullamco",
+        "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
+      },
+      "configuration": "ullamco labore reprehenderit",
+      "meteringProduct": "culpa ea amet aliquip cillum",
+      "valueGranularity": "SEMI_ANNUAL",
+      "necessitySecondMeasurement": "PRESENT",
+      "valueTransmissionPurpose": "NOT_PRESENT",
+      "typeElectricMobility": "WB",
+      "configurationProduct": "tempor",
+      "noConfigurationProduct": true,
+      "loadCurveDefinition": "do",
+      "purposesOfUse": [
+        {
+          "marketRole": "RB",
+          "purpose": [
+            "BALANCING_GROUP_BILLING"
+          ]
+        }
+      ]
+    }
+  ],
+  "billingData": [
+    {
+      "articleId": "8107066820",
+      "articleIdType": "ARTICLE_ID",
+      "quantity": 5,
+      "municipalDiscount": 1.75,
+      "surcharge": 5,
+      "installment": 9.25,
+      "singularEquipment": {
+        "value": 9.25,
+        "unit": "KVARH"
+      },
+      "priceSingularEquipment": {
+        "value": 1.25,
+        "amount": -29687752,
+        "unit": "EUR",
+        "referenceValue": "KW",
+        "status": "PROVISIONAL",
+        "priceType": "TRANSACTION_PRICE"
+      },
+      "billingReactivePower": false,
+      "payerReactivePower": "CONNECTION_USER",
+      "payerReactivePowerSupplier": false,
+      "differenceData": true,
+      "meteringTimes": {
+        "register": "enim officia laboris irure qui",
+        "meteringTimeDefinition": "nulla est aute reprehenderit cupidatat",
+        "offPeakCapable": "OFF_PEAK_CAPABLE"
+      }
+    }
+  ],
+  "dataQuality": "DIFFERENCE_SYSTEM_PRESENT_DATA",
+  "validityPeriod": {
+    "timeUnit": "DAY",
+    "duration": 2,
+    "startDate": "1953-01-05T01:02:44.0Z",
+    "endDate": "1930-10-26T22:14:33.0Z",
+    "unit": "YEAR",
+    "readingPeriod": "649851",
+    "billingPeriod": "639030",
+    "periodText": "adipisicing occaecat amet velit quis",
+    "periodId": 6
+  }
+}

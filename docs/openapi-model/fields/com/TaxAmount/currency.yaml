@@ -1,0 +1,5 @@
+components:
+  schemas:
+    currency:
+      type: string
+      description: Währung. Z.B. Euro.

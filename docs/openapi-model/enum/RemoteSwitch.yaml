@@ -1,0 +1,9 @@
+components:
+  schemas:
+    RemoteSwitch:
+      title: RemoteSwitch
+      type: string
+      enum:
+        - PRESENT
+        - NOT_PRESENT
+      description: Fernschaltung

@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json",
+  "title": "MarketParticipant",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "MARKET_PARTICIPANT"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "businessPartnerRole": {
+      "$ref": "../enum/BusinessPartnerRole.schema.json",
+      "description": "Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde)."
+    },
+    "salutation": {
+      "type": "string",
+      "faker": "person.prefix",
+      "description": "Die Anrede für den GePa, Z.B. Herr."
+    },
+    "name1": {
+      "type": "string",
+      "faker": "person.lastName",
+      "description": "Erster Teil des Namens. Hier kann der Firmenname oder bei Privatpersonen\nbeispielsweise der Nachname dargestellt werden. Beispiele: Yellow Strom GmbH\noder Hagen"
+    },
+    "name2": {
+      "type": "string",
+      "faker": "person.firstName",
+      "description": "Zweiter Teil des Namens. Hier kann der eine Erweiterung zum Firmennamen oder\nbei Privatpersonen beispielsweise der Vorname dargestellt werden. Beispiele:\nBereich Süd oder Nina"
+    },
+    "name3": {
+      "type": "string",
+      "description": "Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder\nbei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele: und Afrika\noder Sängerin"
+    },
+    "name4": {
+      "type": "string",
+      "description": "name4"
+    },
+    "partnerAddress": {
+      "$ref": "../com/Address.schema.json",
+      "description": "Adresse des Geschäftspartners, an der sich der Hauptsitz befindet. Details"
+    },
+    "commercialClassification": {
+      "type": "boolean",
+      "description": "Kennzeichnung ob es sich um einen Gewerbe/Unternehmen (gewerbeKennzeichnung = true)\noder eine Privatperson handelt. (gewerbeKennzeichnung = false)"
+    },
+    "externalCustomerNumberSupplier": {
+      "type": "string",
+      "description": "externeKundenummerLieferant"
+    },
+    "marketRole": {
+      "$ref": "../enum/MarketRole.schema.json",
+      "description": "Gibt im Klartext die Bezeichnung der Marktrolle an."
+    },
+    "roleCodeNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 9
+      },
+      "description": "Gibt die Codenummer der Marktrolle an."
+    },
+    "roleCodeType": {
+      "$ref": "../enum/RoleCodeType.schema.json",
+      "description": "Gibt den Typ des Codes an."
+    },
+    "vatId": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DE",
+          "length": 9
+        }
+      },
+      "description": "Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825"
+    },
+    "taxNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 9
+      },
+      "description": "Die Steuernummer-ID des Geschäftspartners. Beispiel: 30120345678"
+    },
+    "contactPerson": {
+      "$ref": "../bo/ContactPerson.schema.json",
+      "description": "Ansprechpartner as in EDIFACT NAD+MS, that includes e.g. the email address of a natural person."
+    },
+    "makoAddress": {
+      "type": "string",
+      "description": "Die 1:1-Kommunikationsadresse des Marktteilnehmers. Diese wird in der\nMarktkommunikation verwendet."
+    },
+    "certificateDownloadLink": {
+      "type": "string",
+      "faker": "internet.url",
+      "description": "downloadlinkZertifikat"
+    },
+    "courtOfRegistration": {
+      "type": "string",
+      "faker": "location.city",
+      "description": "Amtsgericht bzw Handelsregistergericht, das die Handelsregisternummer herausgegeben hat"
+    },
+    "commercialRegisterNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      },
+      "description": "Handelsregisternummer des Geschäftspartners"
+    },
+    "website": {
+      "type": "string",
+      "faker": "internet.url",
+      "description": "Internetseite des Marktpartners. Beispiel: www.mp-energie.de"
+    },
+    "faxNumber": {
+      "type": "string",
+      "faker": "phone.number",
+      "description": "faxnummer"
+    },
+    "communicationRole": {
+      "$ref": "../enum/CommunicationRole.schema.json"
+    },
+    "subContracted": {
+      "type": "boolean",
+      "description": "weiterverpflichtet"
+    },
+    "communicationParameters": {
+      "$ref": "../com/CommunicationParameters.schema.json"
+    },
+    "meteringPointOperatorAttribute": {
+      "$ref": "../enum/MSBAttribute.schema.json"
+    },
+    "bankAccount": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/BankAccount.schema.json"
+      },
+      "description": "Bankverbindung"
+    },
+    "reachability": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/Reachability.schema.json"
+      },
+      "description": "Die Erreichbarkeit eines Unternehmens an Werktagen."
+    },
+    "ipAddress": {
+      "type": "string",
+      "faker": "internet.ip",
+      "description": "ipAdresse"
+    },
+    "ipRange": {
+      "$ref": "../com/IpRange.schema.json"
+    },
+    "assignmentFrom": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Startdatum der Zuordnung des Marktteilnehmers"
+    },
+    "assignmentTo": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Enddatum der Zuordnung des Marktteilnehmers"
+    },
+    "balancingGroup": {
+      "type": "string",
+      "description": "Bilanzkreis"
+    },
+    "balancingGroupPurpose": {
+      "$ref": "../enum/BalancingGroupPurpose.schema.json",
+      "description": "Verwendungszweck des Bilanzkreises"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "boType": "REQUEST",
+  "structureVersion": "1",
+  "locationType": "CONTROLLABLE_RESOURCE",
+  "locationId": "06582800791",
+  "requestType": "CHANGE_METERING_TIME_DEFINITION",
+  "subscription": "START_SUBSCRIPTION",
+  "requestReference": "REF000000",
+  "generalInformation": "dolore",
+  "requestCategory": "TIME_SERIES_IN_CONTEXT_OF_BALANCING_GROUP_BILLING",
+  "energyDirection": "FEED_IN",
+  "validityDuration": "296104",
+  "validFrom": "1901-09-17T03:24:12.0Z"
+}

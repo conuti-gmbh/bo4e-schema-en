@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Vertragstatus.schema.json",
+  "title": "ContractStatus",
+  "type": "string",
+  "enum": [
+    "IN_PROGRESS",
+    "TRANSMITTED",
+    "ACCEPTED",
+    "ACTIVE",
+    "REJECTED",
+    "REVOKED",
+    "CANCELLED",
+    "TERMINATED_BY_NOTICE",
+    "TERMINATED"
+  ],
+  "description": "Vertragstatus"
+}

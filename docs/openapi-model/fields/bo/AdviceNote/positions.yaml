@@ -1,0 +1,9 @@
+components:
+  schemas:
+    positions:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/AdviceNotePosition.yaml#/components/schemas/AdviceNotePosition
+      description: Avispositionen
+      nullable: true

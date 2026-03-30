@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenceCalculationStepId:
+      type: integer
+      description: referenzRechenschrittId

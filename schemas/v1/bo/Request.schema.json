@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json",
+  "title": "Request",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "REQUEST"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "locationType": {
+      "$ref": "../enum/LocationType.schema.json"
+    },
+    "locationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "Für welche Markt- oder Messlokation gilt diese Anfrage."
+    },
+    "requestType": {
+      "$ref": "../enum/RequestType.schema.json",
+      "description": "Typ/Art der Anfrage (ORDERS ORDRSP IMD 7081)"
+    },
+    "subscription": {
+      "$ref": "../enum/Subscription.schema.json",
+      "description": "Start oder Ende Abo"
+    },
+    "requestReference": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF",
+          "length": 6
+        }
+      },
+      "description": "anfragereferenz"
+    },
+    "generalInformation": {
+      "type": "string",
+      "description": "allgemeineInformationen"
+    },
+    "requestCategory": {
+      "$ref": "../enum/RequestCategory.schema.json",
+      "description": "Kategorie der Anfrage (ORDERS ORDRSP BGM 1001)"
+    },
+    "energyDirection": {
+      "$ref": "../enum/EnergyDirection.schema.json"
+    },
+    "validityDuration": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      },
+      "description": "gueltigkeitszeitspanne"
+    },
+    "validFrom": {
+      "type": "string",
+      "format": "date-time",
+      "description": "gueltigAb"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

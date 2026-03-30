@@ -1,0 +1,6 @@
+components:
+  schemas:
+    billingYearStart:
+      type: string
+      format: date-time
+      description: startAbrechnungsjahr

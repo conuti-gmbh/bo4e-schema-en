@@ -1,0 +1,383 @@
+{
+  "boType": "METERING_LOCATION",
+  "structureVersion": "1",
+  "meteringLocationId": "598097456499406963265032718509404",
+  "sector": "WASTEWATER",
+  "energyDirection": "FEED_IN",
+  "meteringGridLevel": "NSP",
+  "meteringAreaNumber": "9646856082",
+  "responsibleMsbCodeNumber": "8288142129",
+  "meteringAddress": {
+    "postalCode": "41691",
+    "city": "Dolchstadt",
+    "street": "Oskar-Moll-Str.",
+    "houseNumber": "92b",
+    "poBox": "do sed",
+    "addressSupplement": "ad ullamco incididunt",
+    "coSupplement": "sint in",
+    "countryCode": "GP",
+    "district": "Nicolasscheid",
+    "additionalInformation": {
+      "supplement1": "Excepteur incididunt sunt in",
+      "supplement2": "esse non anim fugiat",
+      "supplement3": "anim ut",
+      "supplement4": "ipsum dolor sed",
+      "supplement5": "amet"
+    }
+  },
+  "balancingMethod": "TLP_SEPARATE",
+  "meteringPointOperationBillingNna": false,
+  "gasQuality": "H_GAS",
+  "lossFactor": 9,
+  "operationalState": "NORMAL_OPERATION",
+  "readingCardRecipient": {
+    "boType": "BUSINESS_PARTNER",
+    "structureVersion": "1",
+    "salutation": "Prof. Dr.",
+    "name1": "Schembera",
+    "name2": "Marit",
+    "name3": "deserunt irure dolor",
+    "name4": "eu ad magna nulla",
+    "vatId": "DE111110111",
+    "creditorId": "782034",
+    "emailAddress": "Elea_Bode@hotmail.com",
+    "website": "https://naturlich-milchstrae.info",
+    "commercialClassification": false,
+    "commercialRegisterNumber": "826034",
+    "courtOfRegistration": "Roccoburg",
+    "partnerAddress": {
+      "postalCode": "08899",
+      "city": "Williamscheid",
+      "street": "August-Kekulé-Str.",
+      "houseNumber": "19b",
+      "poBox": "ex Duis",
+      "addressSupplement": "magna dolore nulla do occaecat",
+      "coSupplement": "eiusmod dolore laborum",
+      "countryCode": "AW",
+      "district": "Nicostadt",
+      "additionalInformation": {
+        "supplement1": "proident",
+        "supplement2": "minim ut",
+        "supplement3": "commodo fugiat",
+        "supplement4": "laborum voluptate aliquip",
+        "supplement5": "adipisicing dolor"
+      }
+    },
+    "externalCustomerNumberSupplier": "944666",
+    "externalReferences": [
+      {
+        "externalReferenceName": "Kundennummer beim Altlieferanten",
+        "externalReferenceValue": "1577438051"
+      }
+    ],
+    "businessPartnerRole": [
+      "SUPPLIER"
+    ],
+    "contactChannel": [
+      "PHONE_CALL"
+    ]
+  },
+  "referenceMarketLocationId": "00836711023",
+  "usageScope": "METERING_LOCATION_PROCESSUALLY_HANDLED",
+  "futureReportingPoint": false,
+  "locationAssignment": "ENDS",
+  "involvedMarketPartner": {
+    "boType": "MARKET_PARTICIPANT",
+    "structureVersion": "1",
+    "businessPartnerRole": "OWNER",
+    "salutation": "Frau",
+    "name1": "Metzner",
+    "name2": "Matis",
+    "name3": "aliqua laboris cupidatat ea non",
+    "name4": "Ut mollit sint proident commodo",
+    "partnerAddress": {
+      "postalCode": "24317",
+      "city": "Alt Darleendorf",
+      "street": "Ophovener Str.",
+      "houseNumber": "45b",
+      "poBox": "irure",
+      "addressSupplement": "elit aliqua laboris tempor ipsum",
+      "coSupplement": "ullamco sint ut",
+      "countryCode": "PK",
+      "district": "West Teodorf",
+      "additionalInformation": {
+        "supplement1": "ut Excepteur",
+        "supplement2": "quis laborum pariatur culpa labore",
+        "supplement3": "incididunt aliqua dolor deserunt mollit",
+        "supplement4": "non",
+        "supplement5": "non proident"
+      }
+    },
+    "commercialClassification": true,
+    "externalCustomerNumberSupplier": "aliquip non",
+    "marketRole": "NB",
+    "roleCodeNumber": "154173537",
+    "roleCodeType": "BDEW",
+    "vatId": "DE001111001",
+    "taxNumber": "414343508",
+    "contactPerson": {
+      "boType": "CONTACT_PERSON",
+      "structureVersion": "1",
+      "lastName": "Bayer",
+      "eMailAddress": "Emmy_Bromme@gmail.com",
+      "phoneNumbers": [
+        {
+          "numberType": "DEPARTMENT_FAX",
+          "phoneNumber": "+49-4843-96028440"
+        }
+      ]
+    },
+    "makoAddress": "ut",
+    "certificateDownloadLink": "https://ideenreich-milchstrae.name/",
+    "courtOfRegistration": "Violascheid",
+    "commercialRegisterNumber": "378799",
+    "website": "https://athletisch-meer.name",
+    "faxNumber": "(0786) 048923060",
+    "communicationRole": "FEED_IN_PROCESSES",
+    "subContracted": true,
+    "communicationParameters": {
+      "targetAddress": {
+        "targetAddress1": "elit",
+        "targetAddress2": "est amet labore",
+        "targetAddress3": "in ea",
+        "targetAddress4": "enim ea",
+        "targetAddress5": "incididunt deserunt Excepteur sit esse"
+      },
+      "certificateIssuer": {
+        "certificateIssuer1": "ea labore quis velit",
+        "certificateIssuer2": "enim amet pariatur",
+        "certificateIssuer3": "sed",
+        "certificateIssuer4": "qui magna",
+        "certificateIssuer5": "labore ex"
+      },
+      "certificateUser": {
+        "certificateUser1": "minim",
+        "certificateUser2": "dolore sunt aliquip minim magna",
+        "certificateUser3": "in pariatur",
+        "certificateUser4": "cupidatat ea exercitation eu",
+        "certificateUser5": "quis ut"
+      }
+    },
+    "meteringPointOperatorAttribute": "FALLBACK_METERING_POINT_OPERATOR",
+    "bankAccount": [
+      {
+        "purposeOfUse": "BV_OTHER",
+        "iban": "BH34DPXP009U490750I491",
+        "accountHolder": "Xaver Saumweber",
+        "bic": "APEHQASNXXX",
+        "creditInstitution": "Bauschinger-Bender"
+      }
+    ],
+    "reachability": [
+      {
+        "availability": "THURSDAY",
+        "time": "do id commodo enim ipsum"
+      }
+    ],
+    "ipAddress": "41.251.84.224",
+    "ipRange": {
+      "lowerLimit": "29.171.240.192",
+      "upperLimit": "ccfe:9d07:b50f:4ceb:de88:e3d1:eb68:76ae"
+    },
+    "assignmentFrom": "1950-02-14T17:57:54.0Z",
+    "assignmentTo": "1924-03-29T13:46:38.0Z",
+    "balancingGroup": "ut voluptate",
+    "balancingGroupPurpose": "OTHER_GENERATING_MARKET_LOCATION"
+  },
+  "devices": [
+    {
+      "deviceType": "TECHNICAL_STEERING_DEVICE",
+      "designation": "nulla dolore",
+      "deviceNumber": "83012",
+      "deviceReference": "REF_111111",
+      "deviceProperties": {
+        "deviceType": "TURBINE_WHEEL_GAS_METER",
+        "deviceAttribute": "MODEM_GSM",
+        "volumeCapture": "CREEP_QUANTITY_SUPPRESSION",
+        "serialNumber": "4515617131",
+        "manufacturingDate": "0457",
+        "yearOfConstruction": "0293",
+        "calibrationUntil": "9951",
+        "factor": 1
+      },
+      "volumeCapture": "HIGH_FREQUENCY_PROBE",
+      "additionalDeviceNumbers": [
+        "46201"
+      ]
+    }
+  ],
+  "meteringService": [
+    {
+      "serviceType": "READING_SEMI_ANNUAL_SLP",
+      "designation": "incididunt"
+    }
+  ],
+  "meteringLocationMeter": [
+    "ZAEHLER_111"
+  ],
+  "meterRegisters": [
+    {
+      "meterRegisterId": "320551997",
+      "designation": "voluptate officia eiusmod laborum",
+      "direction": "FEED_OUT",
+      "obisCode": "consequat nulla magna ea ut",
+      "transformerFactor": 4,
+      "unit": "CUBIC_METER",
+      "offPeakCapable": "NOT_OFF_PEAK_CAPABLE",
+      "consumptionType": [
+        "EMOB"
+      ],
+      "interruptibility": "UV",
+      "heatUsage": "HEAT_PUMP",
+      "concessionFee": {
+        "rate": "TAS",
+        "costs": 74904866.90013722,
+        "category": "laborum"
+      },
+      "taxExempt": true,
+      "integerDigits": 1,
+      "decimalPlaces": 6,
+      "billingRelevant": true,
+      "numberOfReadings": 2,
+      "meteringTimes": {
+        "register": "amet",
+        "meteringTimeDefinition": "ex sint ut minim fugiat",
+        "offPeakCapable": "OFF_PEAK_CAPABLE"
+      },
+      "configuration": "quis qui consequat nisi",
+      "meteringProduct": "deserunt",
+      "valueGranularity": "SEMI_ANNUAL",
+      "necessitySecondMeasurement": "NOT_PRESENT",
+      "valueTransmissionPurpose": "PRESENT",
+      "typeElectricMobility": "LS",
+      "configurationProduct": "in velit Ut occaecat",
+      "noConfigurationProduct": false,
+      "loadCurveDefinition": "quis sint dolor sit id",
+      "purposesOfUse": [
+        {
+          "marketRole": "MDL",
+          "purpose": [
+            "REACTIVE_ENERGY_BILLING_OPERATIONS_MANAGEMENT"
+          ]
+        }
+      ]
+    }
+  ],
+  "marketRoles": [
+    {
+      "boType": "MARKET_PARTICIPANT",
+      "structureVersion": "1",
+      "businessPartnerRole": "SUPPLIER",
+      "salutation": "Frau",
+      "name1": "Von",
+      "name2": "Dorothea",
+      "name3": "eu ea",
+      "name4": "ea consequat",
+      "partnerAddress": {
+        "postalCode": "82038",
+        "city": "Klugeburg",
+        "street": "Brückenstr.",
+        "houseNumber": "44",
+        "poBox": "id amet",
+        "addressSupplement": "culpa id irure ad labore",
+        "coSupplement": "consectetur",
+        "countryCode": "BE",
+        "district": "West Pietstadt",
+        "additionalInformation": {
+          "supplement1": "nisi dolor irure",
+          "supplement2": "nisi sed amet qui",
+          "supplement3": "Excepteur ullamco et Duis",
+          "supplement4": "dolor commodo tempor quis",
+          "supplement5": "Lorem amet mollit ea"
+        }
+      },
+      "commercialClassification": false,
+      "externalCustomerNumberSupplier": "mollit magna",
+      "marketRole": "ESA",
+      "roleCodeNumber": "837623117",
+      "roleCodeType": "GS1",
+      "vatId": "DE110011001",
+      "taxNumber": "259405228",
+      "contactPerson": {
+        "boType": "CONTACT_PERSON",
+        "structureVersion": "1",
+        "lastName": "Reuss",
+        "eMailAddress": "Matilda35@yahoo.com",
+        "phoneNumbers": [
+          {
+            "numberType": "DEPARTMENT_PHONE",
+            "phoneNumber": "(0429) 765762098"
+          }
+        ]
+      },
+      "makoAddress": "adipisicing ipsum dolor dolor consectetur",
+      "certificateDownloadLink": "https://beachtenswert-entdeckung.name/",
+      "courtOfRegistration": "Maustadt",
+      "commercialRegisterNumber": "824200",
+      "website": "https://ernsthaft-neutron.ch",
+      "faxNumber": "+49-2604-66692209",
+      "communicationRole": "MMMA_PROCESSES",
+      "subContracted": true,
+      "communicationParameters": {
+        "targetAddress": {
+          "targetAddress1": "ut",
+          "targetAddress2": "Lorem elit amet",
+          "targetAddress3": "sit elit laborum",
+          "targetAddress4": "non sit proident nisi",
+          "targetAddress5": "aute irure et laborum"
+        },
+        "certificateIssuer": {
+          "certificateIssuer1": "Lorem",
+          "certificateIssuer2": "in est",
+          "certificateIssuer3": "amet",
+          "certificateIssuer4": "mollit",
+          "certificateIssuer5": "cupidatat qui occaecat ut"
+        },
+        "certificateUser": {
+          "certificateUser1": "dolore",
+          "certificateUser2": "culpa esse nulla amet ex",
+          "certificateUser3": "laborum",
+          "certificateUser4": "magna fugiat id non",
+          "certificateUser5": "ea ut fugiat aute irure"
+        }
+      },
+      "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
+      "bankAccount": [
+        {
+          "purposeOfUse": "BV_PAYMENT_UNLOCK_BILLING",
+          "iban": "DE71024073764093220002",
+          "accountHolder": "Jon Moll",
+          "bic": "OPOJMXHBAE0",
+          "creditInstitution": "Sack GmbH"
+        }
+      ],
+      "reachability": [
+        {
+          "availability": "WEDNESDAY",
+          "time": "fugiat non eu"
+        }
+      ],
+      "ipAddress": "225.142.195.95",
+      "ipRange": {
+        "lowerLimit": "cc4b:b2ac:13bf:dbeb:b892:e36d:15db:b4ac",
+        "upperLimit": "c2f9:1ee2:7f4d:45c1:e8a5:09f8:5d01:bea5"
+      },
+      "assignmentFrom": "1969-04-01T22:56:55.0Z",
+      "assignmentTo": "1907-06-16T18:21:37.0Z",
+      "balancingGroup": "in veniam exercitation nulla nisi",
+      "balancingGroupPurpose": "OTHER_GENERATING_MARKET_LOCATION"
+    }
+  ],
+  "dataQuality": "EXPECTED_DATA",
+  "validityPeriod": {
+    "timeUnit": "MINUTE",
+    "duration": 6,
+    "startDate": "1957-07-14T01:30:12.0Z",
+    "endDate": "1966-10-29T17:58:24.0Z",
+    "unit": "WEEK",
+    "readingPeriod": "283827",
+    "billingPeriod": "783485",
+    "periodText": "nostrud tempor aliquip reprehenderit",
+    "periodId": 8
+  }
+}

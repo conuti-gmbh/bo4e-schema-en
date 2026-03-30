@@ -1,0 +1,10 @@
+components:
+  schemas:
+    LocationAssignment:
+      title: LocationAssignment
+      type: string
+      enum:
+        - UNCHANGED
+        - STARTS
+        - ENDS
+      description: Lokationszuordnung

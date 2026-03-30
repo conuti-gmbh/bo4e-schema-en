@@ -1,0 +1,6 @@
+components:
+  schemas:
+    assignmentDeclaration:
+      description: Link zur Abtretungserklärung / Vollmacht vom Kunden / ORDERS FTX+Z13
+      $ref: >-
+        ../../../com/AssignmentDeclaration.yaml#/components/schemas/AssignmentDeclaration

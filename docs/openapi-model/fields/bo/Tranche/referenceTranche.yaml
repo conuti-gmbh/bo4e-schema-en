@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenceTranche:
+      type: string
+      description: referenzTranche

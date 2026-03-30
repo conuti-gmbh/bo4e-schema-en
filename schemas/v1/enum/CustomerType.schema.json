@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kundentyp.schema.json",
+  "title": "CustomerType",
+  "type": "string",
+  "enum": [
+    "PUBLIC_LIGHTING",
+    "STREET_LIGHTING",
+    "DIRECT_HEATING",
+    "COMMUNITY_MULTI_FAMILY_BUILDING",
+    "COMMERCIAL",
+    "HOUSEHOLD",
+    "CHURCH",
+    "CHP",
+    "CHARGING_STATION",
+    "FARMER",
+    "PRIVATE",
+    "OTHER",
+    "STORAGE_HEATING",
+    "INTERRUPTIBLE_FACILITY",
+    "HEAT_PUMP"
+  ],
+  "description": "Auflistung der Typen von Endkunden. Daraus kann das Verbrauchsprofil abgeleitet werden"
+}

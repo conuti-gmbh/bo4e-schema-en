@@ -1,0 +1,5 @@
+components:
+  schemas:
+    calculationStepComponentId:
+      type: integer
+      description: rechenschrittBestandteilId

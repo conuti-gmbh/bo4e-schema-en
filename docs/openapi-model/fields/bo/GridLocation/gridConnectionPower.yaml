@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gridConnectionPower:
+      type: string
+      description: Netzanschlussleistungsmenge der Netzlokation

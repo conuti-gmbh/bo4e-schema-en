@@ -1,0 +1,5 @@
+components:
+  schemas:
+    periodText:
+      type: string
+      description: zeitraumText

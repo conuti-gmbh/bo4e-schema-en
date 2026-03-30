@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json",
+  "title": "StatusNotificationPosition",
+  "type": "object",
+  "properties": {
+    "positionNumber": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "positionsnummer"
+    },
+    "processingDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "bearbeitungsdatum"
+    },
+    "usageFrom": {
+      "type": "string",
+      "format": "date-time",
+      "description": "verwendungAb"
+    },
+    "usageTo": {
+      "type": "string",
+      "format": "date-time",
+      "description": "verwendungBis"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "enddatum"
+    },
+    "orderStatus": {
+      "$ref": "../enum/OrderStatus.schema.json"
+    },
+    "statusOccasion": {
+      "$ref": "../enum/StatusOccasion.schema.json"
+    },
+    "responseStatus": {
+      "type": "string",
+      "description": "antwortstatus"
+    },
+    "errorDescription": {
+      "$ref": "../com/ErrorDescription.schema.json"
+    },
+    "justification": {
+      "$ref": "../com/Justification.schema.json"
+    },
+    "locationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "lokationsId"
+    },
+    "referenceMelo": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      },
+      "description": "referenzMelo"
+    },
+    "generalInformation": {
+      "$ref": "../com/GeneralInformation.schema.json"
+    },
+    "statusChangeTimestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "statusVeraenderungsZeitpunkt"
+    },
+    "orderStatusList": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../enum/OrderStatus.schema.json"
+      },
+      "description": "auftragsStatusListe"
+    }
+  }
+}

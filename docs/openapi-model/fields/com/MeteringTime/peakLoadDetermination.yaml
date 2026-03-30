@@ -1,0 +1,6 @@
+components:
+  schemas:
+    peakLoadDetermination:
+      $ref: >-
+        ../../../enum/PeakLoadDetermination.yaml#/components/schemas/PeakLoadDetermination
+      description: Ermittlung Leistungsmaximum

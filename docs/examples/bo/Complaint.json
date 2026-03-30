@@ -1,0 +1,27 @@
+{
+  "boType": "COMPLAINT",
+  "structureVersion": "1",
+  "locationId": "28619422409",
+  "locationType": "NELO",
+  "obisNumber": "aliqua do",
+  "measurementValueRequestPeriod": {
+    "timeUnit": "MINUTE",
+    "duration": 1,
+    "startDate": "1944-05-04T12:15:38.0Z",
+    "endDate": "1957-11-27T13:40:15.0Z",
+    "unit": "MINUTE",
+    "readingPeriod": "214730",
+    "billingPeriod": "619631",
+    "periodText": "cillum est ullamco Excepteur occaecat",
+    "periodId": 9
+  },
+  "complaintReason": "ROLLED_OUT_DEFINITION_MISSING",
+  "complaintReasonNote": {
+    "remark1": "laboris dolor quis dolore",
+    "remark2": "pariatur adipisicing id aliqua in",
+    "remark3": "pariatur proident",
+    "remark4": "aliqua commodo consequat officia",
+    "remark5": "Lorem"
+  },
+  "configuration": "Duis nisi reprehenderit culpa irure"
+}

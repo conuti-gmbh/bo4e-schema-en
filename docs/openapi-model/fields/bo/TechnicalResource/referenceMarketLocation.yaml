@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenceMarketLocation:
+      type: string
+      description: referenzMarktlokation

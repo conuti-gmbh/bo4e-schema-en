@@ -1,0 +1,8 @@
+components:
+  schemas:
+    meteringTimes:
+      type: array
+      items:
+        $ref: ../../../com/MeteringTime.yaml#/components/schemas/MeteringTime
+      description: Liste der Zählzeiten [1 - 99999]
+      nullable: true

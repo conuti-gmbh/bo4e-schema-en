@@ -1,0 +1,9 @@
+components:
+  schemas:
+    MsbCommissioning:
+      title: MsbCommissioning
+      type: string
+      enum:
+        - CONTRACT_TO_MSB
+        - CONTRACT_TERMINATION_MSB
+      description: BeauftragungMsb

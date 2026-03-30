@@ -1,0 +1,8 @@
+components:
+  schemas:
+    forecastBasisChoiceRightReason:
+      $ref: >-
+        ../../../enum/ForecastBasisChoiceRight.yaml#/components/schemas/ForecastBasisChoiceRight
+      description: >-
+        Grund Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten
+        vorhanden)

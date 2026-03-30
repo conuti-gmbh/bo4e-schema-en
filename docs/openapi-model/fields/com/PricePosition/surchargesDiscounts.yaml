@@ -1,0 +1,9 @@
+components:
+  schemas:
+    surchargesDiscounts:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/PositionSurchargeDiscount.yaml#/components/schemas/PositionSurchargeDiscount
+      description: Zuschläge oder Abschläge auf die Position.
+      nullable: true

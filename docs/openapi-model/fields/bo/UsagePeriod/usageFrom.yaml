@@ -1,0 +1,6 @@
+components:
+  schemas:
+    usageFrom:
+      type: string
+      format: date-time
+      description: verwendungAb

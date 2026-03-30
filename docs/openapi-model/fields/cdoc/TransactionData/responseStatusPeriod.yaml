@@ -1,0 +1,10 @@
+components:
+  schemas:
+    responseStatusPeriod:
+      description: AntwortstatusZeitraumId aus STS Segment
+      type: array
+      items:
+        description: ''
+        $ref: >-
+          ../../../com/ResponseStatusPeriod.yaml#/components/schemas/ResponseStatusPeriod
+      nullable: true

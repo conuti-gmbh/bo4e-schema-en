@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json",
+  "title": "Balancing",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "BALANCING"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "marketLocationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "Für welche Marktlokation gelten diese Bilanzierungsdaten"
+    },
+    "aggregationResponsibility": {
+      "$ref": "../enum/AggregationResponsibility.schema.json",
+      "description": "Aggregationsverantwortung"
+    },
+    "timeSeriesType": {
+      "$ref": "../enum/TimeSeriesType.schema.json",
+      "description": "Zeitreihentyp"
+    },
+    "forecastBasis": {
+      "$ref": "../enum/ForecastBasis.schema.json",
+      "description": "Prognosegrundlage"
+    },
+    "balancingStart": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Inklusiver Start der Bilanzierung"
+    },
+    "balancingEnd": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Exklusives Ende der Bilanzierung"
+    },
+    "balancingGroup": {
+      "type": "string",
+      "description": "Bilanzkreis"
+    },
+    "balancingGroups": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../bo/BalancingGroup.schema.json"
+      },
+      "description": "Bilanzkreis"
+    },
+    "caseGroupAssignment": {
+      "$ref": "../enum/CaseGroupAssignment.schema.json",
+      "description": "Fallgruppenzuordnung (für gas RLM)"
+    },
+    "temperatureWork": {
+      "$ref": "../com/Quantity.schema.json",
+      "description": "Kundenwert TLP"
+    },
+    "annualConsumptionForecast": {
+      "$ref": "../com/Quantity.schema.json",
+      "description": "Jahresverbrauchsprognose"
+    },
+    "customerValue": {
+      "$ref": "../com/Quantity.schema.json",
+      "description": "Kundenwert"
+    },
+    "consumptionAllocation": {
+      "$ref": "../com/Quantity.schema.json",
+      "description": "Verbrauchsaufteilung"
+    },
+    "forecastBasisChoiceRight": {
+      "$ref": "../enum/ForecastBasisChoiceRight.schema.json",
+      "description": "Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten vorhanden)"
+    },
+    "forecastBasisChoiceRightReason": {
+      "$ref": "../enum/ForecastBasisChoiceRight.schema.json",
+      "description": "Grund Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten vorhanden)"
+    },
+    "settlementModel": {
+      "$ref": "../enum/SettlementModel.schema.json",
+      "description": "Abwicklungsmodell"
+    },
+    "priorYearConsumption": {
+      "$ref": "../com/Quantity.schema.json",
+      "description": "Vorjahresverbrauch"
+    },
+    "dataQuality": {
+      "$ref": "../enum/DataQuality.schema.json",
+      "description": "Datenqualität"
+    },
+    "validityPeriod": {
+      "$ref": "../com/TimePeriod.schema.json",
+      "description": "Gültigkeitszeitraum"
+    },
+    "loadProfiles": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/LoadProfile.schema.json"
+      },
+      "description": "Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)"
+    },
+    "loadProfilesBalancingParty": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/LoadProfile.schema.json"
+      },
+      "description": "Lastprofile des Bilanzierungsbeteiligten"
+    },
+    "forecastBasisDetails": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../enum/ProfileSubtype.schema.json"
+      },
+      "description": "Prognosegrundlage - Besteht der Bedarf ein tagesparameteräbhängiges Lastprofil mit gemeinsamer Messung anzugeben, so ist dies über die 2 -malige Wiederholung des CAV Segments mit der Angabe der Codes E02 und E14 möglich."
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

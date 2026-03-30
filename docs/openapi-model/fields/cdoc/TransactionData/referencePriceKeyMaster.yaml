@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referencePriceKeyMaster:
+      description: Preisschlüsselstamm Referenz / RFF+Z17
+      type: string

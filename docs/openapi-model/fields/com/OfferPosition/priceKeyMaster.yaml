@@ -1,0 +1,5 @@
+components:
+  schemas:
+    priceKeyMaster:
+      type: string
+      description: Preisschlüsselstamm

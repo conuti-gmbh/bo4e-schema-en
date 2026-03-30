@@ -1,0 +1,5 @@
+components:
+  schemas:
+    locationBundleStructureId:
+      type: string
+      description: lokationsbuendelstrukturId

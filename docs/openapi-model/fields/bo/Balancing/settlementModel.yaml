@@ -1,0 +1,5 @@
+components:
+  schemas:
+    settlementModel:
+      $ref: ../../../enum/SettlementModel.yaml#/components/schemas/SettlementModel
+      description: Abwicklungsmodell

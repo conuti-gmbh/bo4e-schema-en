@@ -1,0 +1,5 @@
+components:
+  schemas:
+    trancheId:
+      type: string
+      description: tranchenId

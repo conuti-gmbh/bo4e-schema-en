@@ -1,0 +1,9 @@
+components:
+  schemas:
+    EnergyDirection:
+      title: EnergyDirection
+      type: string
+      enum:
+        - FEED_OUT
+        - FEED_IN
+      description: Spezifiziert die Energierichtung einer Markt- und/oder Messlokation

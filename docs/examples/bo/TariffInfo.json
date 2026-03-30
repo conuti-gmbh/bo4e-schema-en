@@ -1,0 +1,244 @@
+{
+  "boType": "TARIFF_INFO",
+  "structureVersion": "1",
+  "provider": {
+    "boType": "MARKET_PARTICIPANT",
+    "structureVersion": "1",
+    "businessPartnerRole": "SERVICE_PROVIDER",
+    "salutation": "Frau",
+    "name1": "Hort",
+    "name2": "Marcel",
+    "name3": "deserunt ut Excepteur laboris esse",
+    "name4": "Duis",
+    "partnerAddress": {
+      "postalCode": "58064",
+      "city": "Ost Santinodorf",
+      "street": "Weizkamp",
+      "houseNumber": "53b",
+      "poBox": "esse in",
+      "addressSupplement": "consectetur",
+      "coSupplement": "ad adipisicing et aute dolor",
+      "countryCode": "HT",
+      "district": "Neu Mariella",
+      "additionalInformation": {
+        "supplement1": "sed mollit et eu",
+        "supplement2": "aute culpa qui ex",
+        "supplement3": "culpa adipisicing ad ullamco incididunt",
+        "supplement4": "anim aliqua voluptate irure consectetur",
+        "supplement5": "dolore et"
+      }
+    },
+    "commercialClassification": false,
+    "externalCustomerNumberSupplier": "Duis Excepteur ad",
+    "marketRole": "UENB",
+    "roleCodeNumber": "843020416",
+    "roleCodeType": "BDEW",
+    "vatId": "DE010011000",
+    "taxNumber": "072320044",
+    "contactPerson": {
+      "boType": "CONTACT_PERSON",
+      "structureVersion": "1",
+      "lastName": "Tepper",
+      "eMailAddress": "Hans.Dorre@yahoo.com",
+      "phoneNumbers": [
+        {
+          "numberType": "COLLECTIVE_PHONE",
+          "phoneNumber": "+49-989-9531404"
+        }
+      ]
+    },
+    "makoAddress": "aliqua in Duis enim",
+    "certificateDownloadLink": "https://riesig-theater.info",
+    "courtOfRegistration": "Raniastadt",
+    "commercialRegisterNumber": "011545",
+    "website": "https://eintraglich-see.org/",
+    "faxNumber": "+49-159-9278404",
+    "communicationRole": "DATA_EXCHANGE",
+    "subContracted": false,
+    "communicationParameters": {
+      "targetAddress": {
+        "targetAddress1": "laborum exercitation non aliquip",
+        "targetAddress2": "esse sit laboris adipisicing",
+        "targetAddress3": "qui",
+        "targetAddress4": "ea elit sed veniam tempor",
+        "targetAddress5": "cupidatat culpa cillum ullamco"
+      },
+      "certificateIssuer": {
+        "certificateIssuer1": "proident dolore",
+        "certificateIssuer2": "sed eiusmod ut ipsum Duis",
+        "certificateIssuer3": "ex est anim Ut",
+        "certificateIssuer4": "sit ad",
+        "certificateIssuer5": "dolor"
+      },
+      "certificateUser": {
+        "certificateUser1": "laborum voluptate",
+        "certificateUser2": "pariatur",
+        "certificateUser3": "sed Lorem",
+        "certificateUser4": "Excepteur dolor proident elit minim",
+        "certificateUser5": "proident in sunt dolore ex"
+      }
+    },
+    "meteringPointOperatorAttribute": "FALLBACK_METERING_POINT_OPERATOR",
+    "bankAccount": [
+      {
+        "purposeOfUse": "BV_OTHER",
+        "iban": "JO83JKXT6004109001200934909094",
+        "accountHolder": "Elias Beck",
+        "bic": "YVDEKM2DXIQ",
+        "creditInstitution": "Polifka-Deerberg"
+      }
+    ],
+    "reachability": [
+      {
+        "availability": "FRIDAY",
+        "time": "sint ad"
+      }
+    ],
+    "ipAddress": "144.184.151.160",
+    "ipRange": {
+      "lowerLimit": "bb8b:b6fa:b6d0:dfa5:ffbd:fec2:bf27:9f1f",
+      "upperLimit": "50.45.249.61"
+    },
+    "assignmentFrom": "1922-08-19T12:09:59.0Z",
+    "assignmentTo": "1892-11-28T23:50:16.0Z",
+    "balancingGroup": "anim eu esse",
+    "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_CHP"
+  },
+  "providerName": "non",
+  "applicableFrom": "1935-07-09T12:26:44.0Z",
+  "remark": "irure ipsum aliqua nulla",
+  "designation": "ut enim qui esse",
+  "energyMix": {
+    "share": [
+      {
+        "generationType": "WIND",
+        "sharePercent": 10.5
+      }
+    ],
+    "nuclearWaste": 17.25,
+    "remark": "ut",
+    "designation": "in enim aliquip quis culpa",
+    "co2Emission": 14.5,
+    "energyType": "ELECTRICITY",
+    "energyMixNumber": 2,
+    "validityYear": 2026,
+    "isInEcoTopTen": false,
+    "ecoLabel": [
+      "GASGREEN_GREEN_ELECTRICITY"
+    ],
+    "ecoCertificates": [
+      "TUEV"
+    ],
+    "website": "velit ut do"
+  },
+  "customerTypes": [
+    "DIRECT_HEATING"
+  ],
+  "numberOfRegisters": "SINGLE_TARIFF",
+  "sector": "ELECTRICITY",
+  "tariffAttributes": [
+    "CONSTRUCTION_ELECTRICITY"
+  ],
+  "tariffCategory": "EMERGENCY_SUPPLY",
+  "contractConditions": {
+    "gridAccessPayer": "SUPPLIER",
+    "gridAccessContract": "SUPPLIER_GRID_OPERATOR",
+    "gridAccessBilling": {
+      "timeUnit": "QUARTER",
+      "duration": 8,
+      "startDate": "1912-03-31T21:41:17.0Z",
+      "endDate": "1935-08-07T08:45:38.0Z",
+      "unit": "SECOND",
+      "readingPeriod": "268680",
+      "billingPeriod": "951612",
+      "periodText": "consequat",
+      "periodId": 6
+    },
+    "includesSingularlyUsedEquipment": true,
+    "gridAccessBillingBasis": "DELIVERY_NOTE",
+    "gridAccessBillingVariant": "ENERGY_PRICE_BASE_PRICE",
+    "householdCustomer": true,
+    "billingViaNna": true,
+    "municipalDiscount": {
+      "value": 18,
+      "unit": "ex velit",
+      "typeValue": "reprehenderit quis culpa",
+      "assessmentBase": 15.5
+    },
+    "billingYearStart": "1890-11-27T18:41:50.0Z",
+    "nextGridAccessBilling": "6746",
+    "billingInterval": 4,
+    "gridAccessBillingInterval": 4,
+    "plannedScheduledReading": {
+      "timeUnit": "MONTH",
+      "duration": 10,
+      "startDate": "1898-10-27T22:37:04.0Z",
+      "endDate": "1927-03-21T07:15:08.0Z",
+      "unit": "QUARTER_HOUR",
+      "readingPeriod": "726188",
+      "billingPeriod": "327166",
+      "periodText": "proident",
+      "periodId": 4
+    },
+    "msbCommissioning": "CONTRACT_TO_MSB",
+    "terminationNotice": {
+      "timeUnit": "QUARTER_HOUR",
+      "duration": 2,
+      "startDate": "1903-05-26T01:54:16.0Z",
+      "endDate": "1891-11-19T09:43:43.0Z",
+      "unit": "HOUR",
+      "readingPeriod": "801025",
+      "billingPeriod": "906177",
+      "periodText": "aute minim",
+      "periodId": 8
+    },
+    "contractDuration": {
+      "timeUnit": "HOUR",
+      "duration": 0,
+      "startDate": "1933-11-14T14:01:45.0Z",
+      "endDate": "1943-08-27T06:31:08.0Z",
+      "unit": "YEAR",
+      "readingPeriod": "095363",
+      "billingPeriod": "863853",
+      "periodText": "sed ut",
+      "periodId": 4
+    },
+    "terminationDate": "pariatur",
+    "installmentCycle": {
+      "timeUnit": "DAY",
+      "duration": 10,
+      "startDate": "1942-12-23T13:46:48.0Z",
+      "endDate": "1917-04-08T01:17:09.0Z",
+      "unit": "MONTH",
+      "readingPeriod": "067194",
+      "billingPeriod": "971569",
+      "periodText": "ut pariatur proident",
+      "periodId": 2
+    },
+    "numberOfInstallments": 12,
+    "description": "exercitation amet laborum ad",
+    "contractExtension": {
+      "timeUnit": "DAY",
+      "duration": 0,
+      "startDate": "1914-10-01T13:29:47.0Z",
+      "endDate": "1925-12-07T13:56:43.0Z",
+      "unit": "MONTH",
+      "readingPeriod": "894265",
+      "billingPeriod": "072507",
+      "periodText": "elit ipsum exercitation do",
+      "periodId": 6
+    }
+  },
+  "website": "do sed",
+  "temporalValidity": {
+    "timeUnit": "HOUR",
+    "duration": 10,
+    "startDate": "1891-08-19T06:38:55.0Z",
+    "endDate": "1935-12-06T01:09:20.0Z",
+    "unit": "HALF_YEAR",
+    "readingPeriod": "373808",
+    "billingPeriod": "708905",
+    "periodText": "qui consectetur",
+    "periodId": 5
+  }
+}

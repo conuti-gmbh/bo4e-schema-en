@@ -1,0 +1,9 @@
+components:
+  schemas:
+    LoadCurveFrequency:
+      title: LoadCurveFrequency
+      type: string
+      enum:
+        - ONE_TIME
+        - ANNUAL
+      description: HaeufigkeitLeistungskurve

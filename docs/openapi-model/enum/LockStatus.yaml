@@ -1,0 +1,9 @@
+components:
+  schemas:
+    LockStatus:
+      title: LockStatus
+      type: string
+      enum:
+        - UNLOCKED
+        - LOCKED
+      description: Sperrstatus

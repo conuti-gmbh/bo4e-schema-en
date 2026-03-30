@@ -1,0 +1,9 @@
+components:
+  schemas:
+    communicationDetails:
+      type: array
+      items:
+        $ref: >-
+          ../../../bo/MarketParticipant.yaml#/components/schemas/MarketParticipant
+      description: kommunikationsangaben
+      nullable: true

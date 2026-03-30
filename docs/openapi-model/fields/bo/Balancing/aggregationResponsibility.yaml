@@ -1,0 +1,6 @@
+components:
+  schemas:
+    aggregationResponsibility:
+      $ref: >-
+        ../../../enum/AggregationResponsibility.yaml#/components/schemas/AggregationResponsibility
+      description: Aggregationsverantwortung

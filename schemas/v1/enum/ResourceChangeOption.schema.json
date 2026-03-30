@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/RessourceWechselmoeglichkeit.schema.json",
+  "title": "ResourceChangeOption",
+  "type": "string",
+  "enum": [
+    "CHANGE_OPTION_ONCE_STILL_POSSIBLE",
+    "CHANGE_OPTION_NOT_POSSIBLE",
+    "FIXED_TERM_WITHOUT_CHANGE_OPTION",
+    "CHANGE_WAS_CARRIED_OUT"
+  ],
+  "description": "RessourceWechselmoeglichkeit"
+}

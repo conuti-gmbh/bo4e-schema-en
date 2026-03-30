@@ -1,0 +1,6 @@
+components:
+  schemas:
+    nuclearWaste:
+      type: number
+      format: float
+      description: Höhe des erzeugten Atommülls in g/kWh

@@ -1,0 +1,8 @@
+components:
+  schemas:
+    switchingTimes:
+      type: array
+      items:
+        $ref: ../../../com/SwitchingTime.yaml#/components/schemas/SwitchingTime
+      description: schaltzeiten
+      nullable: true

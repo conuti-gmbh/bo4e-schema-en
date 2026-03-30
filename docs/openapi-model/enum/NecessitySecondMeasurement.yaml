@@ -1,0 +1,9 @@
+components:
+  schemas:
+    NecessitySecondMeasurement:
+      title: NecessitySecondMeasurement
+      type: string
+      enum:
+        - PRESENT
+        - NOT_PRESENT
+      description: NotwendigkeitZweiteMessung

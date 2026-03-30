@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json",
+  "title": "Contract",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "CONTRACT"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "obligatory version of the BO4E definition. Currently hard coded to 1"
+    },
+    "sector": {
+      "$ref": "../enum/Sector.schema.json",
+      "description": "Unterscheidungsmöglichkeiten für die Sparte. Siehe ENUM Sparte"
+    },
+    "contractType": {
+      "type": "string",
+      "description": "Hier ist festgelegt, um welche Art von Vertrag es sich handelt. Z.B. Netznutzungvertrag. Details siehe ENUM\nVertragsart"
+    },
+    "contractNumber": {
+      "type": "string",
+      "description": "Eine im Verwendungskontext eindeutige Nummer für den Vertrag"
+    },
+    "description": {
+      "type": "string",
+      "description": "Freitext zur Beschreibung der Konditionen, z.B. \"Standardkonditionen Gas\""
+    },
+    "locationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "lokationsId"
+    },
+    "locationType": {
+      "$ref": "../enum/LocationType.schema.json"
+    },
+    "contractStatus": {
+      "$ref": "../enum/ContractStatus.schema.json"
+    },
+    "contractStart": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Gibt an, wann der Vertrag beginnt."
+    },
+    "contractEnd": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Gibt an, wann der Vertrag (voraussichtlich) endet oder beendet wurde."
+    },
+    "municipalDiscount": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 10,
+          "max": 30
+        }
+      },
+      "description": "gemeinderabatt für EDIFACT mapping."
+    },
+    "contractConditions": {
+      "$ref": "../com/ContractConditions.schema.json",
+      "description": "Festlegungen zu Laufzeiten und Kündigungsfristen. Details siehe COM Vertragskonditionen"
+    },
+    "correspondencePartner": {
+      "$ref": "../bo/BusinessPartner.schema.json",
+      "description": "korrespondenzpartner für EDIFACT mapping"
+    },
+    "billingViaNna": {
+      "type": "boolean",
+      "description": "abrechnungUeberNna"
+    },
+    "dataQuality": {
+      "$ref": "../enum/DataQuality.schema.json"
+    },
+    "validityPeriod": {
+      "$ref": "../com/TimePeriod.schema.json"
+    },
+    "contractPartner1": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../bo/BusinessPartner.schema.json"
+      },
+      "description": "Der \"erstgenannte\" Vertragspartner. In der Regel der Aussteller des Vertrags. Beispiel: \"Vertrag zwischen\nVertagspartner 1 ...\" Siehe BO Geschaeftspartner"
+    },
+    "contractPartner2": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../bo/BusinessPartner.schema.json"
+      },
+      "description": "Der \"zweitgenannte\" Vertragspartner. In der Regel der Empfänger des Vertrags. Beispiel \"Vertrag zwischen\nVertagspartner 1 und Vertragspartner 2\". Siehe BO Geschaeftspartner"
+    },
+    "enfg": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/EnFG.schema.json"
+      },
+      "description": "enFG"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

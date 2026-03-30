@@ -1,0 +1,6 @@
+components:
+  schemas:
+    assignmentTo:
+      type: string
+      format: date-time
+      description: Enddatum der Zuordnung des Marktteilnehmers

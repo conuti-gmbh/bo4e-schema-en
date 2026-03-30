@@ -1,0 +1,9 @@
+components:
+  schemas:
+    DisconnectionOrderType:
+      title: DisconnectionOrderType
+      type: string
+      enum:
+        - LOCK
+        - UNLOCK
+      description: Sperrauftragsart

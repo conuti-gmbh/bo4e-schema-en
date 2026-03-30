@@ -1,0 +1,47 @@
+{
+  "boType": "BUSINESS_PARTNER",
+  "structureVersion": "1",
+  "salutation": "Frau",
+  "name1": "Salzmann",
+  "name2": "Marlen",
+  "name3": "in tempor nisi qui amet",
+  "name4": "fugiat deserunt laboris elit",
+  "vatId": "DE001001100",
+  "creditorId": "478581",
+  "emailAddress": "Kian81@gmail.com",
+  "website": "https://zielbewusst-geschwindigkeit.com",
+  "commercialClassification": false,
+  "commercialRegisterNumber": "166184",
+  "courtOfRegistration": "Merleburg",
+  "partnerAddress": {
+    "postalCode": "29743",
+    "city": "Samirastadt",
+    "street": "Kerschensteinerstr.",
+    "houseNumber": "60a",
+    "poBox": "proident voluptate est eiusmod occaecat",
+    "addressSupplement": "in",
+    "coSupplement": "tempor velit ad",
+    "countryCode": "WS",
+    "district": "Süd Frederik",
+    "additionalInformation": {
+      "supplement1": "elit",
+      "supplement2": "fugiat non",
+      "supplement3": "aliqua culpa ullamco nisi",
+      "supplement4": "mollit aliquip est cillum Ut",
+      "supplement5": "et sed do sit"
+    }
+  },
+  "externalCustomerNumberSupplier": "634144",
+  "externalReferences": [
+    {
+      "externalReferenceName": "Kundennummer beim Altlieferanten",
+      "externalReferenceValue": "3672294892"
+    }
+  ],
+  "businessPartnerRole": [
+    "SERVICE_PROVIDER"
+  ],
+  "contactChannel": [
+    "WRITTEN_LETTER"
+  ]
+}

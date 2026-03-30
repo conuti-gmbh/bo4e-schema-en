@@ -1,0 +1,6 @@
+components:
+  schemas:
+    beginDate:
+      type: string
+      format: date-time
+      description: Der inklusive Zeitpunkt ab dem die Zaehlzeitdefinitionen ausgerollt sind

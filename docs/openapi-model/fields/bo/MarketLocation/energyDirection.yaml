@@ -1,0 +1,5 @@
+components:
+  schemas:
+    energyDirection:
+      $ref: ../../../enum/EnergyDirection.yaml#/components/schemas/EnergyDirection
+      description: Kennzeichnung, ob Energie eingespeist oder entnommen (ausgespeist) wird.

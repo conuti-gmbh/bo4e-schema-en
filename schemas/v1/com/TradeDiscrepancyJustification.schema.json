@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json",
+  "title": "TradeDiscrepancyJustification",
+  "type": "object",
+  "properties": {
+    "correctness": {
+      "$ref": "../enum/TradeDiscrepancyCorrectness.schema.json"
+    },
+    "referenceDar": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DAR",
+          "length": 6
+        }
+      },
+      "description": "Referenzierte Datenaustauschreferenz"
+    },
+    "referenceNumber": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF",
+          "length": 6
+        }
+      },
+      "description": "Referenznummer der Nachricht"
+    },
+    "confirmationDar": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DAR",
+          "length": 6
+        }
+      },
+      "description": "bestätigte Datenaustauschreferenz"
+    },
+    "acknowledgmentNotification": {
+      "type": "string",
+      "description": "Nachrichtennummer aus der Anerkennungsmeldung (APERAK)"
+    },
+    "reason": {
+      "$ref": "../enum/TradeDiscrepancyReason.schema.json",
+      "description": "Angabe des Handelsunstimmigkeitsgrunds"
+    },
+    "hint": {
+      "type": "string",
+      "description": "Hinweis zum Grund"
+    },
+    "references": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "faker": {
+          "string.binary": {
+            "prefix": "REF",
+            "length": 6
+          }
+        }
+      },
+      "description": "Referenzen auf vorherige Nachrichten"
+    }
+  }
+}

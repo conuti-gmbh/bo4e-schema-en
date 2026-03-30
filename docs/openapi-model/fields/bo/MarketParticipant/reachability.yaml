@@ -1,0 +1,8 @@
+components:
+  schemas:
+    reachability:
+      type: array
+      items:
+        $ref: ../../../com/Reachability.yaml#/components/schemas/Reachability
+      description: Die Erreichbarkeit eines Unternehmens an Werktagen.
+      nullable: true

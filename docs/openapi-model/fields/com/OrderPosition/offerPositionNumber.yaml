@@ -1,0 +1,5 @@
+components:
+  schemas:
+    offerPositionNumber:
+      type: string
+      description: laufende Positionsnummer des Angebot

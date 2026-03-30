@@ -1,0 +1,5 @@
+components:
+  schemas:
+    freeText:
+      description: Freitext / FTX+ACB
+      type: string

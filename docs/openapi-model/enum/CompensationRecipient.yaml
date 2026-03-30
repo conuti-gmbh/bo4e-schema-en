@@ -1,0 +1,9 @@
+components:
+  schemas:
+    CompensationRecipient:
+      title: CompensationRecipient
+      type: string
+      enum:
+        - CUSTOMER
+        - SUPPLIER
+      description: VerguetungEmpfaenger

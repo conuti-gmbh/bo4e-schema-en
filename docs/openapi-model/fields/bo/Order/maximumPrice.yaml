@@ -1,0 +1,5 @@
+components:
+  schemas:
+    maximumPrice:
+      $ref: ../../../com/Price.yaml#/components/schemas/Price
+      description: Der Höchstpreis eines Auftrags (z.B. für eine Sperrung)

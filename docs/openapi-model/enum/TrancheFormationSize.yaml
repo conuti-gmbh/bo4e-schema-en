@@ -1,0 +1,9 @@
+components:
+  schemas:
+    TrancheFormationSize:
+      title: TrancheFormationSize
+      type: string
+      enum:
+        - PERCENTAGE
+        - ALLOCATION_FACTOR
+      description: BildungTranchengroesse

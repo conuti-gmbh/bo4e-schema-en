@@ -1,0 +1,6 @@
+components:
+  schemas:
+    sharePercent:
+      type: number
+      format: float
+      description: Prozentualer Anteil der Erzeugung

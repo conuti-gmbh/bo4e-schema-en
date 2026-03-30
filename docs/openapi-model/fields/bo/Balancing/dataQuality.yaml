@@ -1,0 +1,5 @@
+components:
+  schemas:
+    dataQuality:
+      $ref: ../../../enum/DataQuality.yaml#/components/schemas/DataQuality
+      description: Datenqualität

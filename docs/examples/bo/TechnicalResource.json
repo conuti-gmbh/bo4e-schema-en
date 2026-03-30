@@ -1,0 +1,47 @@
+{
+  "boType": "TECHNICAL_RESOURCE",
+  "structureVersion": "1",
+  "resourceId": "48493951531",
+  "sector": "WASTEWATER",
+  "locationAssignment": "ENDS",
+  "referenceMeteringLocation": "110143470742190356160514647732432",
+  "referenceMarketLocation": "79056136047",
+  "referenceGridLocation": "12104099195",
+  "referenceControllableResource": "44798019742",
+  "ratedPower": {
+    "intake": 29,
+    "levy": 16
+  },
+  "storageCapacity": 69,
+  "consumptionType": [
+    "SW"
+  ],
+  "heatUsage": "HEAT_PUMP_COOLING",
+  "typeElectricMobility": "LS",
+  "generationType": "OTHER_EEG",
+  "storageType": "HYDROGEN_STORAGE",
+  "enwg": true,
+  "commissioningDate": "COMMISSIONING_BEFORE_2024",
+  "classification": "CHANGE_OPTION_NOT_POSSIBLE",
+  "additionalFacility": false,
+  "kind": "ELECTRICITY_GENERATION",
+  "dataQuality": "INFORMATIVE_DATA",
+  "validityPeriod": {
+    "timeUnit": "MONTH",
+    "duration": 0,
+    "startDate": "1909-09-02T15:14:49.0Z",
+    "endDate": "1933-08-25T21:37:03.0Z",
+    "unit": "DAY",
+    "readingPeriod": "783483",
+    "billingPeriod": "958471",
+    "periodText": "tempor proident",
+    "periodId": 8
+  },
+  "requiredProducts": [
+    {
+      "productCode": "CODE_111111",
+      "productAttributeCode": "CODE_000011",
+      "valueDetails": "291234"
+    }
+  ]
+}

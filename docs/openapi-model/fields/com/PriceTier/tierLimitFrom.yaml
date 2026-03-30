@@ -1,0 +1,6 @@
+components:
+  schemas:
+    tierLimitFrom:
+      type: number
+      format: float
+      description: staffelgrenzeVon

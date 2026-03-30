@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json",
+  "title": "InvoicePosition",
+  "type": "object",
+  "properties": {
+    "individualPrice": {
+      "$ref": "../com/Price.schema.json",
+      "description": "Der Preis für eine Einheit der energetischen Menge. Details Preis"
+    },
+    "deliveryUntil": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Ende der Lieferung für die abgerechnete Leistung."
+    },
+    "deliveryFrom": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Start der Lieferung für die abgerechnete Leistung."
+    },
+    "positionQuantity": {
+      "$ref": "../com/Quantity.schema.json",
+      "description": "Die abgerechnete Menge mit Einheit. Z.B. 4372 kWh. Details Menge"
+    },
+    "positionNumber": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "Fortlaufende Nummer für die Rechnungsposition."
+    },
+    "articleNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "Kennzeichnung der Rechnungsposition mit der Standard-Artikelnummer des BDEW. Details\nBDEWArtikelnummer"
+    },
+    "subtotalNet": {
+      "$ref": "../com/Amount.schema.json",
+      "description": "Das Ergebnis der Multiplikation aus einzelpreis * positionsMenge * (Faktor aus zeitbezogeneMenge). Z.B. 12,60€\n* 120 kW * 3/12 (für 3 Monate). Details Betrag"
+    },
+    "subtotalTax": {
+      "$ref": "../com/TaxAmount.schema.json",
+      "description": "Auf die Position entfallende Steuer, bestehend aus Steuersatz und Betrag. Details Steuerbetrag"
+    },
+    "timeRelatedQuantity": {
+      "$ref": "../com/Quantity.schema.json",
+      "description": "Eine auf die Zeiteinheit bezogene Untermenge. Z.B. bei einem Jahrespreis, 3 Monate oder 146 Tage. Basierend\ndarauf wird der Preis aufgeteilt. Details Menge"
+    },
+    "installment": {
+      "$ref": "../com/Installment.schema.json"
+    },
+    "surcharge": {
+      "$ref": "../com/Surcharge.schema.json"
+    },
+    "municipalDiscount": {
+      "$ref": "../com/MunicipalDiscount.schema.json"
+    },
+    "totalSurchargeDiscountAmount": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      },
+      "description": "gesamtZuAbschlagsbetrag"
+    },
+    "correctionFactor": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      },
+      "description": "Gibt ggf. einen Korrekturfaktor für die Menge an."
+    },
+    "executionDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Das Datum an dem die Leistung erbracht wurde."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    referenceQuantity:
+      $ref: ../../../enum/QuantityUnit.yaml#/components/schemas/QuantityUnit
+      description: >-
+        Hier wird festgelegt, auf welche Bezugsgröße sich der Preis bezieht,
+        z.B. kWh oder Stück. Details
+
+        Mengeneinheit

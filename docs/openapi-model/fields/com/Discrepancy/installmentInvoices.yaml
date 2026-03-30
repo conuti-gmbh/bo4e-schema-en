@@ -1,0 +1,8 @@
+components:
+  schemas:
+    installmentInvoices:
+      type: array
+      items:
+        type: string
+      description: Abschlagsrechnungen
+      nullable: true

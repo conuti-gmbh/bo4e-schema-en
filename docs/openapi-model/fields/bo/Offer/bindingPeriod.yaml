@@ -1,0 +1,6 @@
+components:
+  schemas:
+    bindingPeriod:
+      type: string
+      format: date-time
+      description: Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot

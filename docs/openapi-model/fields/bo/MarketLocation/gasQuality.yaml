@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gasQuality:
+      $ref: ../../../enum/GasQuality.yaml#/components/schemas/GasQuality
+      description: gasqualitaet für EDIFACT mapping

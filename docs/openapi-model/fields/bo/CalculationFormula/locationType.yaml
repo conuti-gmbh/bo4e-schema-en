@@ -1,0 +1,7 @@
+components:
+  schemas:
+    locationType:
+      $ref: ../../../enum/LocationType.yaml#/components/schemas/LocationType
+      description: >-
+        Gibt an,um welchen Lokationstyp es sich handelt. Verwendung für
+        notwendige interne Zuordnungen.

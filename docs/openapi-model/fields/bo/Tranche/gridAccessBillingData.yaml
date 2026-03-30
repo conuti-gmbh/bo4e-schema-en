@@ -1,0 +1,9 @@
+components:
+  schemas:
+    gridAccessBillingData:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/GridAccessBillingData.yaml#/components/schemas/GridAccessBillingData
+      description: netznutzungsabrechnungsdaten
+      nullable: true

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    necessity:
+      $ref: >-
+        ../../../enum/DefinitionsNecessity.yaml#/components/schemas/DefinitionsNecessity
+      description: Beschreibt ob eine Zaehlzeitdefinitionen notwendig ist

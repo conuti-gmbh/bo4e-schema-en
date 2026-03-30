@@ -1,0 +1,5 @@
+components:
+  schemas:
+    objectCode:
+      type: string
+      description: objectcode

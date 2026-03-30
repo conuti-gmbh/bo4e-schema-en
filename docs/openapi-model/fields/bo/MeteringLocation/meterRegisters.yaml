@@ -1,0 +1,8 @@
+components:
+  schemas:
+    meterRegisters:
+      type: array
+      items:
+        $ref: ../../../com/MeterRegister.yaml#/components/schemas/MeterRegister
+      description: Die Zählwerke des Zählers.
+      nullable: true

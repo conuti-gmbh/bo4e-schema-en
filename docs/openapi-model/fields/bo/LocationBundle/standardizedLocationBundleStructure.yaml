@@ -1,0 +1,5 @@
+components:
+  schemas:
+    standardizedLocationBundleStructure:
+      type: boolean
+      description: standardisierteLokationsbuendelstruktur

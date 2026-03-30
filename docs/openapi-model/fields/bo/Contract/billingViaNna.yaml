@@ -1,0 +1,5 @@
+components:
+  schemas:
+    billingViaNna:
+      type: boolean
+      description: abrechnungUeberNna

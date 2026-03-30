@@ -1,0 +1,5 @@
+components:
+  schemas:
+    idempotencyKey:
+      description: Imempodenzschlüssel des Requests
+      type: string

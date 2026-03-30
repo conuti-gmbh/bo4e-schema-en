@@ -1,0 +1,5 @@
+components:
+  schemas:
+    meterNumber:
+      type: string
+      description: Nummerierung des Zählers, vergeben durch den Messstellenbetreiber

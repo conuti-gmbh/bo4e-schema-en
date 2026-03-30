@@ -1,0 +1,241 @@
+{
+  "boType": "CONTROLLABLE_RESOURCE",
+  "structureVersion": "1",
+  "resourceId": "01434693960",
+  "sector": "WATER",
+  "locationAssignment": "ENDS",
+  "configurationProduct": "cupidatat ad velit exercitation mollit",
+  "controlChannel": "ON_OFF",
+  "productDataRelevantRole": "MSBA",
+  "orderingMarketPartner": {
+    "boType": "MARKET_PARTICIPANT",
+    "structureVersion": "1",
+    "businessPartnerRole": "MARKET_PARTNER",
+    "salutation": "Frau",
+    "name1": "Schönenberger",
+    "name2": "Lennert",
+    "name3": "do sed tempor sunt",
+    "name4": "sit nulla",
+    "partnerAddress": {
+      "postalCode": "39643",
+      "city": "Bad Rieke",
+      "street": "Im Friedenstal",
+      "houseNumber": "454",
+      "poBox": "dolore",
+      "addressSupplement": "labore commodo et",
+      "coSupplement": "consequat nostrud et",
+      "countryCode": "NT",
+      "district": "Thöneburg",
+      "additionalInformation": {
+        "supplement1": "ut eu Ut",
+        "supplement2": "aliqua quis",
+        "supplement3": "anim Ut",
+        "supplement4": "esse anim reprehenderit eiusmod sit",
+        "supplement5": "dolor sit in in"
+      }
+    },
+    "commercialClassification": false,
+    "externalCustomerNumberSupplier": "cupidatat eiusmod",
+    "marketRole": "PROSPECT",
+    "roleCodeNumber": "264601632",
+    "roleCodeType": "DVGW",
+    "vatId": "DE111001101",
+    "taxNumber": "921530327",
+    "contactPerson": {
+      "boType": "CONTACT_PERSON",
+      "structureVersion": "1",
+      "lastName": "Scheurer",
+      "eMailAddress": "Madlen.Gatzka@yahoo.com",
+      "phoneNumbers": [
+        {
+          "numberType": "PHONE_EXTENSION",
+          "phoneNumber": "(0293) 284999609"
+        }
+      ]
+    },
+    "makoAddress": "nulla non in commodo laboris",
+    "certificateDownloadLink": "https://bestechend-skelett.net/",
+    "courtOfRegistration": "Süd Raphael",
+    "commercialRegisterNumber": "505195",
+    "website": "https://charmant-segel.org/",
+    "faxNumber": "+49-537-2128596",
+    "communicationRole": "GRID_CONNECTION_FACILITIES",
+    "subContracted": true,
+    "communicationParameters": {
+      "targetAddress": {
+        "targetAddress1": "deserunt Duis",
+        "targetAddress2": "cupidatat ipsum",
+        "targetAddress3": "dolore est",
+        "targetAddress4": "veniam ex sed commodo",
+        "targetAddress5": "id consequat magna culpa"
+      },
+      "certificateIssuer": {
+        "certificateIssuer1": "Excepteur magna Ut elit",
+        "certificateIssuer2": "Excepteur nisi proident",
+        "certificateIssuer3": "tempor dolor mollit",
+        "certificateIssuer4": "adipisicing",
+        "certificateIssuer5": "mollit cupidatat et laborum"
+      },
+      "certificateUser": {
+        "certificateUser1": "veniam id reprehenderit",
+        "certificateUser2": "sunt in id officia",
+        "certificateUser3": "labore Lorem",
+        "certificateUser4": "officia ea dolor Excepteur reprehenderit",
+        "certificateUser5": "qui ad enim ut eiusmod"
+      }
+    },
+    "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
+    "bankAccount": [
+      {
+        "purposeOfUse": "BV_PAYMENT_NNA",
+        "iban": "GI69GAEE95051T559108533",
+        "accountHolder": "Dr. Max Schwarzmeier",
+        "bic": "CZKUIQ0E",
+        "creditInstitution": "Fleischer KG"
+      }
+    ],
+    "reachability": [
+      {
+        "availability": "FRIDAY",
+        "time": "enim"
+      }
+    ],
+    "ipAddress": "245.85.238.203",
+    "ipRange": {
+      "lowerLimit": "dac5:fedb:a05d:d6a1:2811:2e5b:9ec0:991f",
+      "upperLimit": "236.11.135.35"
+    },
+    "assignmentFrom": "1906-12-05T23:01:58.0Z",
+    "assignmentTo": "1940-06-05T09:47:15.0Z",
+    "balancingGroup": "dolor",
+    "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_CHP"
+  },
+  "assignedDefinition": {
+    "switchingTimeDefinition": "nisi adipisicing sint dolor fugiat",
+    "loadCurveDefinition": "mollit do ut"
+  },
+  "marketRoles": [
+    {
+      "boType": "MARKET_PARTICIPANT",
+      "structureVersion": "1",
+      "businessPartnerRole": "CORRESPONDENCE_RECIPIENT",
+      "salutation": "Herr",
+      "name1": "Nannen",
+      "name2": "Karolina",
+      "name3": "minim et ex irure",
+      "name4": "do in occaecat qui",
+      "partnerAddress": {
+        "postalCode": "15254",
+        "city": "Neu Samanthascheid",
+        "street": "Samlandstr.",
+        "houseNumber": "3",
+        "poBox": "amet nostrud non",
+        "addressSupplement": "Ut qui mollit sunt reprehenderit",
+        "coSupplement": "Duis magna",
+        "countryCode": "NC",
+        "district": "West Liamland",
+        "additionalInformation": {
+          "supplement1": "in pariatur sunt",
+          "supplement2": "quis cillum in",
+          "supplement3": "reprehenderit et eu cillum",
+          "supplement4": "Ut exercitation cupidatat aute",
+          "supplement5": "esse sed anim"
+        }
+      },
+      "commercialClassification": false,
+      "externalCustomerNumberSupplier": "culpa laboris mollit ex",
+      "marketRole": "MDL",
+      "roleCodeNumber": "791032275",
+      "roleCodeType": "GLN",
+      "vatId": "DE010100000",
+      "taxNumber": "921111270",
+      "contactPerson": {
+        "boType": "CONTACT_PERSON",
+        "structureVersion": "1",
+        "lastName": "Decker",
+        "eMailAddress": "Betty.Zandt71@yahoo.com",
+        "phoneNumbers": [
+          {
+            "numberType": "MOBILE_NUMBER",
+            "phoneNumber": "(00802) 9626541"
+          }
+        ]
+      },
+      "makoAddress": "do incididunt voluptate",
+      "certificateDownloadLink": "https://stimmig-neutron.de/",
+      "courtOfRegistration": "Bad Rebekkaburg",
+      "commercialRegisterNumber": "719497",
+      "website": "https://rekordverdachtig-realitat.com",
+      "faxNumber": "(06580) 6115954",
+      "communicationRole": "TRANSACTION_DATA",
+      "subContracted": false,
+      "communicationParameters": {
+        "targetAddress": {
+          "targetAddress1": "sint in officia elit consequat",
+          "targetAddress2": "Ut",
+          "targetAddress3": "nulla",
+          "targetAddress4": "laborum pariatur et cupidatat",
+          "targetAddress5": "tempor Ut laboris"
+        },
+        "certificateIssuer": {
+          "certificateIssuer1": "pariatur proident non",
+          "certificateIssuer2": "enim Duis esse",
+          "certificateIssuer3": "velit",
+          "certificateIssuer4": "amet Excepteur culpa",
+          "certificateIssuer5": "eu velit"
+        },
+        "certificateUser": {
+          "certificateUser1": "amet laboris",
+          "certificateUser2": "consequat in anim aliqua laboris",
+          "certificateUser3": "sunt cillum ut adipisicing",
+          "certificateUser4": "est elit dolor amet proident",
+          "certificateUser5": "quis"
+        }
+      },
+      "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
+      "bankAccount": [
+        {
+          "purposeOfUse": "BV_PAYMENT_UNLOCK_BILLING",
+          "iban": "LV09NEZX950Q744131285",
+          "accountHolder": "Lorenz Manns",
+          "bic": "TSGEOM2L",
+          "creditInstitution": "Lukoschek GmbH & Co. KG"
+        }
+      ],
+      "reachability": [
+        {
+          "availability": "FRIDAY",
+          "time": "nostrud"
+        }
+      ],
+      "ipAddress": "63cd:bb26:a8fb:f794:cbfe:731f:ceb3:34fa",
+      "ipRange": {
+        "lowerLimit": "168.212.172.218",
+        "upperLimit": "179.199.253.194"
+      },
+      "assignmentFrom": "1903-11-18T10:46:16.0Z",
+      "assignmentTo": "1967-07-09T16:49:43.0Z",
+      "balancingGroup": "irure qui laborum veniam Duis",
+      "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION"
+    }
+  ],
+  "dataQuality": "VALID_DATA",
+  "validityPeriod": {
+    "timeUnit": "MINUTE",
+    "duration": 7,
+    "startDate": "1892-04-17T23:36:18.0Z",
+    "endDate": "1933-09-16T14:13:45.0Z",
+    "unit": "MINUTE",
+    "readingPeriod": "023775",
+    "billingPeriod": "949446",
+    "periodText": "dolor laboris",
+    "periodId": 4
+  },
+  "requiredProducts": [
+    {
+      "productCode": "CODE_000010",
+      "productAttributeCode": "CODE_110001",
+      "valueDetails": "327475"
+    }
+  ]
+}

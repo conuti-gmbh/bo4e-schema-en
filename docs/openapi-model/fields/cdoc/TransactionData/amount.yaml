@@ -1,0 +1,5 @@
+components:
+  schemas:
+    amount:
+      description: Menge / QTY
+      $ref: ../../../com/Quantity.yaml#/components/schemas/Quantity

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json",
+  "title": "AdviceNote",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "ADVICE_NOTE"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "adviceNoteNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "Eine im Verwendungskontext eindeutige Nummer für das Avis."
+    },
+    "adviceNoteType": {
+      "$ref": "../enum/AdviceNoteType.schema.json",
+      "description": "Gibt den Typ des Avis an."
+    },
+    "toPay": {
+      "$ref": "../com/Amount.schema.json",
+      "description": "Summenbetrag"
+    },
+    "positions": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/AdviceNotePosition.schema.json"
+      },
+      "description": "Avispositionen"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

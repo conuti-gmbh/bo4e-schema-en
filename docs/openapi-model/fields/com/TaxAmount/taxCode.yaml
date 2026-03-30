@@ -1,0 +1,7 @@
+components:
+  schemas:
+    taxCode:
+      type: string
+      description: >-
+        Kennzeichnung des Steuersatzes, bzw. Verfahrens. Details
+        Steuerkennzeichen

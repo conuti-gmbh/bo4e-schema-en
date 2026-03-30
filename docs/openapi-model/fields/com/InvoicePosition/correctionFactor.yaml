@@ -1,0 +1,6 @@
+components:
+  schemas:
+    correctionFactor:
+      type: number
+      format: float
+      description: Gibt ggf. einen Korrekturfaktor für die Menge an.

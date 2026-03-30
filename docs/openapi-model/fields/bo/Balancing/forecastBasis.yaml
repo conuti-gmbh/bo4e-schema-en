@@ -1,0 +1,5 @@
+components:
+  schemas:
+    forecastBasis:
+      $ref: ../../../enum/ForecastBasis.yaml#/components/schemas/ForecastBasis
+      description: Prognosegrundlage

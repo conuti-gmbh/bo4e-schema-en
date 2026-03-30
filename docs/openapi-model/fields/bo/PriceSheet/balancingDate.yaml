@@ -1,0 +1,6 @@
+components:
+  schemas:
+    balancingDate:
+      type: string
+      format: date-time
+      description: bilanzierungsdatum

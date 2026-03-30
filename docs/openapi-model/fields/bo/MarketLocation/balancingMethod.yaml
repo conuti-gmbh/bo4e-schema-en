@@ -1,0 +1,5 @@
+components:
+  schemas:
+    balancingMethod:
+      $ref: ../../../enum/BalancingMethod.yaml#/components/schemas/BalancingMethod
+      description: Bilanzierungsmethode

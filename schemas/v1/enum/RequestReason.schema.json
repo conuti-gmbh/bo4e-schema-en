@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragegrund.schema.json",
+  "title": "RequestReason",
+  "type": "string",
+  "enum": [
+    "DEMARCATION_OF_ENERGY_QUANTITIES",
+    "DEMARCATION",
+    "CHANGE_EVENT",
+    "INTERIM_READING",
+    "DIRECT_CONTRACT_MSB_TO",
+    "DIRECT_CONTRACT_MSB_ACCEPTED",
+    "CHANGE_IN_LOCATION_BUNDLE",
+    "NEW_CONFIGURATION",
+    "CONFIGURATION_UNCHANGED"
+  ],
+  "description": "Anfragegrund"
+}

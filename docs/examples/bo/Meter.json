@@ -1,0 +1,154 @@
+{
+  "boType": "METER",
+  "structureVersion": "1",
+  "meterNumber": "ZAEHLER_100110",
+  "sector": "WATER",
+  "meterCharacteristic": "BIDIRECTIONAL_METER",
+  "meterType": "DIAPHRAGM_GAS_METER",
+  "tariffType": "DEMAND_METERED",
+  "meterConstant": 26,
+  "calibrationUntil": "5054",
+  "meterManufacturer": {
+    "boType": "BUSINESS_PARTNER",
+    "structureVersion": "1",
+    "salutation": "Herr",
+    "name1": "Büscher",
+    "name2": "Markus",
+    "name3": "cupidatat sunt proident ut",
+    "name4": "minim veniam",
+    "vatId": "DE100000010",
+    "creditorId": "952826",
+    "emailAddress": "Ansgar.Keutel59@gmail.com",
+    "website": "https://unbekummert-rampe.de",
+    "commercialClassification": false,
+    "commercialRegisterNumber": "433597",
+    "courtOfRegistration": "West Amar",
+    "partnerAddress": {
+      "postalCode": "76695",
+      "city": "Franzstadt",
+      "street": "Von-Pettenkofer-Str.",
+      "houseNumber": "74b",
+      "poBox": "adipisicing officia",
+      "addressSupplement": "in",
+      "coSupplement": "commodo Excepteur do incididunt",
+      "countryCode": "CV",
+      "district": "Friedrichshafen",
+      "additionalInformation": {
+        "supplement1": "labore deserunt aliqua",
+        "supplement2": "cillum cupidatat",
+        "supplement3": "sed sit Lorem",
+        "supplement4": "enim voluptate",
+        "supplement5": "reprehenderit aliquip cupidatat labore ullamco"
+      }
+    },
+    "externalCustomerNumberSupplier": "810214",
+    "externalReferences": [
+      {
+        "externalReferenceName": "Kundennummer beim Lieferanten",
+        "externalReferenceValue": "0454294801"
+      }
+    ],
+    "businessPartnerRole": [
+      "OWNER"
+    ],
+    "contactChannel": [
+      "WRITTEN_LETTER"
+    ]
+  },
+  "gateway": "GATEWAY_010100",
+  "remoteSwitch": "NOT_PRESENT",
+  "measurementValueCapture": "MANUALLY_READ",
+  "meterTypeSpecification": "EDL21",
+  "mountingType": "PLUG_TECHNOLOGY",
+  "meterSize": "GAS_G4000",
+  "quantityConverterType": "TEMPERATURE_QUANTITY_CONVERTER",
+  "volumeCapture": "HIGH_FREQUENCY_PROBE",
+  "serialNumber": "0834482134",
+  "deviceAttribute": "MODEM_GSM_WITHOUT_LOAD_PROFILE",
+  "manufacturingDate": "8772",
+  "yearOfConstruction": "2317",
+  "meteringLocationId": "426426798762202149062176152380271",
+  "marketLocationId": "37314464690",
+  "devices": [
+    {
+      "deviceType": "BLOCK_CURRENT_TRANSFORMER",
+      "designation": "in elit",
+      "deviceNumber": "84852",
+      "deviceReference": "REF_111001",
+      "deviceProperties": {
+        "deviceType": "CONTROL_BOX",
+        "deviceAttribute": "TWO_TARIFF",
+        "volumeCapture": "HIGH_FREQUENCY_PROBE",
+        "serialNumber": "1408974564",
+        "manufacturingDate": "4716",
+        "yearOfConstruction": "6884",
+        "calibrationUntil": "0662",
+        "factor": 5.25
+      },
+      "volumeCapture": "HIGH_FREQUENCY_PROBE",
+      "additionalDeviceNumbers": [
+        "24403"
+      ]
+    }
+  ],
+  "meterRegisters": [
+    {
+      "meterRegisterId": "721815114",
+      "designation": "magna",
+      "direction": "FEED_OUT",
+      "obisCode": "quis anim",
+      "transformerFactor": 2,
+      "unit": "DAY",
+      "offPeakCapable": "NOT_OFF_PEAK_CAPABLE",
+      "consumptionType": [
+        "SB"
+      ],
+      "interruptibility": "UV",
+      "heatUsage": "HEAT_PUMP_COOLING",
+      "concessionFee": {
+        "rate": "SAS",
+        "costs": 3944408.666241288,
+        "category": "sunt mollit Duis"
+      },
+      "taxExempt": false,
+      "integerDigits": 4,
+      "decimalPlaces": 9,
+      "billingRelevant": true,
+      "numberOfReadings": 9,
+      "meteringTimes": {
+        "register": "magna dolor",
+        "meteringTimeDefinition": "nostrud voluptate ut elit",
+        "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
+      },
+      "configuration": "Ut aute sunt",
+      "meteringProduct": "Excepteur ut exercitation consequat",
+      "valueGranularity": "MONTHLY",
+      "necessitySecondMeasurement": "NOT_PRESENT",
+      "valueTransmissionPurpose": "PRESENT",
+      "typeElectricMobility": "LS",
+      "configurationProduct": "id non fugiat enim",
+      "noConfigurationProduct": true,
+      "loadCurveDefinition": "commodo",
+      "purposesOfUse": [
+        {
+          "marketRole": "UENB",
+          "purpose": [
+            "TRANSMISSION_TO_HKNR"
+          ]
+        }
+      ]
+    }
+  ],
+  "dataQuality": "DIFFERENCE_DATA",
+  "validityPeriod": {
+    "timeUnit": "SECOND",
+    "duration": 8,
+    "startDate": "1938-11-12T18:20:56.0Z",
+    "endDate": "1931-02-27T12:59:25.0Z",
+    "unit": "QUARTER",
+    "readingPeriod": "177454",
+    "billingPeriod": "443261",
+    "periodText": "ea",
+    "periodId": 6
+  }
+}

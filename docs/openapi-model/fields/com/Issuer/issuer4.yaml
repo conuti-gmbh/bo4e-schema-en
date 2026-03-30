@@ -1,0 +1,5 @@
+components:
+  schemas:
+    issuer4:
+      type: string
+      description: aussteller4

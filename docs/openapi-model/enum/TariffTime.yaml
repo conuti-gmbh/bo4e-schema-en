@@ -1,0 +1,10 @@
+components:
+  schemas:
+    TariffTime:
+      title: TariffTime
+      type: string
+      enum:
+        - TZ_STANDARD
+        - TZ_HT
+        - TZ_NT
+      description: Tarifzeit

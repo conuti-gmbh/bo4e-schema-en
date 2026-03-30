@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json",
+  "title": "Address",
+  "type": "object",
+  "properties": {
+    "postalCode": {
+      "type": "string",
+      "faker": "location.zipCode",
+      "description": "Postleitzahl"
+    },
+    "city": {
+      "type": "string",
+      "faker": "location.city",
+      "description": "Ort"
+    },
+    "street": {
+      "type": "string",
+      "faker": "location.street",
+      "description": "Strasse"
+    },
+    "houseNumber": {
+      "type": "string",
+      "faker": "location.buildingNumber",
+      "description": "Hausnummer und Ergänzung"
+    },
+    "poBox": {
+      "type": "string",
+      "description": "Postfach"
+    },
+    "addressSupplement": {
+      "type": "string",
+      "description": "Adresszusatz"
+    },
+    "coSupplement": {
+      "type": "string",
+      "description": "coErgaenzung"
+    },
+    "countryCode": {
+      "$ref": "../enum/CountryCode.schema.json",
+      "description": "Landescode"
+    },
+    "district": {
+      "type": "string",
+      "faker": "location.city",
+      "description": "Ortsteil"
+    },
+    "additionalInformation": {
+      "$ref": "../com/AddressSupplementInformation.schema.json"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json",
+  "title": "TariffInfo",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "TARIFF_INFO"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "provider": {
+      "$ref": "../bo/MarketParticipant.schema.json",
+      "description": "Der Marktteilnehmer (Lieferant), der diesen Tarif anbietet"
+    },
+    "providerName": {
+      "type": "string",
+      "description": "Der Name des Marktpartners, der den Tarif anbietet"
+    },
+    "applicableFrom": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Angabe des inklusiven Zeitpunkts, ab dem der Tarif bzw. der Preis angewendet und abgerechnet wird"
+    },
+    "remark": {
+      "type": "string",
+      "description": "Freitext"
+    },
+    "designation": {
+      "type": "string",
+      "description": "Name des Tarifs"
+    },
+    "energyMix": {
+      "$ref": "../com/EnergyMix.schema.json",
+      "description": "Der Energiemix, der für diesen Tarif gilt"
+    },
+    "customerTypes": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../enum/CustomerType.schema.json"
+      },
+      "description": "Kundentypen für den der Tarif gilt, z.B. Privatkunden"
+    },
+    "numberOfRegisters": {
+      "$ref": "../enum/NumberOfRegisters.schema.json",
+      "description": "Die Art des Tarifes, z.B. Eintarif oder Mehrtarif"
+    },
+    "sector": {
+      "$ref": "../enum/Sector.schema.json",
+      "description": "Strom oder Gas, etc."
+    },
+    "tariffAttributes": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../enum/TariffAttribute.schema.json"
+      },
+      "description": "Weitere Merkmale des Tarifs, z.B. Festpreis oder Vorkasse"
+    },
+    "tariffCategory": {
+      "$ref": "../enum/TariffCategory.schema.json",
+      "description": "Hinweis auf den Tariftyp, z.B. Grundversorgung oder Sondertarif"
+    },
+    "contractConditions": {
+      "$ref": "../com/ContractConditions.schema.json",
+      "description": "Mindestlaufzeiten und Kündigungsfristen zusammengefasst"
+    },
+    "website": {
+      "type": "string",
+      "description": "Internetseite auf dem der Tarif zu finden ist"
+    },
+    "temporalValidity": {
+      "$ref": "../com/TimePeriod.schema.json",
+      "description": "Angabe, in welchem Zeitraum der Tarif gültig ist"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

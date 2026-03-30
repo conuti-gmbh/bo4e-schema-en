@@ -1,0 +1,5 @@
+components:
+  schemas:
+    marketRole:
+      $ref: ../../../enum/MarketRole.yaml#/components/schemas/MarketRole
+      description: Gibt im Klartext die Bezeichnung der Marktrolle an.

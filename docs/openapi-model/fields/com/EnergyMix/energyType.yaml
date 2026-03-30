@@ -1,0 +1,5 @@
+components:
+  schemas:
+    energyType:
+      $ref: ../../../enum/Sector.yaml#/components/schemas/Sector
+      description: Strom oder Gas etc.

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    category:
+      type: string
+      description: Kategorie

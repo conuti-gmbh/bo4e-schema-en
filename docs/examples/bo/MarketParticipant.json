@@ -1,0 +1,103 @@
+{
+  "boType": "MARKET_PARTICIPANT",
+  "structureVersion": "1",
+  "businessPartnerRole": "CUSTOMER",
+  "salutation": "Herr",
+  "name1": "Kuprion",
+  "name2": "Esma",
+  "name3": "fugiat ut eu adipisicing",
+  "name4": "sint amet voluptate sit ullamco",
+  "partnerAddress": {
+    "postalCode": "91138",
+    "city": "Friedenbergburg",
+    "street": "Kopernikusstr.",
+    "houseNumber": "20a",
+    "poBox": "dolore ut",
+    "addressSupplement": "adipisicing mollit",
+    "coSupplement": "id Duis amet",
+    "countryCode": "RE",
+    "district": "Nord Philine",
+    "additionalInformation": {
+      "supplement1": "cillum Excepteur dolor",
+      "supplement2": "ad adipisicing laborum",
+      "supplement3": "veniam sed commodo",
+      "supplement4": "labore laboris esse in eiusmod",
+      "supplement5": "ullamco deserunt Duis cillum"
+    }
+  },
+  "commercialClassification": true,
+  "externalCustomerNumberSupplier": "in et adipisicing non",
+  "marketRole": "BIKO",
+  "roleCodeNumber": "110034895",
+  "roleCodeType": "DVGW",
+  "vatId": "DE001001000",
+  "taxNumber": "307266081",
+  "contactPerson": {
+    "boType": "CONTACT_PERSON",
+    "structureVersion": "1",
+    "lastName": "Dethloff",
+    "eMailAddress": "Alessia80@hotmail.com",
+    "phoneNumbers": [
+      {
+        "numberType": "PHONE_EXTENSION",
+        "phoneNumber": "(04070) 9907210"
+      }
+    ]
+  },
+  "makoAddress": "id eu",
+  "certificateDownloadLink": "https://narrensicher-parkhaus.com",
+  "courtOfRegistration": "Quentinscheid",
+  "commercialRegisterNumber": "332905",
+  "website": "https://freundlich-saugling.name/",
+  "faxNumber": "(0354) 545630022",
+  "communicationRole": "MMMA_PROCESSES",
+  "subContracted": true,
+  "communicationParameters": {
+    "targetAddress": {
+      "targetAddress1": "ut nostrud Duis voluptate",
+      "targetAddress2": "adipisicing ut incididunt in cupidatat",
+      "targetAddress3": "sint",
+      "targetAddress4": "fugiat",
+      "targetAddress5": "incididunt esse nulla occaecat"
+    },
+    "certificateIssuer": {
+      "certificateIssuer1": "esse dolore consequat",
+      "certificateIssuer2": "in et ea proident in",
+      "certificateIssuer3": "est in fugiat eiusmod aliquip",
+      "certificateIssuer4": "in deserunt dolor nostrud Lorem",
+      "certificateIssuer5": "laborum non id velit qui"
+    },
+    "certificateUser": {
+      "certificateUser1": "Lorem pariatur dolore",
+      "certificateUser2": "cillum sit mollit",
+      "certificateUser3": "nulla officia id",
+      "certificateUser4": "nisi",
+      "certificateUser5": "ad"
+    }
+  },
+  "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
+  "bankAccount": [
+    {
+      "purposeOfUse": "BV_PAYMENT_MSB_BILLING",
+      "iban": "SI73300595094660521",
+      "accountHolder": "Janin Burkhard",
+      "bic": "IREZNPU3",
+      "creditInstitution": "Salow AG"
+    }
+  ],
+  "reachability": [
+    {
+      "availability": "WEDNESDAY",
+      "time": "qui aliquip"
+    }
+  ],
+  "ipAddress": "0f22:cfab:a67e:0861:7f91:9ef4:af9b:a913",
+  "ipRange": {
+    "lowerLimit": "28.15.200.197",
+    "upperLimit": "bccc:bab0:d6d2:aad6:bebd:d7d8:256d:4e8e"
+  },
+  "assignmentFrom": "1954-08-30T06:15:47.0Z",
+  "assignmentTo": "1908-04-17T01:29:54.0Z",
+  "balancingGroup": "cillum",
+  "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION"
+}

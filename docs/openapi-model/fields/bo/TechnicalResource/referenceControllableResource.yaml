@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenceControllableResource:
+      type: string
+      description: referenzSteuerbareRessource

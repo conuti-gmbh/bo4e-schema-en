@@ -1,0 +1,36 @@
+{
+  "boType": "LOCATION_BUNDLE",
+  "structureVersion": "1",
+  "locationBundleStructureId": "11239309345",
+  "locationBundleNumber": -48020006,
+  "standardizedLocationBundleStructure": true,
+  "dataQuality": "DATA_PRESENT_IN_SYSTEM",
+  "validityPeriod": {
+    "timeUnit": "SECOND",
+    "duration": 5,
+    "startDate": "1907-11-21T03:03:01.0Z",
+    "endDate": "1940-08-04T07:15:36.0Z",
+    "unit": "HALF_YEAR",
+    "readingPeriod": "645835",
+    "billingPeriod": "339596",
+    "periodText": "cupidatat",
+    "periodId": 5
+  },
+  "assignmentObjectCode": [
+    {
+      "referenceLocationType": "MALO",
+      "referenceLocationId": "39449156925",
+      "upstreamLocationType": "MALO",
+      "upstreamLocationId": "56609062821",
+      "objectCode": [
+        {
+          "objectCode": "CODE_100011",
+          "locationBundleNumber": 9
+        }
+      ],
+      "referenceMarketLocationTechnicalResource": [
+        "93950310555"
+      ]
+    }
+  ]
+}

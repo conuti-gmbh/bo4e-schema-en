@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Interruptibility:
+      title: Interruptibility
+      type: string
+      enum:
+        - UV
+        - NUV
+      description: Unterbrechbarkeit

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json",
+  "title": "SwitchingTimeDefinition",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "SWITCHING_TIME_DEFINITION"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "beginDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "beginndatum"
+    },
+    "closingDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "endedatum"
+    },
+    "version": {
+      "type": "string",
+      "format": "date-time",
+      "description": "version"
+    },
+    "code": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 6
+        }
+      },
+      "description": "code"
+    },
+    "necessity": {
+      "$ref": "../enum/DefinitionsNecessity.schema.json"
+    },
+    "switchingTimes": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/SwitchingTime.schema.json"
+      },
+      "description": "schaltzeiten"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

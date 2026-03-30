@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json",
+  "title": "MeteringLocation",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "METERING_LOCATION"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "meteringLocationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      },
+      "description": "Die Messlokations-Identifikation. Das ist die frühere Zählpunktbezeichnung,\nz.B. DE 47108151234567"
+    },
+    "sector": {
+      "$ref": "../enum/Sector.schema.json",
+      "description": "Strom oder Gas."
+    },
+    "energyDirection": {
+      "$ref": "../enum/EnergyDirection.schema.json"
+    },
+    "meteringGridLevel": {
+      "$ref": "../enum/GridLevel.schema.json"
+    },
+    "meteringAreaNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "Die Nummer des Messgebietes in der ene't-Datenbank."
+    },
+    "responsibleMsbCodeNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "Codenummer des grundzuständigen Messstellenbetreibers, der für diese\nMesslokation zuständig ist.( Dieser ist immer dann Messstellenbetreiber, wenn\nkein anderer MSB die Einrichtungen an der Messlokation betreibt.)"
+    },
+    "meteringAddress": {
+      "$ref": "../com/Address.schema.json",
+      "description": "Die Adresse, an der die Messeinrichtungen zu finden sind.( Nur angeben, wenn\ndiese von der Adresse der Marktlokation abweicht.)\nAchtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein (entweder\neine Adresse oder eine GeoKoordinate oder eine Katasteradresse."
+    },
+    "balancingMethod": {
+      "$ref": "../enum/BalancingMethod.schema.json",
+      "description": "Bilanzierungsmethode"
+    },
+    "meteringPointOperationBillingNna": {
+      "type": "boolean",
+      "description": "Dieser Wert ist true, falls die Abrechnungs des Messstellenbetriebs die Netznutzungsabrechnung enthält. false\nandernfalls"
+    },
+    "gasQuality": {
+      "$ref": "../enum/GasQuality.schema.json",
+      "description": "gasqualitaet für EDIFACT mapping"
+    },
+    "lossFactor": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "verlustfaktor für EDIFACT mapping"
+    },
+    "operationalState": {
+      "$ref": "../enum/OperationalState.schema.json"
+    },
+    "readingCardRecipient": {
+      "$ref": "../bo/BusinessPartner.schema.json"
+    },
+    "referenceMarketLocationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "referenzMarktlokationsId"
+    },
+    "usageScope": {
+      "$ref": "../enum/UsageScope.schema.json"
+    },
+    "futureReportingPoint": {
+      "type": "boolean",
+      "description": "zukuenftigerMeldepunkt"
+    },
+    "locationAssignment": {
+      "$ref": "../enum/LocationAssignment.schema.json"
+    },
+    "involvedMarketPartner": {
+      "$ref": "../bo/MarketParticipant.schema.json"
+    },
+    "devices": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/Device.schema.json"
+      },
+      "description": "Liste der Geräte, die zu diesem Zähler gehören."
+    },
+    "meteringService": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/Service.schema.json"
+      },
+      "description": "Liste der Messdienstleistungen, die zu dieser Messstelle gehört."
+    },
+    "meteringLocationMeter": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "faker": {
+          "string.binary": {
+            "prefix": "ZAEHLER_",
+            "length": 3
+          }
+        }
+      },
+      "description": "Zähler, die zu dieser Messlokation gehören. Details"
+    },
+    "meterRegisters": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/MeterRegister.schema.json"
+      },
+      "description": "Die Zählwerke des Zählers."
+    },
+    "marketRoles": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../bo/MarketParticipant.schema.json"
+      },
+      "description": "marktrollen für EDIFACT mapping"
+    },
+    "dataQuality": {
+      "$ref": "../enum/DataQuality.schema.json"
+    },
+    "validityPeriod": {
+      "$ref": "../com/TimePeriod.schema.json"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

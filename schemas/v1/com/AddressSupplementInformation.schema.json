@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AdresszusatzInformation.schema.json",
+  "title": "AddressSupplementInformation",
+  "type": "object",
+  "properties": {
+    "supplement1": {
+      "type": "string",
+      "description": "Adresszusatz 1"
+    },
+    "supplement2": {
+      "type": "string",
+      "description": "Adresszusatz 2"
+    },
+    "supplement3": {
+      "type": "string",
+      "description": "Adresszusatz 3"
+    },
+    "supplement4": {
+      "type": "string",
+      "description": "Adresszusatz 4"
+    },
+    "supplement5": {
+      "type": "string",
+      "description": "Adresszusatz 5"
+    }
+  }
+}

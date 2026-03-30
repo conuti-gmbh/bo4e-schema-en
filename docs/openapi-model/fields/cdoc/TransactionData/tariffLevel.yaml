@@ -1,0 +1,5 @@
+components:
+  schemas:
+    tariffLevel:
+      description: Tarifstufe / QTY
+      $ref: ../../../enum/TariffLevel.yaml#/components/schemas/TariffLevel

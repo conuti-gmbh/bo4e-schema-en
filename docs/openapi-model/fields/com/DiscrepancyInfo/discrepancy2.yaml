@@ -1,0 +1,5 @@
+components:
+  schemas:
+    discrepancy2:
+      type: string
+      description: Abweichung Zeile 2

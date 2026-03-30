@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json",
+  "title": "OfferPosition",
+  "type": "object",
+  "properties": {
+    "positionDesignation": {
+      "type": "string",
+      "description": "Bezeichnung der Position"
+    },
+    "itemQuantity": {
+      "$ref": "../com/Quantity.schema.json",
+      "description": "Menge der Position"
+    },
+    "positionPrice": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/Price.schema.json"
+      },
+      "description": "Preisangabe zur Position"
+    },
+    "positionAmount": {
+      "$ref": "../com/Amount.schema.json",
+      "description": "Betrag der Postition"
+    },
+    "priceKeyMaster": {
+      "type": "string",
+      "description": "Preisschlüsselstamm"
+    },
+    "articleNumber": {
+      "$ref": "../enum/BDEWArticleNumber.schema.json",
+      "description": "BDEW Artikelnummer"
+    },
+    "articleId": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "ArtikelId gem. BDEW"
+    },
+    "offerable": {
+      "type": "boolean"
+    },
+    "freeText": {
+      "type": "string",
+      "description": "Zusätzliche Informationen (für allgemeine Hinweise)"
+    },
+    "referenceCatalogNumber": {
+      "$ref": "../com/CatalogReference.schema.json",
+      "description": "APF Verweis auf Katalognummer"
+    },
+    "involvedMarketPartner": {
+      "$ref": "../bo/MarketParticipant.schema.json",
+      "description": "Beteiligter Marktpartner"
+    },
+    "referenceMarketLocationIds": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Referenz auf ID weiterer Marktlokationen"
+    }
+  }
+}

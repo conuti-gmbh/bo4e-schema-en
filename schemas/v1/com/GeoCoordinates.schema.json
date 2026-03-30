@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geokoordinaten.schema.json",
+  "title": "GeoCoordinates",
+  "type": "object",
+  "properties": {
+    "latitude": {
+      "type": "string",
+      "description": "Gibt den Breitengrad eines entsprechenden Ortes an."
+    },
+    "longitude": {
+      "type": "string",
+      "description": "Gibt den Längengrad eines entsprechenden Ortes an."
+    },
+    "eastingValue": {
+      "type": "string",
+      "description": "Gibt den Ostwert eines entsprechenden Ortes an."
+    },
+    "northValue": {
+      "type": "string",
+      "description": "Gibt den Nordwert eines entsprechenden Ortes an."
+    },
+    "zone": {
+      "$ref": "../enum/Zone.schema.json"
+    },
+    "northing": {
+      "type": "string",
+      "description": "Gibt den Hochwert eines entsprechenden Ortes an."
+    },
+    "easting": {
+      "type": "string",
+      "description": "Gibt den Rechtswert eines entsprechenden Ortes an."
+    }
+  }
+}

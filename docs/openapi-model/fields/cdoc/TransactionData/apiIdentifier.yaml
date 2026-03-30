@@ -1,0 +1,5 @@
+components:
+  schemas:
+    apiIdentifier:
+      description: Identifikator des fachlichen API-Webdienstes
+      type: string

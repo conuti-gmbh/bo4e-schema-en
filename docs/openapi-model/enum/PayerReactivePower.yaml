@@ -1,0 +1,10 @@
+components:
+  schemas:
+    PayerReactivePower:
+      title: PayerReactivePower
+      type: string
+      enum:
+        - CONNECTION_USER
+        - SUPPLIER
+        - NOT_DEFINED
+      description: ZahlerBlindarbeit

@@ -1,0 +1,13 @@
+components:
+  schemas:
+    generationType:
+      $ref: ../../../enum/GenerationType.yaml#/components/schemas/GenerationType
+      description: |-
+        Art der Erzeugung der Energie. Details Erzeugungsart
+        Beispiel: CAV+ZF5'
+        Erzeugungsart:
+            ZF5: Solar
+            ZF6: Wind
+            ZG0: Gas
+            ZG1: Wasser
+            ZG5: Sonstige Erzeugungsart

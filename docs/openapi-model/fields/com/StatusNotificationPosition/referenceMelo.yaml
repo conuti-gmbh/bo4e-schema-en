@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenceMelo:
+      type: string
+      description: referenzMelo

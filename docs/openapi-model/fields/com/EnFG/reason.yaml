@@ -1,0 +1,9 @@
+components:
+  schemas:
+    reason:
+      type: array
+      items:
+        $ref: >-
+          ../../../enum/BasisForLevyReductionReason.yaml#/components/schemas/BasisForLevyReductionReason
+      description: Grund der Umlagenverringerung
+      nullable: true

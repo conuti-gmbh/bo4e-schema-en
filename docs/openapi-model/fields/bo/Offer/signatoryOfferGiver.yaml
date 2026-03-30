@@ -1,0 +1,5 @@
+components:
+  schemas:
+    signatoryOfferGiver:
+      $ref: ../../../bo/ContactPerson.yaml#/components/schemas/ContactPerson
+      description: Link auf die Person, die als Angebotsgeber das Angebots ausgestellt hat.

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    contractEnd:
+      description: Datum Vertragsende / DTM+93
+      type: string
+      format: date-time

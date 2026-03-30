@@ -1,0 +1,8 @@
+components:
+  schemas:
+    bankAccount:
+      type: array
+      items:
+        $ref: ../../../com/BankAccount.yaml#/components/schemas/BankAccount
+      description: Bankverbindung
+      nullable: true

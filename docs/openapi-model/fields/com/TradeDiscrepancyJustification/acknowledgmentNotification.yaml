@@ -1,0 +1,5 @@
+components:
+  schemas:
+    acknowledgmentNotification:
+      type: string
+      description: Nachrichtennummer aus der Anerkennungsmeldung (APERAK)

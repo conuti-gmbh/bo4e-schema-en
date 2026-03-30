@@ -1,0 +1,33 @@
+{
+  "boType": "AD_HOC_CONTROL_CHANNEL",
+  "structureVersion": "1",
+  "configurationProduct": "69513048084984",
+  "targetAddress": {
+    "targetAddress1": "officia velit quis laboris",
+    "targetAddress2": "id laboris",
+    "targetAddress3": "laborum proident",
+    "targetAddress4": "do dolor amet dolore Excepteur",
+    "targetAddress5": "adipisicing cupidatat nulla"
+  },
+  "issuer": {
+    "issuer1": "anim id amet ea Ut",
+    "issuer2": "amet ad enim sunt deserunt",
+    "issuer3": "eiusmod culpa mollit sint ipsum",
+    "issuer4": "nulla sint velit",
+    "issuer5": "dolore commodo ex consectetur in"
+  },
+  "certificateUser": {
+    "certificateUser1": "non proident magna ipsum eiusmod",
+    "certificateUser2": "sit veniam do deserunt commodo",
+    "certificateUser3": "veniam nostrud eiusmod consectetur magna",
+    "certificateUser4": "velit",
+    "certificateUser5": "qui"
+  },
+  "IpAddressClsDevice": {
+    "IpAddressClsDevice1": "nostrud aliquip exercitation veniam ut",
+    "IpAddressClsDevice2": "dolore esse ut fugiat velit",
+    "IpAddressClsDevice3": "commodo exercitation minim fugiat do",
+    "IpAddressClsDevice4": "sed magna culpa reprehenderit aute",
+    "IpAddressClsDevice5": "veniam Lorem"
+  }
+}

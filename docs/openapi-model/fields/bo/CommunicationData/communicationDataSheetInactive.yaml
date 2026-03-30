@@ -1,0 +1,5 @@
+components:
+  schemas:
+    communicationDataSheetInactive:
+      type: boolean
+      description: kommunikationsDatenBlattInaktiv

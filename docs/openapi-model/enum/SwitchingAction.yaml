@@ -1,0 +1,9 @@
+components:
+  schemas:
+    SwitchingAction:
+      title: SwitchingAction
+      type: string
+      enum:
+        - POWER_ON
+        - POWER_OFF
+      description: Schalthandlung

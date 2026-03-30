@@ -1,0 +1,83 @@
+{
+  "boType": "VALUES_BY_TYPE2",
+  "structureVersion": "1",
+  "configurationProduct": "Duis aliquip do",
+  "meteringProduct": "et ipsum dolor anim ea",
+  "targetAddress": {
+    "targetAddress1": "fugiat cupidatat irure Duis consequat",
+    "targetAddress2": "in elit in sunt",
+    "targetAddress3": "nisi velit cupidatat amet",
+    "targetAddress4": "minim eu ipsum ad",
+    "targetAddress5": "aliqua laboris et"
+  },
+  "issuer": {
+    "issuer1": "non sed pariatur eiusmod",
+    "issuer2": "aute Duis incididunt ad anim",
+    "issuer3": "Duis officia non proident",
+    "issuer4": "laboris sunt",
+    "issuer5": "est ex cillum deserunt laborum"
+  },
+  "certificateUser": {
+    "certificateUser1": "magna ad",
+    "certificateUser2": "sint amet velit in",
+    "certificateUser3": "amet magna et non",
+    "certificateUser4": "ex fugiat amet",
+    "certificateUser5": "ea eu ut proident"
+  },
+  "configurationChangeOption": "REQUIRED",
+  "thresholds": [
+    {
+      "upperThreshold": 14,
+      "lowerThreshold": 1.5,
+      "configurationProduct": "KONF_1001"
+    }
+  ],
+  "meterRegisters": [
+    {
+      "meterRegisterId": "326204528",
+      "designation": "Lorem elit exercitation tempor Duis",
+      "direction": "FEED_OUT",
+      "obisCode": "ut dolore irure",
+      "transformerFactor": 3.5,
+      "unit": "KVAR",
+      "offPeakCapable": "OFF_PEAK_CAPABLE",
+      "consumptionType": [
+        "KL"
+      ],
+      "interruptibility": "NUV",
+      "heatUsage": "STORAGE_HEATING",
+      "concessionFee": {
+        "rate": "SAS",
+        "costs": -54584383.42589731,
+        "category": "et incididunt"
+      },
+      "taxExempt": false,
+      "integerDigits": 9,
+      "decimalPlaces": 2,
+      "billingRelevant": true,
+      "numberOfReadings": 5,
+      "meteringTimes": {
+        "register": "nulla in",
+        "meteringTimeDefinition": "elit aliquip",
+        "offPeakCapable": "OFF_PEAK_CAPABLE"
+      },
+      "configuration": "aliqua in amet anim voluptate",
+      "meteringProduct": "dolor ad sit id est",
+      "valueGranularity": "SEMI_ANNUAL",
+      "necessitySecondMeasurement": "NOT_PRESENT",
+      "valueTransmissionPurpose": "NOT_PRESENT",
+      "typeElectricMobility": "LS",
+      "configurationProduct": "pariatur in sunt aute",
+      "noConfigurationProduct": true,
+      "loadCurveDefinition": "commodo eiusmod reprehenderit",
+      "purposesOfUse": [
+        {
+          "marketRole": "MSBA",
+          "purpose": [
+            "NO_PURPOSE_OF_USE_PRESENT"
+          ]
+        }
+      ]
+    }
+  ]
+}

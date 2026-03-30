@@ -1,0 +1,5 @@
+components:
+  schemas:
+    interruptible:
+      type: boolean
+      description: unterbrechbar

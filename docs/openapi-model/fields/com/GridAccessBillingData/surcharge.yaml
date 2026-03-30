@@ -1,0 +1,6 @@
+components:
+  schemas:
+    surcharge:
+      type: number
+      format: float
+      description: Zuschlag

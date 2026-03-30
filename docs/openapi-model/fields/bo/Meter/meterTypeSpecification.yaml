@@ -1,0 +1,6 @@
+components:
+  schemas:
+    meterTypeSpecification:
+      $ref: >-
+        ../../../enum/MeterTypeSpecification.yaml#/components/schemas/MeterTypeSpecification
+      description: Typisierung des Zählers (spezifikation für EHZ und MME)

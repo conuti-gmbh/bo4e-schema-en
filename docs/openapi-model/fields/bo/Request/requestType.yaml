@@ -1,0 +1,5 @@
+components:
+  schemas:
+    requestType:
+      $ref: ../../../enum/RequestType.yaml#/components/schemas/RequestType
+      description: Typ/Art der Anfrage (ORDERS ORDRSP IMD 7081)

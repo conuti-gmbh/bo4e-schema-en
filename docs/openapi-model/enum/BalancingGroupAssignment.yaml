@@ -1,0 +1,9 @@
+components:
+  schemas:
+    BalancingGroupAssignment:
+      title: BalancingGroupAssignment
+      type: string
+      enum:
+        - SUCCESSFUL
+        - FAILED
+      description: Bilanzkreiszuordnung

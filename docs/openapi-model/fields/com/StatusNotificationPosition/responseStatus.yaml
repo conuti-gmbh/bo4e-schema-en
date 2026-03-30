@@ -1,0 +1,5 @@
+components:
+  schemas:
+    responseStatus:
+      type: string
+      description: antwortstatus

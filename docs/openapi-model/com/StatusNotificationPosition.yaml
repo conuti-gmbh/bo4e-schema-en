@@ -1,0 +1,51 @@
+components:
+  schemas:
+    StatusNotificationPosition:
+      title: StatusNotificationPosition
+      type: object
+      properties:
+        positionNumber:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/positionNumber.yaml#/components/schemas/positionNumber
+        processingDate:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/processingDate.yaml#/components/schemas/processingDate
+        usageFrom:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/usageFrom.yaml#/components/schemas/usageFrom
+        usageTo:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/usageTo.yaml#/components/schemas/usageTo
+        endDate:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/endDate.yaml#/components/schemas/endDate
+        orderStatus:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/orderStatus.yaml#/components/schemas/orderStatus
+        statusOccasion:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/statusOccasion.yaml#/components/schemas/statusOccasion
+        responseStatus:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/responseStatus.yaml#/components/schemas/responseStatus
+        errorDescription:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/errorDescription.yaml#/components/schemas/errorDescription
+        justification:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/justification.yaml#/components/schemas/justification
+        locationId:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/locationId.yaml#/components/schemas/locationId
+        referenceMelo:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/referenceMelo.yaml#/components/schemas/referenceMelo
+        generalInformation:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/generalInformation.yaml#/components/schemas/generalInformation
+        statusChangeTimestamp:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/statusChangeTimestamp.yaml#/components/schemas/statusChangeTimestamp
+        orderStatusList:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/orderStatusList.yaml#/components/schemas/orderStatusList

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    surchargeDiscountValue:
+      type: number
+      format: float
+      description: aufAbschlagswert

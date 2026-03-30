@@ -1,0 +1,5 @@
+components:
+  schemas:
+    deviceProperties:
+      $ref: ../../../com/DeviceProperties.yaml#/components/schemas/DeviceProperties
+      description: Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS.

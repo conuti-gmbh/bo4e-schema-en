@@ -1,0 +1,12 @@
+{
+  "boType": "CONTACT_PERSON",
+  "structureVersion": "1",
+  "lastName": "Riester",
+  "eMailAddress": "Madleen_Balkow@gmail.com",
+  "phoneNumbers": [
+    {
+      "numberType": "MOBILE_NUMBER",
+      "phoneNumber": "+49-9842-46346845"
+    }
+  ]
+}

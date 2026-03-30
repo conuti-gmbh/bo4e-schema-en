@@ -1,0 +1,9 @@
+components:
+  schemas:
+    UsageScope:
+      title: UsageScope
+      type: string
+      enum:
+        - METERING_LOCATION_PROCESSUALLY_HANDLED
+        - METERING_LOCATION_LOCATION_BUNDLE
+      description: Verwendungsumfang

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    MeteringTimeFrequency:
+      title: MeteringTimeFrequency
+      type: string
+      enum:
+        - ONE_TIME
+        - ANNUAL
+      description: HaeufigkeitZaehlzeit

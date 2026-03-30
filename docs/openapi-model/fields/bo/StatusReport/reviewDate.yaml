@@ -1,0 +1,6 @@
+components:
+  schemas:
+    reviewDate:
+      type: string
+      format: date-time
+      description: Pruefdatum (wann wurde der Pruefgegenstand geprüft)

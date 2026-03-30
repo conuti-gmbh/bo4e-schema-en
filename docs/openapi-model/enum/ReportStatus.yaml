@@ -1,0 +1,9 @@
+components:
+  schemas:
+    ReportStatus:
+      title: ReportStatus
+      type: string
+      enum:
+        - SUCCESSFUL
+        - ERROR
+      description: BerichtStatus

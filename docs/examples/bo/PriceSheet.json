@@ -1,0 +1,76 @@
+{
+  "boType": "PRICE_SHEET",
+  "structureVersion": "1",
+  "designation": "in in culpa consectetur",
+  "validity": {
+    "timeUnit": "YEAR",
+    "duration": 5,
+    "startDate": "1909-06-03T19:16:17.0Z",
+    "endDate": "1958-01-29T05:45:51.0Z",
+    "unit": "QUARTER_HOUR",
+    "readingPeriod": "518281",
+    "billingPeriod": "141417",
+    "periodText": "laborum est in Lorem",
+    "periodId": 6
+  },
+  "priceStatus": "FINAL",
+  "sector": "GAS",
+  "priceGridOperatorCodeNumber": "culpa Excepteur",
+  "balancingDate": "1936-05-12T15:59:30.0Z",
+  "controlZone": "anim Ut consequat",
+  "performanceType": "ABLAV_LEVY",
+  "notUsed": false,
+  "pricePositions": [
+    {
+      "calculationMethod": "LOAD_PROFILE_ANNUAL_CONSUMPTION",
+      "performanceType": "METERING_SERVICE_INCLUDING_MEASUREMENT",
+      "serviceDesignation": "POG_CONSUMPTION_IMS_3K_TO_4K",
+      "priceUnit": "EUR",
+      "referenceQuantity": "W",
+      "timeBasis": "SECOND",
+      "tariffTime": "TZ_HT",
+      "bdewArticleNumber": "LOCKING_COSTS",
+      "zoningSize": "COUNT",
+      "priceKeyMaster": "ut laborum Duis",
+      "positionNumber": 7,
+      "meteringLevel": "ND",
+      "description": "Ut anim Duis",
+      "descriptionFormat": "CODE",
+      "processingPeriod": {
+        "timeUnit": "HOUR",
+        "duration": 3,
+        "startDate": "1905-01-22T08:16:18.0Z",
+        "endDate": "1947-08-14T01:36:32.0Z",
+        "unit": "WEEK",
+        "readingPeriod": "924291",
+        "billingPeriod": "616029",
+        "periodText": "cillum esse aliqua",
+        "periodId": 2
+      },
+      "articleId": "1199747595",
+      "surchargesDiscounts": [
+        {
+          "designation": "nisi sunt",
+          "description": "velit anim amet",
+          "surchargeDiscountType": "ABSOLUTE",
+          "surchargeDiscountValue": 3.5,
+          "surchargeDiscountCurrency": "CT"
+        }
+      ],
+      "priceSteps": [
+        {
+          "unitPrice": 2,
+          "tierLimitFrom": 7.5,
+          "tierLimitTo": 4.5,
+          "sigmoidParameter": {
+            "a": 3,
+            "b": 6.75,
+            "c": 2,
+            "d": 6.5
+          },
+          "unit": "MONTH"
+        }
+      ]
+    }
+  ]
+}

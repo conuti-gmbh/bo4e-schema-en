@@ -1,0 +1,8 @@
+components:
+  schemas:
+    loadProfiles:
+      type: array
+      items:
+        $ref: ../../../com/LoadProfile.yaml#/components/schemas/LoadProfile
+      description: Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)
+      nullable: true

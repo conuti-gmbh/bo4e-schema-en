@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json",
+  "title": "Meter",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "METER"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "meterNumber": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "ZAEHLER_",
+          "length": 6
+        }
+      },
+      "description": "Nummerierung des Zählers, vergeben durch den Messstellenbetreiber"
+    },
+    "sector": {
+      "$ref": "../enum/Sector.schema.json",
+      "description": "Strom oder Gas."
+    },
+    "meterCharacteristic": {
+      "$ref": "../enum/MeterCharacteristic.schema.json",
+      "description": "Spezifikation die Richtung des Zählers betreffend."
+    },
+    "meterType": {
+      "$ref": "../enum/MeterType.schema.json",
+      "description": "Typisierung des Zählers"
+    },
+    "tariffType": {
+      "$ref": "../enum/TariffType.schema.json",
+      "description": "Spezifikation bezüglich unterstützter Tarifarten."
+    },
+    "meterConstant": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.5,
+          "min": 10,
+          "max": 30
+        }
+      },
+      "description": "Zählerkonstante auf dem Zähler."
+    },
+    "calibrationUntil": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 4
+      },
+      "description": "Bis zu diesem Datum ist der Zähler geeicht."
+    },
+    "meterManufacturer": {
+      "$ref": "../bo/BusinessPartner.schema.json",
+      "description": "Der Hersteller des Zählers. Details Geschaeftspartner"
+    },
+    "gateway": {
+      "type": "string",
+      "description": "Angabe eines SMGW, mit dem der Zaehler parametrisiert ist",
+      "faker": {
+        "string.binary": {
+          "prefix": "GATEWAY_",
+          "length": 6
+        }
+      }
+    },
+    "remoteSwitch": {
+      "$ref": "../enum/RemoteSwitch.schema.json",
+      "description": "Fernschaltung"
+    },
+    "measurementValueCapture": {
+      "$ref": "../enum/MeasurementValueCapture.schema.json",
+      "description": "Messwerterfassung am Zählpunkt"
+    },
+    "meterTypeSpecification": {
+      "$ref": "../enum/MeterTypeSpecification.schema.json",
+      "description": "Typisierung des Zählers (spezifikation für EHZ und MME)"
+    },
+    "mountingType": {
+      "$ref": "../enum/MountingType.schema.json",
+      "description": "Befestigungsart"
+    },
+    "meterSize": {
+      "$ref": "../enum/DeviceAttribute.schema.json",
+      "description": "Zaehlergroesse"
+    },
+    "quantityConverterType": {
+      "$ref": "../enum/QuantityConverterType.schema.json"
+    },
+    "volumeCapture": {
+      "$ref": "../enum/VolumeCapture.schema.json"
+    },
+    "serialNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "serialnummer"
+    },
+    "deviceAttribute": {
+      "$ref": "../enum/DeviceAttribute.schema.json",
+      "description": "Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc.. Details Geraetemerkmal"
+    },
+    "manufacturingDate": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 4
+      },
+      "description": "herstellungsdatum"
+    },
+    "yearOfConstruction": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 4
+      },
+      "$comment": "DTM+Z03",
+      "description": "baujahr"
+    },
+    "meteringLocationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      },
+      "description": "messlokationsId"
+    },
+    "marketLocationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "marktlokationsId"
+    },
+    "devices": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/Device.schema.json"
+      },
+      "description": "Liste der Geräte, die zu diesem Zähler gehören."
+    },
+    "meterRegisters": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/MeterRegister.schema.json"
+      },
+      "description": "Die Zählwerke des Zählers."
+    },
+    "dataQuality": {
+      "$ref": "../enum/DataQuality.schema.json"
+    },
+    "validityPeriod": {
+      "$ref": "../com/TimePeriod.schema.json"
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

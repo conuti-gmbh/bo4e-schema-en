@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json",
+  "title": "Product",
+  "type": "object",
+  "properties": {
+    "productCode": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 6
+        }
+      },
+      "description": "produktCode"
+    },
+    "productAttributeCode": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 6
+        }
+      },
+      "description": "codeProdukteigenschaft"
+    },
+    "valueDetails": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      },
+      "description": "wertedetails"
+    }
+  }
+}
