@@ -2,11 +2,3 @@ components:
   schemas:
     storageType:
       $ref: ../../../enum/StorageType.yaml#/components/schemas/StorageType
-      description: |-
-        Art der speicher. Details Speicherart
-        Beispiel: CAV+ZF7'
-        Speicherart:
-            ZF7: Wasserstoffspeicher
-            ZF8: Pumpspeicher
-            ZF9: Batteriespeicher
-            ZG6: Sonstige Speicherart

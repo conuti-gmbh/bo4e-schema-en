@@ -2,4 +2,3 @@ components:
   schemas:
     calibrationUntil:
       type: string
-      description: Eichgültigkeit

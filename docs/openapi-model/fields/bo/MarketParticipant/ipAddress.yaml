@@ -2,4 +2,3 @@ components:
   schemas:
     ipAddress:
       type: string
-      description: ipAdresse

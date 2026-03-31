@@ -2,4 +2,3 @@ components:
   schemas:
     transactionReferenceNumber:
       type: string
-      description: transaktionsReferenznummer

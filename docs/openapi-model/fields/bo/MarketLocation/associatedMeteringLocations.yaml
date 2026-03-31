@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/MeteringLocationAssignment.yaml#/components/schemas/MeteringLocationAssignment
-      description: Aufzählung der Messlokationen, die zu dieser Marktlokation gehören.
       nullable: true

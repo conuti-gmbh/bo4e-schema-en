@@ -3,6 +3,3 @@ components:
     calculationMethod:
       $ref: >-
         ../../../enum/CalculationMethod.yaml#/components/schemas/CalculationMethod
-      description: >-
-        Das Modell, das der Preisbildung zugrunde liegt. Details
-        Kalkulationsmethode

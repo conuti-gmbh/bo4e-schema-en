@@ -43,4 +43,3 @@ components:
         - UNLOCKING_RLM
         - REMINDER_COSTS
         - COLLECTION_COSTS
-      description: Auflistung möglicher abzurechnender Dienstleistungen

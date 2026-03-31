@@ -1,5 +1,4 @@
 components:
   schemas:
     discrepancyInfo:
-      description: Freitext Abweichung / FTX+ABO
       type: string

@@ -2,8 +2,3 @@ components:
   schemas:
     meteringLocationId:
       type: string
-      description: >-
-        Die Messlokations-Identifikation. Das ist die frühere
-        Zählpunktbezeichnung,
-
-        z.B. DE 47108151234567

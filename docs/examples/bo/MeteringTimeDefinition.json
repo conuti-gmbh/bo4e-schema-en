@@ -1,29 +1,29 @@
 {
   "boType": "METERING_TIME_DEFINITION",
   "structureVersion": "1",
-  "beginDate": "1943-08-30T11:22:53.0Z",
-  "closingDate": "1924-04-10T06:58:40.0Z",
-  "version": "1958-12-20T02:12:52.0Z",
-  "necessity": "METERING_TIME_DEFINITIONS_USED",
-  "versionSpecification": "VERSION_101010",
-  "code": "CODE_110101",
+  "beginDate": "1924-07-12T10:10:02.0Z",
+  "closingDate": "1901-01-01T13:10:29.0Z",
+  "version": "1912-07-27T02:24:26.0Z",
+  "necessity": "METERING_TIME_DEFINITIONS_NOT_USED",
+  "versionSpecification": "VERSION_101000",
+  "code": "CODE_111011",
   "meteringTimes": [
     {
-      "code": "CODE_110001",
+      "code": "CODE_010011",
       "frequency": "ANNUAL",
-      "transmissibility": "ELECTRONIC",
-      "peakLoadDetermination": "NO_USE_OF_PEAK_LOAD_WINDOW",
-      "isOrderable": true,
-      "typeValue": "HEAT_PUMP",
-      "descriptionType": "aliquip esse adipisicing eiusmod mollit",
-      "changeTimestamp": "1938-01-19T18:10:58.0Z",
-      "register": "officia occaecat"
+      "transmissibility": "NON_ELECTRONIC",
+      "peakLoadDetermination": "USE_OF_PEAK_LOAD_WINDOW",
+      "isOrderable": false,
+      "typeValue": "PEAK_LOAD_TIME_WINDOW",
+      "descriptionType": "sit ullamco eiusmod quis",
+      "changeTimestamp": "1968-01-13T12:44:44.0Z",
+      "register": "exercitation"
     }
   ],
   "meteringTimeRegister": [
     {
-      "register": "cillum in consectetur sunt culpa",
-      "meteringTimeDefinition": "aute",
+      "register": "consequat velit ut sint",
+      "meteringTimeDefinition": "id irure aute",
       "offPeakCapable": "OFF_PEAK_CAPABLE"
     }
   ]

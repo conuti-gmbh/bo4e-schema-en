@@ -2,4 +2,3 @@ components:
   schemas:
     gridAreaNumber:
       type: string
-      description: netzgebietNr

@@ -3,4 +3,3 @@ components:
     frequency:
       $ref: >-
         ../../../enum/MeteringTimeFrequency.yaml#/components/schemas/MeteringTimeFrequency
-      description: Häufigkeit der Übermittlung

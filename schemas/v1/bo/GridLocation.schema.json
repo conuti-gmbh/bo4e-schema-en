@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/GridLocation.schema.json",
   "title": "GridLocation",
   "type": "object",
   "properties": {
@@ -10,31 +10,25 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "gridLocationId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "Identifikationsnummer einer Netzlokation, an der Energie entweder\nverbraucht, oder erzeugt wird (Like MarktlokationsId Marktlokation)"
+      }
     },
     "sector": {
-      "$ref": "../enum/Sector.schema.json",
-      "description": "Sparte der Netzlokation, z.B. Gas oder Strom."
+      "$ref": "../enum/Sector.schema.json"
     },
     "gridConnectionPower": {
-      "type": "string",
-      "description": "Netzanschlussleistungsmenge der Netzlokation"
+      "type": "string"
     },
     "responsibleMsbCodeNumber": {
-      "type": "string",
-      "description": "Codenummer des grundzuständigen Messstellenbetreibers, der für diese\nNetzlokation zuständig ist."
+      "type": "string"
     },
     "controlChannel": {
-      "type": "boolean",
-      "description": "Ob ein Steuerkanal der Netzlokation zugeordnet ist und somit die Netzlokation gesteuert\nwerden kann.\nZF2: Kein Steuerkanal vorhanden\nZF3: Steuerkanal vorhanden"
+      "type": "boolean"
     },
     "locationAssignment": {
       "$ref": "../enum/LocationAssignment.schema.json"
@@ -46,16 +40,13 @@
       "$ref": "../bo/MarketParticipant.schema.json"
     },
     "configurationProduct": {
-      "type": "string",
-      "description": "konfigurationsprodukt"
+      "type": "string"
     },
     "noConfigurationProduct": {
-      "type": "boolean",
-      "description": "keinKonfigurationsprodukt"
+      "type": "boolean"
     },
     "loadCurveDefinition": {
-      "type": "string",
-      "description": "Code der Zugeordnete Leistungskurvendefinition für das Objekt"
+      "type": "string"
     },
     "marketRoles": {
       "type": [
@@ -64,8 +55,7 @@
       ],
       "items": {
         "$ref": "../bo/MarketParticipant.schema.json"
-      },
-      "description": "marktrollen"
+      }
     },
     "meterRegisters": {
       "type": [
@@ -74,8 +64,7 @@
       ],
       "items": {
         "$ref": "../com/MeterRegister.schema.json"
-      },
-      "description": "zaehlwerke"
+      }
     },
     "billingData": {
       "type": [
@@ -84,8 +73,7 @@
       ],
       "items": {
         "$ref": "../com/GridAccessBillingData.schema.json"
-      },
-      "description": "abrechnungsdaten"
+      }
     },
     "dataQuality": {
       "$ref": "../enum/DataQuality.schema.json"

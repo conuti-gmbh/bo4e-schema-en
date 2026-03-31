@@ -3,4 +3,3 @@ components:
     unitPrice:
       type: number
       format: float
-      description: einheitspreis

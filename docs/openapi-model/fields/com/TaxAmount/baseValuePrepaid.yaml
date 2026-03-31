@@ -3,4 +3,3 @@ components:
     baseValuePrepaid:
       type: number
       format: float
-      description: basiswertVorausbezahlt

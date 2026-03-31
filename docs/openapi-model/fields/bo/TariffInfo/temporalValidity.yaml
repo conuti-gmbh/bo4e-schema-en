@@ -2,4 +2,3 @@ components:
   schemas:
     temporalValidity:
       $ref: ../../../com/TimePeriod.yaml#/components/schemas/TimePeriod
-      description: Angabe, in welchem Zeitraum der Tarif gültig ist

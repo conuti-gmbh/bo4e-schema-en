@@ -2,4 +2,3 @@ components:
   schemas:
     toPay:
       $ref: ../../../com/Amount.yaml#/components/schemas/Amount
-      description: angeforderter Betrag

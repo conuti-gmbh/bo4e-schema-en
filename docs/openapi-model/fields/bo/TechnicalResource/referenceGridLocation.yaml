@@ -2,4 +2,3 @@ components:
   schemas:
     referenceGridLocation:
       type: string
-      description: referenzNetzlokation

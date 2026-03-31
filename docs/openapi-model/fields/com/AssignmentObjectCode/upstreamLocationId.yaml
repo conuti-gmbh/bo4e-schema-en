@@ -2,4 +2,3 @@ components:
   schemas:
     upstreamLocationId:
       type: string
-      description: vorgelagerteLokationId

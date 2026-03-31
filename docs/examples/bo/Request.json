@@ -1,14 +1,14 @@
 {
   "boType": "REQUEST",
   "structureVersion": "1",
-  "locationType": "CONTROLLABLE_RESOURCE",
-  "locationId": "06582800791",
-  "requestType": "CHANGE_METERING_TIME_DEFINITION",
-  "subscription": "START_SUBSCRIPTION",
-  "requestReference": "REF000000",
-  "generalInformation": "dolore",
-  "requestCategory": "TIME_SERIES_IN_CONTEXT_OF_BALANCING_GROUP_BILLING",
-  "energyDirection": "FEED_IN",
-  "validityDuration": "296104",
-  "validFrom": "1901-09-17T03:24:12.0Z"
+  "locationType": "TECHNICAL_RESOURCE",
+  "locationId": "21097745441",
+  "requestType": "INDIVIDUAL_OFFER",
+  "subscription": "WITHOUT_SUBSCRIPTION",
+  "requestReference": "REF100111",
+  "generalInformation": "proident eu",
+  "requestCategory": "CHANGE_INDIVIDUAL_CONFIGURATION",
+  "energyDirection": "FEED_OUT",
+  "validityDuration": "476032",
+  "validFrom": "1943-03-22T17:30:01.0Z"
 }

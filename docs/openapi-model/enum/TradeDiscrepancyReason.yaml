@@ -27,4 +27,3 @@ components:
         - CORRECT_ARTICLE_ID_FOR_BILLING_CANCELLED_DISCONNECTION_ORDER_STATED
         - BILLING_REACTIVE_ENERGY_SECTOR_GAS_NOT_RELEVANT
         - OTHER_REASON
-      description: Handelsunstimmigkeitsgrund

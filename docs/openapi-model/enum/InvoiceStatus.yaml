@@ -7,4 +7,3 @@ components:
         - DUPLICATE
         - ORIGINAL
         - CANCELLED
-      description: Rechnungsstatus

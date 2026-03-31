@@ -2,4 +2,3 @@ components:
   schemas:
     certificateUser2:
       type: string
-      description: zertifikatsNutzer2

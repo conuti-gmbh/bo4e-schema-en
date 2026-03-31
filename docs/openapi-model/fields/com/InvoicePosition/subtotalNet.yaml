@@ -2,8 +2,3 @@ components:
   schemas:
     subtotalNet:
       $ref: ../../../com/Amount.yaml#/components/schemas/Amount
-      description: >-
-        Das Ergebnis der Multiplikation aus einzelpreis * positionsMenge *
-        (Faktor aus zeitbezogeneMenge). Z.B. 12,60€
-
-        * 120 kW * 3/12 (für 3 Monate). Details Betrag

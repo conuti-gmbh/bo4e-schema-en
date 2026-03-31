@@ -2,6 +2,3 @@ components:
   schemas:
     auditObject:
       type: string
-      description: >-
-        Das geprüfte Dokument, z.B. die Referenz auf die EDIFACT-Nachricht die
-        geprüft / beanstandet wurde

@@ -8,4 +8,3 @@ components:
         - CALCULATION_FORMULA_MUST_BE_REQUESTED
         - CALCULATION_FORMULA_TRIVIAL
         - CALCULATION_FORMULA_NOT_NECESSARY
-      description: BerechnungsformelNotwendigkeit

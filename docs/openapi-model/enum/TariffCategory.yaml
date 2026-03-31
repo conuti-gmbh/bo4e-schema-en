@@ -8,4 +8,3 @@ components:
         - DEFAULT_SUPPLY
         - DEFAULT_EMERGENCY_SUPPLY
         - SPECIAL_TARIFF
-      description: Tariftyp

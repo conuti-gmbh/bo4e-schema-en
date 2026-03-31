@@ -2,4 +2,3 @@ components:
   schemas:
     positionAmount:
       type: string
-      description: Betrag der Position

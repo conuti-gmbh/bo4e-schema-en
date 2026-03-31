@@ -6,4 +6,3 @@ components:
       enum:
         - COMMISSIONING_AFTER_2023
         - COMMISSIONING_BEFORE_2024
-      description: Inbetriebsetzung

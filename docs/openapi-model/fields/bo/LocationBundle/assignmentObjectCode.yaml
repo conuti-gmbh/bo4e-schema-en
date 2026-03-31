@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/AssignmentObjectCode.yaml#/components/schemas/AssignmentObjectCode
-      description: zuordnungObjectcode
       nullable: true

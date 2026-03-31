@@ -2,4 +2,3 @@ components:
   schemas:
     amount:
       type: integer
-      description: menge

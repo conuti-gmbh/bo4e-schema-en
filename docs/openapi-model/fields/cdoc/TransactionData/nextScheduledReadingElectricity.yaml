@@ -1,5 +1,4 @@
 components:
   schemas:
     nextScheduledReadingElectricity:
-      description: Alter FW - OBSOLET
       type: string

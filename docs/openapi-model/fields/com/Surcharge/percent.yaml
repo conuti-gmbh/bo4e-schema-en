@@ -3,4 +3,3 @@ components:
     percent:
       type: number
       format: float
-      description: prozent

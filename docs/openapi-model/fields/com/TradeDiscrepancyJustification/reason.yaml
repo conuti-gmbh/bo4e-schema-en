@@ -3,4 +3,3 @@ components:
     reason:
       $ref: >-
         ../../../enum/TradeDiscrepancyReason.yaml#/components/schemas/TradeDiscrepancyReason
-      description: Angabe des Handelsunstimmigkeitsgrunds

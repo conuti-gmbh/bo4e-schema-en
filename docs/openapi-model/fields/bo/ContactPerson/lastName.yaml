@@ -2,4 +2,3 @@ components:
   schemas:
     lastName:
       type: string
-      description: Nachname (Familienname) des Ansprechpartners

@@ -1,7 +1,4 @@
 components:
   schemas:
     deliveryDirection:
-      description: >-
-        Gibt an, ob es Erzeugung oder Verbrauch ist / UTILMD CCI+Z30 / ORDERS
-        IMD++Z14
       type: string

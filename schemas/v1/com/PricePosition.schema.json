@@ -1,48 +1,38 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/PricePosition.schema.json",
   "title": "PricePosition",
   "type": "object",
   "properties": {
     "calculationMethod": {
-      "$ref": "../enum/CalculationMethod.schema.json",
-      "description": "Das Modell, das der Preisbildung zugrunde liegt. Details Kalkulationsmethode"
+      "$ref": "../enum/CalculationMethod.schema.json"
     },
     "performanceType": {
-      "$ref": "../enum/PerformanceType.schema.json",
-      "description": "Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details Leistungstyp"
+      "$ref": "../enum/PerformanceType.schema.json"
     },
     "serviceDesignation": {
-      "$ref": "../enum/ServiceDesignation.schema.json",
-      "description": "Bezeichnung für die in der Position abgebildete Leistungserbringung"
+      "$ref": "../enum/ServiceDesignation.schema.json"
     },
     "priceUnit": {
-      "$ref": "../enum/CurrencyUnit.schema.json",
-      "description": "Festlegung, mit welcher Preiseinheit abgerechnet wird, z.B. Ct. oder €. Details\nWaehrungseinheit"
+      "$ref": "../enum/CurrencyUnit.schema.json"
     },
     "referenceQuantity": {
-      "$ref": "../enum/QuantityUnit.schema.json",
-      "description": "Hier wird festgelegt, auf welche Bezugsgröße sich der Preis bezieht, z.B. kWh oder Stück. Details\nMengeneinheit"
+      "$ref": "../enum/QuantityUnit.schema.json"
     },
     "timeBasis": {
-      "$ref": "../enum/TimeUnit.schema.json",
-      "description": "Die Zeit(dauer) auf die sich der Preis bezieht. Z.B. ein Jahr für einen Leistungspreis der in €/kW/Jahr\nausgegeben wird."
+      "$ref": "../enum/TimeUnit.schema.json"
     },
     "tariffTime": {
-      "$ref": "../enum/TariffTime.schema.json",
-      "description": "Festlegung, für welche Tarifzeit der Preis hier festgelegt ist."
+      "$ref": "../enum/TariffTime.schema.json"
     },
     "bdewArticleNumber": {
-      "$ref": "../enum/BDEWArticleNumber.schema.json",
-      "description": "Eine vom BDEW standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Diese Artikelnummer wird\nauch im Rechnungsteil der INVOIC verwendet."
+      "$ref": "../enum/BDEWArticleNumber.schema.json"
     },
     "zoningSize": {
-      "$ref": "../enum/MeasurementQuantity.schema.json",
-      "description": "Mit der Menge der hier angegebenen Größe wird die Staffelung/Zonung durchgeführt. Z.B. Vollbenutzungsstunden."
+      "$ref": "../enum/MeasurementQuantity.schema.json"
     },
     "priceKeyMaster": {
-      "type": "string",
-      "description": "Preisschlüsselstamm>"
+      "type": "string"
     },
     "positionNumber": {
       "type": "integer",
@@ -51,31 +41,25 @@
           "min": 1,
           "max": 10
         }
-      },
-      "description": "Fortlaufende Nummer für die Preisposition"
+      }
     },
     "meteringLevel": {
-      "$ref": "../enum/GridLevel.schema.json",
-      "description": "Vgl. PRICAT IMD 7009"
+      "$ref": "../enum/GridLevel.schema.json"
     },
     "description": {
-      "type": "string",
-      "description": "Produkt-/Leistungsbeschreibung, wenn IMD+X vorhanden Vgl. PRICAT IMD 7008"
+      "type": "string"
     },
     "descriptionFormat": {
-      "$ref": "../enum/DescriptionFormat.schema.json",
-      "description": "Vgl. PRICAT IMD 7077"
+      "$ref": "../enum/DescriptionFormat.schema.json"
     },
     "processingPeriod": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Verarbeitungszeitraum. Details Zeitraum"
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "articleId": {
       "type": "string",
       "faker": {
         "string.numeric": 10
-      },
-      "description": "Die genauen Bedeutungen der einzelnen Artikel-IDs sind in der EDI@Energy Codeliste der Artikelnummern \n            und Artikel-IDs zu finden, die in der Spalte \"PRICAT Codeverwendung\" ein X haben"
+      }
     },
     "surchargesDiscounts": {
       "type": [
@@ -84,8 +68,7 @@
       ],
       "items": {
         "$ref": "../com/PositionSurchargeDiscount.schema.json"
-      },
-      "description": "Zuschläge oder Abschläge auf die Position."
+      }
     },
     "priceSteps": {
       "type": [
@@ -94,8 +77,7 @@
       ],
       "items": {
         "$ref": "../com/PriceTier.schema.json"
-      },
-      "description": "Preisstaffeln, die zu dieser Preisposition gehören. Details Preisstaffel"
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungstyp.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/InvoiceType.schema.json",
   "title": "InvoiceType",
   "type": "string",
   "enum": [
@@ -21,6 +21,5 @@
     "SPECIAL_INVOICE",
     "BILLING_OF_CONFIGURATIONS_UNIVERSAL_ORDER_PROCESS",
     "BILLING_OF_TECHNOLOGY"
-  ],
-  "description": "Rechnungstyp"
+  ]
 }

@@ -3,4 +3,3 @@ components:
     levy:
       type: number
       format: float
-      description: Abgabe der Nennleistung

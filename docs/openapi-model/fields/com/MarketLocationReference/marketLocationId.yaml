@@ -2,4 +2,3 @@ components:
   schemas:
     marketLocationId:
       type: string
-      description: Identifikationsnummer einer Marktlokation

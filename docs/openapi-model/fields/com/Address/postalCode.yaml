@@ -2,4 +2,3 @@ components:
   schemas:
     postalCode:
       type: string
-      description: Postleitzahl

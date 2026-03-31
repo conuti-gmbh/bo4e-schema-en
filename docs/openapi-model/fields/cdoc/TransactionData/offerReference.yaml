@@ -1,5 +1,4 @@
 components:
   schemas:
     offerReference:
-      description: Referenznummer einer vorangegangenen Nachricht / ORDERS RFF+ACW
       type: string

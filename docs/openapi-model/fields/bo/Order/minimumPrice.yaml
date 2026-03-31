@@ -2,4 +2,3 @@ components:
   schemas:
     minimumPrice:
       $ref: ../../../com/Price.yaml#/components/schemas/Price
-      description: Der Mindestpreis eines Auftrags (z.B. für eine Sperrung)

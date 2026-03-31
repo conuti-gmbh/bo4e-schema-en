@@ -2,4 +2,3 @@ components:
   schemas:
     associatedInvoice:
       type: string
-      description: Angabe der Rechnungsnummer, auf die sich diese Abweichung bezieht

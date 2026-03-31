@@ -2,4 +2,3 @@ components:
   schemas:
     error:
       $ref: ../../../com/Error.yaml#/components/schemas/Error
-      description: Liste der Fehler

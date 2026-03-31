@@ -14,4 +14,3 @@ components:
         - TARIFF_LEVEL_7
         - TARIFF_LEVEL_8
         - TARIFF_LEVEL_9
-      description: Tarifstufe

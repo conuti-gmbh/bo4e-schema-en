@@ -2,4 +2,3 @@ components:
   schemas:
     info1:
       type: string
-      description: Allgemeine Info 1

@@ -1,5 +1,4 @@
 components:
   schemas:
     apiPath:
-      description: Internetadresse des API-Webdienstes
       type: string

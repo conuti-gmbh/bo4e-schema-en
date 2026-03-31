@@ -2,4 +2,3 @@ components:
   schemas:
     faxNumber:
       type: string
-      description: faxnummer

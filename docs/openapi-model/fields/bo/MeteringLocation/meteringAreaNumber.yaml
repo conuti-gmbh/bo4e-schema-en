@@ -2,4 +2,3 @@ components:
   schemas:
     meteringAreaNumber:
       type: string
-      description: Die Nummer des Messgebietes in der ene't-Datenbank.

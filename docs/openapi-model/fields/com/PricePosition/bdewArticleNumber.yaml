@@ -3,8 +3,3 @@ components:
     bdewArticleNumber:
       $ref: >-
         ../../../enum/BDEWArticleNumber.yaml#/components/schemas/BDEWArticleNumber
-      description: >-
-        Eine vom BDEW standardisierte Bezeichnung für die abgerechnete
-        Leistungserbringung. Diese Artikelnummer wird
-
-        auch im Rechnungsteil der INVOIC verwendet.

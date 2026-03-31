@@ -3,4 +3,3 @@ components:
     assessmentBase:
       type: number
       format: float
-      description: Bemessungsgrundlage

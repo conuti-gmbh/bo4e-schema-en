@@ -2,4 +2,3 @@ components:
   schemas:
     invoiceNumber:
       type: string
-      description: rechnungsNummer

@@ -2,4 +2,3 @@ components:
   schemas:
     district:
       type: string
-      description: Ortsteil

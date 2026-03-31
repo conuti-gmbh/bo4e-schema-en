@@ -2,4 +2,3 @@ components:
   schemas:
     locationAddress:
       $ref: ../../../com/Address.yaml#/components/schemas/Address
-      description: Die Adresse, an der die Energie-Lieferung oder -Einspeisung erfolgt.

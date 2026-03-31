@@ -2,4 +2,3 @@ components:
   schemas:
     justification2:
       type: string
-      description: Begruendung Zeile 2

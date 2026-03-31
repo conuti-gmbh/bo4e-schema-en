@@ -2,4 +2,3 @@ components:
   schemas:
     mountingType:
       $ref: ../../../enum/MountingType.yaml#/components/schemas/MountingType
-      description: Befestigungsart

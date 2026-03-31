@@ -1,5 +1,4 @@
 components:
   schemas:
     responseStatus:
-      description: Antwortstatus / STS+E01
       type: string

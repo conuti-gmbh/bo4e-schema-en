@@ -6,4 +6,3 @@ components:
       enum:
         - POWER_ON
         - POWER_OFF
-      description: Schalthandlung

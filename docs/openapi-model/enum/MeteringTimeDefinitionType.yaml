@@ -9,4 +9,3 @@ components:
         - OFF_PEAK_TIME_WINDOW
         - OTHER
         - PEAK_LOAD_TIME_WINDOW
-      description: ZaehlzeitdefinitionTyp

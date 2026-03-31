@@ -2,4 +2,3 @@ components:
   schemas:
     validity:
       $ref: ../../../com/TimePeriod.yaml#/components/schemas/TimePeriod
-      description: Der Zeitraum für den der Preis festgelegt ist. Details siehe Zeitraum

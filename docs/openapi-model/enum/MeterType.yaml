@@ -19,4 +19,3 @@ components:
         - SPECIAL_EQUIPMENT
         - WATER_METER
         - MODERN_METERING_DEVICE_TYPE
-      description: Zaehlertyp

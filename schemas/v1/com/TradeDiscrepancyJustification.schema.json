@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/TradeDiscrepancyJustification.schema.json",
   "title": "TradeDiscrepancyJustification",
   "type": "object",
   "properties": {
@@ -14,8 +14,7 @@
           "prefix": "DAR",
           "length": 6
         }
-      },
-      "description": "Referenzierte Datenaustauschreferenz"
+      }
     },
     "referenceNumber": {
       "type": "string",
@@ -24,8 +23,7 @@
           "prefix": "REF",
           "length": 6
         }
-      },
-      "description": "Referenznummer der Nachricht"
+      }
     },
     "confirmationDar": {
       "type": "string",
@@ -34,20 +32,16 @@
           "prefix": "DAR",
           "length": 6
         }
-      },
-      "description": "bestätigte Datenaustauschreferenz"
+      }
     },
     "acknowledgmentNotification": {
-      "type": "string",
-      "description": "Nachrichtennummer aus der Anerkennungsmeldung (APERAK)"
+      "type": "string"
     },
     "reason": {
-      "$ref": "../enum/TradeDiscrepancyReason.schema.json",
-      "description": "Angabe des Handelsunstimmigkeitsgrunds"
+      "$ref": "../enum/TradeDiscrepancyReason.schema.json"
     },
     "hint": {
-      "type": "string",
-      "description": "Hinweis zum Grund"
+      "type": "string"
     },
     "references": {
       "type": [
@@ -62,8 +56,7 @@
             "length": 6
           }
         }
-      },
-      "description": "Referenzen auf vorherige Nachrichten"
+      }
     }
   }
 }

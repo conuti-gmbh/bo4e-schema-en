@@ -8,7 +8,7 @@ components:
         - versionStruktur
       example:
         $ref: >-
-          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Zaehler.json
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/docs/examples/bo/Meter.json
       properties:
         boType:
           $ref: ../fields/bo/Meter/boType.yaml#/components/schemas/boType

@@ -1,5 +1,4 @@
 components:
   schemas:
     sender:
-      description: Marktteilnehmer, der die Nachricht verschickt hat / NAD+MS
       $ref: ../../../bo/MarketParticipant.yaml#/components/schemas/MarketParticipant

@@ -1,75 +1,75 @@
 {
   "boType": "ADVICE_NOTE",
   "structureVersion": "1",
-  "adviceNoteNumber": "8453548784",
+  "adviceNoteNumber": "9342689968",
   "adviceNoteType": "PAYMENT_ADVICE",
   "toPay": {
-    "value": 2.5,
-    "currency": "in"
+    "value": 1.25,
+    "currency": "magna proident"
   },
   "positions": [
     {
-      "invoiceNumber": "03945602616",
-      "billingDate": "1951-06-10T14:55:23.0Z",
-      "isCancellation": false,
-      "isSelfIssued": false,
+      "invoiceNumber": "02731012393",
+      "billingDate": "1917-06-16T22:05:13.0Z",
+      "isCancellation": true,
+      "isSelfIssued": true,
       "totalGross": {
-        "value": 8.75,
-        "currency": "dolore incididunt"
+        "value": 4.5,
+        "currency": "amet est"
       },
       "toPay": {
         "value": 1.5,
-        "currency": "aliquip do eiusmod commodo"
+        "currency": "sunt voluptate nulla est aute"
       },
-      "reference": "REF010001",
+      "reference": "REF101110",
       "discrepancy": [
         {
-          "discrepancyReason": "BILLING_START_NOT_EQUAL_CONTRACT_START",
-          "discrepancyReasonNote": "quis sunt nostrud sint",
-          "associatedInvoice": "RN010111",
-          "associatedOrder": "BEST100100",
-          "discrepancyReasonCode": "in Ut laboris",
-          "discrepancyReasonCodeList": "sunt",
-          "missingPositions1": "sit",
-          "missingPositions2": "proident voluptate",
-          "missingPositions3": "Lorem",
-          "missingPositions4": "officia",
-          "missingPositions5": "incididunt ad",
-          "discrepancyReasonNote1": "tempor Duis nulla anim cupidatat",
-          "discrepancyReasonNote2": "ex incididunt in",
-          "discrepancyReasonNote3": "sed non cillum",
-          "discrepancyReasonNote4": "minim dolor proident",
-          "discrepancyReasonNote5": "ut magna consequat nostrud",
-          "reference": "REF100000",
+          "discrepancyReason": "OTHER_DISCREPANCY_REASON",
+          "discrepancyReasonNote": "deserunt",
+          "associatedInvoice": "RN111110",
+          "associatedOrder": "BEST101001",
+          "discrepancyReasonCode": "qui ullamco ut laborum",
+          "discrepancyReasonCodeList": "proident deserunt",
+          "missingPositions1": "nisi",
+          "missingPositions2": "dolore qui dolore",
+          "missingPositions3": "in id ex fugiat voluptate",
+          "missingPositions4": "labore in exercitation",
+          "missingPositions5": "commodo",
+          "discrepancyReasonNote1": "Lorem dolor",
+          "discrepancyReasonNote2": "ullamco Ut",
+          "discrepancyReasonNote3": "quis culpa tempor",
+          "discrepancyReasonNote4": "esse sit",
+          "discrepancyReasonNote5": "consectetur est",
+          "reference": "REF000101",
           "installmentInvoices": [
-            "eiusmod"
+            "qui"
           ]
         }
       ],
       "positions": [
         {
-          "positionNumber": 99082111100,
+          "positionNumber": 67770679551,
           "discrepancy": [
             {
-              "discrepancyReason": "REVERSE_CHARGE_APPLICATION_MISSING_OR_INCORRECT",
-              "discrepancyReasonNote": "enim ex sunt",
-              "associatedInvoice": "RN100000",
-              "associatedOrder": "BEST010110",
-              "discrepancyReasonCode": "in esse",
-              "discrepancyReasonCodeList": "Ut sint exercitation sit",
-              "missingPositions1": "aliqua reprehenderit",
-              "missingPositions2": "velit ipsum enim Lorem",
-              "missingPositions3": "et Lorem quis in voluptate",
-              "missingPositions4": "nisi do adipisicing",
-              "missingPositions5": "minim sint aliqua et",
-              "discrepancyReasonNote1": "do enim ea",
-              "discrepancyReasonNote2": "incididunt commodo",
-              "discrepancyReasonNote3": "sunt ea dolor",
-              "discrepancyReasonNote4": "laborum sit",
-              "discrepancyReasonNote5": "ea laborum",
-              "reference": "REF101101",
+              "discrepancyReason": "COMDIS_IS_REJECTED",
+              "discrepancyReasonNote": "eu quis",
+              "associatedInvoice": "RN110101",
+              "associatedOrder": "BEST100110",
+              "discrepancyReasonCode": "deserunt cupidatat",
+              "discrepancyReasonCodeList": "ea commodo",
+              "missingPositions1": "sunt consequat ipsum non dolor",
+              "missingPositions2": "amet ea",
+              "missingPositions3": "pariatur sit ipsum",
+              "missingPositions4": "ipsum",
+              "missingPositions5": "eu",
+              "discrepancyReasonNote1": "eiusmod dolore",
+              "discrepancyReasonNote2": "est ullamco labore dolore proident",
+              "discrepancyReasonNote3": "et",
+              "discrepancyReasonNote4": "qui nostrud cupidatat aliquip",
+              "discrepancyReasonNote5": "laborum id qui tempor",
+              "reference": "REF000110",
               "installmentInvoices": [
-                "laboris consectetur dolore"
+                "cillum esse dolor labore"
               ]
             }
           ]

@@ -2,4 +2,3 @@ components:
   schemas:
     referencePredecessorInvoice:
       type: string
-      description: referenzVorgaengerrechnung

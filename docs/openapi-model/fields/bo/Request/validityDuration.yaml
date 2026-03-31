@@ -2,4 +2,3 @@ components:
   schemas:
     validityDuration:
       type: string
-      description: gueltigkeitszeitspanne

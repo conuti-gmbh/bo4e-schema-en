@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/Balancing.schema.json",
   "title": "Balancing",
   "type": "object",
   "properties": {
@@ -10,41 +10,33 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "marketLocationId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "Für welche Marktlokation gelten diese Bilanzierungsdaten"
+      }
     },
     "aggregationResponsibility": {
-      "$ref": "../enum/AggregationResponsibility.schema.json",
-      "description": "Aggregationsverantwortung"
+      "$ref": "../enum/AggregationResponsibility.schema.json"
     },
     "timeSeriesType": {
-      "$ref": "../enum/TimeSeriesType.schema.json",
-      "description": "Zeitreihentyp"
+      "$ref": "../enum/TimeSeriesType.schema.json"
     },
     "forecastBasis": {
-      "$ref": "../enum/ForecastBasis.schema.json",
-      "description": "Prognosegrundlage"
+      "$ref": "../enum/ForecastBasis.schema.json"
     },
     "balancingStart": {
       "type": "string",
-      "format": "date-time",
-      "description": "Inklusiver Start der Bilanzierung"
+      "format": "date-time"
     },
     "balancingEnd": {
       "type": "string",
-      "format": "date-time",
-      "description": "Exklusives Ende der Bilanzierung"
+      "format": "date-time"
     },
     "balancingGroup": {
-      "type": "string",
-      "description": "Bilanzkreis"
+      "type": "string"
     },
     "balancingGroups": {
       "type": [
@@ -53,52 +45,40 @@
       ],
       "items": {
         "$ref": "../bo/BalancingGroup.schema.json"
-      },
-      "description": "Bilanzkreis"
+      }
     },
     "caseGroupAssignment": {
-      "$ref": "../enum/CaseGroupAssignment.schema.json",
-      "description": "Fallgruppenzuordnung (für gas RLM)"
+      "$ref": "../enum/CaseGroupAssignment.schema.json"
     },
     "temperatureWork": {
-      "$ref": "../com/Quantity.schema.json",
-      "description": "Kundenwert TLP"
+      "$ref": "../com/Quantity.schema.json"
     },
     "annualConsumptionForecast": {
-      "$ref": "../com/Quantity.schema.json",
-      "description": "Jahresverbrauchsprognose"
+      "$ref": "../com/Quantity.schema.json"
     },
     "customerValue": {
-      "$ref": "../com/Quantity.schema.json",
-      "description": "Kundenwert"
+      "$ref": "../com/Quantity.schema.json"
     },
     "consumptionAllocation": {
-      "$ref": "../com/Quantity.schema.json",
-      "description": "Verbrauchsaufteilung"
+      "$ref": "../com/Quantity.schema.json"
     },
     "forecastBasisChoiceRight": {
-      "$ref": "../enum/ForecastBasisChoiceRight.schema.json",
-      "description": "Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten vorhanden)"
+      "$ref": "../enum/ForecastBasisChoiceRight.schema.json"
     },
     "forecastBasisChoiceRightReason": {
-      "$ref": "../enum/ForecastBasisChoiceRight.schema.json",
-      "description": "Grund Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten vorhanden)"
+      "$ref": "../enum/ForecastBasisChoiceRight.schema.json"
     },
     "settlementModel": {
-      "$ref": "../enum/SettlementModel.schema.json",
-      "description": "Abwicklungsmodell"
+      "$ref": "../enum/SettlementModel.schema.json"
     },
     "priorYearConsumption": {
-      "$ref": "../com/Quantity.schema.json",
-      "description": "Vorjahresverbrauch"
+      "$ref": "../com/Quantity.schema.json"
     },
     "dataQuality": {
-      "$ref": "../enum/DataQuality.schema.json",
-      "description": "Datenqualität"
+      "$ref": "../enum/DataQuality.schema.json"
     },
     "validityPeriod": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Gültigkeitszeitraum"
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "loadProfiles": {
       "type": [
@@ -107,8 +87,7 @@
       ],
       "items": {
         "$ref": "../com/LoadProfile.schema.json"
-      },
-      "description": "Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)"
+      }
     },
     "loadProfilesBalancingParty": {
       "type": [
@@ -117,8 +96,7 @@
       ],
       "items": {
         "$ref": "../com/LoadProfile.schema.json"
-      },
-      "description": "Lastprofile des Bilanzierungsbeteiligten"
+      }
     },
     "forecastBasisDetails": {
       "type": [
@@ -127,8 +105,7 @@
       ],
       "items": {
         "$ref": "../enum/ProfileSubtype.schema.json"
-      },
-      "description": "Prognosegrundlage - Besteht der Bedarf ein tagesparameteräbhängiges Lastprofil mit gemeinsamer Messung anzugeben, so ist dies über die 2 -malige Wiederholung des CAV Segments mit der Angabe der Codes E02 und E14 möglich."
+      }
     }
   },
   "required": [

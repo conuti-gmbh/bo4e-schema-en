@@ -2,4 +2,3 @@ components:
   schemas:
     freeText:
       type: string
-      description: Zusätzliche Informationen (für allgemeine Hinweise)

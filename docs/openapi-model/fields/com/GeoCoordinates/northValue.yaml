@@ -2,4 +2,3 @@ components:
   schemas:
     northValue:
       type: string
-      description: Gibt den Nordwert eines entsprechenden Ortes an.

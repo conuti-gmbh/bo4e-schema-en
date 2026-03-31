@@ -2,4 +2,3 @@ components:
   schemas:
     creditInstitution:
       type: string
-      description: Name des Kreditinstitut

@@ -1,103 +1,103 @@
 {
   "boType": "MARKET_PARTICIPANT",
   "structureVersion": "1",
-  "businessPartnerRole": "CUSTOMER",
-  "salutation": "Herr",
-  "name1": "Kuprion",
-  "name2": "Esma",
-  "name3": "fugiat ut eu adipisicing",
-  "name4": "sint amet voluptate sit ullamco",
+  "businessPartnerRole": "CORRESPONDENCE_RECIPIENT",
+  "salutation": "Dr.",
+  "name1": "Balnuweit",
+  "name2": "Giuliano",
+  "name3": "eu",
+  "name4": "dolore",
   "partnerAddress": {
-    "postalCode": "91138",
-    "city": "Friedenbergburg",
-    "street": "Kopernikusstr.",
-    "houseNumber": "20a",
-    "poBox": "dolore ut",
-    "addressSupplement": "adipisicing mollit",
-    "coSupplement": "id Duis amet",
-    "countryCode": "RE",
-    "district": "Nord Philine",
+    "postalCode": "51837",
+    "city": "Langenfeld (Rheinland)",
+    "street": "Düppeler Str.",
+    "houseNumber": "88c",
+    "poBox": "esse proident anim do cupidatat",
+    "addressSupplement": "ex Excepteur sed",
+    "coSupplement": "aliqua Lorem",
+    "countryCode": "DK",
+    "district": "Nord Liliana",
     "additionalInformation": {
-      "supplement1": "cillum Excepteur dolor",
-      "supplement2": "ad adipisicing laborum",
-      "supplement3": "veniam sed commodo",
-      "supplement4": "labore laboris esse in eiusmod",
-      "supplement5": "ullamco deserunt Duis cillum"
+      "supplement1": "quis",
+      "supplement2": "consequat non aliqua nulla cillum",
+      "supplement3": "Duis in dolor elit",
+      "supplement4": "eu",
+      "supplement5": "ex"
     }
   },
-  "commercialClassification": true,
-  "externalCustomerNumberSupplier": "in et adipisicing non",
+  "commercialClassification": false,
+  "externalCustomerNumberSupplier": "enim",
   "marketRole": "BIKO",
-  "roleCodeNumber": "110034895",
-  "roleCodeType": "DVGW",
-  "vatId": "DE001001000",
-  "taxNumber": "307266081",
+  "roleCodeNumber": "276978045",
+  "roleCodeType": "GS1",
+  "vatId": "DE001011000",
+  "taxNumber": "465537735",
   "contactPerson": {
     "boType": "CONTACT_PERSON",
     "structureVersion": "1",
-    "lastName": "Dethloff",
-    "eMailAddress": "Alessia80@hotmail.com",
+    "lastName": "Karsten",
+    "eMailAddress": "Fritz_Schwerdtner23@gmail.com",
     "phoneNumbers": [
       {
-        "numberType": "PHONE_EXTENSION",
-        "phoneNumber": "(04070) 9907210"
+        "numberType": "FAX_EXTENSION",
+        "phoneNumber": "(02615) 9140155"
       }
     ]
   },
-  "makoAddress": "id eu",
-  "certificateDownloadLink": "https://narrensicher-parkhaus.com",
-  "courtOfRegistration": "Quentinscheid",
-  "commercialRegisterNumber": "332905",
-  "website": "https://freundlich-saugling.name/",
-  "faxNumber": "(0354) 545630022",
-  "communicationRole": "MMMA_PROCESSES",
+  "makoAddress": "quis aliqua voluptate nisi commodo",
+  "certificateDownloadLink": "https://reell-impfung.name",
+  "courtOfRegistration": "Clemensland",
+  "commercialRegisterNumber": "177582",
+  "website": "https://hinreiend-madchen.net/",
+  "faxNumber": "+49-426-7543274",
+  "communicationRole": "BILLING_PROCESSES",
   "subContracted": true,
   "communicationParameters": {
     "targetAddress": {
-      "targetAddress1": "ut nostrud Duis voluptate",
-      "targetAddress2": "adipisicing ut incididunt in cupidatat",
-      "targetAddress3": "sint",
-      "targetAddress4": "fugiat",
-      "targetAddress5": "incididunt esse nulla occaecat"
+      "targetAddress1": "velit aliquip ut non",
+      "targetAddress2": "consequat ea",
+      "targetAddress3": "nulla",
+      "targetAddress4": "quis tempor eiusmod",
+      "targetAddress5": "laboris occaecat"
     },
     "certificateIssuer": {
-      "certificateIssuer1": "esse dolore consequat",
-      "certificateIssuer2": "in et ea proident in",
-      "certificateIssuer3": "est in fugiat eiusmod aliquip",
-      "certificateIssuer4": "in deserunt dolor nostrud Lorem",
-      "certificateIssuer5": "laborum non id velit qui"
+      "certificateIssuer1": "nulla pariatur",
+      "certificateIssuer2": "enim",
+      "certificateIssuer3": "nisi non voluptate est velit",
+      "certificateIssuer4": "Ut dolore ea anim",
+      "certificateIssuer5": "esse velit"
     },
     "certificateUser": {
-      "certificateUser1": "Lorem pariatur dolore",
-      "certificateUser2": "cillum sit mollit",
-      "certificateUser3": "nulla officia id",
-      "certificateUser4": "nisi",
-      "certificateUser5": "ad"
+      "certificateUser1": "officia ex quis sunt",
+      "certificateUser2": "in aliqua elit",
+      "certificateUser3": "qui",
+      "certificateUser4": "eiusmod",
+      "certificateUser5": "consequat"
     }
   },
-  "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
+  "meteringPointOperatorAttribute": "COMPETITIVE_METERING_POINT_OPERATOR",
   "bankAccount": [
     {
-      "purposeOfUse": "BV_PAYMENT_MSB_BILLING",
-      "iban": "SI73300595094660521",
-      "accountHolder": "Janin Burkhard",
-      "bic": "IREZNPU3",
-      "creditInstitution": "Salow AG"
+      "purposeOfUse": "BV_PAYMENT_NNA",
+      "iban": "AE907641550605800709550",
+      "accountHolder": "Marisa Nerius",
+      "bic": "EEMPAFXGXXX",
+      "creditInstitution": "Kühn, Zuber und Holinski"
     }
   ],
   "reachability": [
     {
-      "availability": "WEDNESDAY",
-      "time": "qui aliquip"
+      "availability": "BREAK",
+      "time": "irure incididunt"
     }
   ],
-  "ipAddress": "0f22:cfab:a67e:0861:7f91:9ef4:af9b:a913",
+  "ipAddress": "61.183.41.208",
   "ipRange": {
-    "lowerLimit": "28.15.200.197",
-    "upperLimit": "bccc:bab0:d6d2:aad6:bebd:d7d8:256d:4e8e"
+    "lowerLimit": "ebf8:0feb:260b:afb7:5cdc:fb0a:02cb:3afd",
+    "upperLimit": "def2:2cbf:9ef3:b21a:d66f:fbd1:ffc3:f8b6"
   },
-  "assignmentFrom": "1954-08-30T06:15:47.0Z",
-  "assignmentTo": "1908-04-17T01:29:54.0Z",
-  "balancingGroup": "cillum",
+  "assignmentFrom": "1947-12-18T20:39:24.0Z",
+  "assignmentTo": "1943-10-18T10:16:10.0Z",
+  "balancingGroup": "do Excepteur esse aliquip",
   "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION"
 }

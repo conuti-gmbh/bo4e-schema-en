@@ -2,4 +2,3 @@ components:
   schemas:
     missingPositions3:
       type: string
-      description: fehlende Positionen 3

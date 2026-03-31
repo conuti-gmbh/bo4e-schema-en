@@ -2,6 +2,3 @@ components:
   schemas:
     complaintReason:
       $ref: ../../../enum/ComplaintReason.yaml#/components/schemas/ComplaintReason
-      description: >-
-        Hier wird für die Reklamation von Werten der Reklamationsgrund
-        angegeben.

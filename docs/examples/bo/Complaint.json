@@ -1,27 +1,27 @@
 {
   "boType": "COMPLAINT",
   "structureVersion": "1",
-  "locationId": "28619422409",
+  "locationId": "87482704530",
   "locationType": "NELO",
-  "obisNumber": "aliqua do",
+  "obisNumber": "eu esse incididunt officia",
   "measurementValueRequestPeriod": {
-    "timeUnit": "MINUTE",
-    "duration": 1,
-    "startDate": "1944-05-04T12:15:38.0Z",
-    "endDate": "1957-11-27T13:40:15.0Z",
+    "timeUnit": "HOUR",
+    "duration": 7,
+    "startDate": "1955-03-11T10:34:01.0Z",
+    "endDate": "1911-01-12T18:47:55.0Z",
     "unit": "MINUTE",
-    "readingPeriod": "214730",
-    "billingPeriod": "619631",
-    "periodText": "cillum est ullamco Excepteur occaecat",
-    "periodId": 9
+    "readingPeriod": "424974",
+    "billingPeriod": "287630",
+    "periodText": "dolor ex aliquip",
+    "periodId": 1
   },
-  "complaintReason": "ROLLED_OUT_DEFINITION_MISSING",
+  "complaintReason": "VALUES_NOT_TRANSMITTED_AS_SPECIFIED",
   "complaintReasonNote": {
-    "remark1": "laboris dolor quis dolore",
-    "remark2": "pariatur adipisicing id aliqua in",
-    "remark3": "pariatur proident",
-    "remark4": "aliqua commodo consequat officia",
-    "remark5": "Lorem"
+    "remark1": "id quis",
+    "remark2": "ex velit in",
+    "remark3": "qui quis sint dolore",
+    "remark4": "deserunt mollit incididunt fugiat",
+    "remark5": "ut esse sunt id tempor"
   },
-  "configuration": "Duis nisi reprehenderit culpa irure"
+  "configuration": "sed"
 }

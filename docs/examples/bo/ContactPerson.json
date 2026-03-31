@@ -1,12 +1,12 @@
 {
   "boType": "CONTACT_PERSON",
   "structureVersion": "1",
-  "lastName": "Riester",
-  "eMailAddress": "Madleen_Balkow@gmail.com",
+  "lastName": "Köseoglu",
+  "eMailAddress": "Andre66@yahoo.com",
   "phoneNumbers": [
     {
-      "numberType": "MOBILE_NUMBER",
-      "phoneNumber": "+49-9842-46346845"
+      "numberType": "FAX_CENTRAL",
+      "phoneNumber": "+49-6557-34968950"
     }
   ]
 }

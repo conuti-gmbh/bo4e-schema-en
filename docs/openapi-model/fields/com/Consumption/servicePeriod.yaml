@@ -2,4 +2,3 @@ components:
   schemas:
     servicePeriod:
       type: string
-      description: leistungsperiode

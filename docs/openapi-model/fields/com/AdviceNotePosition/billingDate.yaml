@@ -3,4 +3,3 @@ components:
     billingDate:
       type: string
       format: date-time
-      description: rechnungsDatum

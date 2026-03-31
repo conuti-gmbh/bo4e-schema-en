@@ -3,4 +3,3 @@ components:
     calculationPrice:
       type: number
       format: float
-      description: berechnungspreis

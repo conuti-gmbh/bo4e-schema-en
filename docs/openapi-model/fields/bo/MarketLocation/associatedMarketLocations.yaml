@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/MarketLocationReference.yaml#/components/schemas/MarketLocationReference
-      description: Referenzen zugehöriger Marktlokationen
       nullable: true

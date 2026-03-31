@@ -2,4 +2,3 @@ components:
   schemas:
     quantity:
       type: integer
-      description: Anzahl

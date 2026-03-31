@@ -3,4 +3,3 @@ components:
     meterCharacteristic:
       $ref: >-
         ../../../enum/MeterCharacteristic.yaml#/components/schemas/MeterCharacteristic
-      description: Spezifikation die Richtung des Zählers betreffend.

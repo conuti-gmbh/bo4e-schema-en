@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/Tranche.schema.json",
   "title": "Tranche",
   "type": "object",
   "properties": {
@@ -10,19 +10,16 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "trancheId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "tranchenId"
+      }
     },
     "sector": {
-      "$ref": "../enum/Sector.schema.json",
-      "description": "Sparte der Tranche, z.B. Gas oder Strom."
+      "$ref": "../enum/Sector.schema.json"
     },
     "energyDirection": {
       "$ref": "../enum/EnergyDirection.schema.json"
@@ -37,34 +34,28 @@
       ],
       "items": {
         "$ref": "../enum/ConsumptionType.schema.json"
-      },
-      "description": "Stromverbrauchsart/Verbrauchsart"
+      }
     },
     "interruptible": {
-      "type": "boolean",
-      "description": "unterbrechbar"
+      "type": "boolean"
     },
     "gridLevel": {
       "$ref": "../enum/GridLevel.schema.json"
     },
     "gridOperatorCodeNumber": {
-      "type": "string",
-      "description": "netzbetreiberCodeNr"
+      "type": "string"
     },
     "areaType": {
       "$ref": "../enum/AreaType.schema.json"
     },
     "gridAreaNumber": {
-      "type": "string",
-      "description": "netzgebietNr"
+      "type": "string"
     },
     "balancingArea": {
-      "type": "string",
-      "description": "bilanzierungsgebiet"
+      "type": "string"
     },
     "defaultSupplierCodeNumber": {
-      "type": "string",
-      "description": "grundversorgerCodeNr"
+      "type": "string"
     },
     "gasQuality": {
       "$ref": "../enum/GasQuality.schema.json"
@@ -79,12 +70,10 @@
       "$ref": "../com/CadastralAddress.schema.json"
     },
     "controlZone": {
-      "type": "string",
-      "description": "regelzone"
+      "type": "string"
     },
     "marketArea": {
-      "type": "string",
-      "description": "marktgebiet"
+      "type": "string"
     },
     "timeSeriesType": {
       "$ref": "../enum/TimeSeriesType.schema.json"
@@ -99,8 +88,7 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "referenzMarktlokationsId"
+      }
     },
     "supplyType": {
       "$ref": "../enum/SupplyType.schema.json"
@@ -112,8 +100,7 @@
       "$ref": "../enum/CompensationRecipient.schema.json"
     },
     "promotionCountry": {
-      "type": "string",
-      "description": "foerderungsLand"
+      "type": "string"
     },
     "statusGeneratingMalo": {
       "$ref": "../enum/StatusGeneratingMarketLocation.schema.json"
@@ -122,23 +109,19 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "referenzTranche"
+      }
     },
     "allocationQuantity": {
-      "$ref": "../com/Quantity.schema.json",
-      "description": "Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 2 Nachkommastellen"
+      "$ref": "../com/Quantity.schema.json"
     },
     "balancingGroup": {
-      "type": "string",
-      "description": "bilanzkreis"
+      "type": "string"
     },
     "trancheFormationSize": {
       "$ref": "../enum/TrancheFormationSize.schema.json"
     },
     "futureReportingPoint": {
-      "type": "boolean",
-      "description": "zukuenftigerMeldepunkt"
+      "type": "boolean"
     },
     "locationAssignment": {
       "$ref": "../enum/LocationAssignment.schema.json"
@@ -153,8 +136,7 @@
       ],
       "items": {
         "$ref": "../bo/MarketParticipant.schema.json"
-      },
-      "description": "marktrollen"
+      }
     },
     "meterRegisters": {
       "type": [
@@ -163,8 +145,7 @@
       ],
       "items": {
         "$ref": "../com/MeterRegister.schema.json"
-      },
-      "description": "zaehlwerke"
+      }
     },
     "meterRegistersInvolvedMarketRole": {
       "type": [
@@ -173,8 +154,7 @@
       ],
       "items": {
         "$ref": "../enum/MarketRole.schema.json"
-      },
-      "description": "zaehlwerkeBeteiligteMarktrolle"
+      }
     },
     "consumptionQuantity": {
       "type": [
@@ -183,8 +163,7 @@
       ],
       "items": {
         "$ref": "../com/Consumption.schema.json"
-      },
-      "description": "verbrauchsmenge"
+      }
     },
     "associatedMeteringLocations": {
       "type": [
@@ -193,8 +172,7 @@
       ],
       "items": {
         "$ref": "../com/MeteringLocationAssignment.schema.json"
-      },
-      "description": "zugehoerigeMesslokationen"
+      }
     },
     "gridAccessBillingData": {
       "type": [
@@ -203,8 +181,7 @@
       ],
       "items": {
         "$ref": "../com/GridAccessBillingData.schema.json"
-      },
-      "description": "netznutzungsabrechnungsdaten"
+      }
     },
     "energyOrigin": {
       "type": [
@@ -213,8 +190,7 @@
       ],
       "items": {
         "$ref": "../com/EnergyOrigin.schema.json"
-      },
-      "description": "energieherkunft"
+      }
     },
     "dataQuality": {
       "$ref": "../enum/DataQuality.schema.json"

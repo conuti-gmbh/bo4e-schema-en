@@ -2,4 +2,3 @@ components:
   schemas:
     householdCustomer:
       type: boolean
-      description: haushaltskunde

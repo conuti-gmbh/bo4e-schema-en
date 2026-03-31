@@ -6,4 +6,3 @@ components:
       enum:
         - ON_OFF
         - STEPPED
-      description: Steuerkanal

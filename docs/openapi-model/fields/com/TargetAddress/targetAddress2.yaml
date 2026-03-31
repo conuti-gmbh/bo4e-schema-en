@@ -2,4 +2,3 @@ components:
   schemas:
     targetAddress2:
       type: string
-      description: zieladresse2

@@ -7,4 +7,3 @@ components:
         - TYPE_STANDARD_LOAD_PROFILE
         - TYPE_DAILY_PARAMETER_DEPENDENT_LOAD_PROFILE
         - TYPE_LOAD_PROFILE
-      description: Profilart

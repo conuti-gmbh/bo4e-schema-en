@@ -3,4 +3,3 @@ components:
     justification:
       $ref: >-
         ../../../com/TradeDiscrepancyJustification.yaml#/components/schemas/TradeDiscrepancyJustification
-      description: Handelsunstimmigskeitsbegründung

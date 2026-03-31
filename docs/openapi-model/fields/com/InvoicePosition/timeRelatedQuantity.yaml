@@ -2,8 +2,3 @@ components:
   schemas:
     timeRelatedQuantity:
       $ref: ../../../com/Quantity.yaml#/components/schemas/Quantity
-      description: >-
-        Eine auf die Zeiteinheit bezogene Untermenge. Z.B. bei einem
-        Jahrespreis, 3 Monate oder 146 Tage. Basierend
-
-        darauf wird der Preis aufgeteilt. Details Menge

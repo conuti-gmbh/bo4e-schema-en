@@ -3,4 +3,3 @@ components:
     balancingStart:
       type: string
       format: date-time
-      description: Inklusiver Start der Bilanzierung

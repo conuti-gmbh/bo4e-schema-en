@@ -2,4 +2,3 @@ components:
   schemas:
     adviceNoteNumber:
       type: string
-      description: Eine im Verwendungskontext eindeutige Nummer für das Avis.

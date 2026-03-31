@@ -2,6 +2,3 @@ components:
   schemas:
     isReverseCharge:
       type: boolean
-      description: >-
-        Kennzeichen, ob bei der Rechnung das Reverse Charge verfahren angewendet
-        wird

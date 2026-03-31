@@ -14,4 +14,3 @@ components:
         - DIFFERENCE_DATA
         - DIFFERENCE_EXPECTED_DATA
         - DIFFERENCE_SYSTEM_PRESENT_DATA
-      description: Datenqualitaet

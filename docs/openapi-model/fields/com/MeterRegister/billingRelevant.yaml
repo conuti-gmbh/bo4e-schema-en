@@ -2,4 +2,3 @@ components:
   schemas:
     billingRelevant:
       type: boolean
-      description: abrechnungsrelevant

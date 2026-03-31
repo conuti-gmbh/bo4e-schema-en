@@ -5,6 +5,3 @@ components:
       enum:
         - Kundennummer beim Lieferanten
         - Kundennummer beim Altlieferanten
-      description: >-
-        Bezeichnung der externen Referenz (z.B. "hochfrequenz integration
-        services")

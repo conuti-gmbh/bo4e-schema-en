@@ -2,4 +2,3 @@ components:
   schemas:
     typeValue:
       $ref: ../../../enum/ErrorType.yaml#/components/schemas/ErrorType
-      description: Gibt den Typ des Fehlers an.

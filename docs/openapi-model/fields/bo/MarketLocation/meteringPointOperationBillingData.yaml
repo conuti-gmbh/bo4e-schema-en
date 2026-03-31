@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/MeteringPointOperationBillingData.yaml#/components/schemas/MeteringPointOperationBillingData
-      description: messstellenbetriebsabrechnungsdaten
       nullable: true

@@ -2,4 +2,3 @@ components:
   schemas:
     meteringLocationId:
       type: string
-      description: messlokationsId

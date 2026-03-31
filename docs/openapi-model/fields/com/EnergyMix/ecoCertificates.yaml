@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../enum/EcoCertificate.yaml#/components/schemas/EcoCertificate
-      description: Zertifikate für den Energiemix
       nullable: true

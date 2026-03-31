@@ -1,80 +1,80 @@
 {
   "boType": "VALUES_BY_TYPE2",
   "structureVersion": "1",
-  "configurationProduct": "Duis aliquip do",
-  "meteringProduct": "et ipsum dolor anim ea",
+  "configurationProduct": "Duis eiusmod officia sit",
+  "meteringProduct": "dolore",
   "targetAddress": {
-    "targetAddress1": "fugiat cupidatat irure Duis consequat",
-    "targetAddress2": "in elit in sunt",
-    "targetAddress3": "nisi velit cupidatat amet",
-    "targetAddress4": "minim eu ipsum ad",
-    "targetAddress5": "aliqua laboris et"
+    "targetAddress1": "non reprehenderit amet Duis",
+    "targetAddress2": "reprehenderit in in",
+    "targetAddress3": "sint",
+    "targetAddress4": "occaecat",
+    "targetAddress5": "labore"
   },
   "issuer": {
-    "issuer1": "non sed pariatur eiusmod",
-    "issuer2": "aute Duis incididunt ad anim",
-    "issuer3": "Duis officia non proident",
-    "issuer4": "laboris sunt",
-    "issuer5": "est ex cillum deserunt laborum"
+    "issuer1": "sit et Lorem ullamco",
+    "issuer2": "ut anim qui",
+    "issuer3": "qui magna aute anim aliquip",
+    "issuer4": "non eiusmod ipsum consequat",
+    "issuer5": "dolore consequat in commodo dolor"
   },
   "certificateUser": {
-    "certificateUser1": "magna ad",
-    "certificateUser2": "sint amet velit in",
-    "certificateUser3": "amet magna et non",
-    "certificateUser4": "ex fugiat amet",
-    "certificateUser5": "ea eu ut proident"
+    "certificateUser1": "dolor ipsum",
+    "certificateUser2": "sit in fugiat velit consequat",
+    "certificateUser3": "aliqua qui quis ullamco",
+    "certificateUser4": "veniam aliqua nisi voluptate cupidatat",
+    "certificateUser5": "dolore proident consequat"
   },
   "configurationChangeOption": "REQUIRED",
   "thresholds": [
     {
-      "upperThreshold": 14,
-      "lowerThreshold": 1.5,
-      "configurationProduct": "KONF_1001"
+      "upperThreshold": 16,
+      "lowerThreshold": 4,
+      "configurationProduct": "KONF_1011"
     }
   ],
   "meterRegisters": [
     {
-      "meterRegisterId": "326204528",
-      "designation": "Lorem elit exercitation tempor Duis",
-      "direction": "FEED_OUT",
-      "obisCode": "ut dolore irure",
-      "transformerFactor": 3.5,
-      "unit": "KVAR",
+      "meterRegisterId": "133825775",
+      "designation": "officia amet tempor mollit culpa",
+      "direction": "FEED_IN",
+      "obisCode": "laborum nisi esse",
+      "transformerFactor": 1.5,
+      "unit": "YEAR",
       "offPeakCapable": "OFF_PEAK_CAPABLE",
       "consumptionType": [
-        "KL"
+        "SW"
       ],
       "interruptibility": "NUV",
-      "heatUsage": "STORAGE_HEATING",
+      "heatUsage": "HEAT_PUMP_HEATING",
       "concessionFee": {
-        "rate": "SAS",
-        "costs": -54584383.42589731,
-        "category": "et incididunt"
+        "rate": "TAS",
+        "costs": 35109565.51970267,
+        "category": "Lorem"
       },
       "taxExempt": false,
-      "integerDigits": 9,
-      "decimalPlaces": 2,
+      "integerDigits": 7,
+      "decimalPlaces": 8,
       "billingRelevant": true,
-      "numberOfReadings": 5,
+      "numberOfReadings": 4,
       "meteringTimes": {
-        "register": "nulla in",
-        "meteringTimeDefinition": "elit aliquip",
-        "offPeakCapable": "OFF_PEAK_CAPABLE"
+        "register": "labore nostrud ut nisi",
+        "meteringTimeDefinition": "eu proident anim dolor",
+        "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
       },
-      "configuration": "aliqua in amet anim voluptate",
-      "meteringProduct": "dolor ad sit id est",
+      "configuration": "deserunt non ex",
+      "meteringProduct": "exercitation sunt consectetur aliquip sit",
       "valueGranularity": "SEMI_ANNUAL",
-      "necessitySecondMeasurement": "NOT_PRESENT",
-      "valueTransmissionPurpose": "NOT_PRESENT",
+      "necessitySecondMeasurement": "PRESENT",
+      "valueTransmissionPurpose": "PRESENT",
       "typeElectricMobility": "LS",
-      "configurationProduct": "pariatur in sunt aute",
+      "configurationProduct": "do",
       "noConfigurationProduct": true,
-      "loadCurveDefinition": "commodo eiusmod reprehenderit",
+      "loadCurveDefinition": "dolor",
       "purposesOfUse": [
         {
-          "marketRole": "MSBA",
+          "marketRole": "DL",
           "purpose": [
-            "NO_PURPOSE_OF_USE_PRESENT"
+            "MORE_LESS_QUANTITIES_BILLING"
           ]
         }
       ]

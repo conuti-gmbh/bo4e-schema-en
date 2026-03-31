@@ -1,5 +1,4 @@
 components:
   schemas:
     processingOrder:
-      description: Alte FW - OBSOLET
       type: string

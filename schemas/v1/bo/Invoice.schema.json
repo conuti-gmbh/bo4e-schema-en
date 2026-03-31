@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/Invoice.schema.json",
   "title": "Invoice",
   "type": "object",
   "properties": {
@@ -10,50 +10,40 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "isSelfIssued": {
-      "type": "boolean",
-      "description": "Kennzeichen, ob es sich um eine selbstausgestellte Rechnung handelt"
+      "type": "boolean"
     },
     "processingDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "bearbeitungsdatum"
+      "format": "date-time"
     },
     "invoiceDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Ausstellungsdatum der Rechnung."
+      "format": "date-time"
     },
     "dueDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Zu diesem Datum ist die Zahlung fällig."
+      "format": "date-time"
     },
     "invoiceStatus": {
-      "$ref": "../enum/InvoiceStatus.schema.json",
-      "description": "Status der Rechnung zur Kennzeichnung des Bearbeitungsstandes. Details siehe ENUM Rechnungsstatus"
+      "$ref": "../enum/InvoiceStatus.schema.json"
     },
     "provisionalBillingPeriod": {
       "$ref": "../com/TimePeriod.schema.json"
     },
     "invoicePeriod": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Der Zeitraum der zugrunde liegenden Lieferung zur Rechnung. In der COM Zeitraum können diese angegeben werden."
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "invoiceType": {
-      "$ref": "../enum/InvoiceType.schema.json",
-      "description": "Ein kontextbezogender Rechnungstyp, z.B. Netznutzungsrechnung. Details siehe ENUM Rechnungstyp"
+      "$ref": "../enum/InvoiceType.schema.json"
     },
     "isReverseCharge": {
-      "type": "boolean",
-      "description": "Kennzeichen, ob bei der Rechnung das Reverse Charge verfahren angewendet wird"
+      "type": "boolean"
     },
     "totalGrossAmount": {
-      "$ref": "../com/Amount.schema.json",
-      "description": "Die Summe aus Netto- und Steuerbetrag. Details Betrag"
+      "$ref": "../com/Amount.schema.json"
     },
     "toPay": {
       "$ref": "../com/Amount.schema.json"
@@ -65,8 +55,7 @@
           "prefix": "RN_",
           "length": 6
         }
-      },
-      "description": "Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der stornierten Rechnung."
+      }
     },
     "referenceMessageDate": {
       "type": "string",
@@ -75,8 +64,7 @@
           "prefix": "REF_",
           "length": 6
         }
-      },
-      "description": "referenzNachrichtendatum"
+      }
     },
     "referenceDocumentNumber": {
       "type": "string",
@@ -85,8 +73,7 @@
           "prefix": "DOC_",
           "length": 6
         }
-      },
-      "description": "referenzDokumentennummer"
+      }
     },
     "referencePredecessorInvoice": {
       "type": "string",
@@ -95,37 +82,30 @@
           "prefix": "RN_",
           "length": 6
         }
-      },
-      "description": "referenzVorgaengerrechnung"
+      }
     },
     "predecessorInvoiceDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "datumVorgaengerrechnung"
+      "format": "date-time"
     },
     "priceGridOperatorCodeNumber": {
-      "type": "string",
-      "description": "preisNetzbetreiberCodenummer"
+      "type": "string"
     },
     "gridAccount": {
-      "type": "string",
-      "description": "netzkonto"
+      "type": "string"
     },
     "prepaid": {
-      "$ref": "../com/Amount.schema.json",
-      "description": "Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als Bruttowert. Details Betrag"
+      "$ref": "../com/Amount.schema.json"
     },
     "municipalDiscount": {
       "$ref": "../com/MunicipalDiscount.schema.json"
     },
     "executionDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Das Datum an dem die Leistung erbracht wurde."
+      "format": "date-time"
     },
     "specialBillingType": {
-      "$ref": "../enum/SpecialBillingType.schema.json",
-      "description": "Sonderrechnungsart"
+      "$ref": "../enum/SpecialBillingType.schema.json"
     },
     "specialBillingTypes": {
       "type": [
@@ -134,21 +114,18 @@
       ],
       "items": {
         "$ref": "../enum/SpecialBillingType.schema.json"
-      },
-      "description": "Sonderrechnungsart"
+      }
     },
     "energyDirection": {
       "$ref": "../enum/EnergyDirection.schema.json"
     },
     "balancingPeriodStart": {
       "type": "string",
-      "format": "date-time",
-      "description": "beginnPeriodeBilanzierung"
+      "format": "date-time"
     },
     "gridAccessPeriodEnd": {
       "type": "string",
-      "format": "date-time",
-      "description": "endePeriodeNetznutzung"
+      "format": "date-time"
     },
     "taxAmounts": {
       "type": [
@@ -157,8 +134,7 @@
       ],
       "items": {
         "$ref": "../com/TaxAmount.schema.json"
-      },
-      "description": "Eine Liste mit Steuerbeträgen pro Steuerkennzeichen/Steuersatz. Die Summe dieser Beträge ergibt den Wert für\ngesamtsteuer. Details Steuerbetrag"
+      }
     },
     "invoicePositions": {
       "type": [
@@ -167,8 +143,7 @@
       ],
       "items": {
         "$ref": "../com/InvoicePosition.schema.json"
-      },
-      "description": "Die Rechnungspositionen. Details siehe Rechnungsposition"
+      }
     }
   },
   "required": [

@@ -2,4 +2,3 @@ components:
   schemas:
     referenceMarketLocationId:
       type: string
-      description: referenzMarktlokationsId

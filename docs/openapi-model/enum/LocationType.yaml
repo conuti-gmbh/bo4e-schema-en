@@ -10,4 +10,3 @@ components:
         - TECHNICAL_RESOURCE
         - CONTROLLABLE_RESOURCE
         - TRANCHE
-      description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt

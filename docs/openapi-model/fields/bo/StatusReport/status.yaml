@@ -2,4 +2,3 @@ components:
   schemas:
     status:
       $ref: ../../../enum/ReportStatus.yaml#/components/schemas/ReportStatus
-      description: Status des Berichtes (Fehlerhaft, Erfolgreich)

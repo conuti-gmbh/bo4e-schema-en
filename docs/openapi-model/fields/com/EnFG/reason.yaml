@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../enum/BasisForLevyReductionReason.yaml#/components/schemas/BasisForLevyReductionReason
-      description: Grund der Umlagenverringerung
       nullable: true

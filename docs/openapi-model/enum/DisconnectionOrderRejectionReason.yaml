@@ -15,4 +15,3 @@ components:
         - ALREADY_EXISTS
         - OTHER_FUTURE_SUPPLIER
         - CONFIRMED_SUPPLY_START
-      description: Sperrauftragsablehngrund

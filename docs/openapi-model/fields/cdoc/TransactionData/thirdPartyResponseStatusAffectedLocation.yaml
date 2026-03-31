@@ -1,5 +1,4 @@
 components:
   schemas:
     thirdPartyResponseStatusAffectedLocation:
-      description: Antwortstatus Lokation / STS+Z35
       type: string

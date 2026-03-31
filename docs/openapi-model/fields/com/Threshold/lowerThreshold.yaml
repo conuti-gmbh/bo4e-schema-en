@@ -3,4 +3,3 @@ components:
     lowerThreshold:
       type: number
       format: float
-      description: untererSchwellwert

@@ -1,28 +1,23 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IPAdresseCLSDevice.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/IpAddressClsDevice.schema.json",
   "title": "IpAddressClsDevice",
   "type": "object",
   "properties": {
     "IpAddressClsDevice1": {
-      "type": "string",
-      "description": "IPAdresseCLSDevice1"
+      "type": "string"
     },
     "IpAddressClsDevice2": {
-      "type": "string",
-      "description": "IPAdresseCLSDevice2"
+      "type": "string"
     },
     "IpAddressClsDevice3": {
-      "type": "string",
-      "description": "IPAdresseCLSDevice3"
+      "type": "string"
     },
     "IpAddressClsDevice4": {
-      "type": "string",
-      "description": "IPAdresseCLSDevice4"
+      "type": "string"
     },
     "IpAddressClsDevice5": {
-      "type": "string",
-      "description": "IPAdresseCLSDevice5"
+      "type": "string"
     }
   }
 }

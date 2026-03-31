@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/StatusNotificationPosition.schema.json",
   "title": "StatusNotificationPosition",
   "type": "object",
   "properties": {
@@ -11,28 +11,23 @@
           "min": 1,
           "max": 10
         }
-      },
-      "description": "positionsnummer"
+      }
     },
     "processingDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "bearbeitungsdatum"
+      "format": "date-time"
     },
     "usageFrom": {
       "type": "string",
-      "format": "date-time",
-      "description": "verwendungAb"
+      "format": "date-time"
     },
     "usageTo": {
       "type": "string",
-      "format": "date-time",
-      "description": "verwendungBis"
+      "format": "date-time"
     },
     "endDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "enddatum"
+      "format": "date-time"
     },
     "orderStatus": {
       "$ref": "../enum/OrderStatus.schema.json"
@@ -41,8 +36,7 @@
       "$ref": "../enum/StatusOccasion.schema.json"
     },
     "responseStatus": {
-      "type": "string",
-      "description": "antwortstatus"
+      "type": "string"
     },
     "errorDescription": {
       "$ref": "../com/ErrorDescription.schema.json"
@@ -54,23 +48,20 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "lokationsId"
+      }
     },
     "referenceMelo": {
       "type": "string",
       "faker": {
         "string.numeric": 33
-      },
-      "description": "referenzMelo"
+      }
     },
     "generalInformation": {
       "$ref": "../com/GeneralInformation.schema.json"
     },
     "statusChangeTimestamp": {
       "type": "string",
-      "format": "date-time",
-      "description": "statusVeraenderungsZeitpunkt"
+      "format": "date-time"
     },
     "orderStatusList": {
       "type": [
@@ -79,8 +70,7 @@
       ],
       "items": {
         "$ref": "../enum/OrderStatus.schema.json"
-      },
-      "description": "auftragsStatusListe"
+      }
     }
   }
 }

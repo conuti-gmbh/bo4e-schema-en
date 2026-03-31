@@ -2,4 +2,3 @@ components:
   schemas:
     nextGridAccessBilling:
       type: string
-      description: naechstenetznutzungsabrechnung

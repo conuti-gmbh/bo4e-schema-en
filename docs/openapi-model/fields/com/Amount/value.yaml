@@ -3,4 +3,3 @@ components:
     value:
       type: number
       format: float
-      description: Gibt den Betrag des Preises an.

@@ -3,4 +3,3 @@ components:
     specialBillingType:
       $ref: >-
         ../../../enum/SpecialBillingType.yaml#/components/schemas/SpecialBillingType
-      description: Sonderrechnungsart

@@ -2,4 +2,3 @@ components:
   schemas:
     loadCurveDefinition:
       type: string
-      description: leistungskurvendefinition

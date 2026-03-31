@@ -2,4 +2,3 @@ components:
   schemas:
     description2:
       type: string
-      description: Beschreibung Zeile 2

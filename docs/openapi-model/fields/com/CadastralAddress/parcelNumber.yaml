@@ -2,4 +2,3 @@ components:
   schemas:
     parcelNumber:
       type: string
-      description: Flurstück Nummer

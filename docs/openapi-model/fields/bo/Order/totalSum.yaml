@@ -3,4 +3,3 @@ components:
     totalSum:
       type: number
       format: float
-      description: summeGesamt

@@ -3,4 +3,3 @@ components:
     statusChangeTimestamp:
       type: string
       format: date-time
-      description: statusVeraenderungsZeitpunkt

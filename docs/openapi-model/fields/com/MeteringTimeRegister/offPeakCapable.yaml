@@ -2,4 +2,3 @@ components:
   schemas:
     offPeakCapable:
       $ref: ../../../enum/OffPeakCapable.yaml#/components/schemas/OffPeakCapable
-      description: Schwachlastfähigkeit des Registers

@@ -8,7 +8,7 @@ components:
         - versionStruktur
       example:
         $ref: >-
-          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Berechnungsformel.json
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/docs/examples/bo/CalculationFormula.json
       properties:
         boType:
           $ref: >-

@@ -9,4 +9,3 @@ components:
         - MULTI_TARIFF
         - SMART_METER
         - DEMAND_METERED
-      description: Tarifart

@@ -2,4 +2,3 @@ components:
   schemas:
     remark5:
       type: string
-      description: bemerkung5

@@ -1,211 +1,211 @@
 {
   "boType": "CONTRACT",
   "structureVersion": "1",
-  "sector": "ELECTRICITY",
-  "contractType": "in adipisicing voluptate",
-  "contractNumber": "fugiat consectetur ex ea quis",
-  "description": "nostrud proident",
-  "locationId": "92229482119",
-  "locationType": "CONTROLLABLE_RESOURCE",
-  "contractStatus": "REVOKED",
-  "contractStart": "1947-01-11T18:36:36.0Z",
-  "contractEnd": "1966-10-13T19:59:45.0Z",
-  "municipalDiscount": 24,
+  "sector": "WATER",
+  "contractType": "culpa amet nisi",
+  "contractNumber": "ea aliqua ullamco qui fugiat",
+  "description": "exercitation commodo laboris dolor",
+  "locationId": "45650349879",
+  "locationType": "MALO",
+  "contractStatus": "CANCELLED",
+  "contractStart": "1969-04-01T18:51:25.0Z",
+  "contractEnd": "1928-01-13T16:22:35.0Z",
+  "municipalDiscount": 15,
   "contractConditions": {
     "gridAccessPayer": "SUPPLIER",
-    "gridAccessContract": "CUSTOMER_GRID_OPERATOR",
+    "gridAccessContract": "SUPPLIER_GRID_OPERATOR",
     "gridAccessBilling": {
-      "timeUnit": "HALF_YEAR",
-      "duration": 4,
-      "startDate": "1962-11-26T17:14:34.0Z",
-      "endDate": "1956-12-20T07:06:01.0Z",
+      "timeUnit": "MINUTE",
+      "duration": 8,
+      "startDate": "1926-04-07T01:54:31.0Z",
+      "endDate": "1912-02-16T09:54:47.0Z",
       "unit": "DAY",
-      "readingPeriod": "781194",
-      "billingPeriod": "116598",
-      "periodText": "consequat",
-      "periodId": 1
+      "readingPeriod": "473086",
+      "billingPeriod": "069785",
+      "periodText": "consequat non",
+      "periodId": 2
     },
-    "includesSingularlyUsedEquipment": false,
+    "includesSingularlyUsedEquipment": true,
     "gridAccessBillingBasis": "DELIVERY_NOTE",
     "gridAccessBillingVariant": "ENERGY_PRICE_BASE_PRICE",
-    "householdCustomer": true,
-    "billingViaNna": false,
+    "householdCustomer": false,
+    "billingViaNna": true,
     "municipalDiscount": {
-      "value": 18.5,
-      "unit": "enim",
-      "typeValue": "sunt qui",
-      "assessmentBase": 19.25
+      "value": 16.25,
+      "unit": "aute",
+      "typeValue": "ut aliquip ullamco Duis occaecat",
+      "assessmentBase": 17.5
     },
-    "billingYearStart": "1956-03-21T19:17:53.0Z",
-    "nextGridAccessBilling": "7544",
-    "billingInterval": 5,
-    "gridAccessBillingInterval": 1,
+    "billingYearStart": "1892-06-23T15:50:54.0Z",
+    "nextGridAccessBilling": "6514",
+    "billingInterval": 4,
+    "gridAccessBillingInterval": 4,
     "plannedScheduledReading": {
-      "timeUnit": "WEEK",
-      "duration": 5,
-      "startDate": "1895-07-05T08:49:37.0Z",
-      "endDate": "1926-09-07T06:37:34.0Z",
-      "unit": "YEAR",
-      "readingPeriod": "394071",
-      "billingPeriod": "049380",
-      "periodText": "laborum",
+      "timeUnit": "MONTH",
+      "duration": 10,
+      "startDate": "1905-04-21T15:08:44.0Z",
+      "endDate": "1922-12-14T13:04:48.0Z",
+      "unit": "DAY",
+      "readingPeriod": "014615",
+      "billingPeriod": "426238",
+      "periodText": "et",
       "periodId": 4
     },
     "msbCommissioning": "CONTRACT_TO_MSB",
     "terminationNotice": {
-      "timeUnit": "YEAR",
-      "duration": 1,
-      "startDate": "1927-07-13T05:08:06.0Z",
-      "endDate": "1890-05-02T12:48:36.0Z",
-      "unit": "HALF_YEAR",
-      "readingPeriod": "288672",
-      "billingPeriod": "309311",
-      "periodText": "sed in",
-      "periodId": 2
+      "timeUnit": "HOUR",
+      "duration": 6,
+      "startDate": "1969-07-19T20:54:46.0Z",
+      "endDate": "1933-04-26T15:07:59.0Z",
+      "unit": "HOUR",
+      "readingPeriod": "963389",
+      "billingPeriod": "653108",
+      "periodText": "quis ad mollit aliqua",
+      "periodId": 6
     },
     "contractDuration": {
-      "timeUnit": "HOUR",
-      "duration": 8,
-      "startDate": "1954-12-09T05:26:59.0Z",
-      "endDate": "1945-08-22T12:01:03.0Z",
-      "unit": "YEAR",
-      "readingPeriod": "388910",
-      "billingPeriod": "987483",
-      "periodText": "occaecat culpa nostrud",
-      "periodId": 4
-    },
-    "terminationDate": "in",
-    "installmentCycle": {
       "timeUnit": "QUARTER",
-      "duration": 8,
-      "startDate": "1945-05-23T17:30:28.0Z",
-      "endDate": "1895-08-03T10:52:11.0Z",
-      "unit": "MINUTE",
-      "readingPeriod": "351835",
-      "billingPeriod": "425657",
-      "periodText": "Ut voluptate proident in",
+      "duration": 10,
+      "startDate": "1895-08-08T18:44:46.0Z",
+      "endDate": "1920-01-16T21:24:23.0Z",
+      "unit": "SECOND",
+      "readingPeriod": "118311",
+      "billingPeriod": "802010",
+      "periodText": "aliquip veniam Ut laborum",
+      "periodId": 2
+    },
+    "terminationDate": "qui",
+    "installmentCycle": {
+      "timeUnit": "HOUR",
+      "duration": 5,
+      "startDate": "1916-10-10T13:13:12.0Z",
+      "endDate": "1962-08-22T03:08:45.0Z",
+      "unit": "HOUR",
+      "readingPeriod": "651045",
+      "billingPeriod": "967704",
+      "periodText": "deserunt magna",
       "periodId": 5
     },
-    "numberOfInstallments": 2,
-    "description": "eiusmod",
+    "numberOfInstallments": 12,
+    "description": "ea deserunt",
     "contractExtension": {
-      "timeUnit": "DAY",
-      "duration": 7,
-      "startDate": "1941-02-22T12:14:44.0Z",
-      "endDate": "1966-11-26T16:37:29.0Z",
-      "unit": "HOUR",
-      "readingPeriod": "295777",
-      "billingPeriod": "245752",
-      "periodText": "in aliquip aliqua",
-      "periodId": 5
+      "timeUnit": "YEAR",
+      "duration": 2,
+      "startDate": "1940-09-13T17:44:22.0Z",
+      "endDate": "1951-12-06T20:34:41.0Z",
+      "unit": "MINUTE",
+      "readingPeriod": "172973",
+      "billingPeriod": "206776",
+      "periodText": "ad",
+      "periodId": 4
     }
   },
   "correspondencePartner": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
-    "salutation": "Herr",
-    "name1": "Marner",
-    "name2": "Levi",
-    "name3": "veniam aute nisi ut sed",
-    "name4": "nostrud fugiat laboris aliqua",
-    "vatId": "DE000110100",
-    "creditorId": "785500",
-    "emailAddress": "Emilian70@hotmail.com",
-    "website": "https://genieerisch-haus.name",
-    "commercialClassification": false,
-    "commercialRegisterNumber": "205629",
-    "courtOfRegistration": "Wesel",
+    "salutation": "Dr.",
+    "name1": "Schersing",
+    "name2": "Lean",
+    "name3": "aliquip elit irure cupidatat ex",
+    "name4": "mollit pariatur minim sed nulla",
+    "vatId": "DE011000111",
+    "creditorId": "386905",
+    "emailAddress": "Noah78@gmail.com",
+    "website": "https://bezaubernd-segel.com/",
+    "commercialClassification": true,
+    "commercialRegisterNumber": "683753",
+    "courtOfRegistration": "Stralsund",
     "partnerAddress": {
-      "postalCode": "93040",
-      "city": "Goslar",
-      "street": "Feldtorstr.",
-      "houseNumber": "95a",
-      "poBox": "voluptate",
-      "addressSupplement": "ullamco dolor pariatur Duis laboris",
-      "coSupplement": "enim pariatur eu",
-      "countryCode": "SL",
-      "district": "Ost Arved",
+      "postalCode": "65896",
+      "city": "Süd Carina",
+      "street": "Fester Weg",
+      "houseNumber": "25b",
+      "poBox": "Lorem enim ullamco ex",
+      "addressSupplement": "adipisicing dolore consectetur commodo officia",
+      "coSupplement": "laboris anim eiusmod tempor",
+      "countryCode": "CF",
+      "district": "Nord Helinland",
       "additionalInformation": {
-        "supplement1": "sit aliqua commodo",
-        "supplement2": "aute dolor id sed",
-        "supplement3": "eu culpa ullamco deserunt",
-        "supplement4": "dolor reprehenderit elit dolor",
-        "supplement5": "qui reprehenderit sint ullamco culpa"
+        "supplement1": "enim anim ex dolore",
+        "supplement2": "enim pariatur tempor adipisicing",
+        "supplement3": "exercitation reprehenderit",
+        "supplement4": "irure",
+        "supplement5": "pariatur"
       }
     },
-    "externalCustomerNumberSupplier": "367063",
+    "externalCustomerNumberSupplier": "864295",
     "externalReferences": [
       {
         "externalReferenceName": "Kundennummer beim Lieferanten",
-        "externalReferenceValue": "7685965269"
+        "externalReferenceValue": "8278501344"
       }
     ],
     "businessPartnerRole": [
-      "PROSPECT"
+      "READING_CARD_RECIPIENT"
     ],
     "contactChannel": [
-      "EMAIL"
+      "SMS"
     ]
   },
-  "billingViaNna": false,
-  "dataQuality": "NO_DATA_PRESENT_IN_SYSTEM",
+  "billingViaNna": true,
+  "dataQuality": "NO_DATA",
   "validityPeriod": {
-    "timeUnit": "WEEK",
-    "duration": 7,
-    "startDate": "1923-03-15T06:05:57.0Z",
-    "endDate": "1943-08-11T15:01:16.0Z",
-    "unit": "SECOND",
-    "readingPeriod": "601484",
-    "billingPeriod": "235337",
-    "periodText": "voluptate qui",
-    "periodId": 3
+    "timeUnit": "QUARTER_HOUR",
+    "duration": 8,
+    "startDate": "1969-12-01T01:32:34.0Z",
+    "endDate": "1908-05-31T06:24:09.0Z",
+    "unit": "HALF_YEAR",
+    "readingPeriod": "217938",
+    "billingPeriod": "141809",
+    "periodText": "occaecat enim dolore nulla et",
+    "periodId": 5
   },
   "contractPartner1": [
     {
       "boType": "BUSINESS_PARTNER",
       "structureVersion": "1",
-      "salutation": "Dr.",
-      "name1": "Maybach",
-      "name2": "Miray",
-      "name3": "consectetur",
-      "name4": "in amet",
-      "vatId": "DE000101100",
-      "creditorId": "765228",
-      "emailAddress": "Luisa66@gmail.com",
-      "website": "https://zornig-stahl.org/",
+      "salutation": "Herr",
+      "name1": "Kappe",
+      "name2": "Maxi",
+      "name3": "eu culpa est",
+      "name4": "consectetur dolor enim aliquip",
+      "vatId": "DE011101111",
+      "creditorId": "134029",
+      "emailAddress": "Bianca_Hugo26@hotmail.com",
+      "website": "https://speziell-sikhreligion.ch",
       "commercialClassification": true,
-      "commercialRegisterNumber": "155557",
-      "courtOfRegistration": "West Lanaburg",
+      "commercialRegisterNumber": "566276",
+      "courtOfRegistration": "Sammystadt",
       "partnerAddress": {
-        "postalCode": "41066",
-        "city": "Neu Fabiennescheid",
-        "street": "Fröbelstr.",
-        "houseNumber": "98b",
-        "poBox": "aliquip aute minim",
-        "addressSupplement": "qui quis non",
-        "coSupplement": "tempor cillum irure eu",
-        "countryCode": "BF",
-        "district": "Nord Sören",
+        "postalCode": "37155",
+        "city": "Edgarburg",
+        "street": "Düsseldorfer Str.",
+        "houseNumber": "7",
+        "poBox": "irure laborum enim",
+        "addressSupplement": "pariatur laborum eu",
+        "coSupplement": "ad aute",
+        "countryCode": "IC",
+        "district": "Süd Adamland",
         "additionalInformation": {
-          "supplement1": "est pariatur consequat exercitation irure",
-          "supplement2": "dolor elit in",
-          "supplement3": "enim nostrud qui",
-          "supplement4": "labore ex in enim",
-          "supplement5": "exercitation esse elit"
+          "supplement1": "amet ex ea ad",
+          "supplement2": "mollit quis voluptate laborum exercitation",
+          "supplement3": "dolore",
+          "supplement4": "anim",
+          "supplement5": "ad nisi"
         }
       },
-      "externalCustomerNumberSupplier": "338047",
+      "externalCustomerNumberSupplier": "378618",
       "externalReferences": [
         {
-          "externalReferenceName": "Kundennummer beim Altlieferanten",
-          "externalReferenceValue": "5007851290"
+          "externalReferenceName": "Kundennummer beim Lieferanten",
+          "externalReferenceValue": "6258660076"
         }
       ],
       "businessPartnerRole": [
-        "MARKET_PARTNER"
+        "SUPPLIER"
       ],
       "contactChannel": [
-        "FAX"
+        "EMAIL"
       ]
     }
   ],
@@ -213,48 +213,48 @@
     {
       "boType": "BUSINESS_PARTNER",
       "structureVersion": "1",
-      "salutation": "Herr",
-      "name1": "Klinger",
-      "name2": "Melis",
-      "name3": "Excepteur ex dolore",
-      "name4": "nisi in aliquip Ut pariatur",
-      "vatId": "DE011011100",
-      "creditorId": "438396",
-      "emailAddress": "Sydney_Krauspe@gmail.com",
-      "website": "https://krisenfest-kase.net",
-      "commercialClassification": false,
-      "commercialRegisterNumber": "607312",
-      "courtOfRegistration": "Hürth",
+      "salutation": "Frau",
+      "name1": "Röttger",
+      "name2": "Jana",
+      "name3": "id cupidatat",
+      "name4": "nisi",
+      "vatId": "DE001011000",
+      "creditorId": "877826",
+      "emailAddress": "Marlo_Isak@gmail.com",
+      "website": "https://freimutig-sonnensystem.de/",
+      "commercialClassification": true,
+      "commercialRegisterNumber": "391521",
+      "courtOfRegistration": "Neu Rasmus",
       "partnerAddress": {
-        "postalCode": "76915",
-        "city": "Jamiescheid",
-        "street": "Jakob-Eulenberg-Weg",
-        "houseNumber": "6",
-        "poBox": "ad officia",
-        "addressSupplement": "Excepteur",
-        "coSupplement": "consequat esse",
-        "countryCode": "WS",
-        "district": "Hessdorf",
+        "postalCode": "44352",
+        "city": "Bad Celiastadt",
+        "street": "Höfer Mühle",
+        "houseNumber": "777",
+        "poBox": "pariatur culpa Duis adipisicing deserunt",
+        "addressSupplement": "nisi commodo",
+        "coSupplement": "ea mollit",
+        "countryCode": "NF",
+        "district": "West Tiadorf",
         "additionalInformation": {
-          "supplement1": "proident exercitation",
-          "supplement2": "velit sed nisi",
-          "supplement3": "reprehenderit sunt",
-          "supplement4": "eu cupidatat sit consequat tempor",
-          "supplement5": "reprehenderit labore dolore do"
+          "supplement1": "dolor",
+          "supplement2": "deserunt dolore Excepteur in cillum",
+          "supplement3": "dolor ullamco",
+          "supplement4": "consectetur",
+          "supplement5": "elit nostrud nulla Lorem commodo"
         }
       },
-      "externalCustomerNumberSupplier": "494310",
+      "externalCustomerNumberSupplier": "476725",
       "externalReferences": [
         {
-          "externalReferenceName": "Kundennummer beim Altlieferanten",
-          "externalReferenceValue": "7154081494"
+          "externalReferenceName": "Kundennummer beim Lieferanten",
+          "externalReferenceValue": "8424815306"
         }
       ],
       "businessPartnerRole": [
-        "SERVICE_PROVIDER"
+        "PROSPECT"
       ],
       "contactChannel": [
-        "SMS"
+        "PHONE_CALL"
       ]
     }
   ],
@@ -262,7 +262,7 @@
     {
       "basisForLevyReduction": "MEETS_REQUIREMENT_UNDER_ENFG",
       "reason": [
-        "ENFG_ELECTRICALLY_OPERATED_BUSES_IN_SCHEDULED_SERVICE"
+        "ENFG_ELECTRICITY_STORAGE_AND_LOSS_ENERGY"
       ]
     }
   ]

@@ -3,4 +3,3 @@ components:
     disconnectionOrderType:
       $ref: >-
         ../../../enum/DisconnectionOrderType.yaml#/components/schemas/DisconnectionOrderType
-      description: Handelt es sich um einen Auftrag zum SPERREN oder ENTSPERREN?

@@ -3,4 +3,3 @@ components:
     tierLimitTo:
       type: number
       format: float
-      description: staffelgrenzeBis

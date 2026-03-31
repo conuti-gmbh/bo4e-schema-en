@@ -3,4 +3,3 @@ components:
     endDate:
       type: string
       format: date-time
-      description: enddatum

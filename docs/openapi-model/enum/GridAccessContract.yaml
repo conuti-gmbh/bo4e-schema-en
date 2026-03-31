@@ -6,4 +6,3 @@ components:
       enum:
         - CUSTOMER_GRID_OPERATOR
         - SUPPLIER_GRID_OPERATOR
-      description: Netznutzungsvertrag

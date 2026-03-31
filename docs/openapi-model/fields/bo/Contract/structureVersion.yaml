@@ -3,4 +3,3 @@ components:
     structureVersion:
       type: string
       default: '1'
-      description: obligatory version of the BO4E definition. Currently hard coded to 1

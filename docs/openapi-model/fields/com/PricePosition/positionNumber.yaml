@@ -2,4 +2,3 @@ components:
   schemas:
     positionNumber:
       type: integer
-      description: Fortlaufende Nummer für die Preisposition

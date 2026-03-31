@@ -13,4 +13,3 @@ components:
         - FOLLOWED_UP
         - PENDING
         - COMPLETED
-      description: Gibt den Status eines Angebotes an

@@ -3,4 +3,3 @@ components:
     caseGroupAssignment:
       $ref: >-
         ../../../enum/CaseGroupAssignment.yaml#/components/schemas/CaseGroupAssignment
-      description: Fallgruppenzuordnung (für gas RLM)

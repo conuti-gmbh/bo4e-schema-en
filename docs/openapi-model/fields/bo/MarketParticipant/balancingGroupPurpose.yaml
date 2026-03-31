@@ -3,4 +3,3 @@ components:
     balancingGroupPurpose:
       $ref: >-
         ../../../enum/BalancingGroupPurpose.yaml#/components/schemas/BalancingGroupPurpose
-      description: Verwendungszweck des Bilanzkreises

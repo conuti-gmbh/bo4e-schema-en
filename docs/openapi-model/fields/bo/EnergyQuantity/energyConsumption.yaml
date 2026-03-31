@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../com/Consumption.yaml#/components/schemas/Consumption
-      description: Gibt den Verbrauch in einer Zeiteinheit an.
       nullable: true

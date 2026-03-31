@@ -1,5 +1,4 @@
 components:
   schemas:
     contactPersonCustomer:
-      description: Kontaktdaten des Kunden / ORDERS CTA+IC
       $ref: ../../../bo/ContactPerson.yaml#/components/schemas/ContactPerson

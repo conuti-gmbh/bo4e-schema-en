@@ -3,4 +3,3 @@ components:
     lossFactorLine:
       type: number
       format: float
-      description: verlustfaktorLeitung

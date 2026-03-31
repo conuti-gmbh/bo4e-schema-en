@@ -7,4 +7,3 @@ components:
         - HIGH_FREQUENCY_PROBE
         - CHARACTERISTIC_CURVE_CORRECTION
         - CREEP_QUANTITY_SUPPRESSION
-      description: Volumenerfassung

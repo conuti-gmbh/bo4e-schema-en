@@ -3,4 +3,3 @@ components:
     disconnectionOrderRejectionReason:
       $ref: >-
         ../../../enum/DisconnectionOrderRejectionReason.yaml#/components/schemas/DisconnectionOrderRejectionReason
-      description: Falls Sperrauftragsstatus = ABGELEHNT

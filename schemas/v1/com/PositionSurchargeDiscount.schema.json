@@ -1,16 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/PositionSurchargeDiscount.schema.json",
   "title": "PositionSurchargeDiscount",
   "type": "object",
   "properties": {
     "designation": {
-      "type": "string",
-      "description": "bezeichnung"
+      "type": "string"
     },
     "description": {
-      "type": "string",
-      "description": "beschreibung"
+      "type": "string"
     },
     "surchargeDiscountType": {
       "$ref": "../enum/SurchargeDiscountType.schema.json"
@@ -24,8 +22,7 @@
           "min": 1,
           "max": 10
         }
-      },
-      "description": "aufAbschlagswert"
+      }
     },
     "surchargeDiscountCurrency": {
       "$ref": "../enum/CurrencyUnit.schema.json"

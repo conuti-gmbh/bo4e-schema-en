@@ -32,4 +32,3 @@ components:
         - STATED_QUOTES_AT_MARKET_LOCATION_NOT_PRESENT
         - INVOICE_SETTLEMENT_NOT_AGREED
         - COMDIS_IS_REJECTED
-      description: Abweichungsgrund

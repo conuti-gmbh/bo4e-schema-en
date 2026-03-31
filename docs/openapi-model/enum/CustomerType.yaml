@@ -19,6 +19,3 @@ components:
         - STORAGE_HEATING
         - INTERRUPTIBLE_FACILITY
         - HEAT_PUMP
-      description: >-
-        Auflistung der Typen von Endkunden. Daraus kann das Verbrauchsprofil
-        abgeleitet werden

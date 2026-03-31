@@ -2,4 +2,3 @@ components:
   schemas:
     areaType:
       $ref: ../../../enum/AreaType.yaml#/components/schemas/AreaType
-      description: Typ des Netzgebietes,z.B.Verteilnetz.

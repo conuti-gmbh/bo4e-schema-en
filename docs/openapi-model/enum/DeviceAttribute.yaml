@@ -73,4 +73,3 @@ components:
         - MEASURING_TRANSFORMER_SET_IMS_MME
         - COMBINED_MEASURING_TRANSFORMER
         - VOLTAGE_TRANSFORMER
-      description: Geraetemerkmal

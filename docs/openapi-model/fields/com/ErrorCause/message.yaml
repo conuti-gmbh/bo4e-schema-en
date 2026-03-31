@@ -2,4 +2,3 @@ components:
   schemas:
     message:
       type: string
-      description: nachricht

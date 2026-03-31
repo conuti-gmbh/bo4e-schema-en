@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/MeteringLocationAssignment.yaml#/components/schemas/MeteringLocationAssignment
-      description: zugehoerigeMesslokationen
       nullable: true

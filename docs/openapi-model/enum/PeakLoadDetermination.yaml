@@ -6,4 +6,3 @@ components:
       enum:
         - USE_OF_PEAK_LOAD_WINDOW
         - NO_USE_OF_PEAK_LOAD_WINDOW
-      description: ErmittlungLeistungsmaximum

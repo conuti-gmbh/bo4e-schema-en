@@ -5,7 +5,7 @@ components:
       type: object
       example:
         $ref: >-
-          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Bilanzkreis.json
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/docs/examples/bo/BalancingGroup.json
       properties:
         boType:
           $ref: ../fields/bo/BalancingGroup/boType.yaml#/components/schemas/boType

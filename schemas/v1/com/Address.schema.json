@@ -1,49 +1,40 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/Address.schema.json",
   "title": "Address",
   "type": "object",
   "properties": {
     "postalCode": {
       "type": "string",
-      "faker": "location.zipCode",
-      "description": "Postleitzahl"
+      "faker": "location.zipCode"
     },
     "city": {
       "type": "string",
-      "faker": "location.city",
-      "description": "Ort"
+      "faker": "location.city"
     },
     "street": {
       "type": "string",
-      "faker": "location.street",
-      "description": "Strasse"
+      "faker": "location.street"
     },
     "houseNumber": {
       "type": "string",
-      "faker": "location.buildingNumber",
-      "description": "Hausnummer und Ergänzung"
+      "faker": "location.buildingNumber"
     },
     "poBox": {
-      "type": "string",
-      "description": "Postfach"
+      "type": "string"
     },
     "addressSupplement": {
-      "type": "string",
-      "description": "Adresszusatz"
+      "type": "string"
     },
     "coSupplement": {
-      "type": "string",
-      "description": "coErgaenzung"
+      "type": "string"
     },
     "countryCode": {
-      "$ref": "../enum/CountryCode.schema.json",
-      "description": "Landescode"
+      "$ref": "../enum/CountryCode.schema.json"
     },
     "district": {
       "type": "string",
-      "faker": "location.city",
-      "description": "Ortsteil"
+      "faker": "location.city"
     },
     "additionalInformation": {
       "$ref": "../com/AddressSupplementInformation.schema.json"

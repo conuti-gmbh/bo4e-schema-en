@@ -2,4 +2,3 @@ components:
   schemas:
     number:
       type: string
-      description: Handelsunstimmigkeitsnummer

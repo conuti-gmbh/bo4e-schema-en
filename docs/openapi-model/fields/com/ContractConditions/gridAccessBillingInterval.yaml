@@ -2,4 +2,3 @@ components:
   schemas:
     gridAccessBillingInterval:
       type: integer
-      description: netznutzungsabrechnungIntervall

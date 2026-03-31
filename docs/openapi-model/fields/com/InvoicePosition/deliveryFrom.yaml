@@ -3,4 +3,3 @@ components:
     deliveryFrom:
       type: string
       format: date-time
-      description: Start der Lieferung für die abgerechnete Leistung.

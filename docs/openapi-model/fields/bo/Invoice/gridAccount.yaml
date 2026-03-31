@@ -2,4 +2,3 @@ components:
   schemas:
     gridAccount:
       type: string
-      description: netzkonto

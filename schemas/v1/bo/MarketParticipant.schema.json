@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/MarketParticipant.schema.json",
   "title": "MarketParticipant",
   "type": "object",
   "properties": {
@@ -10,62 +10,49 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "businessPartnerRole": {
-      "$ref": "../enum/BusinessPartnerRole.schema.json",
-      "description": "Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde)."
+      "$ref": "../enum/BusinessPartnerRole.schema.json"
     },
     "salutation": {
       "type": "string",
-      "faker": "person.prefix",
-      "description": "Die Anrede für den GePa, Z.B. Herr."
+      "faker": "person.prefix"
     },
     "name1": {
       "type": "string",
-      "faker": "person.lastName",
-      "description": "Erster Teil des Namens. Hier kann der Firmenname oder bei Privatpersonen\nbeispielsweise der Nachname dargestellt werden. Beispiele: Yellow Strom GmbH\noder Hagen"
+      "faker": "person.lastName"
     },
     "name2": {
       "type": "string",
-      "faker": "person.firstName",
-      "description": "Zweiter Teil des Namens. Hier kann der eine Erweiterung zum Firmennamen oder\nbei Privatpersonen beispielsweise der Vorname dargestellt werden. Beispiele:\nBereich Süd oder Nina"
+      "faker": "person.firstName"
     },
     "name3": {
-      "type": "string",
-      "description": "Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder\nbei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele: und Afrika\noder Sängerin"
+      "type": "string"
     },
     "name4": {
-      "type": "string",
-      "description": "name4"
+      "type": "string"
     },
     "partnerAddress": {
-      "$ref": "../com/Address.schema.json",
-      "description": "Adresse des Geschäftspartners, an der sich der Hauptsitz befindet. Details"
+      "$ref": "../com/Address.schema.json"
     },
     "commercialClassification": {
-      "type": "boolean",
-      "description": "Kennzeichnung ob es sich um einen Gewerbe/Unternehmen (gewerbeKennzeichnung = true)\noder eine Privatperson handelt. (gewerbeKennzeichnung = false)"
+      "type": "boolean"
     },
     "externalCustomerNumberSupplier": {
-      "type": "string",
-      "description": "externeKundenummerLieferant"
+      "type": "string"
     },
     "marketRole": {
-      "$ref": "../enum/MarketRole.schema.json",
-      "description": "Gibt im Klartext die Bezeichnung der Marktrolle an."
+      "$ref": "../enum/MarketRole.schema.json"
     },
     "roleCodeNumber": {
       "type": "string",
       "faker": {
         "string.numeric": 9
-      },
-      "description": "Gibt die Codenummer der Marktrolle an."
+      }
     },
     "roleCodeType": {
-      "$ref": "../enum/RoleCodeType.schema.json",
-      "description": "Gibt den Typ des Codes an."
+      "$ref": "../enum/RoleCodeType.schema.json"
     },
     "vatId": {
       "type": "string",
@@ -74,57 +61,47 @@
           "prefix": "DE",
           "length": 9
         }
-      },
-      "description": "Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825"
+      }
     },
     "taxNumber": {
       "type": "string",
       "faker": {
         "string.numeric": 9
-      },
-      "description": "Die Steuernummer-ID des Geschäftspartners. Beispiel: 30120345678"
+      }
     },
     "contactPerson": {
-      "$ref": "../bo/ContactPerson.schema.json",
-      "description": "Ansprechpartner as in EDIFACT NAD+MS, that includes e.g. the email address of a natural person."
+      "$ref": "../bo/ContactPerson.schema.json"
     },
     "makoAddress": {
-      "type": "string",
-      "description": "Die 1:1-Kommunikationsadresse des Marktteilnehmers. Diese wird in der\nMarktkommunikation verwendet."
+      "type": "string"
     },
     "certificateDownloadLink": {
       "type": "string",
-      "faker": "internet.url",
-      "description": "downloadlinkZertifikat"
+      "faker": "internet.url"
     },
     "courtOfRegistration": {
       "type": "string",
-      "faker": "location.city",
-      "description": "Amtsgericht bzw Handelsregistergericht, das die Handelsregisternummer herausgegeben hat"
+      "faker": "location.city"
     },
     "commercialRegisterNumber": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      },
-      "description": "Handelsregisternummer des Geschäftspartners"
+      }
     },
     "website": {
       "type": "string",
-      "faker": "internet.url",
-      "description": "Internetseite des Marktpartners. Beispiel: www.mp-energie.de"
+      "faker": "internet.url"
     },
     "faxNumber": {
       "type": "string",
-      "faker": "phone.number",
-      "description": "faxnummer"
+      "faker": "phone.number"
     },
     "communicationRole": {
       "$ref": "../enum/CommunicationRole.schema.json"
     },
     "subContracted": {
-      "type": "boolean",
-      "description": "weiterverpflichtet"
+      "type": "boolean"
     },
     "communicationParameters": {
       "$ref": "../com/CommunicationParameters.schema.json"
@@ -139,8 +116,7 @@
       ],
       "items": {
         "$ref": "../com/BankAccount.schema.json"
-      },
-      "description": "Bankverbindung"
+      }
     },
     "reachability": {
       "type": [
@@ -149,34 +125,28 @@
       ],
       "items": {
         "$ref": "../com/Reachability.schema.json"
-      },
-      "description": "Die Erreichbarkeit eines Unternehmens an Werktagen."
+      }
     },
     "ipAddress": {
       "type": "string",
-      "faker": "internet.ip",
-      "description": "ipAdresse"
+      "faker": "internet.ip"
     },
     "ipRange": {
       "$ref": "../com/IpRange.schema.json"
     },
     "assignmentFrom": {
       "type": "string",
-      "format": "date-time",
-      "description": "Startdatum der Zuordnung des Marktteilnehmers"
+      "format": "date-time"
     },
     "assignmentTo": {
       "type": "string",
-      "format": "date-time",
-      "description": "Enddatum der Zuordnung des Marktteilnehmers"
+      "format": "date-time"
     },
     "balancingGroup": {
-      "type": "string",
-      "description": "Bilanzkreis"
+      "type": "string"
     },
     "balancingGroupPurpose": {
-      "$ref": "../enum/BalancingGroupPurpose.schema.json",
-      "description": "Verwendungszweck des Bilanzkreises"
+      "$ref": "../enum/BalancingGroupPurpose.schema.json"
     }
   },
   "required": [

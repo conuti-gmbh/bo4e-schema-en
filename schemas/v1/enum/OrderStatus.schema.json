@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Auftragsstatus.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/OrderStatus.schema.json",
   "title": "OrderStatus",
   "type": "string",
   "enum": [
@@ -30,6 +30,5 @@
     "ENFG_SHORE_POWER_FACILITIES",
     "CHANGE_OF_DATA",
     "NO_CHANGE_OF_DATA"
-  ],
-  "description": "Auftragsstatus"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/MeteringTime.schema.json",
   "title": "MeteringTime",
   "type": "object",
   "properties": {
@@ -11,41 +11,32 @@
           "prefix": "CODE_",
           "length": 6
         }
-      },
-      "description": "Zählzeitdefinition"
+      }
     },
     "frequency": {
-      "$ref": "../enum/MeteringTimeFrequency.schema.json",
-      "description": "Häufigkeit der Übermittlung"
+      "$ref": "../enum/MeteringTimeFrequency.schema.json"
     },
     "transmissibility": {
-      "$ref": "../enum/MeteringTimeTransmissibility.schema.json",
-      "description": "Art der Übermittlung"
+      "$ref": "../enum/MeteringTimeTransmissibility.schema.json"
     },
     "peakLoadDetermination": {
-      "$ref": "../enum/PeakLoadDetermination.schema.json",
-      "description": "Ermittlung Leistungsmaximum"
+      "$ref": "../enum/PeakLoadDetermination.schema.json"
     },
     "isOrderable": {
-      "type": "boolean",
-      "description": "Ist die Zählzeit bestellbar?"
+      "type": "boolean"
     },
     "typeValue": {
-      "$ref": "../enum/MeteringTimeDefinitionType.schema.json",
-      "description": "ZählzeitdefinitionTyp"
+      "$ref": "../enum/MeteringTimeDefinitionType.schema.json"
     },
     "descriptionType": {
-      "type": "string",
-      "description": "Beschreibung des ZählzeitdefinitionTyp"
+      "type": "string"
     },
     "changeTimestamp": {
       "type": "string",
-      "format": "date-time",
-      "description": "aenderungszeitpunkt"
+      "format": "date-time"
     },
     "register": {
-      "type": "string",
-      "description": "register"
+      "type": "string"
     }
   }
 }

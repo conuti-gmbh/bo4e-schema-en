@@ -2,4 +2,3 @@ components:
   schemas:
     readingPeriod:
       type: string
-      description: ableseZeitraum

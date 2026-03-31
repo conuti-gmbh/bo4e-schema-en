@@ -2,4 +2,3 @@ components:
   schemas:
     positionDesignation:
       type: string
-      description: Bezeichnung der Position

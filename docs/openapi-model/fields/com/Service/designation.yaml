@@ -2,4 +2,3 @@ components:
   schemas:
     designation:
       type: string
-      description: Bezeichnung der Dienstleistung.

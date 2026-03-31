@@ -27,4 +27,3 @@ components:
         - UNLOCKING
         - REMINDER_COSTS
         - COLLECTION_COSTS
-      description: Leistungstyp

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/DeviceProperties.schema.json",
   "title": "DeviceProperties",
   "type": "object",
   "properties": {
@@ -17,29 +17,25 @@
       "type": "string",
       "faker": {
         "string.numeric": 10
-      },
-      "description": "serialnummer"
+      }
     },
     "manufacturingDate": {
       "type": "string",
       "faker": {
         "string.numeric": 4
-      },
-      "description": "Produktions-/Herstellungsdatum"
+      }
     },
     "yearOfConstruction": {
       "type": "string",
       "faker": {
         "string.numeric": 4
-      },
-      "description": "Baujahr/Jahr des in Verkehrs bringens"
+      }
     },
     "calibrationUntil": {
       "type": "string",
       "faker": {
         "string.numeric": 4
-      },
-      "description": "Eichgültigkeit"
+      }
     },
     "factor": {
       "type": "number",
@@ -50,8 +46,7 @@
           "min": 1,
           "max": 10
         }
-      },
-      "description": "faktor"
+      }
     }
   }
 }

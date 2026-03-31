@@ -2,6 +2,3 @@ components:
   schemas:
     invoiceType:
       $ref: ../../../enum/InvoiceType.yaml#/components/schemas/InvoiceType
-      description: >-
-        Ein kontextbezogender Rechnungstyp, z.B. Netznutzungsrechnung. Details
-        siehe ENUM Rechnungstyp

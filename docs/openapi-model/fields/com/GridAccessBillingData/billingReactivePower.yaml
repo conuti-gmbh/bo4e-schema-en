@@ -2,4 +2,3 @@ components:
   schemas:
     billingReactivePower:
       type: boolean
-      description: abrechnungBlindarbeit

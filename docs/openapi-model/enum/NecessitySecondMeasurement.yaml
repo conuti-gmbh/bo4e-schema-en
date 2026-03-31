@@ -6,4 +6,3 @@ components:
       enum:
         - PRESENT
         - NOT_PRESENT
-      description: NotwendigkeitZweiteMessung

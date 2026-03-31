@@ -2,4 +2,3 @@ components:
   schemas:
     street:
       type: string
-      description: Strasse

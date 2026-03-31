@@ -7,4 +7,3 @@ components:
         - SETUP_PRICE
         - TRANSACTION_PRICE
         - OPERATING_PRICE
-      description: Preisart Code

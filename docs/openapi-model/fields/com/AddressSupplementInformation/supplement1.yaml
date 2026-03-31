@@ -2,4 +2,3 @@ components:
   schemas:
     supplement1:
       type: string
-      description: Adresszusatz 1

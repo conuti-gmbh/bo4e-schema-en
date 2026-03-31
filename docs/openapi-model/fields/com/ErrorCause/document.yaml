@@ -2,4 +2,3 @@ components:
   schemas:
     document:
       type: string
-      description: dokument

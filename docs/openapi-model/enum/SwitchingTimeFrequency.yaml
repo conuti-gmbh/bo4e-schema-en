@@ -6,4 +6,3 @@ components:
       enum:
         - ONE_TIME
         - ANNUAL
-      description: HaeufigkeitSchaltzeit

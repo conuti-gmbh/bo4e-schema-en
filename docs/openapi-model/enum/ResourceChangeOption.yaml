@@ -8,4 +8,3 @@ components:
         - CHANGE_OPTION_NOT_POSSIBLE
         - FIXED_TERM_WITHOUT_CHANGE_OPTION
         - CHANGE_WAS_CARRIED_OUT
-      description: RessourceWechselmoeglichkeit

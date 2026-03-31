@@ -2,4 +2,3 @@ components:
   schemas:
     deviceReference:
       type: string
-      description: geraetereferenz

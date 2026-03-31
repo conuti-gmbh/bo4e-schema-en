@@ -3,4 +3,3 @@ components:
     typeValue:
       $ref: >-
         ../../../enum/MeteringTimeDefinitionType.yaml#/components/schemas/MeteringTimeDefinitionType
-      description: ZählzeitdefinitionTyp

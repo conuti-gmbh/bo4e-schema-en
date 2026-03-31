@@ -2,4 +2,3 @@ components:
   schemas:
     decimalPlaces:
       type: integer
-      description: nachkommastelle

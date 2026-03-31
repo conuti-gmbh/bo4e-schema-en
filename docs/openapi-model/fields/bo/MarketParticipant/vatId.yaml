@@ -2,4 +2,3 @@ components:
   schemas:
     vatId:
       type: string
-      description: 'Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825'

@@ -16,6 +16,3 @@ components:
         - VOLUME_FLOW
         - USAGE_DURATION
         - COUNT
-      description: >-
-        Zur Abbildung von Messgrössen und zur Verwendung in
-        energiewirtschaftlichen Berechnungen.

@@ -2,4 +2,3 @@ components:
   schemas:
     yearOfConstruction:
       type: string
-      description: Baujahr/Jahr des in Verkehrs bringens

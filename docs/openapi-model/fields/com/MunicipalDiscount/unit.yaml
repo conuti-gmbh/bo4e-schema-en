@@ -2,4 +2,3 @@ components:
   schemas:
     unit:
       type: string
-      description: Einheit

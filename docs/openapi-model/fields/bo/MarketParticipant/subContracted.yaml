@@ -2,4 +2,3 @@ components:
   schemas:
     subContracted:
       type: boolean
-      description: weiterverpflichtet

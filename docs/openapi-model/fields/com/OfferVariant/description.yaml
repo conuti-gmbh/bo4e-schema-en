@@ -2,4 +2,3 @@ components:
   schemas:
     description:
       type: string
-      description: beschreibung

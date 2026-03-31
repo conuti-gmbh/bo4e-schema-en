@@ -2,4 +2,4 @@ components:
   schemas:
     subscription:
       $ref: ../../../enum/Subscription.yaml#/components/schemas/Subscription
-      description: Start oder Ende Abo
+      description: Start or end of subscription

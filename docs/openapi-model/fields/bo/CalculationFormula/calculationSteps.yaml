@@ -4,7 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../com/CalculationStep.yaml#/components/schemas/CalculationStep
-      description: >-
-        Eine Berechnungsformel enthält, falls sie notwendig ist, einen oder
-        mehrere Berechnungschritte, die hier rekursiv abgebildet werden.
       nullable: true

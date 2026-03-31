@@ -1,5 +1,4 @@
 components:
   schemas:
     referenceMelo:
-      description: Messlokation Referenz / RFF+Z21
       type: string

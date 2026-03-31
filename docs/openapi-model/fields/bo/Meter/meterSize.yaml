@@ -2,4 +2,3 @@ components:
   schemas:
     meterSize:
       $ref: ../../../enum/DeviceAttribute.yaml#/components/schemas/DeviceAttribute
-      description: Zaehlergroesse

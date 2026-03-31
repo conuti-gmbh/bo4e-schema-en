@@ -3,4 +3,3 @@ components:
     structureVersion:
       type: string
       default: '1'
-      description: versionStruktur

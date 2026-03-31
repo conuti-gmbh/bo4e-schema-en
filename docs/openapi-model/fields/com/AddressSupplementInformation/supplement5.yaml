@@ -2,4 +2,3 @@ components:
   schemas:
     supplement5:
       type: string
-      description: Adresszusatz 5

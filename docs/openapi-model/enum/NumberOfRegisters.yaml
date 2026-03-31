@@ -7,4 +7,3 @@ components:
         - SINGLE_TARIFF
         - MULTI_TARIFF
         - TWO_TARIFF
-      description: Registeranzahl

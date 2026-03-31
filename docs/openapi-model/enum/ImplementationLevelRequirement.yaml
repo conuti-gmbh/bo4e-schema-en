@@ -6,4 +6,3 @@ components:
       enum:
         - ASSIGNMENT_ONLY_IF_PRODUCT_PACKAGE_IMPLEMENTABLE
         - ASSIGNMENT_EVEN_IF_PRODUCT_PACKAGE_NOT_IMPLEMENTABLE
-      description: Umsetzungsgradvorgabe

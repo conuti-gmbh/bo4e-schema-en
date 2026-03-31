@@ -7,4 +7,3 @@ components:
         - CONNECTION_USER
         - SUPPLIER
         - NOT_DEFINED
-      description: ZahlerBlindarbeit

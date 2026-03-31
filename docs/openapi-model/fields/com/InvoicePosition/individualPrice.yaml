@@ -2,4 +2,3 @@ components:
   schemas:
     individualPrice:
       $ref: ../../../com/Price.yaml#/components/schemas/Price
-      description: Der Preis für eine Einheit der energetischen Menge. Details Preis

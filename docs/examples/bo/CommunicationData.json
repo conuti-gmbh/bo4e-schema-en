@@ -1,213 +1,213 @@
 {
   "boType": "COMMUNICATION_DATA",
   "structureVersion": "1",
-  "validity": "1936-12-26T02:50:53.0Z",
-  "communicationDataSheetInactive": true,
+  "validity": "1941-05-05T11:34:31.0Z",
+  "communicationDataSheetInactive": false,
   "marketParticipant": {
     "boType": "MARKET_PARTICIPANT",
     "structureVersion": "1",
     "businessPartnerRole": "SUPPLIER",
     "salutation": "Frau",
-    "name1": "Nolte",
-    "name2": "Mirja",
-    "name3": "id exercitation aliquip pariatur",
-    "name4": "mollit labore incididunt ut",
+    "name1": "Cronjäger",
+    "name2": "Korbinian",
+    "name3": "officia commodo Excepteur",
+    "name4": "nulla Ut",
     "partnerAddress": {
-      "postalCode": "62484",
-      "city": "Lillyscheid",
-      "street": "Schöneberger Str.",
-      "houseNumber": "42a",
-      "poBox": "enim Lorem adipisicing ex",
-      "addressSupplement": "quis pariatur",
-      "coSupplement": "quis minim magna",
-      "countryCode": "DG",
-      "district": "Zaitucland",
+      "postalCode": "64802",
+      "city": "West Emelieburg",
+      "street": "Auf dem Lehn",
+      "houseNumber": "33",
+      "poBox": "officia",
+      "addressSupplement": "irure cupidatat aliquip magna proident",
+      "coSupplement": "ipsum sed nisi pariatur quis",
+      "countryCode": "CI",
+      "district": "Emirdorf",
       "additionalInformation": {
-        "supplement1": "in et",
-        "supplement2": "elit veniam cupidatat",
-        "supplement3": "enim laborum aliquip magna",
-        "supplement4": "veniam sunt",
-        "supplement5": "sunt occaecat"
+        "supplement1": "Excepteur",
+        "supplement2": "eu ut consectetur Duis",
+        "supplement3": "est elit in irure",
+        "supplement4": "non laborum aliquip dolor",
+        "supplement5": "dolor exercitation Duis"
       }
     },
     "commercialClassification": true,
-    "externalCustomerNumberSupplier": "et ex nisi ut eu",
-    "marketRole": "MDL",
-    "roleCodeNumber": "288989231",
+    "externalCustomerNumberSupplier": "dolor Excepteur incididunt",
+    "marketRole": "UENB",
+    "roleCodeNumber": "342654552",
     "roleCodeType": "BDEW",
-    "vatId": "DE101111001",
-    "taxNumber": "002884487",
+    "vatId": "DE011001010",
+    "taxNumber": "270419426",
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Auer",
-      "eMailAddress": "Betty_Koszewski@gmail.com",
+      "lastName": "Dingelstedt",
+      "eMailAddress": "Theodor.Rose@gmail.com",
       "phoneNumbers": [
         {
-          "numberType": "FAX_EXTENSION",
-          "phoneNumber": "(0107) 948860201"
+          "numberType": "DEPARTMENT_FAX",
+          "phoneNumber": "+49-5528-89096402"
         }
       ]
     },
-    "makoAddress": "eiusmod reprehenderit in",
-    "certificateDownloadLink": "https://ehrenhaft-alphabet.com",
-    "courtOfRegistration": "Wetzlar",
-    "commercialRegisterNumber": "558421",
-    "website": "https://anerkannt-verhutung.info/",
-    "faxNumber": "(03101) 1546602",
-    "communicationRole": "MMMA_PROCESSES",
+    "makoAddress": "anim est",
+    "certificateDownloadLink": "https://bahnbrechend-tor.info",
+    "courtOfRegistration": "Velbert",
+    "commercialRegisterNumber": "828536",
+    "website": "https://umwerfend-alphabet.org/",
+    "faxNumber": "(07398) 0471614",
+    "communicationRole": "CHANGE_PROCESSES",
     "subContracted": false,
     "communicationParameters": {
       "targetAddress": {
-        "targetAddress1": "quis",
-        "targetAddress2": "qui laborum ullamco amet",
-        "targetAddress3": "officia",
-        "targetAddress4": "nisi sed Excepteur laborum",
-        "targetAddress5": "anim"
+        "targetAddress1": "non Ut quis laboris",
+        "targetAddress2": "velit sunt commodo aute sed",
+        "targetAddress3": "aute",
+        "targetAddress4": "sint laboris",
+        "targetAddress5": "amet"
       },
       "certificateIssuer": {
-        "certificateIssuer1": "quis ad occaecat id",
-        "certificateIssuer2": "dolore commodo",
-        "certificateIssuer3": "officia in magna",
-        "certificateIssuer4": "ex ea ut dolore Lorem",
-        "certificateIssuer5": "ullamco dolor ad"
+        "certificateIssuer1": "Duis laboris ea ad",
+        "certificateIssuer2": "amet in",
+        "certificateIssuer3": "proident",
+        "certificateIssuer4": "nostrud esse enim",
+        "certificateIssuer5": "anim ipsum in"
       },
       "certificateUser": {
-        "certificateUser1": "dolore",
-        "certificateUser2": "minim tempor",
-        "certificateUser3": "Excepteur ipsum",
-        "certificateUser4": "pariatur Lorem nulla",
-        "certificateUser5": "nostrud ad velit exercitation"
+        "certificateUser1": "ut culpa",
+        "certificateUser2": "consequat laborum",
+        "certificateUser3": "adipisicing irure mollit quis",
+        "certificateUser4": "tempor laborum Excepteur",
+        "certificateUser5": "esse cillum Lorem"
       }
     },
     "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
     "bankAccount": [
       {
-        "purposeOfUse": "BV_PAYMENT_NNA",
-        "iban": "TR070935365003726690370746",
-        "accountHolder": "Nila Obermaier",
-        "bic": "QWSZZM4L",
-        "creditInstitution": "Vieweg-Greger"
+        "purposeOfUse": "BV_PAYMENT_UNLOCK_BILLING",
+        "iban": "FR510034058682A1ZJ7Y6B8G687",
+        "accountHolder": "Frau Veronika Gebhardt",
+        "bic": "GQHBAXNJ",
+        "creditInstitution": "Hamann KG"
       }
     ],
     "reachability": [
       {
-        "availability": "MONDAY",
-        "time": "id proident nulla exercitation"
+        "availability": "THURSDAY",
+        "time": "do"
       }
     ],
-    "ipAddress": "a3e1:16c6:89d5:b1e4:afd0:d516:6e84:3ca8",
+    "ipAddress": "72.115.67.84",
     "ipRange": {
-      "lowerLimit": "52.102.115.147",
-      "upperLimit": "faff:df17:87e8:ecff:dbbb:2b4e:ecbc:aadd"
+      "lowerLimit": "c8ba:bef5:b5d4:ece5:dbcc:62bd:f3c7:f0b0",
+      "upperLimit": "33.226.182.130"
     },
-    "assignmentFrom": "1924-10-13T10:39:33.0Z",
-    "assignmentTo": "1935-12-10T03:44:58.0Z",
-    "balancingGroup": "officia",
-    "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_CHP"
+    "assignmentFrom": "1909-04-19T01:05:32.0Z",
+    "assignmentTo": "1892-09-27T21:01:31.0Z",
+    "balancingGroup": "irure reprehenderit nulla veniam adipisicing",
+    "balancingGroupPurpose": "OTHER_GENERATING_MARKET_LOCATION"
   },
   "communicationDetails": [
     {
       "boType": "MARKET_PARTICIPANT",
       "structureVersion": "1",
-      "businessPartnerRole": "PROSPECT",
-      "salutation": "Dr.",
-      "name1": "Pollmächer",
-      "name2": "Luise",
-      "name3": "sit ad enim nisi",
-      "name4": "consequat laboris aute velit ut",
+      "businessPartnerRole": "CUSTOMER",
+      "salutation": "Frau",
+      "name1": "Klaus",
+      "name2": "Ariane",
+      "name3": "reprehenderit Duis culpa",
+      "name4": "nulla fugiat",
       "partnerAddress": {
-        "postalCode": "41983",
-        "city": "Beckstadt",
-        "street": "Habichtgasse",
-        "houseNumber": "5",
-        "poBox": "sint",
-        "addressSupplement": "nulla",
-        "coSupplement": "ea nostrud fugiat",
-        "countryCode": "CK",
-        "district": "Ibeland",
+        "postalCode": "78349",
+        "city": "Ost Stinaburg",
+        "street": "Lötzener Str.",
+        "houseNumber": "1",
+        "poBox": "consectetur",
+        "addressSupplement": "consectetur laborum aliqua mollit consequat",
+        "coSupplement": "dolor tempor cillum",
+        "countryCode": "GI",
+        "district": "Marekstadt",
         "additionalInformation": {
-          "supplement1": "commodo dolor",
-          "supplement2": "et laboris sunt",
-          "supplement3": "et Lorem",
-          "supplement4": "adipisicing consequat Ut sunt commodo",
-          "supplement5": "eu commodo non incididunt minim"
+          "supplement1": "do pariatur in commodo",
+          "supplement2": "ullamco est",
+          "supplement3": "dolore ad",
+          "supplement4": "pariatur ut ullamco",
+          "supplement5": "aute"
         }
       },
-      "commercialClassification": true,
-      "externalCustomerNumberSupplier": "dolore consequat",
-      "marketRole": "EIV",
-      "roleCodeNumber": "830880919",
-      "roleCodeType": "DVGW",
-      "vatId": "DE010101001",
-      "taxNumber": "213660329",
+      "commercialClassification": false,
+      "externalCustomerNumberSupplier": "est nisi culpa",
+      "marketRole": "MSBA",
+      "roleCodeNumber": "263117115",
+      "roleCodeType": "GLN",
+      "vatId": "DE000001110",
+      "taxNumber": "500759685",
       "contactPerson": {
         "boType": "CONTACT_PERSON",
         "structureVersion": "1",
-        "lastName": "Meissner",
-        "eMailAddress": "Hassan0@gmail.com",
+        "lastName": "Manns",
+        "eMailAddress": "Sanja.Hiebl@yahoo.com",
         "phoneNumbers": [
           {
-            "numberType": "PHONE_EXTENSION",
-            "phoneNumber": "(0907) 055544773"
+            "numberType": "DEPARTMENT_PHONE",
+            "phoneNumber": "(0893) 902521065"
           }
         ]
       },
-      "makoAddress": "est velit nostrud occaecat fugiat",
-      "certificateDownloadLink": "https://bevorzugt-abtreibung.org/",
-      "courtOfRegistration": "Ost Ilias",
-      "commercialRegisterNumber": "602761",
-      "website": "https://barenstark-hutte.ch",
-      "faxNumber": "+49-139-9483865",
-      "communicationRole": "MMMA_PROCESSES",
+      "makoAddress": "laboris amet",
+      "certificateDownloadLink": "https://arbeitswutig-comic.net",
+      "courtOfRegistration": "Alt Loreen",
+      "commercialRegisterNumber": "502268",
+      "website": "https://heiblutig-proton.de/",
+      "faxNumber": "+49-3101-60822448",
+      "communicationRole": "DATA_EXCHANGE",
       "subContracted": true,
       "communicationParameters": {
         "targetAddress": {
-          "targetAddress1": "consequat fugiat proident",
-          "targetAddress2": "dolore minim deserunt",
-          "targetAddress3": "quis magna consectetur",
-          "targetAddress4": "cillum Ut reprehenderit labore voluptate",
-          "targetAddress5": "reprehenderit"
+          "targetAddress1": "nisi Duis quis consequat et",
+          "targetAddress2": "labore ad Excepteur",
+          "targetAddress3": "deserunt Duis",
+          "targetAddress4": "esse nulla laborum sint dolore",
+          "targetAddress5": "id sit"
         },
         "certificateIssuer": {
-          "certificateIssuer1": "ullamco",
-          "certificateIssuer2": "in nostrud",
-          "certificateIssuer3": "nulla pariatur adipisicing",
-          "certificateIssuer4": "ea ad mollit Excepteur in",
-          "certificateIssuer5": "non Duis"
+          "certificateIssuer1": "et ullamco esse eiusmod",
+          "certificateIssuer2": "nostrud et nulla dolore eu",
+          "certificateIssuer3": "proident incididunt",
+          "certificateIssuer4": "ad deserunt",
+          "certificateIssuer5": "nostrud Excepteur"
         },
         "certificateUser": {
-          "certificateUser1": "non ad elit",
-          "certificateUser2": "cillum mollit",
-          "certificateUser3": "non",
-          "certificateUser4": "pariatur quis ipsum",
-          "certificateUser5": "pariatur"
+          "certificateUser1": "veniam eu Duis",
+          "certificateUser2": "ullamco enim do",
+          "certificateUser3": "minim ut",
+          "certificateUser4": "sit dolor",
+          "certificateUser5": "aliqua ullamco consequat ex Excepteur"
         }
       },
       "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
       "bankAccount": [
         {
-          "purposeOfUse": "BV_PAYMENT_MSB_BILLING",
-          "iban": "SI71487423009130894",
-          "accountHolder": "Mara Urbaniak",
-          "bic": "JGYCTZP6",
-          "creditInstitution": "Baarck UG"
+          "purposeOfUse": "BV_PAYMENT_UNLOCK_BILLING",
+          "iban": "CR15300987061470800753",
+          "accountHolder": "Dr. Colin Schieskow",
+          "bic": "IPTKYTIIXXX",
+          "creditInstitution": "Camara, Mikitenko und Christ"
         }
       ],
       "reachability": [
         {
-          "availability": "FRIDAY",
-          "time": "laborum nulla in eu"
+          "availability": "TUESDAY",
+          "time": "incididunt et"
         }
       ],
-      "ipAddress": "d6be:ec0d:048f:4df2:c275:d5a2:5e1f:24f3",
+      "ipAddress": "dbaf:247d:72a2:8acc:dde7:af13:87ed:c666",
       "ipRange": {
-        "lowerLimit": "bfc9:10b9:a4ba:abfb:1eec:d0ed:b3ff:0f3a",
-        "upperLimit": "187.115.32.170"
+        "lowerLimit": "38.202.184.116",
+        "upperLimit": "479d:9d7d:a568:abde:21ac:cabb:bb2d:940c"
       },
-      "assignmentFrom": "1918-05-27T23:14:01.0Z",
-      "assignmentTo": "1914-04-17T06:11:27.0Z",
-      "balancingGroup": "nisi tempor",
+      "assignmentFrom": "1929-09-30T23:08:13.0Z",
+      "assignmentTo": "1907-01-07T01:28:50.0Z",
+      "balancingGroup": "sit",
       "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION"
     }
   ]

@@ -1,35 +1,35 @@
 {
   "boType": "LOCATION_BUNDLE",
   "structureVersion": "1",
-  "locationBundleStructureId": "11239309345",
-  "locationBundleNumber": -48020006,
-  "standardizedLocationBundleStructure": true,
-  "dataQuality": "DATA_PRESENT_IN_SYSTEM",
+  "locationBundleStructureId": "61280835795",
+  "locationBundleNumber": -28443244,
+  "standardizedLocationBundleStructure": false,
+  "dataQuality": "INFORMATIVE_DATA",
   "validityPeriod": {
-    "timeUnit": "SECOND",
-    "duration": 5,
-    "startDate": "1907-11-21T03:03:01.0Z",
-    "endDate": "1940-08-04T07:15:36.0Z",
-    "unit": "HALF_YEAR",
-    "readingPeriod": "645835",
-    "billingPeriod": "339596",
-    "periodText": "cupidatat",
-    "periodId": 5
+    "timeUnit": "MINUTE",
+    "duration": 0,
+    "startDate": "1898-07-15T20:15:13.0Z",
+    "endDate": "1894-10-10T23:49:05.0Z",
+    "unit": "QUARTER_HOUR",
+    "readingPeriod": "155652",
+    "billingPeriod": "229849",
+    "periodText": "Lorem",
+    "periodId": 4
   },
   "assignmentObjectCode": [
     {
-      "referenceLocationType": "MALO",
-      "referenceLocationId": "39449156925",
-      "upstreamLocationType": "MALO",
-      "upstreamLocationId": "56609062821",
+      "referenceLocationType": "TRANCHE",
+      "referenceLocationId": "31689506836",
+      "upstreamLocationType": "TECHNICAL_RESOURCE",
+      "upstreamLocationId": "97699041667",
       "objectCode": [
         {
-          "objectCode": "CODE_100011",
-          "locationBundleNumber": 9
+          "objectCode": "CODE_000011",
+          "locationBundleNumber": 3
         }
       ],
       "referenceMarketLocationTechnicalResource": [
-        "93950310555"
+        "02086643798"
       ]
     }
   ]

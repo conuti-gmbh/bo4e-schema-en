@@ -3,4 +3,3 @@ components:
     serviceDesignation:
       $ref: >-
         ../../../enum/ServiceDesignation.yaml#/components/schemas/ServiceDesignation
-      description: Bezeichnung für die in der Position abgebildete Leistungserbringung

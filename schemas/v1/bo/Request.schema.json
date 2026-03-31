@@ -1,6 +1,6 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json",
+  "$schema": "../object.meta.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/Request.schema.json",
   "title": "Request",
   "type": "object",
   "properties": {
@@ -10,8 +10,7 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "locationType": {
       "$ref": "../enum/LocationType.schema.json"
@@ -20,16 +19,14 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "Für welche Markt- oder Messlokation gilt diese Anfrage."
+      }
     },
     "requestType": {
-      "$ref": "../enum/RequestType.schema.json",
-      "description": "Typ/Art der Anfrage (ORDERS ORDRSP IMD 7081)"
+      "$ref": "../enum/RequestType.schema.json"
     },
     "subscription": {
       "$ref": "../enum/Subscription.schema.json",
-      "description": "Start oder Ende Abo"
+      "description": "Start or end of subscription"
     },
     "requestReference": {
       "type": "string",
@@ -38,16 +35,13 @@
           "prefix": "REF",
           "length": 6
         }
-      },
-      "description": "anfragereferenz"
+      }
     },
     "generalInformation": {
-      "type": "string",
-      "description": "allgemeineInformationen"
+      "type": "string"
     },
     "requestCategory": {
-      "$ref": "../enum/RequestCategory.schema.json",
-      "description": "Kategorie der Anfrage (ORDERS ORDRSP BGM 1001)"
+      "$ref": "../enum/RequestCategory.schema.json"
     },
     "energyDirection": {
       "$ref": "../enum/EnergyDirection.schema.json"
@@ -56,13 +50,11 @@
       "type": "string",
       "faker": {
         "string.numeric": 6
-      },
-      "description": "gueltigkeitszeitspanne"
+      }
     },
     "validFrom": {
       "type": "string",
-      "format": "date-time",
-      "description": "gueltigAb"
+      "format": "date-time"
     }
   },
   "required": [

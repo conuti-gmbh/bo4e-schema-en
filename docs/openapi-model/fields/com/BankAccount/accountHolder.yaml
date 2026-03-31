@@ -2,4 +2,3 @@ components:
   schemas:
     accountHolder:
       type: string
-      description: Der Kontoinhaber

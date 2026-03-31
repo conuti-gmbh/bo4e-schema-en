@@ -2,4 +2,3 @@ components:
   schemas:
     productCode:
       type: string
-      description: produktCode

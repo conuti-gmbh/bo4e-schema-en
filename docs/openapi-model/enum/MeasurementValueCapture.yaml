@@ -6,4 +6,3 @@ components:
       enum:
         - REMOTE_READABLE
         - MANUALLY_READ
-      description: Die Messwerterfassung des Zählers

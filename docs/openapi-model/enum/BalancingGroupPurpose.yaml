@@ -8,4 +8,3 @@ components:
         - GENERATING_MARKET_LOCATION_EEG
         - GENERATING_MARKET_LOCATION_CHP
         - OTHER_GENERATING_MARKET_LOCATION
-      description: VerwendungszweckBilanzkreis

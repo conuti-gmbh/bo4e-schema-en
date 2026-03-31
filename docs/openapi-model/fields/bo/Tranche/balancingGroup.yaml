@@ -2,4 +2,3 @@ components:
   schemas:
     balancingGroup:
       type: string
-      description: bilanzkreis

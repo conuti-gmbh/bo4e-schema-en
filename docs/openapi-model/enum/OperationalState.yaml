@@ -7,4 +7,3 @@ components:
         - LOCKED_NO_UNLOCK
         - LOCKED
         - NORMAL_OPERATION
-      description: Betriebszustand

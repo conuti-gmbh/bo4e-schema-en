@@ -14,4 +14,3 @@ components:
         - CONCESSION_FEE_CHANGE_RLM
         - PRIVILEGE_UNDER_ENFG
         - CONCESSION_FEE_FORWARDED_QUANTITIES
-      description: SonderrechnungsArt

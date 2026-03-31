@@ -2,4 +2,3 @@ components:
   schemas:
     priceStatus:
       $ref: ../../../enum/PriceStatus.yaml#/components/schemas/PriceStatus
-      description: Gibt den Status des veröffentlichten Preises an

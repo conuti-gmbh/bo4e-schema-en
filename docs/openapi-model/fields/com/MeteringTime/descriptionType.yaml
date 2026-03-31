@@ -2,4 +2,3 @@ components:
   schemas:
     descriptionType:
       type: string
-      description: Beschreibung des ZählzeitdefinitionTyp

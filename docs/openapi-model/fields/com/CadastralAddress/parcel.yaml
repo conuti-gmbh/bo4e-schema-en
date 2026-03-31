@@ -2,4 +2,3 @@ components:
   schemas:
     parcel:
       type: string
-      description: Flurstück Name

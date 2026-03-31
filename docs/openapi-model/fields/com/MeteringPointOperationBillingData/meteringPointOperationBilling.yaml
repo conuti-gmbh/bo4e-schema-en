@@ -2,4 +2,3 @@ components:
   schemas:
     meteringPointOperationBilling:
       type: boolean
-      description: messstellenbetriebsabrechnung

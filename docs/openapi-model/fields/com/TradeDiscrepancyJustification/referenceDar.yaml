@@ -2,4 +2,3 @@ components:
   schemas:
     referenceDar:
       type: string
-      description: Referenzierte Datenaustauschreferenz

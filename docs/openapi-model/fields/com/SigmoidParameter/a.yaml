@@ -3,4 +3,3 @@ components:
     A:
       type: number
       format: float
-      description: A

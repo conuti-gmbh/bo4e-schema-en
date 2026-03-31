@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/StatusAdditionalInformation.yaml#/components/schemas/StatusAdditionalInformation
-      description: statuszusatzinformationen
       nullable: true

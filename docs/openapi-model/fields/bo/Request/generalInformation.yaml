@@ -2,4 +2,3 @@ components:
   schemas:
     generalInformation:
       type: string
-      description: allgemeineInformationen

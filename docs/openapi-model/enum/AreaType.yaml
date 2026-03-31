@@ -13,4 +13,3 @@ components:
         - AREA_GRID
         - DEFAULT_SUPPLY_AREA
         - SUPPLY_AREA
-      description: Gebiettyp

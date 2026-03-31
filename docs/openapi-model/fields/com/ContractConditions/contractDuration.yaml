@@ -2,4 +2,3 @@ components:
   schemas:
     contractDuration:
       $ref: ../../../com/TimePeriod.yaml#/components/schemas/TimePeriod
-      description: Über diesen Zeitraum läuft der Vertrag. Details Zeitraum

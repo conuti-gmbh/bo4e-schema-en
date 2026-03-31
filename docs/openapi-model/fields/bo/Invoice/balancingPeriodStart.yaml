@@ -3,4 +3,3 @@ components:
     balancingPeriodStart:
       type: string
       format: date-time
-      description: beginnPeriodeBilanzierung

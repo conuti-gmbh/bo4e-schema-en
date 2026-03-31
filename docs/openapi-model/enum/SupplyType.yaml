@@ -7,4 +7,3 @@ components:
         - EMERGENCY_SUPPLY
         - DEFAULT_SUPPLY
         - EMERGENCY_DELIVERY
-      description: Versorgungsart

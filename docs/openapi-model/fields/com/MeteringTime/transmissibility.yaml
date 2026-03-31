@@ -3,4 +3,3 @@ components:
     transmissibility:
       $ref: >-
         ../../../enum/MeteringTimeTransmissibility.yaml#/components/schemas/MeteringTimeTransmissibility
-      description: Art der Übermittlung

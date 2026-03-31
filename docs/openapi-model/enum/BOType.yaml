@@ -3,7 +3,6 @@ components:
     BOType:
       title: BOType
       type: string
-      description: Typ des BO
       enum:
         - CONTACT_PERSON
         - ADVICE_NOTE

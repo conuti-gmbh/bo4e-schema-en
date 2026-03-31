@@ -3,4 +3,3 @@ components:
     invoiceDate:
       type: string
       format: date-time
-      description: Ausstellungsdatum der Rechnung.

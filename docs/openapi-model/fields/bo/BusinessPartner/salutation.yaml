@@ -2,4 +2,3 @@ components:
   schemas:
     salutation:
       type: string
-      description: Die Anrede für den GePa, Z.B. Herr.

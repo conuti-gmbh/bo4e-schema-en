@@ -2,4 +2,3 @@ components:
   schemas:
     confirmationDar:
       type: string
-      description: bestätigte Datenaustauschreferenz

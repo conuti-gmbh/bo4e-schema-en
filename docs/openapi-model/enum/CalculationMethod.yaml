@@ -20,4 +20,3 @@ components:
         - LOAD_PROFILE_TRANSMISSION_OR_DISTRIBUTION_GRID_LOCAL_SIGMOID
         - FUNCTIONS
         - CONSUMPTION_ABOVE_SLP_LIMIT_FUNCTION_BASED_FURTHER_CALCULATION_AS_LGK
-      description: Auflistung der verschiedenen Berechnungsmethoden für ein Preisblatt

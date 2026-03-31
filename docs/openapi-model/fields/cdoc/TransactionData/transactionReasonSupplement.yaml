@@ -1,5 +1,4 @@
 components:
   schemas:
     transactionReasonSupplement:
-      description: Ergänzung zum Transaktionsgrund / UTILMD STS+7++E01+###+E03
       type: string

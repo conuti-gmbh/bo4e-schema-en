@@ -3,4 +3,3 @@ components:
     predecessorInvoiceDate:
       type: string
       format: date-time
-      description: datumVorgaengerrechnung

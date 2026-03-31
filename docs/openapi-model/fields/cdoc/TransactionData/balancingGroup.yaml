@@ -1,9 +1,7 @@
 components:
   schemas:
     balancingGroup:
-      description: Angemeldete Bilanzkreise - nur Sparte Gas
       type: array
       items:
-        description: ''
         $ref: ../../../bo/BalancingGroup.yaml#/components/schemas/BalancingGroup
       nullable: true

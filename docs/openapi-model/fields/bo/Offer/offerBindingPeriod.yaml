@@ -2,4 +2,3 @@ components:
   schemas:
     offerBindingPeriod:
       $ref: ../../../com/TimePeriod.yaml#/components/schemas/TimePeriod
-      description: Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot

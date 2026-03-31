@@ -2,4 +2,3 @@ components:
   schemas:
     meteringProduct:
       type: string
-      description: messprodukt

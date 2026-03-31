@@ -6,4 +6,3 @@ components:
       enum:
         - CAPTURED_SEPARATELY
         - NOT_CAPTURED_SEPARATELY
-      description: Energieerfassung

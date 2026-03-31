@@ -14,4 +14,3 @@ components:
         - MISSING
         - SPECIFICATION_FOR_DELIVERY_NOTE
         - BASIS_POG_DETERMINATION
-      description: Der Status eines Zählerstandes

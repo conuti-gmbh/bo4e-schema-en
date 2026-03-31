@@ -2,9 +2,3 @@ components:
   schemas:
     heatUsage:
       $ref: ../../../enum/HeatUsage.yaml#/components/schemas/HeatUsage
-      description: |-
-        Wärmenutzung
-        Beispiel: CAV+Z56'
-            Z56: Speicherheizung
-            Z57: Wärmepumpe
-            Z61: Direktheizung

@@ -2,4 +2,3 @@ components:
   schemas:
     meterManufacturer:
       $ref: ../../../bo/BusinessPartner.yaml#/components/schemas/BusinessPartner
-      description: Der Hersteller des Zählers. Details Geschaeftspartner

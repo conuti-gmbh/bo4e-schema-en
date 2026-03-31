@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/Order.schema.json",
   "title": "Order",
   "type": "object",
   "properties": {
@@ -10,51 +10,41 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "executionDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Das Ausführungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag ausgeführt werden soll."
+      "format": "date-time"
     },
     "completionDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Das Fertigstellungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag ausgeführt wurde/wird."
+      "format": "date-time"
     },
     "startDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Das Startdatum beschreibt zu welchem Zeitpunkt ein Auftrag gestartet wurde/wird."
+      "format": "date-time"
     },
     "endDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Das Enddatum beschreibt zu welchem Zeitpunkt ein Auftrag endete oder enden wird."
+      "format": "date-time"
     },
     "sector": {
-      "$ref": "../enum/Sector.schema.json",
-      "description": "Die Sparte in der der Auftrag relevant ist"
+      "$ref": "../enum/Sector.schema.json"
     },
     "deliveryAddress": {
-      "$ref": "../com/Address.schema.json",
-      "description": "Die Adresse, die sich in Belieferung befindet."
+      "$ref": "../com/Address.schema.json"
     },
     "marketLocationId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "Die ID der Marktlokation der der zu sperrende Zähler zugeordnet ist."
+      }
     },
     "minimumPrice": {
-      "$ref": "../com/Price.schema.json",
-      "description": "Der Mindestpreis eines Auftrags (z.B. für eine Sperrung)"
+      "$ref": "../com/Price.schema.json"
     },
     "maximumPrice": {
-      "$ref": "../com/Price.schema.json",
-      "description": "Der Höchstpreis eines Auftrags (z.B. für eine Sperrung)"
+      "$ref": "../com/Price.schema.json"
     },
     "energyDirection": {
       "$ref": "../enum/EnergyDirection.schema.json"
@@ -68,8 +58,7 @@
           "min": 1,
           "max": 10
         }
-      },
-      "description": "berechnungspreis"
+      }
     },
     "totalSum": {
       "type": "number",
@@ -80,18 +69,15 @@
           "min": 10,
           "max": 20
         }
-      },
-      "description": "summeGesamt"
+      }
     },
     "postponedDeregistrationDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "verschobenerAbmeldetermin"
+      "format": "date-time"
     },
     "resolutionTimestamp": {
       "type": "string",
-      "format": "date-time",
-      "description": "behebungsZeitpunkt"
+      "format": "date-time"
     },
     "deliveryAddressOldDevices": {
       "$ref": "../bo/BusinessPartner.schema.json"
@@ -106,8 +92,7 @@
       ],
       "items": {
         "$ref": "../com/OrderPosition.schema.json"
-      },
-      "description": "positionsdaten"
+      }
     },
     "remarks": {
       "type": [
@@ -119,8 +104,7 @@
         "faker": {
           "lorem.sentence": 5
         }
-      },
-      "description": "bemerkungen"
+      }
     }
   },
   "required": [

@@ -1,11 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Umsetzungsgradvorgabe.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/ImplementationLevelRequirement.schema.json",
   "title": "ImplementationLevelRequirement",
   "type": "string",
   "enum": [
     "ASSIGNMENT_ONLY_IF_PRODUCT_PACKAGE_IMPLEMENTABLE",
     "ASSIGNMENT_EVEN_IF_PRODUCT_PACKAGE_NOT_IMPLEMENTABLE"
-  ],
-  "description": "Umsetzungsgradvorgabe"
+  ]
 }

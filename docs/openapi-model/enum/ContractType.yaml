@@ -9,4 +9,3 @@ components:
         - BALANCING_CONTRACT
         - METERING_POINT_OPERATION_CONTRACT
         - BUNDLE_CONTRACT
-      description: Vertragsart

@@ -1,5 +1,4 @@
 components:
   schemas:
     supplementedMarketLocation:
-      description: Ergänzende Marktlokation im Freitext / FTX+ABO
       type: boolean

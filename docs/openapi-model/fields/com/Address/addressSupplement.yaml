@@ -2,4 +2,3 @@ components:
   schemas:
     addressSupplement:
       type: string
-      description: Adresszusatz

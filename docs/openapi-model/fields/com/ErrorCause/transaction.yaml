@@ -2,4 +2,3 @@ components:
   schemas:
     transaction:
       type: string
-      description: transaktion

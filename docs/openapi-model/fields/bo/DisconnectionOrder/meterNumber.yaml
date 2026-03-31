@@ -2,4 +2,3 @@ components:
   schemas:
     meterNumber:
       type: string
-      description: Die Nummer des zu sperrenden Zählers

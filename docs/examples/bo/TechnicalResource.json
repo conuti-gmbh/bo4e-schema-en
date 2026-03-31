@@ -1,47 +1,47 @@
 {
   "boType": "TECHNICAL_RESOURCE",
   "structureVersion": "1",
-  "resourceId": "48493951531",
-  "sector": "WASTEWATER",
+  "resourceId": "91434666823",
+  "sector": "DISTRICT_HEATING",
   "locationAssignment": "ENDS",
-  "referenceMeteringLocation": "110143470742190356160514647732432",
-  "referenceMarketLocation": "79056136047",
-  "referenceGridLocation": "12104099195",
-  "referenceControllableResource": "44798019742",
+  "referenceMeteringLocation": "780294262415930234674533655218091",
+  "referenceMarketLocation": "81131432886",
+  "referenceGridLocation": "40741371291",
+  "referenceControllableResource": "59092922768",
   "ratedPower": {
-    "intake": 29,
-    "levy": 16
+    "intake": 21.5,
+    "levy": 13.5
   },
-  "storageCapacity": 69,
+  "storageCapacity": 26.75,
   "consumptionType": [
     "SW"
   ],
-  "heatUsage": "HEAT_PUMP_COOLING",
+  "heatUsage": "DIRECT_HEATING",
   "typeElectricMobility": "LS",
-  "generationType": "OTHER_EEG",
-  "storageType": "HYDROGEN_STORAGE",
-  "enwg": true,
+  "generationType": "EEG_DV",
+  "storageType": "OTHER_STORAGE_TYPE",
+  "enwg": false,
   "commissioningDate": "COMMISSIONING_BEFORE_2024",
-  "classification": "CHANGE_OPTION_NOT_POSSIBLE",
-  "additionalFacility": false,
-  "kind": "ELECTRICITY_GENERATION",
-  "dataQuality": "INFORMATIVE_DATA",
+  "classification": "CHANGE_OPTION_ONCE_STILL_POSSIBLE",
+  "additionalFacility": true,
+  "kind": "STORAGE",
+  "dataQuality": "NO_DATA_EXPECTED",
   "validityPeriod": {
-    "timeUnit": "MONTH",
-    "duration": 0,
-    "startDate": "1909-09-02T15:14:49.0Z",
-    "endDate": "1933-08-25T21:37:03.0Z",
-    "unit": "DAY",
-    "readingPeriod": "783483",
-    "billingPeriod": "958471",
-    "periodText": "tempor proident",
-    "periodId": 8
+    "timeUnit": "QUARTER",
+    "duration": 7,
+    "startDate": "1936-01-15T08:05:19.0Z",
+    "endDate": "1925-09-01T14:42:58.0Z",
+    "unit": "MONTH",
+    "readingPeriod": "056041",
+    "billingPeriod": "212380",
+    "periodText": "deserunt do in laboris cupidatat",
+    "periodId": 9
   },
   "requiredProducts": [
     {
-      "productCode": "CODE_111111",
-      "productAttributeCode": "CODE_000011",
-      "valueDetails": "291234"
+      "productCode": "CODE_000010",
+      "productAttributeCode": "CODE_110110",
+      "valueDetails": "589327"
     }
   ]
 }

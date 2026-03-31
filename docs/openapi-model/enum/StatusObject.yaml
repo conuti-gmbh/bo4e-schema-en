@@ -17,4 +17,3 @@ components:
         - PRIVILEGE_UNDER_ENFG
         - CHANGE_STATUS_OF_DATA
         - PERIODIC_READOUT
-      description: Statusobjekt

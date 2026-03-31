@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/ControllableResource.schema.json",
   "title": "ControllableResource",
   "type": "object",
   "properties": {
@@ -10,15 +10,13 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "resourceId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "ressourcenId"
+      }
     },
     "sector": {
       "$ref": "../enum/Sector.schema.json"
@@ -27,8 +25,7 @@
       "$ref": "../enum/LocationAssignment.schema.json"
     },
     "configurationProduct": {
-      "type": "string",
-      "description": "konfigurationsprodukt"
+      "type": "string"
     },
     "controlChannel": {
       "$ref": "../enum/ControlChannel.schema.json"
@@ -49,8 +46,7 @@
       ],
       "items": {
         "$ref": "../bo/MarketParticipant.schema.json"
-      },
-      "description": "marktrollen"
+      }
     },
     "dataQuality": {
       "$ref": "../enum/DataQuality.schema.json"
@@ -65,8 +61,7 @@
       ],
       "items": {
         "$ref": "../com/Product.schema.json"
-      },
-      "description": "erforderlicheProdukte"
+      }
     }
   },
   "required": [

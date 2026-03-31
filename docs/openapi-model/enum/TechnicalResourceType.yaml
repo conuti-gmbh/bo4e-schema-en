@@ -7,4 +7,3 @@ components:
         - ELECTRICITY_GENERATION
         - ELECTRICITY_CONSUMPTION
         - STORAGE
-      description: TechnischeRessourceArt

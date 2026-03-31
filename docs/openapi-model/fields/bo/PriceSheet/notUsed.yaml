@@ -2,4 +2,3 @@ components:
   schemas:
     notUsed:
       type: boolean
-      description: nichtGenutzt

@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../bo/BalancingGroup.yaml#/components/schemas/BalancingGroup
-      description: Bilanzkreis
       nullable: true

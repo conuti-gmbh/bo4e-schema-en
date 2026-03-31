@@ -2,4 +2,3 @@ components:
   schemas:
     bic:
       type: string
-      description: BIC Code

@@ -2,6 +2,3 @@ components:
   schemas:
     subtotalTax:
       $ref: ../../../com/TaxAmount.yaml#/components/schemas/TaxAmount
-      description: >-
-        Auf die Position entfallende Steuer, bestehend aus Steuersatz und
-        Betrag. Details Steuerbetrag

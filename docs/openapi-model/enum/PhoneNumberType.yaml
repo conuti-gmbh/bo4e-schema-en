@@ -13,4 +13,3 @@ components:
         - PHONE_EXTENSION
         - FAX_EXTENSION
         - MOBILE_NUMBER
-      description: Rufnummernart

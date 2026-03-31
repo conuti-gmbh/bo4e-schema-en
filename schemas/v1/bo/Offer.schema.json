@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/Offer.schema.json",
   "title": "Offer",
   "type": "object",
   "properties": {
@@ -10,15 +10,13 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "offerNumber": {
       "type": "string",
       "faker": {
         "string.numeric": 3
-      },
-      "description": "Eindeutige Nummer des Angebotes."
+      }
     },
     "requestReference": {
       "type": "string",
@@ -27,46 +25,36 @@
           "prefix": "REF",
           "length": 6
         }
-      },
-      "description": "Referenz auf eine Anfrage oder Ausschreibung. Kann dem Empfänger des Angebotes bei Zuordnung des Angebotes zur Anfrage bzw.Ausschreibung helfen."
+      }
     },
     "offerDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Erstellungsdatum des Angebots"
+      "format": "date-time"
     },
     "sector": {
-      "$ref": "../enum/Sector.schema.json",
-      "description": "Sparte"
+      "$ref": "../enum/Sector.schema.json"
     },
     "bindingPeriod": {
       "type": "string",
-      "format": "date-time",
-      "description": "Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot"
+      "format": "date-time"
     },
     "offerGiver": {
-      "$ref": "../bo/BusinessPartner.schema.json",
-      "description": "Link auf den Ersteller des Angebots."
+      "$ref": "../bo/BusinessPartner.schema.json"
     },
     "offerRecipient": {
-      "$ref": "../bo/BusinessPartner.schema.json",
-      "description": "Link auf den Empfänger des Angebots."
+      "$ref": "../bo/BusinessPartner.schema.json"
     },
     "signatoryOfferRecipient": {
-      "$ref": "../bo/ContactPerson.schema.json",
-      "description": "Link auf die Person, die als Angebotsnehmer das Angebot angenommen hat."
+      "$ref": "../bo/ContactPerson.schema.json"
     },
     "signatoryOfferGiver": {
-      "$ref": "../bo/ContactPerson.schema.json",
-      "description": "Link auf die Person, die als Angebotsgeber das Angebots ausgestellt hat."
+      "$ref": "../bo/ContactPerson.schema.json"
     },
     "setupTransmissionPeriod": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "zeitspanneEinrichtungUebermittlungWerte"
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "offerBindingPeriod": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot"
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "variants": {
       "type": [
@@ -75,8 +63,7 @@
       ],
       "items": {
         "$ref": "../com/OfferVariant.schema.json"
-      },
-      "description": "Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein Angebot besteht mindestens aus einer Variante."
+      }
     },
     "positionData": {
       "type": [
@@ -85,8 +72,7 @@
       ],
       "items": {
         "$ref": "../com/OfferPosition.schema.json"
-      },
-      "description": "Ein oder mehrere Angebotspositionen"
+      }
     }
   },
   "required": [

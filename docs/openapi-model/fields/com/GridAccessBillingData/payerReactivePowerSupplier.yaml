@@ -2,4 +2,3 @@ components:
   schemas:
     payerReactivePowerSupplier:
       type: boolean
-      description: Zahlung der Blindarbeit durch den Lieferanten

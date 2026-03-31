@@ -21,4 +21,3 @@ components:
         - POG_CONSUMPTION_IMS_0_TO_2K
         - POG_GENERATION_IMS_OPTIONAL
         - ADDITIONAL_SERVICE
-      description: Leistungsbezeichnung

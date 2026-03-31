@@ -3,4 +3,3 @@ components:
     costs:
       type: number
       format: float
-      description: Kosten

@@ -7,4 +7,3 @@ components:
         - IMS
         - KME_MME
         - NO_MEASUREMENT
-      description: MesstechnischeEinordnung

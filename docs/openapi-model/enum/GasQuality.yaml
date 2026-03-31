@@ -6,4 +6,3 @@ components:
       enum:
         - H_GAS
         - L_GAS
-      description: Unterscheidung für hoch- und niedrig-kalorisches Gas.

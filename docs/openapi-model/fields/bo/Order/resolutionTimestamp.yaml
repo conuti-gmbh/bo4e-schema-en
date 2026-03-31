@@ -3,4 +3,3 @@ components:
     resolutionTimestamp:
       type: string
       format: date-time
-      description: behebungsZeitpunkt

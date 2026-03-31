@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/TimePeriod.schema.json",
   "title": "TimePeriod",
   "type": "object",
   "properties": {
@@ -11,18 +11,15 @@
       "type": "integer",
       "faker": {
         "number.int": 10
-      },
-      "description": "dauer"
+      }
     },
     "startDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "startdatum"
+      "format": "date-time"
     },
     "endDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "enddatum"
+      "format": "date-time"
     },
     "unit": {
       "$ref": "../enum/TimeUnit.schema.json"
@@ -31,19 +28,16 @@
       "type": "string",
       "faker": {
         "string.numeric": 6
-      },
-      "description": "ableseZeitraum"
+      }
     },
     "billingPeriod": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      },
-      "description": "abrechnungsZeitraum"
+      }
     },
     "periodText": {
-      "type": "string",
-      "description": "zeitraumText"
+      "type": "string"
     },
     "periodId": {
       "type": "integer",
@@ -52,8 +46,7 @@
           "min": 1,
           "max": 9
         }
-      },
-      "description": "zeitraumId"
+      }
     }
   }
 }

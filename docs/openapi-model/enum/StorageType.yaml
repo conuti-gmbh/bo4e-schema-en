@@ -8,4 +8,3 @@ components:
         - PUMPED_STORAGE
         - BATTERY_STORAGE
         - OTHER_STORAGE_TYPE
-      description: Speicherart

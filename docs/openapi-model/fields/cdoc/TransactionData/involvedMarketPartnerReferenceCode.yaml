@@ -1,5 +1,4 @@
 components:
   schemas:
     involvedMarketPartnerReferenceCode:
-      description: Alter FW - OBSOLET
       type: string

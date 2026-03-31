@@ -2,4 +2,3 @@ components:
   schemas:
     priceGridOperatorCodeNumber:
       type: string
-      description: preisNetzbetreiberCodenummer

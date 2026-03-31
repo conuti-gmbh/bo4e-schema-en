@@ -2,4 +2,3 @@ components:
   schemas:
     discrepancyReasonNote1:
       type: string
-      description: Abweichungsgrund Bemerkung 1

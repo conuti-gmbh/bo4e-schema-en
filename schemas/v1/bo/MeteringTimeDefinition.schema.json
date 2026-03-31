@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/MeteringTimeDefinition.schema.json",
   "title": "MeteringTimeDefinition",
   "type": "object",
   "properties": {
@@ -10,27 +10,22 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "beginDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Der inklusive Zeitpunkt ab dem die Zaehlzeitdefinitionen ausgerollt sind"
+      "format": "date-time"
     },
     "closingDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Der exklusive Zeitpunkt bis zu dem die Zaehlzeitdefinitionen ausgerollt sind"
+      "format": "date-time"
     },
     "version": {
       "type": "string",
-      "format": "date-time",
-      "description": "Version der Zählzeitdefinition als Datum"
+      "format": "date-time"
     },
     "necessity": {
-      "$ref": "../enum/DefinitionsNecessity.schema.json",
-      "description": "Beschreibt ob eine Zaehlzeitdefinitionen notwendig ist"
+      "$ref": "../enum/DefinitionsNecessity.schema.json"
     },
     "versionSpecification": {
       "type": "string",
@@ -39,8 +34,7 @@
           "prefix": "VERSION_",
           "length": 6
         }
-      },
-      "description": "versionsangabe"
+      }
     },
     "code": {
       "type": "string",
@@ -49,8 +43,7 @@
           "prefix": "CODE_",
           "length": 6
         }
-      },
-      "description": "Zählzeitdefinition"
+      }
     },
     "meteringTimes": {
       "type": [
@@ -59,8 +52,7 @@
       ],
       "items": {
         "$ref": "../com/MeteringTime.schema.json"
-      },
-      "description": "Liste der Zählzeiten [1 - 99999]"
+      }
     },
     "meteringTimeRegister": {
       "type": [
@@ -69,8 +61,7 @@
       ],
       "items": {
         "$ref": "../com/MeteringTimeRegister.schema.json"
-      },
-      "description": "Liste der Zählzeitregister"
+      }
     }
   },
   "required": [

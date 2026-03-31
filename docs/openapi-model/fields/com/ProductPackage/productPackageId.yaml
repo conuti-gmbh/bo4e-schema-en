@@ -2,4 +2,3 @@ components:
   schemas:
     productPackageId:
       type: integer
-      description: produktpaketId

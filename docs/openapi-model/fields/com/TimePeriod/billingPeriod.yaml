@@ -2,4 +2,3 @@ components:
   schemas:
     billingPeriod:
       type: string
-      description: abrechnungsZeitraum

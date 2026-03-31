@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/ContractConditions.schema.json",
   "title": "ContractConditions",
   "type": "object",
   "properties": {
@@ -14,8 +14,7 @@
       "$ref": "../com/TimePeriod.schema.json"
     },
     "includesSingularlyUsedEquipment": {
-      "type": "boolean",
-      "description": "Singulär genutzte Betriebsmittel in der Netznutzungsabrechnung\nHier wird angegeben, ob in der Netznutzungsabrechnung der verbrauchenden Marktlokation singulär \ngenutzte Betriebsmittel abgerechnet werden."
+      "type": "boolean"
     },
     "gridAccessBillingBasis": {
       "$ref": "../enum/GridAccessBillingBasis.schema.json"
@@ -24,27 +23,23 @@
       "$ref": "../enum/GridAccessBillingVariant.schema.json"
     },
     "householdCustomer": {
-      "type": "boolean",
-      "description": "haushaltskunde"
+      "type": "boolean"
     },
     "billingViaNna": {
-      "type": "boolean",
-      "description": "abrechnungUeberNna"
+      "type": "boolean"
     },
     "municipalDiscount": {
       "$ref": "../com/MunicipalDiscount.schema.json"
     },
     "billingYearStart": {
       "type": "string",
-      "format": "date-time",
-      "description": "startAbrechnungsjahr"
+      "format": "date-time"
     },
     "nextGridAccessBilling": {
       "type": "string",
       "faker": {
         "string.numeric": 4
-      },
-      "description": "naechstenetznutzungsabrechnung"
+      }
     },
     "billingInterval": {
       "type": "integer",
@@ -53,8 +48,7 @@
           "min": 1,
           "max": 5
         }
-      },
-      "description": "abrechnungsintervall"
+      }
     },
     "gridAccessBillingInterval": {
       "type": "integer",
@@ -63,8 +57,7 @@
           "min": 1,
           "max": 5
         }
-      },
-      "description": "netznutzungsabrechnungIntervall"
+      }
     },
     "plannedScheduledReading": {
       "$ref": "../com/TimePeriod.schema.json"
@@ -73,25 +66,20 @@
       "$ref": "../enum/MsbCommissioning.schema.json"
     },
     "terminationNotice": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Innerhalb dieser Frist kann der Vertrag gekündigt werden. Details Zeitraum"
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "contractDuration": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Über diesen Zeitraum läuft der Vertrag. Details Zeitraum"
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "terminationDate": {
-      "type": "string",
-      "description": "kuendigungstermin"
+      "type": "string"
     },
     "installmentCycle": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "In diesen Zyklen werden Abschläge gestellt. Details Zeitraum. Alternativ kann auch die Anzahl\nin den Konditionen angeben werden.\""
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "numberOfInstallments": {
       "type": "number",
       "format": "float",
-      "description": "Anzahl der vereinbarten Abschläge pro Jahr, z.B. 12",
       "faker": {
         "number.float": {
           "multipleOf": 1,
@@ -101,12 +89,10 @@
       }
     },
     "description": {
-      "type": "string",
-      "description": "Freitext zur Beschreibung der Konditionen, z.B. \"Standardkonditionen Gas\""
+      "type": "string"
     },
     "contractExtension": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch um die hier angegebene Zeit. Details\nZeitraum"
+      "$ref": "../com/TimePeriod.schema.json"
     }
   }
 }

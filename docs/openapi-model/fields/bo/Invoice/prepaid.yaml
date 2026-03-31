@@ -2,6 +2,3 @@ components:
   schemas:
     prepaid:
       $ref: ../../../com/Amount.yaml#/components/schemas/Amount
-      description: >-
-        Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als
-        Bruttowert. Details Betrag

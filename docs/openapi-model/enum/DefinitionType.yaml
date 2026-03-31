@@ -7,4 +7,3 @@ components:
         - METERING_TIME
         - SWITCHING_TIME
         - LOAD_CURVES
-      description: DefinitionsTyp

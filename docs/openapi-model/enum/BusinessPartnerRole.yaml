@@ -13,4 +13,3 @@ components:
         - PROPERTY_MANAGER
         - CORRESPONDENCE_RECIPIENT
         - READING_CARD_RECIPIENT
-      description: Geschaeftspartnerrolle

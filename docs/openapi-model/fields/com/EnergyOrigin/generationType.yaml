@@ -2,4 +2,3 @@ components:
   schemas:
     generationType:
       $ref: ../../../enum/GenerationType.yaml#/components/schemas/GenerationType
-      description: Art der Erzeugung

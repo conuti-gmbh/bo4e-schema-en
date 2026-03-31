@@ -3,4 +3,3 @@ components:
     factor:
       type: number
       format: float
-      description: faktor

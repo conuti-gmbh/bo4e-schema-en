@@ -1,5 +1,4 @@
 components:
   schemas:
     subscription:
-      description: Alter FW - OBSOLET
       type: string

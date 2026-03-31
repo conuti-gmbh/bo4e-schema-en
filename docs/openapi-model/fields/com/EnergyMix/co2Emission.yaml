@@ -3,4 +3,3 @@ components:
     co2Emission:
       type: number
       format: float
-      description: Höhe des erzeugten CO2-Ausstosses in g/kWh

@@ -2,4 +2,3 @@ components:
   schemas:
     defaultSupplierCodeNumber:
       type: string
-      description: grundversorgerCodeNr

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/TechnicalResource.schema.json",
   "title": "TechnicalResource",
   "type": "object",
   "properties": {
@@ -10,15 +10,13 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "resourceId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "ressourcenId"
+      }
     },
     "sector": {
       "$ref": "../enum/Sector.schema.json"
@@ -30,29 +28,25 @@
       "type": "string",
       "faker": {
         "string.numeric": 33
-      },
-      "description": "referenzMesslokation"
+      }
     },
     "referenceMarketLocation": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "referenzMarktlokation"
+      }
     },
     "referenceGridLocation": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "referenzNetzlokation"
+      }
     },
     "referenceControllableResource": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "referenzSteuerbareRessource"
+      }
     },
     "ratedPower": {
       "$ref": "../com/RatedPower.schema.json"
@@ -66,8 +60,7 @@
           "min": 10,
           "max": 100
         }
-      },
-      "description": "Speicherkapazität\nBeispiel: QTY+Z42:100:KWH'"
+      }
     },
     "consumptionType": {
       "type": [
@@ -76,27 +69,22 @@
       ],
       "items": {
         "$ref": "../enum/ConsumptionType.schema.json"
-      },
-      "description": "Verbrauchsart der Technischen Ressource\nBeispiel: CAV+Z64'\n    Z64: Kraft/Licht\n    Z65: Wärme\n    ZE5: E-Mobilität\n    ZA8: Straßenbeleuchtung"
+      }
     },
     "heatUsage": {
-      "$ref": "../enum/HeatUsage.schema.json",
-      "description": "Wärmenutzung\nBeispiel: CAV+Z56'\n    Z56: Speicherheizung\n    Z57: Wärmepumpe\n    Z61: Direktheizung"
+      "$ref": "../enum/HeatUsage.schema.json"
     },
     "typeElectricMobility": {
       "$ref": "../enum/TypeElectricMobility.schema.json"
     },
     "generationType": {
-      "$ref": "../enum/GenerationType.schema.json",
-      "description": "Art der Erzeugung der Energie. Details Erzeugungsart\nBeispiel: CAV+ZF5'\nErzeugungsart:\n    ZF5: Solar\n    ZF6: Wind\n    ZG0: Gas\n    ZG1: Wasser\n    ZG5: Sonstige Erzeugungsart"
+      "$ref": "../enum/GenerationType.schema.json"
     },
     "storageType": {
-      "$ref": "../enum/StorageType.schema.json",
-      "description": "Art der speicher. Details Speicherart\nBeispiel: CAV+ZF7'\nSpeicherart:\n    ZF7: Wasserstoffspeicher\n    ZF8: Pumpspeicher\n    ZF9: Batteriespeicher\n    ZG6: Sonstige Speicherart"
+      "$ref": "../enum/StorageType.schema.json"
     },
     "enwg": {
-      "type": "boolean",
-      "description": "enwg"
+      "type": "boolean"
     },
     "commissioningDate": {
       "$ref": "../enum/Commissioning.schema.json"
@@ -105,8 +93,7 @@
       "$ref": "../enum/ResourceChangeOption.schema.json"
     },
     "additionalFacility": {
-      "type": "boolean",
-      "description": "weitereEinrichtung"
+      "type": "boolean"
     },
     "kind": {
       "$ref": "../enum/TechnicalResourceType.schema.json"
@@ -124,8 +111,7 @@
       ],
       "items": {
         "$ref": "../com/Product.schema.json"
-      },
-      "description": "erforderlicheProdukte"
+      }
     }
   },
   "required": [

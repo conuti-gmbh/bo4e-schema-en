@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../enum/SpecialBillingType.yaml#/components/schemas/SpecialBillingType
-      description: Sonderrechnungsart
       nullable: true

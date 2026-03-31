@@ -6,4 +6,3 @@ components:
       enum:
         - PERCENTAGE
         - ALLOCATION_FACTOR
-      description: BildungTranchengroesse

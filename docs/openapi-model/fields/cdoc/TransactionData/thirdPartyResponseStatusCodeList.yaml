@@ -1,5 +1,4 @@
 components:
   schemas:
     thirdPartyResponseStatusCodeList:
-      description: Antwortstatus Codeliste / STS+Z35
       type: string

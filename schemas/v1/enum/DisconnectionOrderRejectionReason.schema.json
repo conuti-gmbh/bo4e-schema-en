@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrauftragsablehngrund.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/DisconnectionOrderRejectionReason.schema.json",
   "title": "DisconnectionOrderRejectionReason",
   "type": "string",
   "enum": [
@@ -15,6 +15,5 @@
     "ALREADY_EXISTS",
     "OTHER_FUTURE_SUPPLIER",
     "CONFIRMED_SUPPLY_START"
-  ],
-  "description": "Sperrauftragsablehngrund"
+  ]
 }

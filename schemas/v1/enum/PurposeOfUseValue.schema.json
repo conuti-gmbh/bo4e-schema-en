@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckValue.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/PurposeOfUseValue.schema.json",
   "title": "PurposeOfUseValue",
   "type": "string",
   "enum": [
@@ -13,6 +13,5 @@
     "DETERMINATION_OF_BALANCING_GROUP_BALANCE",
     "REACTIVE_ENERGY_BILLING_OPERATIONS_MANAGEMENT",
     "NO_PURPOSE_OF_USE_PRESENT"
-  ],
-  "description": "VerwendungszweckValue"
+  ]
 }

@@ -2,4 +2,3 @@ components:
   schemas:
     packageId:
       type: string
-      description: paketId

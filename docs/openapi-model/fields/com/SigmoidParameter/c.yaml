@@ -3,4 +3,3 @@ components:
     C:
       type: number
       format: float
-      description: C

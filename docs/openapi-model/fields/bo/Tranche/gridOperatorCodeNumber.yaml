@@ -2,4 +2,3 @@ components:
   schemas:
     gridOperatorCodeNumber:
       type: string
-      description: netzbetreiberCodeNr

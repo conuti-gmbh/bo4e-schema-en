@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/BankAccount.schema.json",
   "title": "BankAccount",
   "type": "object",
   "properties": {
@@ -9,23 +9,19 @@
     },
     "iban": {
       "type": "string",
-      "faker": "finance.iban",
-      "description": "IBAN"
+      "faker": "finance.iban"
     },
     "accountHolder": {
       "type": "string",
-      "faker": "person.fullName",
-      "description": "Der Kontoinhaber"
+      "faker": "person.fullName"
     },
     "bic": {
       "type": "string",
-      "faker": "finance.bic",
-      "description": "BIC Code"
+      "faker": "finance.bic"
     },
     "creditInstitution": {
       "type": "string",
-      "faker": "company.name",
-      "description": "Name des Kreditinstitut"
+      "faker": "company.name"
     }
   }
 }

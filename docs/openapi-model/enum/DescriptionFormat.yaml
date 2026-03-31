@@ -7,4 +7,3 @@ components:
         - CODE
         - FREE_TEXT
         - PARTIALLY_STRUCTURED
-      description: Beschreibungsformat der Produktbeschreibung

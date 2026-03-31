@@ -3,4 +3,3 @@ components:
     beginDate:
       type: string
       format: date-time
-      description: beginndatum

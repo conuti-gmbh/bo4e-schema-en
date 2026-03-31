@@ -1,35 +1,35 @@
 {
   "boType": "STATUS_REPORT",
   "structureVersion": "1",
-  "status": "SUCCESSFUL",
-  "auditObject": "nisi ut esse",
-  "reviewDate": "1896-11-19T20:02:34.0Z",
+  "status": "ERROR",
+  "auditObject": "do",
+  "reviewDate": "1898-05-11T16:19:56.0Z",
   "error": {
     "typeValue": "PROCESSING",
     "errorDetails": [
       {
-        "code": "NUMBER_OF_CODES_EXCEEDED",
+        "code": "OBJECT_ATTRIBUTE_DIFFERS_FROM_TRANSACTION_CODED_ATTRIBUTE",
         "cause": {
-          "document": "sit",
-          "message": "fugiat",
-          "transaction": "sed in consectetur",
+          "document": "ipsum voluptate minim sunt",
+          "message": "mollit elit est dolor aliqua",
+          "transaction": "tempor Ut dolore culpa",
           "group": {
-            "group1": "in quis sed",
-            "group2": "dolor"
+            "group1": "nisi ut",
+            "group2": "commodo"
           },
-          "segment": "est voluptate",
+          "segment": "incididunt ut id",
           "description": {
-            "description1": "qui laboris cupidatat amet",
-            "description2": "laborum irure ullamco"
+            "description1": "est dolore",
+            "description2": "quis aliqua"
           }
         },
         "description": {
-          "description1": "aute quis minim proident esse",
-          "description2": "Lorem irure officia"
+          "description1": "anim dolor exercitation ut",
+          "description2": "cillum"
         }
       }
     ]
   },
-  "senderReference": "mollit",
-  "transactionReferenceNumber": "eiusmod tempor ullamco"
+  "senderReference": "culpa labore amet minim dolor",
+  "transactionReferenceNumber": "mollit"
 }

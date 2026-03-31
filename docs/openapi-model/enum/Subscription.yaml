@@ -7,4 +7,3 @@ components:
         - START_SUBSCRIPTION
         - END_SUBSCRIPTION
         - WITHOUT_SUBSCRIPTION
-      description: Abonnement

@@ -3,4 +3,3 @@ components:
     contractConditions:
       $ref: >-
         ../../../com/ContractConditions.yaml#/components/schemas/ContractConditions
-      description: Mindestlaufzeiten und Kündigungsfristen zusammengefasst

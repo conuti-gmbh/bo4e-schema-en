@@ -1,33 +1,33 @@
 {
   "boType": "AD_HOC_CONTROL_CHANNEL",
   "structureVersion": "1",
-  "configurationProduct": "69513048084984",
+  "configurationProduct": "04300570676214",
   "targetAddress": {
-    "targetAddress1": "officia velit quis laboris",
-    "targetAddress2": "id laboris",
-    "targetAddress3": "laborum proident",
-    "targetAddress4": "do dolor amet dolore Excepteur",
-    "targetAddress5": "adipisicing cupidatat nulla"
+    "targetAddress1": "commodo sit mollit reprehenderit",
+    "targetAddress2": "qui",
+    "targetAddress3": "labore nisi fugiat laboris sed",
+    "targetAddress4": "dolor sint nisi quis",
+    "targetAddress5": "Lorem quis ut"
   },
   "issuer": {
-    "issuer1": "anim id amet ea Ut",
-    "issuer2": "amet ad enim sunt deserunt",
-    "issuer3": "eiusmod culpa mollit sint ipsum",
-    "issuer4": "nulla sint velit",
-    "issuer5": "dolore commodo ex consectetur in"
+    "issuer1": "ut esse aliquip commodo",
+    "issuer2": "cupidatat aliqua tempor culpa",
+    "issuer3": "dolore velit ea",
+    "issuer4": "ut tempor sed",
+    "issuer5": "in mollit occaecat"
   },
   "certificateUser": {
-    "certificateUser1": "non proident magna ipsum eiusmod",
-    "certificateUser2": "sit veniam do deserunt commodo",
-    "certificateUser3": "veniam nostrud eiusmod consectetur magna",
-    "certificateUser4": "velit",
-    "certificateUser5": "qui"
+    "certificateUser1": "dolor sunt enim eu",
+    "certificateUser2": "commodo do non",
+    "certificateUser3": "mollit",
+    "certificateUser4": "eiusmod pariatur proident",
+    "certificateUser5": "velit nisi dolor"
   },
   "IpAddressClsDevice": {
-    "IpAddressClsDevice1": "nostrud aliquip exercitation veniam ut",
-    "IpAddressClsDevice2": "dolore esse ut fugiat velit",
-    "IpAddressClsDevice3": "commodo exercitation minim fugiat do",
-    "IpAddressClsDevice4": "sed magna culpa reprehenderit aute",
-    "IpAddressClsDevice5": "veniam Lorem"
+    "IpAddressClsDevice1": "culpa",
+    "IpAddressClsDevice2": "ipsum pariatur exercitation anim",
+    "IpAddressClsDevice3": "Ut ad irure aliqua deserunt",
+    "IpAddressClsDevice4": "pariatur aute",
+    "IpAddressClsDevice5": "proident sed Ut laboris"
   }
 }

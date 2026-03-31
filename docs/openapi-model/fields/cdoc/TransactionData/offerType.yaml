@@ -1,5 +1,4 @@
 components:
   schemas:
     offerType:
-      description: Alter FW - OBSOLET
       type: string

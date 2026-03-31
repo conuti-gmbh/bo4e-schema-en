@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/DefinitionsNecessity.schema.json",
   "title": "DefinitionsNecessity",
   "type": "string",
   "enum": [
@@ -8,6 +8,5 @@
     "METERING_TIME_DEFINITIONS_NOT_USED",
     "DEFINITIONS_USED",
     "DEFINITIONS_NOT_USED"
-  ],
-  "description": "DefinitionenNotwendigkeit"
+  ]
 }

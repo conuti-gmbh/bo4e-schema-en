@@ -6,4 +6,3 @@ components:
       enum:
         - MODEL_1_BALANCING_AT_MARKET_LOCATION
         - MODEL_2_BALANCING_IN_BALANCING_AREA
-      description: Abwicklungsmodell

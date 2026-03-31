@@ -10,4 +10,3 @@ components:
         - NO_DATA
         - NO_DATA_PRESENT_IN_SYSTEM
         - NO_DATA_EXPECTED
-      description: Verwendungszeitraumqualitaet

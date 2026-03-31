@@ -2,6 +2,3 @@ components:
   schemas:
     locationId:
       type: string
-      description: >-
-        Eindeutige Nummer der Marktlokation bzw. der Messlokation, zu der die
-        Energiemenge gehört

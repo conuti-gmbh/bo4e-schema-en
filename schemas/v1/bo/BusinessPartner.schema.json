@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/BusinessPartner.schema.json",
   "title": "BusinessPartner",
   "type": "object",
   "properties": {
@@ -10,31 +10,25 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "salutation": {
       "type": "string",
-      "faker": "person.prefix",
-      "description": "Die Anrede für den GePa, Z.B. Herr."
+      "faker": "person.prefix"
     },
     "name1": {
       "type": "string",
-      "faker": "person.lastName",
-      "description": "Erster Teil des Namens. Hier kann der Firmenname oder bei Privatpersonen\nbeispielsweise der Nachname dargestellt werden. Beispiele: Yellow Strom GmbH\noder Hagen"
+      "faker": "person.lastName"
     },
     "name2": {
       "type": "string",
-      "faker": "person.firstName",
-      "description": "Zweiter Teil des Namens. Hier kann der eine Erweiterung zum Firmennamen oder\nbei Privatpersonen beispielsweise der Vorname dargestellt werden. Beispiele:\nBereich Süd oder Nina"
+      "faker": "person.firstName"
     },
     "name3": {
-      "type": "string",
-      "description": "Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder\nbei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele: und Afrika\noder Sängerin"
+      "type": "string"
     },
     "name4": {
-      "type": "string",
-      "description": "name4"
+      "type": "string"
     },
     "vatId": {
       "type": "string",
@@ -43,52 +37,43 @@
           "prefix": "DE",
           "length": 9
         }
-      },
-      "description": "Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825"
+      }
     },
     "creditorId": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      },
-      "description": "* Die Gläubiger-ID welche im Zahlungsverkehr verwendet wird- Z.B. DE 47116789"
+      }
     },
     "emailAddress": {
       "type": "string",
-      "faker": "internet.email",
-      "description": "emailAdresse"
+      "faker": "internet.email"
     },
     "website": {
       "type": "string",
-      "faker": "internet.url",
-      "description": "Internetseite des Marktpartners. Beispiel: www.mp-energie.de"
+      "faker": "internet.url"
     },
     "commercialClassification": {
-      "type": "boolean",
-      "description": "Kennzeichnung ob es sich um einen Gewerbe/Unternehmen (gewerbeKennzeichnung = true)\noder eine Privatperson handelt. (gewerbeKennzeichnung = false)"
+      "type": "boolean"
     },
     "commercialRegisterNumber": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      },
-      "description": "Handelsregisternummer des Geschäftspartners"
+      }
     },
     "courtOfRegistration": {
       "type": "string",
-      "faker": "location.city",
-      "description": "Amtsgericht bzw Handelsregistergericht, das die Handelsregisternummer herausgegeben hat"
+      "faker": "location.city"
     },
     "partnerAddress": {
-      "$ref": "../com/Address.schema.json",
-      "description": "Adresse des Geschäftspartners, an der sich der Hauptsitz befindet. Details"
+      "$ref": "../com/Address.schema.json"
     },
     "externalCustomerNumberSupplier": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      },
-      "description": "externeKundenummerLieferant"
+      }
     },
     "externalReferences": {
       "type": [
@@ -97,8 +82,7 @@
       ],
       "items": {
         "$ref": "../com/ExternalReference.schema.json"
-      },
-      "description": "Hier können IDs anderer Systeme hinterlegt werden (z.B. eine SAP-GP-Nummer) (Details siehe\nExterneReferenz)"
+      }
     },
     "businessPartnerRole": {
       "type": [
@@ -107,8 +91,7 @@
       ],
       "items": {
         "$ref": "../enum/BusinessPartnerRole.schema.json"
-      },
-      "description": "Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde)."
+      }
     },
     "contactChannel": {
       "type": [
@@ -117,8 +100,7 @@
       ],
       "items": {
         "$ref": "../enum/ContactType.schema.json"
-      },
-      "description": "Bevorzugter Kontaktweg des Geschäftspartners."
+      }
     }
   },
   "required": [

@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/StatusNotificationPosition.yaml#/components/schemas/StatusNotificationPosition
-      description: positionsdaten
       nullable: true

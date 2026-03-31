@@ -1,5 +1,4 @@
 components:
   schemas:
     documentNumber:
-      description: EDIFact Referenz aus dem BGM Segment / BGM
       type: string

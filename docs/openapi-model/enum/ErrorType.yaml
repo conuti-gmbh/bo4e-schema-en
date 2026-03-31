@@ -6,4 +6,3 @@ components:
       enum:
         - PROCESSING
         - SYNTAX
-      description: FehlerTyp

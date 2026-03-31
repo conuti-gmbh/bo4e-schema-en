@@ -2,4 +2,3 @@ components:
   schemas:
     meteringLevel:
       $ref: ../../../enum/GridLevel.yaml#/components/schemas/GridLevel
-      description: Vgl. PRICAT IMD 7009

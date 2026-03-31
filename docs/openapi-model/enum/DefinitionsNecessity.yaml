@@ -8,4 +8,3 @@ components:
         - METERING_TIME_DEFINITIONS_NOT_USED
         - DEFINITIONS_USED
         - DEFINITIONS_NOT_USED
-      description: DefinitionenNotwendigkeit

@@ -2,4 +2,3 @@ components:
   schemas:
     time:
       type: string
-      description: Zeit der Erreichbarkeit

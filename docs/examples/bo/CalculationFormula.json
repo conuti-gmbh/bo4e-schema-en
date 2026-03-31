@@ -1,51 +1,51 @@
 {
   "boType": "CALCULATION_FORMULA",
   "structureVersion": "1",
-  "beginDate": "1954-03-08T09:52:35.0Z",
-  "necessity": "CALCULATION_FORMULA_NOT_NECESSARY",
-  "deliveryDirection": "FEED_OUT",
-  "calculationStepId": 7,
+  "beginDate": "1933-10-18T04:21:37.0Z",
+  "necessity": "CALCULATION_FORMULA_MUST_BE_REQUESTED",
+  "deliveryDirection": "FEED_IN",
+  "calculationStepId": 6,
   "calculationStep": {
-    "calculationStepComponentId": 7,
-    "referenceCalculationStepId": 1,
-    "operation": "POSITIVE_VALUE",
-    "lossFactorTransformer": 9.25,
-    "lossFactorLine": 5.5,
-    "allocationFactorEnergyQuantity": 5.75,
-    "meteringLocationId": "498977019646798653178266182821138",
+    "calculationStepComponentId": 1,
+    "referenceCalculationStepId": 10,
+    "operation": "DIVIDEND",
+    "lossFactorTransformer": 8.25,
+    "lossFactorLine": 7,
+    "allocationFactorEnergyQuantity": 3.75,
+    "meteringLocationId": "361825053924420497873215456044484",
     "energyFlowDirection": "FEED_IN"
   },
   "calculationSteps": [
     {
-      "calculationStepComponentId": 9,
-      "referenceCalculationStepId": 10,
-      "operation": "DIVISION",
-      "lossFactorTransformer": 10,
-      "lossFactorLine": 4,
-      "allocationFactorEnergyQuantity": 9.75,
-      "meteringLocationId": "174821720734852601357762249886716",
+      "calculationStepComponentId": 8,
+      "referenceCalculationStepId": 6,
+      "operation": "ADDITION",
+      "lossFactorTransformer": 1.5,
+      "lossFactorLine": 7.75,
+      "allocationFactorEnergyQuantity": 3,
+      "meteringLocationId": "416125881795939398543716110602777",
       "energyFlowDirection": "FEED_OUT"
     }
   ],
   "purposeOfUse": [
     {
-      "marketRole": "DL",
+      "marketRole": "BKV",
       "purpose": [
-        "END_CUSTOMER_BILLING"
+        "NO_PURPOSE_OF_USE_PRESENT"
       ]
     }
   ],
   "validityPeriod": {
-    "timeUnit": "QUARTER_HOUR",
+    "timeUnit": "MONTH",
     "duration": 8,
-    "startDate": "1962-06-26T22:56:16.0Z",
-    "endDate": "1942-06-01T04:01:30.0Z",
-    "unit": "WEEK",
-    "readingPeriod": "058930",
-    "billingPeriod": "289370",
-    "periodText": "ipsum consectetur exercitation fugiat cupidatat",
-    "periodId": 2
+    "startDate": "1930-08-10T20:23:38.0Z",
+    "endDate": "1922-07-24T02:35:41.0Z",
+    "unit": "QUARTER",
+    "readingPeriod": "123888",
+    "billingPeriod": "428599",
+    "periodText": "eiusmod",
+    "periodId": 1
   },
-  "locationId": "66723223323",
-  "locationType": "MALO"
+  "locationId": "22758919295",
+  "locationType": "TRANCHE"
 }

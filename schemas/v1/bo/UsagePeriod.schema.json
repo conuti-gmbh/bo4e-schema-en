@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/UsagePeriod.schema.json",
   "title": "UsagePeriod",
   "type": "object",
   "properties": {
@@ -10,18 +10,15 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "usageFrom": {
       "type": "string",
-      "format": "date-time",
-      "description": "verwendungAb"
+      "format": "date-time"
     },
     "usageTo": {
       "type": "string",
-      "format": "date-time",
-      "description": "verwendungBis"
+      "format": "date-time"
     },
     "periodId": {
       "type": "integer",
@@ -30,8 +27,7 @@
           "min": 1,
           "max": 9
         }
-      },
-      "description": "zeitraumId"
+      }
     },
     "dataQuality": {
       "$ref": "../enum/DataQuality.schema.json"

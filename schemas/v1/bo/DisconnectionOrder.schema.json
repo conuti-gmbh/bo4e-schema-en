@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Sperraufrag.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/Sperraufrag.schema.json",
   "title": "DisconnectionOrder",
   "type": "object",
   "properties": {
@@ -10,27 +10,22 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "meetingPoint": {
       "$ref": "../com/Address.schema.json"
     },
     "disconnectionOrderType": {
-      "$ref": "../enum/DisconnectionOrderType.schema.json",
-      "description": "Handelt es sich um einen Auftrag zum SPERREN oder ENTSPERREN?"
+      "$ref": "../enum/DisconnectionOrderType.schema.json"
     },
     "disconnectionOrderStatus": {
-      "$ref": "../enum/OrderStatus.schema.json",
-      "description": "Auftragsstatus"
+      "$ref": "../enum/OrderStatus.schema.json"
     },
     "disconnectionOrderRejectionReason": {
-      "$ref": "../enum/DisconnectionOrderRejectionReason.schema.json",
-      "description": "Falls Sperrauftragsstatus = ABGELEHNT"
+      "$ref": "../enum/DisconnectionOrderRejectionReason.schema.json"
     },
     "disconnectionPreventionReason": {
-      "$ref": "../enum/DisconnectionPreventionReason.schema.json",
-      "description": "Falls Sperrauftragsstatus = GESCHEITERT"
+      "$ref": "../enum/DisconnectionPreventionReason.schema.json"
     },
     "meterNumber": {
       "type": "string",
@@ -39,12 +34,10 @@
           "prefix": "ZAEHLER_",
           "length": 6
         }
-      },
-      "description": "Die Nummer des zu sperrenden Zählers"
+      }
     },
     "isOrderedByBailiff": {
-      "type": "boolean",
-      "description": "True, falls die Sperrung vom Gerichtsvollzieher angeordnet ist."
+      "type": "boolean"
     }
   },
   "required": [

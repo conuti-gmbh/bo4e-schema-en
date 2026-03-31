@@ -2,4 +2,3 @@ components:
   schemas:
     itemQuantity:
       $ref: ../../../com/Quantity.yaml#/components/schemas/Quantity
-      description: Menge der Position

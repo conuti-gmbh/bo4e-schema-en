@@ -4,5 +4,4 @@ components:
       type: array
       items:
         type: string
-      description: bemerkungen
       nullable: true

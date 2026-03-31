@@ -2,4 +2,3 @@ components:
   schemas:
     externalCustomerNumberSupplier:
       type: string
-      description: externeKundenummerLieferant

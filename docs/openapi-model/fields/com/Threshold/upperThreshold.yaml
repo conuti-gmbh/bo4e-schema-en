@@ -3,4 +3,3 @@ components:
     upperThreshold:
       type: number
       format: float
-      description: obererSchwellwert

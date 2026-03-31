@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/CalculationFormula.schema.json",
   "title": "CalculationFormula",
   "type": "object",
   "properties": {
@@ -10,21 +10,17 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "beginDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Der inklusive Zeitpunkt ab dem die Berechnungsformel gültig ist"
+      "format": "date-time"
     },
     "necessity": {
-      "$ref": "../enum/CalculationFormulaNecessity.schema.json",
-      "description": "Beschreibt ob eine Berechnungsformel notwendig ist"
+      "$ref": "../enum/CalculationFormulaNecessity.schema.json"
     },
     "deliveryDirection": {
-      "$ref": "../enum/EnergyDirection.schema.json",
-      "description": "The UTILTS 'Lieferrichtung der Marktlokation' is contained in the marktlokations-bo also the relation between Berechnungsformel↔ Marktlokation is modelled as 'link'"
+      "$ref": "../enum/EnergyDirection.schema.json"
     },
     "calculationStepId": {
       "type": "integer",
@@ -33,8 +29,7 @@
           "min": 1,
           "max": 10
         }
-      },
-      "description": "ID des Rechenschritts [1 - 99999]"
+      }
     },
     "calculationStep": {
       "$ref": "../com/CalculationStep.schema.json"
@@ -46,8 +41,7 @@
       ],
       "items": {
         "$ref": "../com/CalculationStep.schema.json"
-      },
-      "description": "Eine Berechnungsformel enthält, falls sie notwendig ist, einen oder mehrere Berechnungschritte, die hier rekursiv abgebildet werden."
+      }
     },
     "purposeOfUse": {
       "type": [
@@ -56,23 +50,19 @@
       ],
       "items": {
         "$ref": "../com/PurposeOfUse.schema.json"
-      },
-      "description": "Verwendungszweck der Werte"
+      }
     },
     "validityPeriod": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Gültigkeitszeitraum der Werte"
+      "$ref": "../com/TimePeriod.schema.json"
     },
     "locationId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "Eindeutige Nummer der Lokation, zu der die Berechnungsformel gehört. Verwendung für notwendige interne Zuordnungen."
+      }
     },
     "locationType": {
-      "$ref": "../enum/LocationType.schema.json",
-      "description": "Gibt an,um welchen Lokationstyp es sich handelt. Verwendung für notwendige interne Zuordnungen."
+      "$ref": "../enum/LocationType.schema.json"
     }
   },
   "required": [

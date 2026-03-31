@@ -2,4 +2,3 @@ components:
   schemas:
     certificateIssuer5:
       type: string
-      description: zertifikatsAussteller5

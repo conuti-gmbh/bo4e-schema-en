@@ -1,6 +1,5 @@
 components:
   schemas:
     usageTo:
-      description: Verarbeitung, Endedatum/-zeit / DTM+164
       type: string
       format: date-time

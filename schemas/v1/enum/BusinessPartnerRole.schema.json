@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geschaeftspartnerrolle.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/BusinessPartnerRole.schema.json",
   "title": "BusinessPartnerRole",
   "type": "string",
   "enum": [
@@ -13,6 +13,5 @@
     "PROPERTY_MANAGER",
     "CORRESPONDENCE_RECIPIENT",
     "READING_CARD_RECIPIENT"
-  ],
-  "description": "Geschaeftspartnerrolle"
+  ]
 }

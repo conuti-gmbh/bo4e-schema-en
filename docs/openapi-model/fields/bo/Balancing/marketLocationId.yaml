@@ -2,4 +2,3 @@ components:
   schemas:
     marketLocationId:
       type: string
-      description: Für welche Marktlokation gelten diese Bilanzierungsdaten

@@ -4,5 +4,4 @@ components:
       type: array
       items:
         type: string
-      description: Referenz auf ID weiterer Marktlokationen
       nullable: true

@@ -4,9 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../enum/ProfileSubtype.yaml#/components/schemas/ProfileSubtype
-      description: >-
-        Prognosegrundlage - Besteht der Bedarf ein tagesparameteräbhängiges
-        Lastprofil mit gemeinsamer Messung anzugeben, so ist dies über die 2
-        -malige Wiederholung des CAV Segments mit der Angabe der Codes E02 und
-        E14 möglich.
       nullable: true

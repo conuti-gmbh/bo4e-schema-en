@@ -1,6 +1,5 @@
 components:
   schemas:
     nextProcessing:
-      description: Datum für nächste Bearbeitung / DTM+Z08
       type: string
       format: date-time

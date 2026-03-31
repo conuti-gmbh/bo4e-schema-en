@@ -11,4 +11,3 @@ components:
         - ACTUAL_PREVENTION_REASON
         - TECHNICAL_PREVENTION_REASON
         - CONNECTION_USER_NOT_ENCOUNTERED
-      description: Sperrauftragsverhinderungsgrund

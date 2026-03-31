@@ -2,4 +2,3 @@ components:
   schemas:
     referenceProfileDesignation:
       type: string
-      description: Bezeichnung des Referenzprofils

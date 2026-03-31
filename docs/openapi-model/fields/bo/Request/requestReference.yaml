@@ -2,4 +2,3 @@ components:
   schemas:
     requestReference:
       type: string
-      description: anfragereferenz

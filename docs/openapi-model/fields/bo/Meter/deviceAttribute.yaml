@@ -2,6 +2,3 @@ components:
   schemas:
     deviceAttribute:
       $ref: ../../../enum/DeviceAttribute.yaml#/components/schemas/DeviceAttribute
-      description: >-
-        Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc..
-        Details Geraetemerkmal

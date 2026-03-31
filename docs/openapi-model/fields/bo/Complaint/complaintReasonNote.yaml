@@ -3,4 +3,3 @@ components:
     complaintReasonNote:
       $ref: >-
         ../../../com/ComplaintReasonNote.yaml#/components/schemas/ComplaintReasonNote
-      description: Freitext für eine weitere Beschreibung des Reklamationsgrunds

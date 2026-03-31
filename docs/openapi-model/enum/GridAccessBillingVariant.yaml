@@ -6,4 +6,3 @@ components:
       enum:
         - ENERGY_PRICE_BASE_PRICE
         - ENERGY_PRICE_POWER_PRICE
-      description: Netznutzungsabrechnungsvariante

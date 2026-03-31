@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../enum/MarketRole.yaml#/components/schemas/MarketRole
-      description: zaehlwerkeBeteiligteMarktrolle
       nullable: true

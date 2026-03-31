@@ -2,4 +2,3 @@ components:
   schemas:
     isExisting:
       type: string
-      description: istBestand

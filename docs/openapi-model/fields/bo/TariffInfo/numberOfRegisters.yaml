@@ -3,4 +3,3 @@ components:
     numberOfRegisters:
       $ref: >-
         ../../../enum/NumberOfRegisters.yaml#/components/schemas/NumberOfRegisters
-      description: Die Art des Tarifes, z.B. Eintarif oder Mehrtarif

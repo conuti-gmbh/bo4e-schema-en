@@ -1,6 +1,5 @@
 components:
   schemas:
     completionDate:
-      description: Fertigstellungsdatum / DTM+293
       type: string
       format: date-time

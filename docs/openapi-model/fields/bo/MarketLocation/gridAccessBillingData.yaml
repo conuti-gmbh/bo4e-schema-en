@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/GridAccessBillingData.yaml#/components/schemas/GridAccessBillingData
-      description: Daten für die Prüfung der Netznutzungsabrechnung
       nullable: true

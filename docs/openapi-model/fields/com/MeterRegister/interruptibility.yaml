@@ -2,4 +2,3 @@ components:
   schemas:
     interruptibility:
       $ref: ../../../enum/Interruptibility.yaml#/components/schemas/Interruptibility
-      description: Stromverbrauchsart/Unterbrechbarkeit Marktlokation

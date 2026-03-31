@@ -2,4 +2,3 @@ components:
   schemas:
     differenceData:
       type: boolean
-      description: differenzDaten

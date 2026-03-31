@@ -6,4 +6,3 @@ components:
       enum:
         - REQUIRED
         - NOT_REQUIRED
-      description: AenderungsmoeglichkeitKonfiguration

@@ -2,4 +2,3 @@ components:
   schemas:
     resourceId:
       type: string
-      description: ressourcenId

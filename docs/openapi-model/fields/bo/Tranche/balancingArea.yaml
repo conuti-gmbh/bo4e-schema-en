@@ -2,4 +2,3 @@ components:
   schemas:
     balancingArea:
       type: string
-      description: bilanzierungsgebiet

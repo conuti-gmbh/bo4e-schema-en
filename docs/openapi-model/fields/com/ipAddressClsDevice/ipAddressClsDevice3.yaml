@@ -2,4 +2,3 @@ components:
   schemas:
     IpAddressClsDevice3:
       type: string
-      description: IPAdresseCLSDevice3

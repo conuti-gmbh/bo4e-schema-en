@@ -2,4 +2,3 @@ components:
   schemas:
     versionSpecification:
       type: string
-      description: versionsangabe

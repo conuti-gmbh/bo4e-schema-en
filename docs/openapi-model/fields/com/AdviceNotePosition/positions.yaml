@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/FeedbackPosition.yaml#/components/schemas/FeedbackPosition
-      description: positionen
       nullable: true

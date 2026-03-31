@@ -10,6 +10,3 @@ components:
         - TLP_SEPARATE
         - FLAT_RATE
         - IMS
-      description: >-
-        Mit dieser Aufzählung kann zwischen den Bilanzierungsmethoden bzw.
-        -grundlagen unterschieden werden.

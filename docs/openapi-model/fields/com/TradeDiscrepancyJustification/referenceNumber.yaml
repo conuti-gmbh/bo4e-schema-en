@@ -2,4 +2,3 @@ components:
   schemas:
     referenceNumber:
       type: string
-      description: Referenznummer der Nachricht

@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/AdviceNotePosition.yaml#/components/schemas/AdviceNotePosition
-      description: Avispositionen
       nullable: true

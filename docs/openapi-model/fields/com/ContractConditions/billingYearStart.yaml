@@ -3,4 +3,3 @@ components:
     billingYearStart:
       type: string
       format: date-time
-      description: startAbrechnungsjahr

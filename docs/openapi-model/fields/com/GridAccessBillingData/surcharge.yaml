@@ -3,4 +3,3 @@ components:
     surcharge:
       type: number
       format: float
-      description: Zuschlag

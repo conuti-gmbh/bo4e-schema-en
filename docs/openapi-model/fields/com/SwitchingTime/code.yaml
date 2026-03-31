@@ -2,4 +2,3 @@ components:
   schemas:
     code:
       type: string
-      description: code

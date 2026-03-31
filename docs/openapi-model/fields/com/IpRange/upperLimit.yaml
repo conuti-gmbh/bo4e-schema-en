@@ -2,4 +2,3 @@ components:
   schemas:
     upperLimit:
       type: string
-      description: obereGrenze

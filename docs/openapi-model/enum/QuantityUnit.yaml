@@ -25,6 +25,3 @@ components:
         - KWHK
         - Z16
         - KWT
-      description: >-
-        Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden
-        können

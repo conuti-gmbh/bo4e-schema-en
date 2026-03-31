@@ -10,4 +10,3 @@ components:
         - HEAT_PUMP_HEATING_COOLING
         - HEAT_PUMP_COOLING
         - HEAT_PUMP_HEATING
-      description: Waermenutzung

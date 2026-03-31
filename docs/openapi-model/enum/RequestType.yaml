@@ -25,4 +25,3 @@ components:
         - NEW_CONFIGURATION
         - TERMINATION_CONFIGURATION
         - ACTIVATION_CONFIGURATION
-      description: Anfragetyp

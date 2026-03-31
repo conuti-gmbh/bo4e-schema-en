@@ -2,4 +2,3 @@ components:
   schemas:
     deliveryAddress:
       $ref: ../../../com/Address.yaml#/components/schemas/Address
-      description: Die Adresse, die sich in Belieferung befindet.

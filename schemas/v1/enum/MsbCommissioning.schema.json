@@ -1,11 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BeauftragungMsb.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/MsbCommissioning.schema.json",
   "title": "MsbCommissioning",
   "type": "string",
   "enum": [
     "CONTRACT_TO_MSB",
     "CONTRACT_TERMINATION_MSB"
-  ],
-  "description": "BeauftragungMsb"
+  ]
 }

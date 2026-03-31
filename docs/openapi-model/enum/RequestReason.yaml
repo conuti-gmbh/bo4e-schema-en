@@ -13,4 +13,3 @@ components:
         - CHANGE_IN_LOCATION_BUNDLE
         - NEW_CONFIGURATION
         - CONFIGURATION_UNCHANGED
-      description: Anfragegrund

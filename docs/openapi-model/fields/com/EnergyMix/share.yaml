@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../com/EnergyOrigin.yaml#/components/schemas/EnergyOrigin
-      description: Anteile der jeweiligen Erzeugungsart
       nullable: true

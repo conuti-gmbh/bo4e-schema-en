@@ -3,4 +3,3 @@ components:
     balancingEnd:
       type: string
       format: date-time
-      description: Exklusives Ende der Bilanzierung

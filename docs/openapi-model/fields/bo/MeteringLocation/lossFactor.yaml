@@ -3,4 +3,3 @@ components:
     lossFactor:
       type: number
       format: float
-      description: verlustfaktor für EDIFACT mapping

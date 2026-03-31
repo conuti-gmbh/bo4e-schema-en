@@ -2,4 +2,3 @@ components:
   schemas:
     energyMixNumber:
       type: integer
-      description: Eindeutige Nummer zur Identifizierung des Energiemixes

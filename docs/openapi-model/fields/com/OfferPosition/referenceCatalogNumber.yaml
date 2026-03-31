@@ -2,4 +2,3 @@ components:
   schemas:
     referenceCatalogNumber:
       $ref: ../../../com/CatalogReference.yaml#/components/schemas/CatalogReference
-      description: APF Verweis auf Katalognummer

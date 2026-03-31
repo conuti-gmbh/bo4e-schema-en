@@ -2,4 +2,3 @@ components:
   schemas:
     calculationStepId:
       type: integer
-      description: ID des Rechenschritts [1 - 99999]

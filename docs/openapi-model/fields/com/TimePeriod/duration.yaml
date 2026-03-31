@@ -2,4 +2,3 @@ components:
   schemas:
     duration:
       type: integer
-      description: dauer

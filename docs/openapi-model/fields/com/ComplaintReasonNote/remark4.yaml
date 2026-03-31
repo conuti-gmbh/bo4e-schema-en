@@ -2,4 +2,3 @@ components:
   schemas:
     remark4:
       type: string
-      description: bemerkung4

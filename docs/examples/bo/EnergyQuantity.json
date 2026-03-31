@@ -1,35 +1,35 @@
 {
   "boType": "ENERGY_QUANTITY",
   "structureVersion": "1",
-  "locationId": "59089283162",
-  "locationType": "TECHNICAL_RESOURCE",
-  "completionDate": "1969-09-27T01:07:55.0Z",
-  "startDate": "1918-10-13T23:26:13.0Z",
-  "endDate": "1943-11-30T18:58:09.0Z",
-  "balancingDate": "1909-02-10T16:14:22.0Z",
-  "beginDate": "1944-06-26T22:21:29.0Z",
-  "referenceMasterDataNotificationMsb": "REF101001",
-  "configuration": "veniam",
+  "locationId": "92723964622",
+  "locationType": "MALO",
+  "completionDate": "1925-08-07T08:22:04.0Z",
+  "startDate": "1910-03-16T22:03:46.0Z",
+  "endDate": "1965-09-21T03:14:31.0Z",
+  "balancingDate": "1948-08-13T16:57:07.0Z",
+  "beginDate": "1936-03-27T20:01:28.0Z",
+  "referenceMasterDataNotificationMsb": "REF010101",
+  "configuration": "reprehenderit adipisicing",
   "energyConsumption": [
     {
-      "startDate": "1932-12-01T22:17:41.0Z",
-      "endDate": "1934-10-30T12:24:47.0Z",
+      "startDate": "1899-04-29T01:01:59.0Z",
+      "endDate": "1929-02-26T14:34:29.0Z",
       "valueDeterminationMethod": "MEASUREMENT",
-      "measurementValueStatus": "FORECAST_VALUE",
-      "obisNumber": "do cupidatat amet",
-      "value": 14.5,
-      "unit": "KWHK",
-      "type": "ESTIMATED_ANNUAL_QUANTITY",
-      "tariffLevel": "TARIFF_LEVEL_0",
-      "usageTimestamp": "1933-12-07T19:51:57.0Z",
-      "executionTimestamp": "1952-11-17T01:57:58.0Z",
-      "position": 5534132191,
-      "readingDate": "1917-06-21T07:14:40.0Z",
-      "servicePeriod": "331754",
+      "measurementValueStatus": "MISSING",
+      "obisNumber": "nisi sint",
+      "value": 18,
+      "unit": "COUNT",
+      "type": "TUM_CUSTOMER_VALUE",
+      "tariffLevel": "TARIFF_LEVEL_2",
+      "usageTimestamp": "1910-06-15T01:39:23.0Z",
+      "executionTimestamp": "1941-10-12T21:20:27.0Z",
+      "position": 7683595643,
+      "readingDate": "1927-01-27T21:58:56.0Z",
+      "servicePeriod": "436084",
       "statusAdditionalInformation": [
         {
           "kind": "REASON_SUBSTITUTE_VALUE_FORMATION_METHOD",
-          "status": "PLAUSIBLE_DUE_TO_CONTROL_READING"
+          "status": "COMMUNICATION_FAULT"
         }
       ]
     }

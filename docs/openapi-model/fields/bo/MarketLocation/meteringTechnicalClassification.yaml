@@ -3,4 +3,3 @@ components:
     meteringTechnicalClassification:
       $ref: >-
         ../../../enum/MeteringTechnicalClassification.yaml#/components/schemas/MeteringTechnicalClassification
-      description: Messtechnische Einordnung aus der UTILMD (IMS, KME_MME, KEINE_MESSUNG)

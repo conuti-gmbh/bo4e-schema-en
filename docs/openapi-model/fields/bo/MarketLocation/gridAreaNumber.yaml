@@ -2,4 +2,3 @@ components:
   schemas:
     gridAreaNumber:
       type: string
-      description: Die Nummer des Netzgebietes in der ene't-Datenbank.

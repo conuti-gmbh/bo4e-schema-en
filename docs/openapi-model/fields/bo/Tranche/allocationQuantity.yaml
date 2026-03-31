@@ -2,6 +2,3 @@ components:
   schemas:
     allocationQuantity:
       $ref: ../../../com/Quantity.yaml#/components/schemas/Quantity
-      description: >-
-        Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in
-        Prozent mit 2 Nachkommastellen

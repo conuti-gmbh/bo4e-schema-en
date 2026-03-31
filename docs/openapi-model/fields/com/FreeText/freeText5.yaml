@@ -2,4 +2,3 @@ components:
   schemas:
     freeText5:
       type: string
-      description: Freitext Zeile 5

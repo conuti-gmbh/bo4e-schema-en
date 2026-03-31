@@ -2,4 +2,3 @@ components:
   schemas:
     referenceMasterDataNotificationMsb:
       type: string
-      description: referenzStammdatenmeldungMsb

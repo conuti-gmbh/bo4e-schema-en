@@ -3,4 +3,3 @@ components:
     municipalDiscount:
       type: number
       format: float
-      description: Gemeinderabatt

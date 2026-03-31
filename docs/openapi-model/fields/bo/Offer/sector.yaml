@@ -2,4 +2,3 @@ components:
   schemas:
     sector:
       $ref: ../../../enum/Sector.yaml#/components/schemas/Sector
-      description: Sparte

@@ -2,8 +2,3 @@ components:
   schemas:
     articleNumber:
       type: string
-      description: >-
-        Kennzeichnung der Rechnungsposition mit der Standard-Artikelnummer des
-        BDEW. Details
-
-        BDEWArtikelnummer

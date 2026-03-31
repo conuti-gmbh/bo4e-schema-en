@@ -1,5 +1,4 @@
 components:
   schemas:
     orderMeteringTimes:
-      description: Alter FW - OBSOLET
       type: string

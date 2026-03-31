@@ -1,6 +1,5 @@
 components:
   schemas:
     contractStart:
-      description: Datum Vertragsbeginn / DTM+92
       type: string
       format: date-time

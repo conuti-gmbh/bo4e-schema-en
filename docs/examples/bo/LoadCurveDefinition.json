@@ -1,23 +1,23 @@
 {
   "boType": "LOAD_CURVE_DEFINITION",
   "structureVersion": "1",
-  "beginDate": "1961-09-28T04:51:56.0Z",
-  "closingDate": "1899-08-07T22:35:50.0Z",
-  "version": "1965-12-30T01:33:07.0Z",
-  "code": "CODE_0000",
-  "necessity": "DEFINITIONS_USED",
+  "beginDate": "1926-03-02T23:25:04.0Z",
+  "closingDate": "1924-02-16T10:52:57.0Z",
+  "version": "1936-01-08T21:08:34.0Z",
+  "code": "CODE_1111",
+  "necessity": "METERING_TIME_DEFINITIONS_NOT_USED",
   "loadCurves": [
     {
-      "code": "CODE_0010",
-      "changeTimestamp": "1908-01-08T21:09:21.0Z",
+      "code": "CODE_0110",
+      "changeTimestamp": "1958-06-19T11:52:55.0Z",
       "frequency": "ANNUAL",
-      "transmissibility": "ELECTRONIC",
+      "transmissibility": "NON_ELECTRONIC",
       "threshold": {
-        "upperThreshold": 16,
-        "lowerThreshold": 8,
-        "configurationProduct": "KONF_0101"
+        "upperThreshold": 10.5,
+        "lowerThreshold": 2.5,
+        "configurationProduct": "KONF_1000"
       },
-      "configurationProduct": "KONF_1100"
+      "configurationProduct": "KONF_0111"
     }
   ]
 }

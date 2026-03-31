@@ -9,4 +9,3 @@ components:
         - BV_PAYMENT_MSB_BILLING
         - BV_PAYMENT_UNLOCK_BILLING
         - BV_OTHER
-      description: BankverbindungVerwendungszweck

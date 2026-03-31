@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/BDEWArticleNumber.schema.json",
   "title": "BDEWArticleNumber",
   "type": "string",
   "enum": [
@@ -57,6 +57,5 @@
     "ADDITIONAL_SERVICE_PARAGRAPH_35_2_5_MSBG",
     "ADDITIONAL_SERVICE_PARAGRAPH_35_3_MSBG",
     "FEE_CAPACITIES"
-  ],
-  "description": "BDEW Artikelnummer"
+  ]
 }

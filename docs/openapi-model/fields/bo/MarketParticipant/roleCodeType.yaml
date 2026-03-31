@@ -2,4 +2,3 @@ components:
   schemas:
     roleCodeType:
       $ref: ../../../enum/RoleCodeType.yaml#/components/schemas/RoleCodeType
-      description: Gibt den Typ des Codes an.

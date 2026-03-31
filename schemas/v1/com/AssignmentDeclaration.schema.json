@@ -1,37 +1,31 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abtretungserklaerung.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/AssignmentDeclaration.schema.json",
   "title": "AssignmentDeclaration",
   "type": "object",
   "properties": {
     "password": {
-      "type": "string",
-      "description": "Passwort zum Abruf"
+      "type": "string"
     },
     "link1": {
       "type": "string",
-      "faker": "internet.url",
-      "description": "Link Zeile 1"
+      "faker": "internet.url"
     },
     "link2": {
       "type": "string",
-      "faker": "internet.url",
-      "description": "Link Zeile 2"
+      "faker": "internet.url"
     },
     "link3": {
       "type": "string",
-      "faker": "internet.url",
-      "description": "Link Zeile 3"
+      "faker": "internet.url"
     },
     "link4": {
       "type": "string",
-      "faker": "internet.url",
-      "description": "Link Zeile 4"
+      "faker": "internet.url"
     },
     "link5": {
       "type": "string",
-      "faker": "internet.url",
-      "description": "Link Zeile 5"
+      "faker": "internet.url"
     }
   }
 }

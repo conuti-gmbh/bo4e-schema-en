@@ -6,4 +6,3 @@ components:
       enum:
         - MUNICIPAL_DISCOUNT_KAV
         - ADJUSTMENT_P19_ELECTRICITY_NEV
-      description: AbschlagTyp

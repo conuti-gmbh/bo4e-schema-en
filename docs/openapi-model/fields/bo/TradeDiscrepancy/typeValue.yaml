@@ -3,4 +3,3 @@ components:
     typeValue:
       $ref: >-
         ../../../enum/TradeDiscrepancyType.yaml#/components/schemas/TradeDiscrepancyType
-      description: Gibt den Typ der Handelsunstimmigkeit an.

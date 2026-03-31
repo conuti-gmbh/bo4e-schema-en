@@ -2,4 +2,3 @@ components:
   schemas:
     isCancellation:
       type: boolean
-      description: istStorno

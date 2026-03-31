@@ -2,4 +2,3 @@ components:
   schemas:
     segment:
       type: string
-      description: segment

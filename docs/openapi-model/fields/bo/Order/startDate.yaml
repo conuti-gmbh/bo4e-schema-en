@@ -3,6 +3,3 @@ components:
     startDate:
       type: string
       format: date-time
-      description: >-
-        Das Startdatum beschreibt zu welchem Zeitpunkt ein Auftrag gestartet
-        wurde/wird.

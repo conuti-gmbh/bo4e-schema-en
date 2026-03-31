@@ -2,4 +2,3 @@ components:
   schemas:
     billingInterval:
       type: integer
-      description: abrechnungsintervall

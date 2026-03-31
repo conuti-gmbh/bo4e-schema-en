@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../enum/EcoLabel.yaml#/components/schemas/EcoLabel
-      description: Ökolabel für den Energiemix
       nullable: true

@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../com/LoadProfile.yaml#/components/schemas/LoadProfile
-      description: Lastprofile des Bilanzierungsbeteiligten
       nullable: true

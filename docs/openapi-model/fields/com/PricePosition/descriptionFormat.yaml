@@ -3,4 +3,3 @@ components:
     descriptionFormat:
       $ref: >-
         ../../../enum/DescriptionFormat.yaml#/components/schemas/DescriptionFormat
-      description: Vgl. PRICAT IMD 7077

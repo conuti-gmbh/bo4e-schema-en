@@ -2,6 +2,3 @@ components:
   schemas:
     gridOperatorCodeNumber:
       type: string
-      description: |-
-        Codenummer des Netzbetreibers, an dessen Netz diese Marktlokation
-        angeschlossen ist.

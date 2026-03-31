@@ -1,7 +1,4 @@
 components:
   schemas:
     requestReferenceNumber:
-      description: >-
-        Referenz Vorgangsnummer 'aus Anfragenachricht' / ORDERS RFF+TN / IFTSTA
-        RFF+AAV / INSRPT RFF+TN RFF+AAV
       type: string

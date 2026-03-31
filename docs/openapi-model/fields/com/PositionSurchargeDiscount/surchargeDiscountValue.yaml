@@ -3,4 +3,3 @@ components:
     surchargeDiscountValue:
       type: number
       format: float
-      description: aufAbschlagswert

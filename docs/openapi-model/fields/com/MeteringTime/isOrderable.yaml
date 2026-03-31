@@ -2,4 +2,3 @@ components:
   schemas:
     isOrderable:
       type: boolean
-      description: Ist die Zählzeit bestellbar?

@@ -2,4 +2,3 @@ components:
   schemas:
     locationId:
       type: string
-      description: Für welche Markt- oder Messlokation gilt diese Reklamation.

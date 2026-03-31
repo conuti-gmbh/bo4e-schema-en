@@ -3,4 +3,3 @@ components:
     executionTimestamp:
       type: string
       format: date-time
-      description: ausfuehrungszeitpunkt

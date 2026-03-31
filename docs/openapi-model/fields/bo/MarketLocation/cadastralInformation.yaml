@@ -2,13 +2,3 @@ components:
   schemas:
     cadastralInformation:
       $ref: ../../../com/CadastralAddress.yaml#/components/schemas/CadastralAddress
-      description: >-
-        Alternativ zu einer postalischen Adresse und Geokoordinaten kann hier
-        eine
-
-        Ortsangabe mittels Gemarkung und Flurstück erfolgen.
-
-        Achtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein
-        (entweder
-
-        eine Adresse oder eine GeoKoordinate oder eine Katasteradresse.

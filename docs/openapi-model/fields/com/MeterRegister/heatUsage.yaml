@@ -2,4 +2,3 @@ components:
   schemas:
     heatUsage:
       $ref: ../../../enum/HeatUsage.yaml#/components/schemas/HeatUsage
-      description: Stromverbrauchsart/Wärmenutzung Marktlokation

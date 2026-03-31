@@ -2,4 +2,3 @@ components:
   schemas:
     requestSubReference:
       type: string
-      description: Referenz der ANfrage

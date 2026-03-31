@@ -2,4 +2,3 @@ components:
   schemas:
     marketArea:
       type: string
-      description: marktgebiet

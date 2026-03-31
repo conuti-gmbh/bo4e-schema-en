@@ -2,4 +2,3 @@ components:
   schemas:
     periodId:
       type: integer
-      description: zeitraumId

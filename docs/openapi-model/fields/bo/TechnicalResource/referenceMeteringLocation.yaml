@@ -2,4 +2,3 @@ components:
   schemas:
     referenceMeteringLocation:
       type: string
-      description: referenzMesslokation

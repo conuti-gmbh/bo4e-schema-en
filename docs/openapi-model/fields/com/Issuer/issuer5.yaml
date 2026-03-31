@@ -2,4 +2,3 @@ components:
   schemas:
     issuer5:
       type: string
-      description: aussteller5

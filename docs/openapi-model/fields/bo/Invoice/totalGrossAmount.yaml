@@ -2,4 +2,3 @@ components:
   schemas:
     totalGrossAmount:
       $ref: ../../../com/Amount.yaml#/components/schemas/Amount
-      description: Die Summe aus Netto- und Steuerbetrag. Details Betrag

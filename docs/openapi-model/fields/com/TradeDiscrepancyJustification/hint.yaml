@@ -2,4 +2,3 @@ components:
   schemas:
     hint:
       type: string
-      description: Hinweis zum Grund

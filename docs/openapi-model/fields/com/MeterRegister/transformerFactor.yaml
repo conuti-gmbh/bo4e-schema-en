@@ -3,8 +3,3 @@ components:
     transformerFactor:
       type: number
       format: float
-      description: >-
-        Mit diesem Faktor wird eine Zählerstandsdifferenz multipliziert, um zum
-        eigentlichen Verbrauch im Zeitraum zu
-
-        kommen.

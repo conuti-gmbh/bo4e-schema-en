@@ -1,6 +1,5 @@
 components:
   schemas:
     balancingGroupAssignment:
-      description: Status der Bilanzkreiszuordnung / STS+Z18
       $ref: >-
         ../../../enum/BalancingGroupAssignment.yaml#/components/schemas/BalancingGroupAssignment

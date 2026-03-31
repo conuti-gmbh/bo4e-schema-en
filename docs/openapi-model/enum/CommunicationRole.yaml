@@ -16,4 +16,3 @@ components:
         - UNLOCK_LOCK_PROCESSES
         - BALANCING_PROCESSES
         - GRID_CONNECTION_FACILITIES
-      description: Kommunikationsrolle

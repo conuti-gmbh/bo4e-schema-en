@@ -1,12 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/TaxAmount.schema.json",
   "title": "TaxAmount",
   "type": "object",
   "properties": {
     "taxCode": {
-      "type": "string",
-      "description": "Kennzeichnung des Steuersatzes, bzw. Verfahrens. Details Steuerkennzeichen"
+      "type": "string"
     },
     "baseValue": {
       "type": "number",
@@ -17,8 +16,7 @@
           "min": 10,
           "max": 20
         }
-      },
-      "description": "Nettobetrag für den die Steuer berechnet wurde. Z.B. 200"
+      }
     },
     "taxValue": {
       "type": "number",
@@ -29,12 +27,10 @@
           "min": 10,
           "max": 20
         }
-      },
-      "description": "Aus dem Basiswert berechnete Steuer. Z.B. 38 (bei UST_19), falls Basiswert 200 ist."
+      }
     },
     "currency": {
-      "type": "string",
-      "description": "Währung. Z.B. Euro."
+      "type": "string"
     },
     "baseValuePrepaid": {
       "type": "number",
@@ -45,8 +41,7 @@
           "min": 10,
           "max": 20
         }
-      },
-      "description": "basiswertVorausbezahlt"
+      }
     },
     "taxValuePrepaid": {
       "type": "number",
@@ -57,8 +52,7 @@
           "min": 10,
           "max": 20
         }
-      },
-      "description": "steuerwertVorausbezahlt"
+      }
     }
   }
 }

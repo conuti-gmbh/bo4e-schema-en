@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../com/PriceTier.yaml#/components/schemas/PriceTier
-      description: Preisstaffeln, die zu dieser Preisposition gehören. Details Preisstaffel
       nullable: true

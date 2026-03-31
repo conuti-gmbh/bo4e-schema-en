@@ -1,74 +1,74 @@
 {
   "boType": "PRICE_SHEET",
   "structureVersion": "1",
-  "designation": "in in culpa consectetur",
+  "designation": "esse eiusmod magna qui",
   "validity": {
-    "timeUnit": "YEAR",
-    "duration": 5,
-    "startDate": "1909-06-03T19:16:17.0Z",
-    "endDate": "1958-01-29T05:45:51.0Z",
-    "unit": "QUARTER_HOUR",
-    "readingPeriod": "518281",
-    "billingPeriod": "141417",
-    "periodText": "laborum est in Lorem",
-    "periodId": 6
+    "timeUnit": "DAY",
+    "duration": 2,
+    "startDate": "1951-04-15T04:29:24.0Z",
+    "endDate": "1937-10-18T19:17:18.0Z",
+    "unit": "SECOND",
+    "readingPeriod": "733375",
+    "billingPeriod": "349212",
+    "periodText": "magna consectetur sint in",
+    "periodId": 4
   },
   "priceStatus": "FINAL",
   "sector": "GAS",
-  "priceGridOperatorCodeNumber": "culpa Excepteur",
-  "balancingDate": "1936-05-12T15:59:30.0Z",
-  "controlZone": "anim Ut consequat",
-  "performanceType": "ABLAV_LEVY",
-  "notUsed": false,
+  "priceGridOperatorCodeNumber": "exercitation ut commodo Lorem",
+  "balancingDate": "1895-06-28T05:02:41.0Z",
+  "controlZone": "culpa sint in Excepteur in",
+  "performanceType": "CONCESSION_LEVY",
+  "notUsed": true,
   "pricePositions": [
     {
-      "calculationMethod": "LOAD_PROFILE_ANNUAL_CONSUMPTION",
-      "performanceType": "METERING_SERVICE_INCLUDING_MEASUREMENT",
-      "serviceDesignation": "POG_CONSUMPTION_IMS_3K_TO_4K",
+      "calculationMethod": "LOAD_PROFILE_TRANSMISSION_OR_DISTRIBUTION_GRID",
+      "performanceType": "ENERGY_PRICE_REACTIVE_ENERGY_CAPACITIVE",
+      "serviceDesignation": "POG_GENERATION_IMS_15_TO_30",
       "priceUnit": "EUR",
-      "referenceQuantity": "W",
+      "referenceQuantity": "MWH",
       "timeBasis": "SECOND",
-      "tariffTime": "TZ_HT",
-      "bdewArticleNumber": "LOCKING_COSTS",
-      "zoningSize": "COUNT",
-      "priceKeyMaster": "ut laborum Duis",
-      "positionNumber": 7,
-      "meteringLevel": "ND",
-      "description": "Ut anim Duis",
-      "descriptionFormat": "CODE",
+      "tariffTime": "TZ_STANDARD",
+      "bdewArticleNumber": "BALANCING_ENERGY_WORK",
+      "zoningSize": "POWER_ELECTRICAL",
+      "priceKeyMaster": "eiusmod deserunt in",
+      "positionNumber": 9,
+      "meteringLevel": "MSP",
+      "description": "non sed ea magna in",
+      "descriptionFormat": "PARTIALLY_STRUCTURED",
       "processingPeriod": {
-        "timeUnit": "HOUR",
-        "duration": 3,
-        "startDate": "1905-01-22T08:16:18.0Z",
-        "endDate": "1947-08-14T01:36:32.0Z",
-        "unit": "WEEK",
-        "readingPeriod": "924291",
-        "billingPeriod": "616029",
-        "periodText": "cillum esse aliqua",
+        "timeUnit": "QUARTER_HOUR",
+        "duration": 6,
+        "startDate": "1966-05-06T22:14:24.0Z",
+        "endDate": "1920-01-07T03:15:31.0Z",
+        "unit": "QUARTER_HOUR",
+        "readingPeriod": "037022",
+        "billingPeriod": "191302",
+        "periodText": "laborum",
         "periodId": 2
       },
-      "articleId": "1199747595",
+      "articleId": "3729495469",
       "surchargesDiscounts": [
         {
-          "designation": "nisi sunt",
-          "description": "velit anim amet",
-          "surchargeDiscountType": "ABSOLUTE",
-          "surchargeDiscountValue": 3.5,
-          "surchargeDiscountCurrency": "CT"
+          "designation": "magna qui Duis in",
+          "description": "ut occaecat dolore minim sunt",
+          "surchargeDiscountType": "RELATIVE",
+          "surchargeDiscountValue": 10,
+          "surchargeDiscountCurrency": "EUR"
         }
       ],
       "priceSteps": [
         {
-          "unitPrice": 2,
-          "tierLimitFrom": 7.5,
-          "tierLimitTo": 4.5,
+          "unitPrice": 7,
+          "tierLimitFrom": 5.5,
+          "tierLimitTo": 4.75,
           "sigmoidParameter": {
-            "a": 3,
-            "b": 6.75,
-            "c": 2,
-            "d": 6.5
+            "A": 3.5,
+            "B": 9.25,
+            "C": 1.75,
+            "D": 4.25
           },
-          "unit": "MONTH"
+          "unit": "PIECE"
         }
       ]
     }

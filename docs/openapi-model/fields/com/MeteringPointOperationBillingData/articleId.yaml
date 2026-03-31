@@ -2,4 +2,3 @@ components:
   schemas:
     articleId:
       type: string
-      description: BDEWArtikelId

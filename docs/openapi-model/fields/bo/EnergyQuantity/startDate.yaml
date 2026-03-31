@@ -3,4 +3,3 @@ components:
     startDate:
       type: string
       format: date-time
-      description: Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum startet.

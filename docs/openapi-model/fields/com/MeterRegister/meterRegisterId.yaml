@@ -2,8 +2,3 @@ components:
   schemas:
     meterRegisterId:
       type: string
-      description: >-
-        Identifikation des Zählwerks (Registers) innerhalb des Zählers. Oftmals
-        eine laufende Nummer hinter der
-
-        Zählernummer. Z.B. 47110815_1

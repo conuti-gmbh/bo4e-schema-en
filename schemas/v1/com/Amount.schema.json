@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/Amount.schema.json",
   "title": "Amount",
   "type": "object",
   "properties": {
@@ -13,12 +13,10 @@
           "min": 1,
           "max": 10
         }
-      },
-      "description": "Gibt den Betrag des Preises an."
+      }
     },
     "currency": {
-      "type": "string",
-      "description": "Währung des Preises"
+      "type": "string"
     }
   }
 }

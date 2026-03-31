@@ -2,4 +2,3 @@ components:
   schemas:
     additionalFacility:
       type: boolean
-      description: weitereEinrichtung

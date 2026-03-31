@@ -2,4 +2,3 @@ components:
   schemas:
     controlZone:
       type: string
-      description: für EDIFACT mapping

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/Complaint.schema.json",
   "title": "Complaint",
   "type": "object",
   "properties": {
@@ -10,38 +10,31 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "locationId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "Für welche Markt- oder Messlokation gilt diese Reklamation."
+      }
     },
     "locationType": {
-      "$ref": "../enum/LocationType.schema.json",
-      "description": "Gibt an, ob es sich um eine Markt- oder Messlokation handelt."
+      "$ref": "../enum/LocationType.schema.json"
     },
     "obisNumber": {
-      "type": "string",
-      "description": "OBIS-Kennzahl"
+      "type": "string"
     },
     "measurementValueRequestPeriod": {
       "$ref": "../com/TimePeriod.schema.json"
     },
     "complaintReason": {
-      "$ref": "../enum/ComplaintReason.schema.json",
-      "description": "Hier wird für die Reklamation von Werten der Reklamationsgrund angegeben."
+      "$ref": "../enum/ComplaintReason.schema.json"
     },
     "complaintReasonNote": {
-      "$ref": "../com/ComplaintReasonNote.schema.json",
-      "description": "Freitext für eine weitere Beschreibung des Reklamationsgrunds"
+      "$ref": "../com/ComplaintReasonNote.schema.json"
     },
     "configuration": {
-      "type": "string",
-      "description": "konfiguration"
+      "type": "string"
     }
   },
   "required": [

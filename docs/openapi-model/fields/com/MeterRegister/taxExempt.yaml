@@ -2,4 +2,3 @@ components:
   schemas:
     taxExempt:
       type: boolean
-      description: steuerbefreit

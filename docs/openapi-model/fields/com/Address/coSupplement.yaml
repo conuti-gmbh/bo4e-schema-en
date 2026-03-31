@@ -2,4 +2,3 @@ components:
   schemas:
     coSupplement:
       type: string
-      description: coErgaenzung

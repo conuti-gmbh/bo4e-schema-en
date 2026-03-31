@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/TariffInfo.schema.json",
   "title": "TariffInfo",
   "type": "object",
   "properties": {
@@ -10,33 +10,26 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "provider": {
-      "$ref": "../bo/MarketParticipant.schema.json",
-      "description": "Der Marktteilnehmer (Lieferant), der diesen Tarif anbietet"
+      "$ref": "../bo/MarketParticipant.schema.json"
     },
     "providerName": {
-      "type": "string",
-      "description": "Der Name des Marktpartners, der den Tarif anbietet"
+      "type": "string"
     },
     "applicableFrom": {
       "type": "string",
-      "format": "date-time",
-      "description": "Angabe des inklusiven Zeitpunkts, ab dem der Tarif bzw. der Preis angewendet und abgerechnet wird"
+      "format": "date-time"
     },
     "remark": {
-      "type": "string",
-      "description": "Freitext"
+      "type": "string"
     },
     "designation": {
-      "type": "string",
-      "description": "Name des Tarifs"
+      "type": "string"
     },
     "energyMix": {
-      "$ref": "../com/EnergyMix.schema.json",
-      "description": "Der Energiemix, der für diesen Tarif gilt"
+      "$ref": "../com/EnergyMix.schema.json"
     },
     "customerTypes": {
       "type": [
@@ -45,16 +38,13 @@
       ],
       "items": {
         "$ref": "../enum/CustomerType.schema.json"
-      },
-      "description": "Kundentypen für den der Tarif gilt, z.B. Privatkunden"
+      }
     },
     "numberOfRegisters": {
-      "$ref": "../enum/NumberOfRegisters.schema.json",
-      "description": "Die Art des Tarifes, z.B. Eintarif oder Mehrtarif"
+      "$ref": "../enum/NumberOfRegisters.schema.json"
     },
     "sector": {
-      "$ref": "../enum/Sector.schema.json",
-      "description": "Strom oder Gas, etc."
+      "$ref": "../enum/Sector.schema.json"
     },
     "tariffAttributes": {
       "type": [
@@ -63,24 +53,19 @@
       ],
       "items": {
         "$ref": "../enum/TariffAttribute.schema.json"
-      },
-      "description": "Weitere Merkmale des Tarifs, z.B. Festpreis oder Vorkasse"
+      }
     },
     "tariffCategory": {
-      "$ref": "../enum/TariffCategory.schema.json",
-      "description": "Hinweis auf den Tariftyp, z.B. Grundversorgung oder Sondertarif"
+      "$ref": "../enum/TariffCategory.schema.json"
     },
     "contractConditions": {
-      "$ref": "../com/ContractConditions.schema.json",
-      "description": "Mindestlaufzeiten und Kündigungsfristen zusammengefasst"
+      "$ref": "../com/ContractConditions.schema.json"
     },
     "website": {
-      "type": "string",
-      "description": "Internetseite auf dem der Tarif zu finden ist"
+      "type": "string"
     },
     "temporalValidity": {
-      "$ref": "../com/TimePeriod.schema.json",
-      "description": "Angabe, in welchem Zeitraum der Tarif gültig ist"
+      "$ref": "../com/TimePeriod.schema.json"
     }
   },
   "required": [

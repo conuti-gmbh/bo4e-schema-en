@@ -3,4 +3,3 @@ components:
     installment:
       type: number
       format: float
-      description: Abschlag

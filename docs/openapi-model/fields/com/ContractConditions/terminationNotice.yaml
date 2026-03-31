@@ -2,6 +2,3 @@ components:
   schemas:
     terminationNotice:
       $ref: ../../../com/TimePeriod.yaml#/components/schemas/TimePeriod
-      description: >-
-        Innerhalb dieser Frist kann der Vertrag gekündigt werden. Details
-        Zeitraum

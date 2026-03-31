@@ -2,4 +2,3 @@ components:
   schemas:
     noConfigurationProduct:
       type: boolean
-      description: keinKonfigurationsprodukt

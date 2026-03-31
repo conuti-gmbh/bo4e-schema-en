@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerCode.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/ErrorCode.schema.json",
   "title": "ErrorCode",
   "type": "string",
   "enum": [
@@ -33,6 +33,5 @@
     "OBJECT_NOT_UNIQUE",
     "TRANSACTION_OBJECT_ATTRIBUTE_NOT_ALLOWED",
     "OBJECT_ATTRIBUTE_DIFFERS_FROM_TRANSACTION_CODED_ATTRIBUTE"
-  ],
-  "description": "FehlerCode"
+  ]
 }

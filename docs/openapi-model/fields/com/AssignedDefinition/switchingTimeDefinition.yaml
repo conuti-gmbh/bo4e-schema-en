@@ -2,4 +2,3 @@ components:
   schemas:
     switchingTimeDefinition:
       type: string
-      description: schaltzeitdefinition

@@ -2,4 +2,3 @@ components:
   schemas:
     provider:
       $ref: ../../../bo/MarketParticipant.yaml#/components/schemas/MarketParticipant
-      description: Der Marktteilnehmer (Lieferant), der diesen Tarif anbietet

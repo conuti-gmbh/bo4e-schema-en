@@ -10,4 +10,3 @@ components:
         - REASON_SUBSTITUTE_VALUE_FORMATION_METHOD
         - GAS_QUALITY
         - MEASUREMENT_CLASSIFICATION
-      description: StatusArt

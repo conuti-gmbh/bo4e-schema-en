@@ -2,4 +2,3 @@ components:
   schemas:
     valueDetails:
       type: string
-      description: wertedetails

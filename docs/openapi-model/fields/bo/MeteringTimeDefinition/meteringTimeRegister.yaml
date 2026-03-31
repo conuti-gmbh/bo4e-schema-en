@@ -5,5 +5,4 @@ components:
       items:
         $ref: >-
           ../../../com/MeteringTimeRegister.yaml#/components/schemas/MeteringTimeRegister
-      description: Liste der Zählzeitregister
       nullable: true

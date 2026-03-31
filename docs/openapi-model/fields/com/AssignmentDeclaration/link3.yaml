@@ -2,4 +2,3 @@ components:
   schemas:
     link3:
       type: string
-      description: Link Zeile 3

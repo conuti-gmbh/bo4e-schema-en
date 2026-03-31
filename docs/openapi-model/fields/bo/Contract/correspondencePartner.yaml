@@ -2,4 +2,3 @@ components:
   schemas:
     correspondencePartner:
       $ref: ../../../bo/BusinessPartner.yaml#/components/schemas/BusinessPartner
-      description: korrespondenzpartner für EDIFACT mapping

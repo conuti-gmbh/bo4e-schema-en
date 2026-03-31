@@ -3,4 +3,3 @@ components:
     validSince:
       type: string
       format: date-time
-      description: Zuordnung gültig ab

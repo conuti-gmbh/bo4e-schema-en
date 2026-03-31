@@ -1,6 +1,5 @@
 components:
   schemas:
     acceptanceDate:
-      description: Annahmedatum eines Dokument / DTM+154
       type: string
       format: date-time

@@ -3,4 +3,3 @@ components:
     contractStart:
       type: string
       format: date-time
-      description: Gibt an, wann der Vertrag beginnt.

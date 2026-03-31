@@ -2,4 +2,3 @@ components:
   schemas:
     roleCodeNumber:
       type: string
-      description: Gibt die Codenummer der Marktrolle an.

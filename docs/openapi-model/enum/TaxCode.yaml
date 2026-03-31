@@ -12,4 +12,3 @@ components:
         - INPUT_TAX_16
         - INPUT_TAX_7
         - RCV
-      description: Steuerkennzeichen

@@ -2,4 +2,3 @@ components:
   schemas:
     list:
       type: string
-      description: liste

@@ -1,5 +1,4 @@
 components:
   schemas:
     thirdPartyResponseStatusReference:
-      description: Antwortstatus Referenz / STS+Z35
       type: string

@@ -10,4 +10,3 @@ components:
         - NOT_DUE_TO_SELF_CONSUMPTION
         - NOT_DUE_TO_DAILY_CONSUMPTION
         - NOT_DUE_TO_ENWG
-      description: WahlrechtPrognosegrundlage

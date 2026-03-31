@@ -2,4 +2,3 @@ components:
   schemas:
     disconnectionOrderStatus:
       $ref: ../../../enum/OrderStatus.yaml#/components/schemas/OrderStatus
-      description: Auftragsstatus

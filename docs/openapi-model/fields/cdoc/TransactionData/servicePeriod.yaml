@@ -1,5 +1,4 @@
 components:
   schemas:
     servicePeriod:
-      description: Leistungsperiode / DTM+306
       type: string

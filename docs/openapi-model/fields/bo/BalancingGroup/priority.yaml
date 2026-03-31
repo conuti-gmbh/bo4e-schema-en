@@ -2,4 +2,3 @@ components:
   schemas:
     priority:
       type: integer
-      description: prioritaet

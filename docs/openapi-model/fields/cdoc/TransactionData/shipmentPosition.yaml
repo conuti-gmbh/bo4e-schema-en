@@ -1,5 +1,4 @@
 components:
   schemas:
     shipmentPosition:
-      description: Sendungsposition / GID
       type: string

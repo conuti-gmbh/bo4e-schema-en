@@ -1,5 +1,4 @@
 components:
   schemas:
     gridUsageBillingInterval:
-      description: Alter FW - OBSOLET
       type: string

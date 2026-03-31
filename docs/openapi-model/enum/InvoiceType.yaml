@@ -21,4 +21,3 @@ components:
         - SPECIAL_INVOICE
         - BILLING_OF_CONFIGURATIONS_UNIVERSAL_ORDER_PROCESS
         - BILLING_OF_TECHNOLOGY
-      description: Rechnungstyp

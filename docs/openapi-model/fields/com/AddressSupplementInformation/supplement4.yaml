@@ -2,4 +2,3 @@ components:
   schemas:
     supplement4:
       type: string
-      description: Adresszusatz 4

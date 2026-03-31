@@ -2,4 +2,3 @@ components:
   schemas:
     positionNumber:
       type: integer
-      description: positionsnummer

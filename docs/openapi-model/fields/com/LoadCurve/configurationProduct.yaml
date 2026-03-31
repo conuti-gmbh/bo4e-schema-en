@@ -2,4 +2,3 @@ components:
   schemas:
     configurationProduct:
       type: string
-      description: Konfigurationsprodukt

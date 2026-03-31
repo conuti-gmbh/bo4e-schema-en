@@ -1,6 +1,5 @@
 components:
   schemas:
-    processDate:
-      description: Wird intern erzeugt - OBSOLET
+    ediReceiptDate:
       type: string
       format: date-time

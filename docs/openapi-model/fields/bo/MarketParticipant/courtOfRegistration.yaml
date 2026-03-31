@@ -2,6 +2,3 @@ components:
   schemas:
     courtOfRegistration:
       type: string
-      description: >-
-        Amtsgericht bzw Handelsregistergericht, das die Handelsregisternummer
-        herausgegeben hat

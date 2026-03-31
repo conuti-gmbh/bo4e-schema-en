@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../com/PurposeOfUse.yaml#/components/schemas/PurposeOfUse
-      description: Verwendungszweck der Werte
       nullable: true

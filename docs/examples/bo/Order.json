@@ -1,131 +1,131 @@
 {
   "boType": "ORDER",
   "structureVersion": "1",
-  "executionDate": "1914-02-04T18:56:03.0Z",
-  "completionDate": "1946-12-21T10:50:55.0Z",
-  "startDate": "1933-10-10T19:14:03.0Z",
-  "endDate": "1964-02-15T10:58:01.0Z",
-  "sector": "WASTEWATER",
+  "executionDate": "1954-12-16T06:39:44.0Z",
+  "completionDate": "1951-08-09T08:57:26.0Z",
+  "startDate": "1908-11-18T01:54:09.0Z",
+  "endDate": "1936-08-28T06:26:42.0Z",
+  "sector": "LOCAL_HEATING",
   "deliveryAddress": {
-    "postalCode": "56721",
-    "city": "Duisburg",
-    "street": "Vincent-van-Gogh-Str.",
-    "houseNumber": "15a",
-    "poBox": "sit",
-    "addressSupplement": "laboris",
-    "coSupplement": "fugiat voluptate enim sunt irure",
-    "countryCode": "PE",
-    "district": "Neu Thaliastadt",
+    "postalCode": "17647",
+    "city": "Kraftland",
+    "street": "Am Falkenberg",
+    "houseNumber": "22",
+    "poBox": "velit sint cillum qui",
+    "addressSupplement": "consequat eiusmod esse",
+    "coSupplement": "nisi in",
+    "countryCode": "CZ",
+    "district": "Alt Luisestadt",
     "additionalInformation": {
-      "supplement1": "officia sint dolor ullamco",
-      "supplement2": "laboris sit in non occaecat",
-      "supplement3": "cupidatat incididunt",
-      "supplement4": "magna sit sint fugiat",
-      "supplement5": "ad voluptate commodo"
+      "supplement1": "est cillum",
+      "supplement2": "occaecat labore",
+      "supplement3": "aliqua adipisicing magna ut",
+      "supplement4": "dolor ex incididunt",
+      "supplement5": "Lorem consequat incididunt do consectetur"
     }
   },
-  "marketLocationId": "01481783720",
+  "marketLocationId": "80650542238",
   "minimumPrice": {
-    "value": 4.25,
-    "amount": 92298307,
-    "unit": "EUR",
-    "referenceValue": "KW",
-    "status": "PROVISIONAL",
-    "priceType": "SETUP_PRICE"
-  },
-  "maximumPrice": {
-    "value": 6,
-    "amount": -51191867,
-    "unit": "EUR",
-    "referenceValue": "KVARH",
+    "value": 2.75,
+    "amount": -46691023,
+    "unit": "CT",
+    "referenceValue": "COUNT",
     "status": "PROVISIONAL",
     "priceType": "OPERATING_PRICE"
   },
-  "energyDirection": "FEED_IN",
+  "maximumPrice": {
+    "value": 10,
+    "amount": -43590741,
+    "unit": "EUR",
+    "referenceValue": "HOUR",
+    "status": "FINAL",
+    "priceType": "TRANSACTION_PRICE"
+  },
+  "energyDirection": "FEED_OUT",
   "calculationPrice": 3.75,
-  "totalSum": 12.75,
-  "postponedDeregistrationDate": "1931-06-05T08:40:22.0Z",
-  "resolutionTimestamp": "1957-11-05T23:32:17.0Z",
+  "totalSum": 14.5,
+  "postponedDeregistrationDate": "1966-12-11T17:48:17.0Z",
+  "resolutionTimestamp": "1940-08-12T01:35:03.0Z",
   "deliveryAddressOldDevices": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
-    "salutation": "Dr.",
-    "name1": "Schroder",
-    "name2": "Josefin",
-    "name3": "consectetur Excepteur minim Ut",
-    "name4": "aliquip id sit do quis",
-    "vatId": "DE000101100",
-    "creditorId": "127368",
-    "emailAddress": "Aliya82@hotmail.com",
-    "website": "https://lustig-wind.info/",
+    "salutation": "Herr",
+    "name1": "Pohl",
+    "name2": "Nathanael",
+    "name3": "consectetur nulla dolore",
+    "name4": "cillum deserunt ut dolor",
+    "vatId": "DE000010010",
+    "creditorId": "329912",
+    "emailAddress": "Sophia9@gmail.com",
+    "website": "https://koniglich-magnetismus.org/",
     "commercialClassification": true,
-    "commercialRegisterNumber": "226901",
-    "courtOfRegistration": "Bozsikburg",
+    "commercialRegisterNumber": "997057",
+    "courtOfRegistration": "Alt Tom",
     "partnerAddress": {
-      "postalCode": "28337",
-      "city": "Miastadt",
-      "street": "Elisabeth-Langgässer-Str.",
-      "houseNumber": "13b",
-      "poBox": "dolore dolor sint veniam aute",
-      "addressSupplement": "Ut commodo ipsum enim",
-      "coSupplement": "ex Lorem sint",
-      "countryCode": "MT",
-      "district": "Herschmannland",
+      "postalCode": "09617",
+      "city": "Mockenhauptstadt",
+      "street": "Am Sonnenhang",
+      "houseNumber": "591",
+      "poBox": "aute",
+      "addressSupplement": "id ea",
+      "coSupplement": "Duis",
+      "countryCode": "PN",
+      "district": "Larsland",
       "additionalInformation": {
-        "supplement1": "minim",
-        "supplement2": "fugiat",
-        "supplement3": "proident occaecat",
-        "supplement4": "commodo irure incididunt sit",
-        "supplement5": "in nisi elit"
+        "supplement1": "consequat",
+        "supplement2": "in",
+        "supplement3": "dolor consectetur cillum",
+        "supplement4": "ullamco veniam",
+        "supplement5": "dolore sunt Duis et"
       }
     },
-    "externalCustomerNumberSupplier": "204389",
+    "externalCustomerNumberSupplier": "631847",
     "externalReferences": [
       {
-        "externalReferenceName": "Kundennummer beim Altlieferanten",
-        "externalReferenceValue": "6931060841"
+        "externalReferenceName": "Kundennummer beim Lieferanten",
+        "externalReferenceValue": "7351969074"
       }
     ],
     "businessPartnerRole": [
-      "SERVICE_PROVIDER"
+      "READING_CARD_RECIPIENT"
     ],
     "contactChannel": [
       "EMAIL"
     ]
   },
-  "definitionType": "METERING_TIME",
+  "definitionType": "SWITCHING_TIME",
   "positionData": [
     {
-      "positionNumber": 59339783,
-      "offerPositionNumber": "277442",
-      "energyCapture": "CAPTURED_SEPARATELY",
-      "articleNumber": "POWER_FLAT_RATE",
-      "positionAmount": "06",
-      "startDate": "1907-12-17T11:03:06.0Z",
-      "endDate": "1926-08-16T04:58:26.0Z",
-      "isExisting": "4",
-      "obisNumber": "amet anim",
-      "requestReason": "CONFIGURATION_UNCHANGED",
+      "positionNumber": -71298800,
+      "offerPositionNumber": "979221",
+      "energyCapture": "NOT_CAPTURED_SEPARATELY",
+      "articleNumber": "BALANCING_ENERGY",
+      "positionAmount": "60",
+      "startDate": "1919-07-29T14:38:01.0Z",
+      "endDate": "1960-05-04T02:26:56.0Z",
+      "isExisting": "0",
+      "obisNumber": "esse sunt Duis dolor Ut",
+      "requestReason": "CHANGE_EVENT",
       "generalInformation": {
-        "info1": "sit enim ex ea Duis",
-        "info2": "incididunt eiusmod amet",
-        "info3": "commodo",
-        "info4": "dolore",
-        "info5": "commodo"
+        "info1": "aliqua enim aute",
+        "info2": "Excepteur ea",
+        "info3": "adipisicing elit aliqua non qui",
+        "info4": "laboris officia velit quis consequat",
+        "info5": "consectetur nulla"
       },
       "discrepancyInfo": {
-        "discrepancy1": "mollit do ut",
-        "discrepancy2": "nisi pariatur",
-        "discrepancy3": "do veniam",
-        "discrepancy4": "occaecat",
-        "discrepancy5": "ad nulla culpa"
+        "discrepancy1": "ad exercitation",
+        "discrepancy2": "sed laborum dolor",
+        "discrepancy3": "nulla veniam adipisicing",
+        "discrepancy4": "sed velit ex",
+        "discrepancy5": "proident"
       },
-      "definitionType": "LOAD_CURVES",
-      "locationId": "13878175112",
-      "meterRegister": 2
+      "definitionType": "SWITCHING_TIME",
+      "locationId": "40536752985",
+      "meterRegister": 10
     }
   ],
   "remarks": [
-    "Vel vitae blanditiis quidem minus."
+    "Esse aliquid quam omnis totam."
   ]
 }

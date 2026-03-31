@@ -13,4 +13,3 @@ components:
         - CANCELLED
         - TERMINATED_BY_NOTICE
         - TERMINATED
-      description: Vertragstatus

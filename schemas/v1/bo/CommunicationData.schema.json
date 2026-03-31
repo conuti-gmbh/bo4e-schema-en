@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/CommunicationData.schema.json",
   "title": "CommunicationData",
   "type": "object",
   "properties": {
@@ -10,17 +10,14 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "validity": {
       "type": "string",
-      "format": "date-time",
-      "description": "gueltigkeit"
+      "format": "date-time"
     },
     "communicationDataSheetInactive": {
-      "type": "boolean",
-      "description": "kommunikationsDatenBlattInaktiv"
+      "type": "boolean"
     },
     "marketParticipant": {
       "$ref": "../bo/MarketParticipant.schema.json"
@@ -32,8 +29,7 @@
       ],
       "items": {
         "$ref": "../bo/MarketParticipant.schema.json"
-      },
-      "description": "kommunikationsangaben"
+      }
     }
   },
   "required": [

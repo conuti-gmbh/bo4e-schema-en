@@ -2,4 +2,3 @@ components:
   schemas:
     associatedOrder:
       type: string
-      description: Angabe der Bestellungsnummer, auf die sich diese Abweichung bezieht

@@ -1,5 +1,4 @@
 components:
   schemas:
     applicationReferenceNumber:
-      description: Anwendungsreferenznummer / RFF+AGK
       type: string

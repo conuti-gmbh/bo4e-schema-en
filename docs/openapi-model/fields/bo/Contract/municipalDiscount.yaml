@@ -2,4 +2,3 @@ components:
   schemas:
     municipalDiscount:
       type: integer
-      description: gemeinderabatt für EDIFACT mapping.

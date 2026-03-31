@@ -45,4 +45,3 @@ components:
         - SETUP_CONFIGURATION_DUE_TO_SUPPLIER_ASSIGNMENT
         - COMPLAINT_DEFINITION
         - ORDER_OFFER_CHANGE_TECHNOLOGY_LOCATION
-      description: Anfragekategorie

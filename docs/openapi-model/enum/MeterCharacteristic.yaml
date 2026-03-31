@@ -6,4 +6,3 @@ components:
       enum:
         - SINGLE_DIRECTION_METER
         - BIDIRECTIONAL_METER
-      description: Zaehlerauspraegung

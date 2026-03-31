@@ -2,4 +2,3 @@ components:
   schemas:
     group1:
       type: string
-      description: Gruppe Zeile 1

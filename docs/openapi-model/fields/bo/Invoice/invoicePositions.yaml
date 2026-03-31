@@ -4,5 +4,4 @@ components:
       type: array
       items:
         $ref: ../../../com/InvoicePosition.yaml#/components/schemas/InvoicePosition
-      description: Die Rechnungspositionen. Details siehe Rechnungsposition
       nullable: true

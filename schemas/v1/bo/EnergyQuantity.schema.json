@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/EnergyQuantity.schema.json",
   "title": "EnergyQuantity",
   "type": "object",
   "properties": {
@@ -10,44 +10,36 @@
     },
     "structureVersion": {
       "type": "string",
-      "default": "1",
-      "description": "versionStruktur"
+      "default": "1"
     },
     "locationId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      },
-      "description": "Eindeutige Nummer der Marktlokation bzw. der Messlokation, zu der die Energiemenge gehört"
+      }
     },
     "locationType": {
-      "$ref": "../enum/LocationType.schema.json",
-      "description": "Gibt an, ob es sich um eine Markt- oder Messlokation handelt."
+      "$ref": "../enum/LocationType.schema.json"
     },
     "completionDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "fertigstellungsdatum"
+      "format": "date-time"
     },
     "startDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum startet."
+      "format": "date-time"
     },
     "endDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum endet."
+      "format": "date-time"
     },
     "balancingDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "bilanzierungsdatum"
+      "format": "date-time"
     },
     "beginDate": {
       "type": "string",
-      "format": "date-time",
-      "description": "beginndatum"
+      "format": "date-time"
     },
     "referenceMasterDataNotificationMsb": {
       "type": "string",
@@ -56,12 +48,10 @@
           "prefix": "REF",
           "length": 6
         }
-      },
-      "description": "referenzStammdatenmeldungMsb"
+      }
     },
     "configuration": {
-      "type": "string",
-      "description": "konfiguration"
+      "type": "string"
     },
     "energyConsumption": {
       "type": [
@@ -70,8 +60,7 @@
       ],
       "items": {
         "$ref": "../com/Consumption.schema.json"
-      },
-      "description": "Gibt den Verbrauch in einer Zeiteinheit an."
+      }
     }
   },
   "required": [

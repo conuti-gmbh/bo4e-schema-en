@@ -3,4 +3,3 @@ components:
     taxValuePrepaid:
       type: number
       format: float
-      description: steuerwertVorausbezahlt
