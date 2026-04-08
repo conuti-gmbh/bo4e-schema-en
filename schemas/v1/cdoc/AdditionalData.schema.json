@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/cdoc/AdditionalData.schema.json",
+  "type": "object",
+  "properties": {
+    "processId": {
+      "type": "string"
+    },
+    "eventname": {
+      "$ref": "EventName.schema.json"
+    },
+    "ediType": {
+      "type": "string"
+    },
+    "ediReceiptDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ediVersion": {
+      "type": "string"
+    },
+    "marketPartnerRole": {
+      "$ref": "../enum/MarketRole.schema.json"
+    },
+    "contrlReference": {
+      "type": "string"
+    },
+    "parentBusinessKey": {
+      "type": "string"
+    },
+    "targetBusinessKey": {
+      "type": "string"
+    },
+    "authorizationPresent": {
+      "type": "boolean"
+    }
+  }
+}

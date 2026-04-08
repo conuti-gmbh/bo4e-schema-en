@@ -1,0 +1,199 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/cdoc/MasterData.schema.json",
+  "type": "object",
+  "properties": {
+    "BALANCING": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Balancing.schema.json"
+      }
+    },
+    "MARKET_LOCATION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/MarketLocation.schema.json"
+      }
+    },
+    "METERING_LOCATION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/MeteringLocation.schema.json"
+      }
+    },
+    "GRID_ACCESS_CONTRACT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Contract.schema.json"
+      }
+    },
+    "METERING_POINT_OPERATION_CONTRACT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Contract.schema.json"
+      }
+    },
+    "ENERGY_SUPPLY_CONTRACT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Contract.schema.json"
+      }
+    },
+    "ENERGY_QUANTITY": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/EnergyQuantity.schema.json"
+      }
+    },
+    "METER": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Meter.schema.json"
+      }
+    },
+    "INVOICE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Invoice.schema.json"
+      }
+    },
+    "STATUS_NOTIFICATION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/StatusNotification.schema.json"
+      }
+    },
+    "TRADE_DISCREPANCY": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/TradeDiscrepancy.schema.json"
+      }
+    },
+    "ORDER": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Order.schema.json"
+      }
+    },
+    "REQUEST": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Request.schema.json"
+      }
+    },
+    "CALCULATION_FORMULA": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/CalculationFormula.schema.json"
+      }
+    },
+    "DISCONNECTION_ORDER": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/DisconnectionOrder.schema.json"
+      }
+    },
+    "OFFER": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Offer.schema.json"
+      }
+    },
+    "TRANCHE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Tranche.schema.json"
+      }
+    },
+    "COMMUNICATION_DATA": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/CommunicationData.schema.json"
+      }
+    },
+    "PRICE_SHEET": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/PriceSheet.schema.json"
+      }
+    },
+    "STATUS_REPORT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/StatusReport.schema.json"
+      }
+    },
+    "ADVICE_NOTE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/AdviceNote.schema.json"
+      }
+    },
+    "COMPLAINT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Complaint.schema.json"
+      }
+    },
+    "METERING_TIME_DEFINITION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/MeteringTimeDefinition.schema.json"
+      }
+    },
+    "SWITCHING_TIME_DEFINITION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/SwitchingTimeDefinition.schema.json"
+      }
+    },
+    "LOAD_CURVE_DEFINITION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/LoadCurveDefinition.schema.json"
+      }
+    },
+    "GRID_LOCATION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/GridLocation.schema.json"
+      }
+    },
+    "CONTROLLABLE_RESOURCE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/ControllableResource.schema.json"
+      }
+    },
+    "TECHNICAL_RESOURCE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/TechnicalResource.schema.json"
+      }
+    },
+    "LOCATION_BUNDLE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/LocationBundle.schema.json"
+      }
+    },
+    "AD_HOC_CONTROL_CHANNEL": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/AdHocControlChannel.schema.json"
+      }
+    },
+    "VALUES_BY_TYPE2": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/ValuesByType2.schema.json"
+      }
+    },
+    "USAGE_PERIOD": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/UsagePeriod.schema.json"
+      }
+    }
+  }
+}

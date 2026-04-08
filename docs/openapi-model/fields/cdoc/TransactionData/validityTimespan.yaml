@@ -2,4 +2,3 @@ components:
   schemas:
     validityTimespan:
       type: string
-      format: date-time

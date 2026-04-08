@@ -1,0 +1,333 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/cdoc/TransactionData.schema.json",
+  "type": "object",
+  "properties": {
+    "dataExchangeReference": {
+      "type": "string"
+    },
+    "sector": {
+      "$ref": "../enum/Sector.schema.json"
+    },
+    "transactionReason": {
+      "type": "string"
+    },
+    "transactionReasonSupplement": {
+      "type": "string"
+    },
+    "transactionReasonSupplementTemporaryRegistration": {
+      "type": "string"
+    },
+    "deliveryDirection": {
+      "type": "string"
+    },
+    "processingDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "processNumber": {
+      "type": "string"
+    },
+    "idempotencyKey": {
+      "type": "string"
+    },
+    "verificationIdentifier": {
+      "type": "string"
+    },
+    "sender": {
+      "$ref": "../bo/MarketParticipant.schema.json"
+    },
+    "receiver": {
+      "$ref": "../bo/MarketParticipant.schema.json"
+    },
+    "documentNumber": {
+      "type": "string"
+    },
+    "documentName": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "messageFunction": {
+      "type": "string"
+    },
+    "messageDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "messageReferenceNumber": {
+      "type": "string"
+    },
+    "requestReferenceNumber": {
+      "type": "string"
+    },
+    "processReferenceNumber": {
+      "type": "string"
+    },
+    "shipmentPosition": {
+      "type": "string"
+    },
+    "positionNumber": {
+      "type": "integer"
+    },
+    "notificationNumber": {
+      "type": "string"
+    },
+    "gridUsageBillingInterval": {
+      "type": "string"
+    },
+    "typeValue": {
+      "type": "string"
+    },
+    "inquiryReference": {
+      "type": "string"
+    },
+    "orderReference": {
+      "type": "string"
+    },
+    "contractStart": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "contractEnd": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "executionDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "deliveryDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "reportingPoint": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "usageFrom": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "usageTo": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "servicePeriod": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "string"
+    },
+    "productDescription": {
+      "type": "string"
+    },
+    "orderMeteringTimes": {
+      "type": "string"
+    },
+    "offerNumber": {
+      "type": "string"
+    },
+    "offerReference": {
+      "type": "string"
+    },
+    "nextGridUsageBilling": {
+      "type": "string"
+    },
+    "nextScheduledReadingElectricity": {
+      "type": "string"
+    },
+    "nextScheduledReadingGas": {
+      "type": "string"
+    },
+    "identificationLogic": {
+      "type": "string"
+    },
+    "dateFormat": {
+      "type": "string"
+    },
+    "responseStatus": {
+      "type": "string"
+    },
+    "responseStatusCodeList": {
+      "type": "string"
+    },
+    "thirdPartyResponseStatus": {
+      "type": "string"
+    },
+    "thirdPartyResponseStatusAffectedLocation": {
+      "type": "string"
+    },
+    "thirdPartyResponseStatusCodeList": {
+      "type": "string"
+    },
+    "thirdPartyResponseStatusReference": {
+      "type": "string"
+    },
+    "involvedMarketPartner": {
+      "$ref": "../bo/MarketParticipant.schema.json"
+    },
+    "involvedMarketPartnerReference": {
+      "type": "string"
+    },
+    "involvedMarketPartnerReferenceCode": {
+      "type": "string"
+    },
+    "freeText": {
+      "type": "string"
+    },
+    "errorDescription": {
+      "type": "string"
+    },
+    "justification": {
+      "type": "string"
+    },
+    "discrepancyInfo": {
+      "type": "string"
+    },
+    "supplementedMarketLocation": {
+      "type": "boolean"
+    },
+    "meterReadingInfo": {
+      "type": "boolean"
+    },
+    "locationId": {
+      "type": "string"
+    },
+    "referenceMalo": {
+      "type": "string"
+    },
+    "referenceMelo": {
+      "type": "string"
+    },
+    "referencePriceKeyMaster": {
+      "type": "string"
+    },
+    "serviceDateStart": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "endAtDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "nextProcessing": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "deliveryStartDateInProcess": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "offerType": {
+      "type": "string"
+    },
+    "amount": {
+      "$ref": "../com/Quantity.schema.json"
+    },
+    "tariffLevel": {
+      "$ref": "../enum/TariffLevel.schema.json"
+    },
+    "balancingGroupAssignment": {
+      "$ref": "../enum/BalancingGroupAssignment.schema.json"
+    },
+    "applicationReferenceNumber": {
+      "type": "string"
+    },
+    "completionDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "handoverDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validFrom": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "readingDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "processingOrder": {
+      "type": "string"
+    },
+    "contactPersonCustomer": {
+      "$ref": "../bo/ContactPerson.schema.json"
+    },
+    "statusChangeTimestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validityTimespan": {
+      "type": "string"
+    },
+    "messageReferenceOrderConfirmation": {
+      "type": "string"
+    },
+    "processReferenceOrderConfirmation": {
+      "type": "string"
+    },
+    "terminationDateCustomer": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "terminationDateSupplier": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "referenceArticleId": {
+      "type": "string"
+    },
+    "balancingGroup": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../bo/BalancingGroup.schema.json"
+      }
+    },
+    "plannedProductPackage": {
+      "type": "integer"
+    },
+    "assignmentDeclaration": {
+      "$ref": "../com/AssignmentDeclaration.schema.json"
+    },
+    "responseStatusPeriod": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/ResponseStatusPeriod.schema.json"
+      }
+    },
+    "apiPath": {
+      "type": "string"
+    },
+    "apiIdentifier": {
+      "type": "string"
+    },
+    "acceptanceDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "unbOutboundDate": {
+      "type": "string"
+    },
+    "deviceRemovalDate": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
