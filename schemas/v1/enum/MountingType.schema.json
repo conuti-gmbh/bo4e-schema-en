@@ -8,6 +8,8 @@
     "THREE_POINT",
     "DIN_RAIL",
     "SINGLE_SOCKET",
-    "DOUBLE_SOCKET"
+    "DOUBLE_SOCKET",
+    "RICHTIG_DOLLE_FEST",
+    "PATTAFIX"
   ]
 }

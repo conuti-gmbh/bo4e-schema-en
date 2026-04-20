@@ -15,6 +15,9 @@ components:
         structureVersion:
           $ref: >-
             ../fields/bo/TradeDiscrepancy/structureVersion.yaml#/components/schemas/structureVersion
+        huStringDemo:
+          $ref: >-
+            ../fields/bo/TradeDiscrepancy/huStringDemo.yaml#/components/schemas/huStringDemo
         number:
           $ref: ../fields/bo/TradeDiscrepancy/number.yaml#/components/schemas/number
         typeValue:

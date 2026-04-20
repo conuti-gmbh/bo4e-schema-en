@@ -1,154 +1,154 @@
 {
   "boType": "METER",
   "structureVersion": "1",
-  "meterNumber": "ZAEHLER_010100",
-  "sector": "GAS",
+  "meterNumber": "ZAEHLER_101100",
+  "sector": "WATER",
   "meterCharacteristic": "BIDIRECTIONAL_METER",
-  "meterType": "DIAPHRAGM_GAS_METER",
-  "tariffType": "SMART_METER",
-  "meterConstant": 24.5,
-  "calibrationUntil": "6635",
+  "meterType": "SMARTMETER",
+  "tariffType": "TWO_TARIFF",
+  "meterConstant": 20,
+  "calibrationUntil": "9105",
   "meterManufacturer": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
     "salutation": "Frau",
-    "name1": "Spiegelburg",
-    "name2": "Natalie",
-    "name3": "veniam consequat",
-    "name4": "dolor sit",
-    "vatId": "DE000010010",
-    "creditorId": "469344",
-    "emailAddress": "Joleen48@hotmail.com",
-    "website": "https://unbeschwert-seele.net",
+    "name1": "Arens",
+    "name2": "Hamza",
+    "name3": "dolor laborum",
+    "name4": "exercitation consequat culpa sed",
+    "vatId": "DE100111101",
+    "creditorId": "200526",
+    "emailAddress": "Emir_Jegorov@yahoo.com",
+    "website": "https://korrekt-biathlon.name/",
     "commercialClassification": false,
-    "commercialRegisterNumber": "744422",
-    "courtOfRegistration": "West Karlscheid",
+    "commercialRegisterNumber": "995200",
+    "courtOfRegistration": "Goldkampstadt",
     "partnerAddress": {
-      "postalCode": "27816",
-      "city": "Alt Kira",
-      "street": "Bertha-Middelhauve-Str.",
-      "houseNumber": "45b",
-      "poBox": "pariatur ipsum elit velit",
-      "addressSupplement": "ut",
-      "coSupplement": "dolore sit non cupidatat",
-      "countryCode": "EA",
-      "district": "Heidelberg",
+      "postalCode": "68154",
+      "city": "West Isastadt",
+      "street": "Feldsiefer Weg",
+      "houseNumber": "274",
+      "poBox": "dolor commodo",
+      "addressSupplement": "non anim",
+      "coSupplement": "aute",
+      "countryCode": "IL",
+      "district": "Neu Marvin",
       "additionalInformation": {
-        "supplement1": "cupidatat mollit est Duis",
-        "supplement2": "esse pariatur",
-        "supplement3": "in aute",
-        "supplement4": "do aliqua reprehenderit",
-        "supplement5": "culpa id et"
+        "supplement1": "Lorem quis labore ad consectetur",
+        "supplement2": "veniam sunt velit aliqua amet",
+        "supplement3": "commodo irure in",
+        "supplement4": "pariatur quis et dolore",
+        "supplement5": "dolor laborum sed Excepteur"
       }
     },
-    "externalCustomerNumberSupplier": "006723",
+    "externalCustomerNumberSupplier": "807405",
     "externalReferences": [
       {
         "externalReferenceName": "Kundennummer beim Altlieferanten",
-        "externalReferenceValue": "8584672799"
+        "externalReferenceValue": "5445881345"
       }
     ],
     "businessPartnerRole": [
-      "SUPPLIER"
+      "PROPERTY_MANAGER"
     ],
     "contactChannel": [
-      "SMS"
+      "FAX"
     ]
   },
-  "gateway": "GATEWAY_100011",
-  "remoteSwitch": "NOT_PRESENT",
+  "gateway": "GATEWAY_100010",
+  "remoteSwitch": "PRESENT",
   "measurementValueCapture": "REMOTE_READABLE",
-  "meterTypeSpecification": "MME_MEDA",
-  "mountingType": "DIN_RAIL",
-  "meterSize": "DENSITY_QUANTITY_CONVERTER",
-  "quantityConverterType": "DENSITY_QUANTITY_CONVERTER",
-  "volumeCapture": "CHARACTERISTIC_CURVE_CORRECTION",
-  "serialNumber": "2668154391",
-  "deviceAttribute": "WATER_VWZ04",
-  "manufacturingDate": "4890",
-  "yearOfConstruction": "0961",
-  "meteringLocationId": "181932022667656284574317685340770",
-  "marketLocationId": "92250984696",
+  "meterTypeSpecification": "EDL21",
+  "mountingType": "RICHTIG_DOLLE_FEST",
+  "meterSize": "WATER_VWZ04",
+  "quantityConverterType": "STATE_QUANTITY_CONVERTER",
+  "volumeCapture": "CREEP_QUANTITY_SUPPRESSION",
+  "serialNumber": "2842730775",
+  "deviceAttribute": "MODEM_GSM_WITHOUT_LOAD_PROFILE",
+  "manufacturingDate": "6904",
+  "yearOfConstruction": "5592",
+  "meteringLocationId": "958206158291209328292613144832084",
+  "marketLocationId": "47112167514",
   "devices": [
     {
-      "deviceType": "BIDIRECTIONAL_METER",
-      "designation": "Lorem dolore sunt aliquip nulla",
-      "deviceNumber": "14511",
-      "deviceReference": "REF_010011",
+      "deviceType": "ROTARY_PISTON_GAS_METER",
+      "designation": "in sint dolor sunt",
+      "deviceNumber": "23535",
+      "deviceReference": "REF_010111",
       "deviceProperties": {
         "deviceType": "CONTROL_BOX",
-        "deviceAttribute": "MODEM_GPRS",
-        "volumeCapture": "HIGH_FREQUENCY_PROBE",
-        "serialNumber": "2690106996",
-        "manufacturingDate": "9585",
-        "yearOfConstruction": "1886",
-        "calibrationUntil": "9250",
-        "factor": 1.5
+        "deviceAttribute": "WATER_WZ10",
+        "volumeCapture": "CREEP_QUANTITY_SUPPRESSION",
+        "serialNumber": "5163401748",
+        "manufacturingDate": "2662",
+        "yearOfConstruction": "2619",
+        "calibrationUntil": "1035",
+        "factor": 8.5
       },
       "volumeCapture": "HIGH_FREQUENCY_PROBE",
       "additionalDeviceNumbers": [
-        "16268"
+        "64856"
       ]
     }
   ],
   "meterRegisters": [
     {
-      "meterRegisterId": "352020301",
-      "designation": "aute dolor sunt",
-      "direction": "FEED_IN",
-      "obisCode": "ea dolor Excepteur",
-      "transformerFactor": 3.5,
-      "unit": "CUBIC_METER",
+      "meterRegisterId": "354676484",
+      "designation": "labore aliquip esse ad cupidatat",
+      "direction": "FEED_OUT",
+      "obisCode": "Excepteur id in laboris",
+      "transformerFactor": 2.5,
+      "unit": "WH",
       "offPeakCapable": "OFF_PEAK_CAPABLE",
       "consumptionType": [
-        "W"
+        "SB"
       ],
       "interruptibility": "NUV",
-      "heatUsage": "DIRECT_HEATING",
+      "heatUsage": "HEAT_PUMP_HEATING_COOLING",
       "concessionFee": {
-        "rate": "KAS",
-        "costs": 64305610.45738047,
-        "category": "in eu cupidatat enim"
+        "rate": "TA",
+        "costs": -54708565.00734373,
+        "category": "aliqua esse mollit"
       },
-      "taxExempt": true,
-      "integerDigits": 2,
-      "decimalPlaces": 1,
-      "billingRelevant": true,
-      "numberOfReadings": 5,
+      "taxExempt": false,
+      "integerDigits": 1,
+      "decimalPlaces": 4,
+      "billingRelevant": false,
+      "numberOfReadings": 7,
       "meteringTimes": {
-        "register": "laboris ex commodo qui",
-        "meteringTimeDefinition": "officia deserunt aliquip esse",
-        "offPeakCapable": "OFF_PEAK_CAPABLE"
+        "register": "anim esse amet laborum id",
+        "meteringTimeDefinition": "est velit dolor in tempor",
+        "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
       },
-      "configuration": "dolor culpa aute deserunt",
-      "meteringProduct": "tempor veniam nostrud",
-      "valueGranularity": "QUARTERLY",
+      "configuration": "qui ut magna eiusmod",
+      "meteringProduct": "quis anim labore est culpa",
+      "valueGranularity": "SEMI_ANNUAL",
       "necessitySecondMeasurement": "PRESENT",
       "valueTransmissionPurpose": "NOT_PRESENT",
-      "typeElectricMobility": "LS",
-      "configurationProduct": "officia",
-      "noConfigurationProduct": true,
-      "loadCurveDefinition": "id commodo in",
+      "typeElectricMobility": "WB",
+      "configurationProduct": "ea",
+      "noConfigurationProduct": false,
+      "loadCurveDefinition": "culpa tempor ullamco est",
       "purposesOfUse": [
         {
-          "marketRole": "NB",
+          "marketRole": "BIKO",
           "purpose": [
-            "REACTIVE_ENERGY_BILLING"
+            "MORE_LESS_QUANTITIES_BILLING"
           ]
         }
       ]
     }
   ],
-  "dataQuality": "VALID_DATA",
+  "dataQuality": "INFORMATIVE_DATA",
   "validityPeriod": {
-    "timeUnit": "QUARTER_HOUR",
-    "duration": 2,
-    "startDate": "1932-11-20T09:44:36.0Z",
-    "endDate": "1890-01-16T16:01:29.0Z",
-    "unit": "QUARTER_HOUR",
-    "readingPeriod": "276544",
-    "billingPeriod": "837246",
-    "periodText": "occaecat in qui adipisicing",
-    "periodId": 7
+    "timeUnit": "HOUR",
+    "duration": 3,
+    "startDate": "1897-07-04T01:04:32.0Z",
+    "endDate": "1912-07-02T01:01:41.0Z",
+    "unit": "MONTH",
+    "readingPeriod": "448939",
+    "billingPeriod": "151354",
+    "periodText": "voluptate ullamco qui esse nostrud",
+    "periodId": 9
   }
 }

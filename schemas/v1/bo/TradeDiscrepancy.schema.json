@@ -12,6 +12,9 @@
       "type": "string",
       "default": "1"
     },
+    "huStringDemo": {
+      "type": "string"
+    },
     "number": {
       "type": "string",
       "faker": {

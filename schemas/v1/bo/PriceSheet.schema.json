@@ -24,6 +24,9 @@
     "sector": {
       "$ref": "../enum/Sector.schema.json"
     },
+    "richtigeSparteJunge": {
+      "$ref": "../enum/Sector.schema.json"
+    },
     "priceGridOperatorCodeNumber": {
       "type": "string"
     },

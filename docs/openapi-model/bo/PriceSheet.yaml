@@ -25,6 +25,9 @@ components:
             ../fields/bo/PriceSheet/priceStatus.yaml#/components/schemas/priceStatus
         sector:
           $ref: ../fields/bo/PriceSheet/sector.yaml#/components/schemas/sector
+        richtigeSparteJunge:
+          $ref: >-
+            ../fields/bo/PriceSheet/richtigeSparteJunge.yaml#/components/schemas/richtigeSparteJunge
         priceGridOperatorCodeNumber:
           $ref: >-
             ../fields/bo/PriceSheet/priceGridOperatorCodeNumber.yaml#/components/schemas/priceGridOperatorCodeNumber
