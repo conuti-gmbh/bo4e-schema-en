@@ -125,6 +125,18 @@
       "items": {
         "$ref": "../com/PurposeOfUse.schema.json"
       }
+    },
+    "usagePurposeNB": {
+      "type": "string"
+    },
+    "usagePurposeLF": {
+      "type": "string"
+    },
+    "usagePurposeUENB": {
+      "type": "string"
+    },
+    "noProduct": {
+      "type": "boolean"
     }
   }
 }

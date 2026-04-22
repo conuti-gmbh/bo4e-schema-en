@@ -101,6 +101,9 @@
       "items": {
         "$ref": "../enum/ContactType.schema.json"
       }
+    },
+    "contactPerson": {
+      "$ref": "../bo/ContactPerson.schema.json"
     }
   },
   "required": [

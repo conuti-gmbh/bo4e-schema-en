@@ -1,47 +1,49 @@
 {
   "boType": "TECHNICAL_RESOURCE",
   "structureVersion": "1",
-  "resourceId": "91434666823",
-  "sector": "DISTRICT_HEATING",
-  "locationAssignment": "ENDS",
-  "referenceMeteringLocation": "780294262415930234674533655218091",
-  "referenceMarketLocation": "81131432886",
-  "referenceGridLocation": "40741371291",
-  "referenceControllableResource": "59092922768",
+  "resourceId": "36250318839",
+  "sector": "ELECTRICITY",
+  "locationAssignment": "UNCHANGED",
+  "referenceMeteringLocation": "497557538416780094276846725854924",
+  "referenceMarketLocation": "76707729121",
+  "referenceGridLocation": "64453087400",
+  "referenceControllableResource": "41588172975",
   "ratedPower": {
-    "intake": 21.5,
-    "levy": 13.5
+    "intake": 18.5,
+    "levy": 13
   },
-  "storageCapacity": 26.75,
+  "storageCapacity": 20.5,
   "consumptionType": [
-    "SW"
+    "KL"
   ],
-  "heatUsage": "DIRECT_HEATING",
+  "heatUsage": "STORAGE_HEATING",
   "typeElectricMobility": "LS",
   "generationType": "EEG_DV",
   "storageType": "OTHER_STORAGE_TYPE",
-  "enwg": false,
+  "enwg": true,
   "commissioningDate": "COMMISSIONING_BEFORE_2024",
-  "classification": "CHANGE_OPTION_ONCE_STILL_POSSIBLE",
+  "classification": "FIXED_TERM_WITHOUT_CHANGE_OPTION",
   "additionalFacility": true,
-  "kind": "STORAGE",
-  "dataQuality": "NO_DATA_EXPECTED",
+  "kind": "ELECTRICITY_CONSUMPTION",
+  "dataQuality": "NO_DATA_PRESENT_IN_SYSTEM",
   "validityPeriod": {
-    "timeUnit": "QUARTER",
-    "duration": 7,
-    "startDate": "1936-01-15T08:05:19.0Z",
-    "endDate": "1925-09-01T14:42:58.0Z",
-    "unit": "MONTH",
-    "readingPeriod": "056041",
-    "billingPeriod": "212380",
-    "periodText": "deserunt do in laboris cupidatat",
-    "periodId": 9
+    "timeUnit": "MONTH",
+    "duration": 10,
+    "startDate": "1894-09-23T04:22:25.0Z",
+    "endDate": "1936-05-21T19:04:46.0Z",
+    "unit": "DAY",
+    "readingPeriod": "857711",
+    "billingPeriod": "226255",
+    "periodText": "ut",
+    "periodId": 5
   },
   "requiredProducts": [
     {
-      "productCode": "CODE_000010",
-      "productAttributeCode": "CODE_110110",
-      "valueDetails": "589327"
+      "productCode": "CODE_101111",
+      "productAttributeCode": "CODE_011101",
+      "valueDetails": "788752"
     }
-  ]
+  ],
+  "remoteControllability": true,
+  "remunerationObligation": false
 }

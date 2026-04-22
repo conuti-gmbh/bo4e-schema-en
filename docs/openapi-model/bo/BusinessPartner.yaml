@@ -61,3 +61,6 @@ components:
         contactChannel:
           $ref: >-
             ../fields/bo/BusinessPartner/contactChannel.yaml#/components/schemas/contactChannel
+        contactPerson:
+          $ref: >-
+            ../fields/bo/BusinessPartner/contactPerson.yaml#/components/schemas/contactPerson

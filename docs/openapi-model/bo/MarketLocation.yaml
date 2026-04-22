@@ -172,3 +172,6 @@ components:
         associatedMarketLocations:
           $ref: >-
             ../fields/bo/MarketLocation/associatedMarketLocations.yaml#/components/schemas/associatedMarketLocations
+        technicalInstallations:
+          $ref: >-
+            ../fields/bo/MarketLocation/technicalInstallations.yaml#/components/schemas/technicalInstallations

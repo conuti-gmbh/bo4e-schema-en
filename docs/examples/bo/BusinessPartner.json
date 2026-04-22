@@ -1,47 +1,59 @@
 {
   "boType": "BUSINESS_PARTNER",
   "structureVersion": "1",
-  "salutation": "Frau",
-  "name1": "Buchrucker",
-  "name2": "Maik",
-  "name3": "ut ex est",
-  "name4": "cillum irure dolore et",
-  "vatId": "DE100110110",
-  "creditorId": "964022",
-  "emailAddress": "John.Schneider8@hotmail.com",
-  "website": "https://aphrodisierend-benzin.de/",
+  "salutation": "Herr",
+  "name1": "Schimmer",
+  "name2": "Christiano",
+  "name3": "sed",
+  "name4": "dolore consectetur mollit et",
+  "vatId": "DE000110001",
+  "creditorId": "635855",
+  "emailAddress": "Titus.Herschmann@gmail.com",
+  "website": "https://stimmig-ebene.info/",
   "commercialClassification": true,
-  "commercialRegisterNumber": "220626",
-  "courtOfRegistration": "Bad Enricostadt",
+  "commercialRegisterNumber": "366706",
+  "courtOfRegistration": "Castrop-Rauxel",
   "partnerAddress": {
-    "postalCode": "84931",
-    "city": "Bad Bryan",
-    "street": "Weidfeldstr.",
-    "houseNumber": "49",
-    "poBox": "Excepteur dolor do eiusmod",
-    "addressSupplement": "id occaecat enim do",
-    "coSupplement": "officia aliquip ullamco ad",
-    "countryCode": "MF",
-    "district": "Suffastadt",
+    "postalCode": "25892",
+    "city": "Hanau",
+    "street": "Pfeilshofstr.",
+    "houseNumber": "23b",
+    "poBox": "ex",
+    "addressSupplement": "esse id laboris dolor",
+    "coSupplement": "fugiat nisi cillum deserunt",
+    "countryCode": "TK",
+    "district": "Süd Gerrit",
     "additionalInformation": {
-      "supplement1": "ut nulla occaecat in fugiat",
-      "supplement2": "anim cupidatat culpa in ut",
-      "supplement3": "esse sunt elit commodo",
-      "supplement4": "dolore ex",
-      "supplement5": "in exercitation magna dolor consequat"
+      "supplement1": "dolor ut sint laboris",
+      "supplement2": "anim",
+      "supplement3": "nisi occaecat est incididunt irure",
+      "supplement4": "commodo",
+      "supplement5": "non id dolore est"
     }
   },
-  "externalCustomerNumberSupplier": "630270",
+  "externalCustomerNumberSupplier": "025258",
   "externalReferences": [
     {
-      "externalReferenceName": "Kundennummer beim Altlieferanten",
-      "externalReferenceValue": "6029453930"
+      "externalReferenceName": "Kundennummer beim Lieferanten",
+      "externalReferenceValue": "3404972736"
     }
   ],
   "businessPartnerRole": [
     "PROSPECT"
   ],
   "contactChannel": [
-    "SMS"
-  ]
+    "FAX"
+  ],
+  "contactPerson": {
+    "boType": "CONTACT_PERSON",
+    "structureVersion": "1",
+    "lastName": "Carlsohn",
+    "eMailAddress": "Cecilia50@yahoo.com",
+    "phoneNumbers": [
+      {
+        "numberType": "COLLECTIVE_FAX",
+        "phoneNumber": "+49-5798-58540308"
+      }
+    ]
+  }
 }

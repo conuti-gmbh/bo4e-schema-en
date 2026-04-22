@@ -62,6 +62,9 @@
       "items": {
         "$ref": "../com/Product.schema.json"
       }
+    },
+    "noConfigurationProduct": {
+      "type": "boolean"
     }
   },
   "required": [

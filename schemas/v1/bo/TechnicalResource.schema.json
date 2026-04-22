@@ -112,6 +112,12 @@
       "items": {
         "$ref": "../com/Product.schema.json"
       }
+    },
+    "remoteControllability": {
+      "type": "boolean"
+    },
+    "remunerationObligation": {
+      "type": "boolean"
     }
   },
   "required": [

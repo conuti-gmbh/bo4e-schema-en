@@ -52,3 +52,6 @@ components:
         requiredProducts:
           $ref: >-
             ../fields/bo/ControllableResource/requiredProducts.yaml#/components/schemas/requiredProducts
+        noConfigurationProduct:
+          $ref: >-
+            ../fields/bo/ControllableResource/noConfigurationProduct.yaml#/components/schemas/noConfigurationProduct

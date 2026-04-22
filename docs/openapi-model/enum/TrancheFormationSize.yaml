@@ -6,3 +6,4 @@ components:
       enum:
         - PERCENTAGE
         - ALLOCATION_FACTOR
+        - ALLOCATION_TECHNICAL_RESOURCES

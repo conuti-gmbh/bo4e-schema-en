@@ -257,6 +257,15 @@
       "items": {
         "$ref": "../com/MarketLocationReference.schema.json"
       }
+    },
+    "technicalInstallations": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/TechnicalInstallation.schema.json"
+      }
     }
   },
   "required": [

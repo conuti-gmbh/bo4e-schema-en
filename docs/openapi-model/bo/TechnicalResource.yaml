@@ -80,3 +80,9 @@ components:
         requiredProducts:
           $ref: >-
             ../fields/bo/TechnicalResource/requiredProducts.yaml#/components/schemas/requiredProducts
+        remoteControllability:
+          $ref: >-
+            ../fields/bo/TechnicalResource/remoteControllability.yaml#/components/schemas/remoteControllability
+        remunerationObligation:
+          $ref: >-
+            ../fields/bo/TechnicalResource/remunerationObligation.yaml#/components/schemas/remunerationObligation

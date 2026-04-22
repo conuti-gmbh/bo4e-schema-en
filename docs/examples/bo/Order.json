@@ -1,131 +1,143 @@
 {
   "boType": "ORDER",
   "structureVersion": "1",
-  "executionDate": "1954-12-16T06:39:44.0Z",
-  "completionDate": "1951-08-09T08:57:26.0Z",
-  "startDate": "1908-11-18T01:54:09.0Z",
-  "endDate": "1936-08-28T06:26:42.0Z",
-  "sector": "LOCAL_HEATING",
+  "executionDate": "1960-07-29T09:42:22.0Z",
+  "completionDate": "1946-03-13T13:45:47.0Z",
+  "startDate": "1967-06-09T17:27:17.0Z",
+  "endDate": "1945-02-14T09:04:04.0Z",
+  "sector": "WATER",
   "deliveryAddress": {
-    "postalCode": "17647",
-    "city": "Kraftland",
-    "street": "Am Falkenberg",
-    "houseNumber": "22",
-    "poBox": "velit sint cillum qui",
-    "addressSupplement": "consequat eiusmod esse",
-    "coSupplement": "nisi in",
-    "countryCode": "CZ",
-    "district": "Alt Luisestadt",
+    "postalCode": "43152",
+    "city": "Ost Dion",
+    "street": "Werrastr.",
+    "houseNumber": "65a",
+    "poBox": "dolor Excepteur",
+    "addressSupplement": "officia incididunt aute",
+    "coSupplement": "cupidatat in qui ipsum sint",
+    "countryCode": "PN",
+    "district": "Abelstadt",
     "additionalInformation": {
-      "supplement1": "est cillum",
-      "supplement2": "occaecat labore",
-      "supplement3": "aliqua adipisicing magna ut",
-      "supplement4": "dolor ex incididunt",
-      "supplement5": "Lorem consequat incididunt do consectetur"
+      "supplement1": "ipsum cupidatat commodo enim",
+      "supplement2": "proident eu sint officia",
+      "supplement3": "laboris in",
+      "supplement4": "occaecat fugiat ea",
+      "supplement5": "irure deserunt aliqua aliquip"
     }
   },
-  "marketLocationId": "80650542238",
+  "marketLocationId": "93438570833",
   "minimumPrice": {
-    "value": 2.75,
-    "amount": -46691023,
-    "unit": "CT",
-    "referenceValue": "COUNT",
-    "status": "PROVISIONAL",
+    "value": 5,
+    "amount": -48841744,
+    "unit": "EUR",
+    "referenceValue": "MONTH",
+    "status": "FINAL",
     "priceType": "OPERATING_PRICE"
   },
   "maximumPrice": {
-    "value": 10,
-    "amount": -43590741,
+    "value": 6.25,
+    "amount": 62928914,
     "unit": "EUR",
-    "referenceValue": "HOUR",
-    "status": "FINAL",
-    "priceType": "TRANSACTION_PRICE"
+    "referenceValue": "YEAR",
+    "status": "PROVISIONAL",
+    "priceType": "SETUP_PRICE"
   },
   "energyDirection": "FEED_OUT",
   "calculationPrice": 3.75,
-  "totalSum": 14.5,
-  "postponedDeregistrationDate": "1966-12-11T17:48:17.0Z",
-  "resolutionTimestamp": "1940-08-12T01:35:03.0Z",
+  "totalSum": 10.5,
+  "postponedDeregistrationDate": "1893-11-07T15:09:46.0Z",
+  "resolutionTimestamp": "1904-01-07T06:24:35.0Z",
   "deliveryAddressOldDevices": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
     "salutation": "Herr",
-    "name1": "Pohl",
-    "name2": "Nathanael",
-    "name3": "consectetur nulla dolore",
-    "name4": "cillum deserunt ut dolor",
-    "vatId": "DE000010010",
-    "creditorId": "329912",
-    "emailAddress": "Sophia9@gmail.com",
-    "website": "https://koniglich-magnetismus.org/",
-    "commercialClassification": true,
-    "commercialRegisterNumber": "997057",
-    "courtOfRegistration": "Alt Tom",
+    "name1": "Ranz",
+    "name2": "Mara",
+    "name3": "dolor Ut nostrud",
+    "name4": "laboris Lorem sunt",
+    "vatId": "DE001011011",
+    "creditorId": "220972",
+    "emailAddress": "Maxima75@hotmail.com",
+    "website": "https://tapfer-saugling.org/",
+    "commercialClassification": false,
+    "commercialRegisterNumber": "669895",
+    "courtOfRegistration": "Schenkscheid",
     "partnerAddress": {
-      "postalCode": "09617",
-      "city": "Mockenhauptstadt",
-      "street": "Am Sonnenhang",
-      "houseNumber": "591",
-      "poBox": "aute",
-      "addressSupplement": "id ea",
-      "coSupplement": "Duis",
-      "countryCode": "PN",
-      "district": "Larsland",
+      "postalCode": "14471",
+      "city": "Bad Zoeydorf",
+      "street": "Am Plattenbusch",
+      "houseNumber": "64b",
+      "poBox": "nostrud",
+      "addressSupplement": "irure",
+      "coSupplement": "deserunt sed eiusmod elit mollit",
+      "countryCode": "BR",
+      "district": "Gersonland",
       "additionalInformation": {
-        "supplement1": "consequat",
-        "supplement2": "in",
-        "supplement3": "dolor consectetur cillum",
-        "supplement4": "ullamco veniam",
-        "supplement5": "dolore sunt Duis et"
+        "supplement1": "occaecat non amet",
+        "supplement2": "officia et dolor id",
+        "supplement3": "ipsum velit dolor",
+        "supplement4": "culpa exercitation do",
+        "supplement5": "voluptate officia cupidatat dolor ut"
       }
     },
-    "externalCustomerNumberSupplier": "631847",
+    "externalCustomerNumberSupplier": "569225",
     "externalReferences": [
       {
-        "externalReferenceName": "Kundennummer beim Lieferanten",
-        "externalReferenceValue": "7351969074"
+        "externalReferenceName": "Kundennummer beim Altlieferanten",
+        "externalReferenceValue": "6233074872"
       }
     ],
     "businessPartnerRole": [
-      "READING_CARD_RECIPIENT"
+      "SERVICE_PROVIDER"
     ],
     "contactChannel": [
-      "EMAIL"
-    ]
+      "SMS"
+    ],
+    "contactPerson": {
+      "boType": "CONTACT_PERSON",
+      "structureVersion": "1",
+      "lastName": "Lewke",
+      "eMailAddress": "Helin.Everts66@gmail.com",
+      "phoneNumbers": [
+        {
+          "numberType": "PHONE_EXTENSION",
+          "phoneNumber": "+49-253-1527671"
+        }
+      ]
+    }
   },
-  "definitionType": "SWITCHING_TIME",
+  "definitionType": "METERING_TIME",
   "positionData": [
     {
-      "positionNumber": -71298800,
-      "offerPositionNumber": "979221",
+      "positionNumber": 81616226,
+      "offerPositionNumber": "346912",
       "energyCapture": "NOT_CAPTURED_SEPARATELY",
-      "articleNumber": "BALANCING_ENERGY",
-      "positionAmount": "60",
-      "startDate": "1919-07-29T14:38:01.0Z",
-      "endDate": "1960-05-04T02:26:56.0Z",
-      "isExisting": "0",
-      "obisNumber": "esse sunt Duis dolor Ut",
-      "requestReason": "CHANGE_EVENT",
+      "articleNumber": "LEVY_INTERRUPTIBLE_LOADS",
+      "positionAmount": "48",
+      "startDate": "1895-05-22T09:35:01.0Z",
+      "endDate": "1892-08-02T09:02:55.0Z",
+      "isExisting": "6",
+      "obisNumber": "Excepteur nisi mollit laborum",
+      "requestReason": "NEW_CONFIGURATION",
       "generalInformation": {
-        "info1": "aliqua enim aute",
-        "info2": "Excepteur ea",
-        "info3": "adipisicing elit aliqua non qui",
-        "info4": "laboris officia velit quis consequat",
-        "info5": "consectetur nulla"
+        "info1": "ad Excepteur sint irure",
+        "info2": "nisi",
+        "info3": "laborum est cillum pariatur amet",
+        "info4": "reprehenderit fugiat",
+        "info5": "aute in"
       },
       "discrepancyInfo": {
-        "discrepancy1": "ad exercitation",
-        "discrepancy2": "sed laborum dolor",
-        "discrepancy3": "nulla veniam adipisicing",
-        "discrepancy4": "sed velit ex",
-        "discrepancy5": "proident"
+        "discrepancy1": "est id aliquip sed voluptate",
+        "discrepancy2": "sint voluptate dolor",
+        "discrepancy3": "cillum esse culpa ut enim",
+        "discrepancy4": "Excepteur laboris",
+        "discrepancy5": "nulla"
       },
       "definitionType": "SWITCHING_TIME",
-      "locationId": "40536752985",
-      "meterRegister": 10
+      "locationId": "42110030530",
+      "meterRegister": 9
     }
   ],
   "remarks": [
-    "Esse aliquid quam omnis totam."
+    "Corrupti inventore repellat architecto velit."
   ]
 }

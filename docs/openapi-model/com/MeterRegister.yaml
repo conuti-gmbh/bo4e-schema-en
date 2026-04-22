@@ -84,3 +84,15 @@ components:
         purposesOfUse:
           $ref: >-
             ../fields/com/MeterRegister/purposesOfUse.yaml#/components/schemas/purposesOfUse
+        usagePurposeNB:
+          $ref: >-
+            ../fields/com/MeterRegister/usagePurposeNB.yaml#/components/schemas/usagePurposeNB
+        usagePurposeLF:
+          $ref: >-
+            ../fields/com/MeterRegister/usagePurposeLF.yaml#/components/schemas/usagePurposeLF
+        usagePurposeUENB:
+          $ref: >-
+            ../fields/com/MeterRegister/usagePurposeUENB.yaml#/components/schemas/usagePurposeUENB
+        noProduct:
+          $ref: >-
+            ../fields/com/MeterRegister/noProduct.yaml#/components/schemas/noProduct
