@@ -21,9 +21,9 @@ components:
         deliveryDirection:
           $ref: >-
             ../fields/cdoc/TransactionData/deliveryDirection.yaml#/components/schemas/deliveryDirection
-        processingDate:
+        processdate:
           $ref: >-
-            ../fields/cdoc/TransactionData/processingDate.yaml#/components/schemas/processingDate
+            ../fields/cdoc/TransactionData/processdate.yaml#/components/schemas/processdate
         processNumber:
           $ref: >-
             ../fields/cdoc/TransactionData/processNumber.yaml#/components/schemas/processNumber

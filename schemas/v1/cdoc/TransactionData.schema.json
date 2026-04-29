@@ -21,7 +21,7 @@
     "deliveryDirection": {
       "type": "string"
     },
-    "processingDate": {
+    "processdate": {
       "type": "string",
       "format": "date-time"
     },
