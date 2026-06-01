@@ -1,143 +1,155 @@
 {
   "boType": "ORDER",
   "structureVersion": "1",
-  "executionDate": "1960-07-29T09:42:22.0Z",
-  "completionDate": "1946-03-13T13:45:47.0Z",
-  "startDate": "1967-06-09T17:27:17.0Z",
-  "endDate": "1945-02-14T09:04:04.0Z",
-  "sector": "WATER",
+  "executionDate": "1963-10-08T02:11:17.0Z",
+  "completionDate": "1930-06-18T12:37:01.0Z",
+  "startDate": "1950-06-24T03:15:31.0Z",
+  "endDate": "1934-02-23T03:45:21.0Z",
+  "sector": "GAS",
   "deliveryAddress": {
-    "postalCode": "43152",
-    "city": "Ost Dion",
-    "street": "Werrastr.",
-    "houseNumber": "65a",
-    "poBox": "dolor Excepteur",
-    "addressSupplement": "officia incididunt aute",
-    "coSupplement": "cupidatat in qui ipsum sint",
-    "countryCode": "PN",
-    "district": "Abelstadt",
+    "postalCode": "07511",
+    "city": "Bergheim",
+    "street": "Heinrich-von-Stephan-Str.",
+    "houseNumber": "96b",
+    "poBox": "ea tempor veniam adipisicing",
+    "addressSupplement": "tempor dolor dolor ad",
+    "coSupplement": "voluptate sint do amet",
+    "countryCode": "BH",
+    "district": "Süd Beratdorf",
     "additionalInformation": {
-      "supplement1": "ipsum cupidatat commodo enim",
-      "supplement2": "proident eu sint officia",
-      "supplement3": "laboris in",
-      "supplement4": "occaecat fugiat ea",
-      "supplement5": "irure deserunt aliqua aliquip"
+      "supplement1": "dolore ullamco tempor cupidatat id",
+      "supplement2": "veniam sed aute",
+      "supplement3": "incididunt nisi sed sint sunt",
+      "supplement4": "in quis eiusmod Excepteur",
+      "supplement5": "Excepteur dolor"
     }
   },
-  "marketLocationId": "93438570833",
+  "marketLocationId": "51543788621",
   "minimumPrice": {
-    "value": 5,
-    "amount": -48841744,
-    "unit": "EUR",
-    "referenceValue": "MONTH",
-    "status": "FINAL",
-    "priceType": "OPERATING_PRICE"
+    "value": 7.75,
+    "amount": -79309013,
+    "unit": "CT",
+    "referenceValue": "MWH",
+    "status": "PROVISIONAL",
+    "priceType": "TRANSACTION_PRICE"
   },
   "maximumPrice": {
-    "value": 6.25,
-    "amount": 62928914,
-    "unit": "EUR",
-    "referenceValue": "YEAR",
+    "value": 6,
+    "amount": -76054354,
+    "unit": "CT",
+    "referenceValue": "KVAR",
     "status": "PROVISIONAL",
-    "priceType": "SETUP_PRICE"
+    "priceType": "OPERATING_PRICE"
   },
   "energyDirection": "FEED_OUT",
-  "calculationPrice": 3.75,
-  "totalSum": 10.5,
-  "postponedDeregistrationDate": "1893-11-07T15:09:46.0Z",
-  "resolutionTimestamp": "1904-01-07T06:24:35.0Z",
+  "calculationPrice": 8.25,
+  "totalSum": 16.75,
+  "postponedDeregistrationDate": "1909-12-31T12:26:36.0Z",
+  "resolutionTimestamp": "1917-05-04T08:56:23.0Z",
   "deliveryAddressOldDevices": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
-    "salutation": "Herr",
-    "name1": "Ranz",
-    "name2": "Mara",
-    "name3": "dolor Ut nostrud",
-    "name4": "laboris Lorem sunt",
-    "vatId": "DE001011011",
-    "creditorId": "220972",
-    "emailAddress": "Maxima75@hotmail.com",
-    "website": "https://tapfer-saugling.org/",
+    "salutation": "Prof. Dr.",
+    "name1": "Gombert",
+    "name2": "Viktor",
+    "name3": "fugiat deserunt ad nulla in",
+    "name4": "voluptate reprehenderit adipisicing",
+    "vatId": "DE011101000",
+    "creditorId": "115945",
+    "emailAddress": "Cedrik.Dehmel@gmail.com",
+    "website": "https://genusslich-knie.net",
     "commercialClassification": false,
-    "commercialRegisterNumber": "669895",
-    "courtOfRegistration": "Schenkscheid",
+    "commercialRegisterNumber": "115889",
+    "courtOfRegistration": "Floderstadt",
     "partnerAddress": {
-      "postalCode": "14471",
-      "city": "Bad Zoeydorf",
-      "street": "Am Plattenbusch",
-      "houseNumber": "64b",
-      "poBox": "nostrud",
-      "addressSupplement": "irure",
-      "coSupplement": "deserunt sed eiusmod elit mollit",
-      "countryCode": "BR",
-      "district": "Gersonland",
+      "postalCode": "59213",
+      "city": "Lenzenstadt",
+      "street": "Carlo-Mierendorff-Str.",
+      "houseNumber": "2",
+      "poBox": "labore veniam pariatur",
+      "addressSupplement": "nisi",
+      "coSupplement": "Excepteur nostrud aute ut",
+      "countryCode": "CU",
+      "district": "Gummersbach",
       "additionalInformation": {
-        "supplement1": "occaecat non amet",
-        "supplement2": "officia et dolor id",
-        "supplement3": "ipsum velit dolor",
-        "supplement4": "culpa exercitation do",
-        "supplement5": "voluptate officia cupidatat dolor ut"
+        "supplement1": "sint quis incididunt deserunt Lorem",
+        "supplement2": "exercitation dolore laborum nulla",
+        "supplement3": "deserunt Duis",
+        "supplement4": "in laboris eiusmod nulla",
+        "supplement5": "sint minim eu ipsum veniam"
       }
     },
-    "externalCustomerNumberSupplier": "569225",
+    "externalCustomerNumberSupplier": "277952",
     "externalReferences": [
       {
         "externalReferenceName": "Kundennummer beim Altlieferanten",
-        "externalReferenceValue": "6233074872"
+        "externalReferenceValue": "9100589709"
       }
     ],
     "businessPartnerRole": [
-      "SERVICE_PROVIDER"
+      "SUPPLIER"
     ],
     "contactChannel": [
-      "SMS"
+      "FAX"
     ],
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Lewke",
-      "eMailAddress": "Helin.Everts66@gmail.com",
+      "lastName": "Wittl",
+      "eMailAddress": "Korbinian42@yahoo.com",
       "phoneNumbers": [
         {
           "numberType": "PHONE_EXTENSION",
-          "phoneNumber": "+49-253-1527671"
+          "phoneNumber": "+49-8803-66677333"
         }
       ]
     }
   },
-  "definitionType": "METERING_TIME",
+  "definitionType": "LOAD_CURVES",
   "positionData": [
     {
-      "positionNumber": 81616226,
-      "offerPositionNumber": "346912",
+      "positionNumber": 36882346,
+      "offerPositionNumber": "876721",
       "energyCapture": "NOT_CAPTURED_SEPARATELY",
-      "articleNumber": "LEVY_INTERRUPTIBLE_LOADS",
-      "positionAmount": "48",
-      "startDate": "1895-05-22T09:35:01.0Z",
-      "endDate": "1892-08-02T09:02:55.0Z",
-      "isExisting": "6",
-      "obisNumber": "Excepteur nisi mollit laborum",
-      "requestReason": "NEW_CONFIGURATION",
+      "articleNumber": "ENERGY_TAX",
+      "positionAmount": "11",
+      "startDate": "1917-02-16T01:16:17.0Z",
+      "endDate": "1894-09-28T12:33:54.0Z",
+      "isExisting": "1",
+      "obisNumber": "sed Excepteur consequat ad consectetur",
+      "requestReason": "CONFIGURATION_UNCHANGED",
       "generalInformation": {
-        "info1": "ad Excepteur sint irure",
-        "info2": "nisi",
-        "info3": "laborum est cillum pariatur amet",
-        "info4": "reprehenderit fugiat",
-        "info5": "aute in"
+        "info1": "labore pariatur sed voluptate",
+        "info2": "est enim eu consequat",
+        "info3": "ut",
+        "info4": "qui exercitation ut deserunt",
+        "info5": "anim ullamco"
       },
       "discrepancyInfo": {
-        "discrepancy1": "est id aliquip sed voluptate",
-        "discrepancy2": "sint voluptate dolor",
-        "discrepancy3": "cillum esse culpa ut enim",
-        "discrepancy4": "Excepteur laboris",
-        "discrepancy5": "nulla"
+        "discrepancy1": "sunt deserunt Duis id",
+        "discrepancy2": "dolore proident",
+        "discrepancy3": "aliquip in",
+        "discrepancy4": "in ut",
+        "discrepancy5": "eiusmod enim est"
       },
       "definitionType": "SWITCHING_TIME",
-      "locationId": "42110030530",
-      "meterRegister": 9
+      "locationId": "93149650453",
+      "meterRegister": 6,
+      "endpointAddress": {
+        "gwaManagement": "sed irure minim proident",
+        "gwaAdminService": "tempor ut in",
+        "gwaNTP": "sunt incididunt pariatur"
+      },
+      "certificateInformation": {
+        "uriSubCA": "dolor in velit pariatur ut",
+        "commonNameCertificate": "tempor do non",
+        "serialNumberCertificate": "ad sint id"
+      },
+      "wakeUpPort": "in",
+      "apnCommunicationData": "qui"
     }
   ],
   "remarks": [
-    "Corrupti inventore repellat architecto velit."
+    "In dolorum tempore at dignissimos."
   ]
 }

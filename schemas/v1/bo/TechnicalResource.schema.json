@@ -48,6 +48,12 @@
         "string.numeric": 11
       }
     },
+    "referenceTranche": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
+    },
     "ratedPower": {
       "$ref": "../com/RatedPower.schema.json"
     },

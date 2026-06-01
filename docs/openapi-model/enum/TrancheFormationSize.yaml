@@ -7,3 +7,4 @@ components:
         - PERCENTAGE
         - ALLOCATION_FACTOR
         - ALLOCATION_TECHNICAL_RESOURCES
+        - CALCULATION_FORMULA

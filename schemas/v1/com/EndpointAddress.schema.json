@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/EndpointAddress.schema.json",
+  "title": "EndpointAddress",
+  "type": "object",
+  "properties": {
+    "gwaManagement": {
+      "type": "string"
+    },
+    "gwaAdminService": {
+      "type": "string"
+    },
+    "gwaNTP": {
+      "type": "string"
+    }
+  }
+}

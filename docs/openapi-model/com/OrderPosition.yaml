@@ -48,3 +48,15 @@ components:
         meterRegister:
           $ref: >-
             ../fields/com/OrderPosition/meterRegister.yaml#/components/schemas/meterRegister
+        endpointAddress:
+          $ref: >-
+            ../fields/com/OrderPosition/endpointAddress.yaml#/components/schemas/endpointAddress
+        certificateInformation:
+          $ref: >-
+            ../fields/com/OrderPosition/certificateInformation.yaml#/components/schemas/certificateInformation
+        wakeUpPort:
+          $ref: >-
+            ../fields/com/OrderPosition/wakeUpPort.yaml#/components/schemas/wakeUpPort
+        apnCommunicationData:
+          $ref: >-
+            ../fields/com/OrderPosition/apnCommunicationData.yaml#/components/schemas/apnCommunicationData

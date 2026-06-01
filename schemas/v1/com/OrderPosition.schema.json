@@ -65,6 +65,18 @@
       "faker": {
         "number.int": 10
       }
+    },
+    "endpointAddress": {
+      "$ref": "../com/EndpointAddress.schema.json"
+    },
+    "certificateInformation": {
+      "$ref": "../com/CertificateInformation.schema.json"
+    },
+    "wakeUpPort": {
+      "type": "string"
+    },
+    "apnCommunicationData": {
+      "type": "string"
     }
   }
 }

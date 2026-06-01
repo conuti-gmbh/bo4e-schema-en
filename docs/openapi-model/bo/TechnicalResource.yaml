@@ -37,6 +37,9 @@ components:
         referenceControllableResource:
           $ref: >-
             ../fields/bo/TechnicalResource/referenceControllableResource.yaml#/components/schemas/referenceControllableResource
+        referenceTranche:
+          $ref: >-
+            ../fields/bo/TechnicalResource/referenceTranche.yaml#/components/schemas/referenceTranche
         ratedPower:
           $ref: >-
             ../fields/bo/TechnicalResource/ratedPower.yaml#/components/schemas/ratedPower

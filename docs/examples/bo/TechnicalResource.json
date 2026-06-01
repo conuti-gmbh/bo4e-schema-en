@@ -1,49 +1,50 @@
 {
   "boType": "TECHNICAL_RESOURCE",
   "structureVersion": "1",
-  "resourceId": "36250318839",
+  "resourceId": "92936954258",
   "sector": "ELECTRICITY",
   "locationAssignment": "UNCHANGED",
-  "referenceMeteringLocation": "497557538416780094276846725854924",
-  "referenceMarketLocation": "76707729121",
-  "referenceGridLocation": "64453087400",
-  "referenceControllableResource": "41588172975",
+  "referenceMeteringLocation": "689042015876262405303025848865316",
+  "referenceMarketLocation": "55527976665",
+  "referenceGridLocation": "45933739038",
+  "referenceControllableResource": "27716532670",
+  "referenceTranche": "04512929835",
   "ratedPower": {
-    "intake": 18.5,
-    "levy": 13
+    "intake": 11,
+    "levy": 19.5
   },
-  "storageCapacity": 20.5,
+  "storageCapacity": 36.25,
   "consumptionType": [
-    "KL"
+    "WK"
   ],
-  "heatUsage": "STORAGE_HEATING",
-  "typeElectricMobility": "LS",
-  "generationType": "EEG_DV",
+  "heatUsage": "HEAT_PUMP",
+  "typeElectricMobility": "WB",
+  "generationType": "COAL",
   "storageType": "OTHER_STORAGE_TYPE",
-  "enwg": true,
+  "enwg": false,
   "commissioningDate": "COMMISSIONING_BEFORE_2024",
-  "classification": "FIXED_TERM_WITHOUT_CHANGE_OPTION",
-  "additionalFacility": true,
-  "kind": "ELECTRICITY_CONSUMPTION",
-  "dataQuality": "NO_DATA_PRESENT_IN_SYSTEM",
+  "classification": "CHANGE_OPTION_ONCE_STILL_POSSIBLE",
+  "additionalFacility": false,
+  "kind": "ELECTRICITY_GENERATION",
+  "dataQuality": "DATA_PRESENT_IN_SYSTEM",
   "validityPeriod": {
-    "timeUnit": "MONTH",
-    "duration": 10,
-    "startDate": "1894-09-23T04:22:25.0Z",
-    "endDate": "1936-05-21T19:04:46.0Z",
-    "unit": "DAY",
-    "readingPeriod": "857711",
-    "billingPeriod": "226255",
-    "periodText": "ut",
-    "periodId": 5
+    "timeUnit": "HALF_YEAR",
+    "duration": 0,
+    "startDate": "1956-04-15T04:49:03.0Z",
+    "endDate": "1919-06-30T04:03:23.0Z",
+    "unit": "YEAR",
+    "readingPeriod": "747242",
+    "billingPeriod": "703637",
+    "periodText": "est velit non laborum id",
+    "periodId": 8
   },
   "requiredProducts": [
     {
-      "productCode": "CODE_101111",
-      "productAttributeCode": "CODE_011101",
-      "valueDetails": "788752"
+      "productCode": "CODE_000000",
+      "productAttributeCode": "CODE_001100",
+      "valueDetails": "542038"
     }
   ],
-  "remoteControllability": true,
-  "remunerationObligation": false
+  "remoteControllability": false,
+  "remunerationObligation": true
 }
