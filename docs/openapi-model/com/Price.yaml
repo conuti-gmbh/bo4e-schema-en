@@ -8,6 +8,12 @@ components:
           $ref: ../fields/com/Price/value.yaml#/components/schemas/value
         amount:
           $ref: ../fields/com/Price/amount.yaml#/components/schemas/amount
+        minimumAmount:
+          $ref: >-
+            ../fields/com/Price/minimumAmount.yaml#/components/schemas/minimumAmount
+        maximumAmount:
+          $ref: >-
+            ../fields/com/Price/maximumAmount.yaml#/components/schemas/maximumAmount
         unit:
           $ref: ../fields/com/Price/unit.yaml#/components/schemas/unit
         referenceValue:

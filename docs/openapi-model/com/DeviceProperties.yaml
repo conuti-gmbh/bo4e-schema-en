@@ -28,3 +28,21 @@ components:
         factor:
           $ref: >-
             ../fields/com/DeviceProperties/factor.yaml#/components/schemas/factor
+        firmwareVersion:
+          $ref: >-
+            ../fields/com/DeviceProperties/firmwareVersion.yaml#/components/schemas/firmwareVersion
+        manufacturerTypeDesignation:
+          $ref: >-
+            ../fields/com/DeviceProperties/manufacturerTypeDesignation.yaml#/components/schemas/manufacturerTypeDesignation
+        simCardNumber:
+          $ref: >-
+            ../fields/com/DeviceProperties/simCardNumber.yaml#/components/schemas/simCardNumber
+        modemIdentifierIMSI:
+          $ref: >-
+            ../fields/com/DeviceProperties/modemIdentifierIMSI.yaml#/components/schemas/modemIdentifierIMSI
+        telecommunicationsProvider:
+          $ref: >-
+            ../fields/com/DeviceProperties/telecommunicationsProvider.yaml#/components/schemas/telecommunicationsProvider
+        ipVersion:
+          $ref: >-
+            ../fields/com/DeviceProperties/ipVersion.yaml#/components/schemas/ipVersion

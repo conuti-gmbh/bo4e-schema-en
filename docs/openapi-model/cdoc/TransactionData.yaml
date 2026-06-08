@@ -192,6 +192,9 @@ components:
         locationId:
           $ref: >-
             ../fields/cdoc/TransactionData/locationId.yaml#/components/schemas/locationId
+        locationType:
+          $ref: >-
+            ../fields/cdoc/TransactionData/locationType.yaml#/components/schemas/locationType
         referenceMalo:
           $ref: >-
             ../fields/cdoc/TransactionData/referenceMalo.yaml#/components/schemas/referenceMalo

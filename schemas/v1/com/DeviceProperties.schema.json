@@ -47,6 +47,51 @@
           "max": 10
         }
       }
+    },
+    "firmwareVersion": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "FW_",
+          "length": 4
+        }
+      }
+    },
+    "manufacturerTypeDesignation": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "TYP_",
+          "length": 6
+        }
+      }
+    },
+    "simCardNumber": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 20
+      }
+    },
+    "modemIdentifierIMSI": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 15
+      }
+    },
+    "telecommunicationsProvider": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "TK_",
+          "length": 4
+        }
+      }
+    },
+    "ipVersion": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 1
+      }
     }
   }
 }

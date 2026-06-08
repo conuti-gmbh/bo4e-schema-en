@@ -202,6 +202,9 @@
     "locationId": {
       "type": "string"
     },
+    "locationType": {
+      "$ref": "../enum/LocationType.schema.json"
+    },
     "referenceMalo": {
       "type": "string"
     },
