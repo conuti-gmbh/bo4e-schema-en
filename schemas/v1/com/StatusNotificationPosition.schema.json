@@ -71,6 +71,76 @@
       "items": {
         "$ref": "../enum/OrderStatus.schema.json"
       }
+    },
+    "locationType": {
+      "$ref": "../enum/LocationType.schema.json"
+    },
+    "statusObject": {
+      "$ref": "../enum/StatusObject.schema.json"
+    },
+    "responseStatusCodeList": {
+      "type": "string"
+    },
+    "processReferenceNumber": {
+      "type": "string"
+    },
+    "notificationNumber": {
+      "type": "string"
+    },
+    "requestReferenceNumber": {
+      "type": "string"
+    },
+    "completionDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "deliveryDate": {
+      "type": "string"
+    },
+    "shipmentPosition": {
+      "type": "integer"
+    },
+    "validFrom": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "referenceMalo": {
+      "type": "string"
+    },
+    "referencePriceKeyMaster": {
+      "type": "string"
+    },
+    "referenceArticleId": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "offerNumber": {
+      "type": "string"
+    },
+    "inquiryReference": {
+      "type": "string"
+    },
+    "contractEnd": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "senderView": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/SenderView.schema.json"
+      }
+    },
+    "validityTimespan": {
+      "type": "string"
+    },
+    "privilegedEnergyQuantity": {
+      "$ref": "../com/TimeIntervalQuantity.schema.json"
     }
   }
 }

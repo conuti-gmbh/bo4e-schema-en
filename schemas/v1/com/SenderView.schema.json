@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/SenderView.schema.json",
+  "title": "SenderView",
+  "type": "object",
+  "properties": {
+    "usageFrom": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "usageTo": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "servicePeriod": {
+      "type": "string"
+    },
+    "amount": {
+      "$ref": "../com/Quantity.schema.json"
+    },
+    "tariffLevel": {
+      "$ref": "../enum/TariffLevel.schema.json"
+    }
+  }
+}

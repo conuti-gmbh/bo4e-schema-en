@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/TimeIntervalQuantity.schema.json",
+  "title": "TimeIntervalQuantity",
+  "type": "object",
+  "properties": {
+    "usageFrom": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "usageTo": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "amount": {
+      "$ref": "../com/Quantity.schema.json"
+    }
+  }
+}

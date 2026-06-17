@@ -1,46 +1,84 @@
 {
   "boType": "STATUS_NOTIFICATION",
   "structureVersion": "1",
-  "statusObject": "CONVERSION_METERING_LOCATION",
-  "statusOccasion": "COMPARISON_MEASUREMENT_NOT_CALIBRATED",
-  "orderStatus": "PLANNED",
+  "statusObject": "FIRST_INSTALLATION_IMS",
+  "statusOccasion": "PLAUSIBLE_DUE_TO_CUSTOMER_HINT",
+  "orderStatus": "ENFG_RAIL_TRANSPORT",
   "positionData": [
     {
-      "positionNumber": 7,
-      "processingDate": "1935-01-07T14:12:40.0Z",
-      "usageFrom": "1955-10-29T20:40:02.0Z",
-      "usageTo": "1954-02-09T10:51:25.0Z",
-      "endDate": "1933-08-17T16:36:55.0Z",
-      "orderStatus": "CONFIRMED",
-      "statusOccasion": "METERING_DEVICE_FAULTY_DEFECTIVE",
-      "responseStatus": "est",
+      "positionNumber": 2,
+      "processingDate": "1930-06-28T18:56:23.0Z",
+      "usageFrom": "1892-05-19T15:48:31.0Z",
+      "usageTo": "1931-06-07T02:30:05.0Z",
+      "endDate": "1892-05-23T01:53:51.0Z",
+      "orderStatus": "DETECTED_FAULT",
+      "statusOccasion": "COMMUNICATION_FAULT",
+      "responseStatus": "voluptate qui nostrud",
       "errorDescription": {
-        "description1": "quis laboris amet",
-        "description2": "ut adipisicing aute aliqua veniam",
-        "description3": "ipsum ea occaecat",
-        "description4": "consectetur",
-        "description5": "enim veniam nostrud amet"
+        "description1": "dolor quis exercitation laboris",
+        "description2": "ex adipisicing Ut labore Lorem",
+        "description3": "commodo",
+        "description4": "voluptate in esse ullamco",
+        "description5": "pariatur et"
       },
       "justification": {
-        "justification1": "Duis",
-        "justification2": "culpa Excepteur cupidatat",
-        "justification3": "reprehenderit magna adipisicing Ut culpa",
-        "justification4": "ex irure in",
-        "justification5": "ullamco ex reprehenderit dolore est"
+        "justification1": "officia",
+        "justification2": "voluptate laborum eiusmod",
+        "justification3": "sed",
+        "justification4": "incididunt tempor id",
+        "justification5": "Duis fugiat aute"
       },
-      "locationId": "22532126693",
-      "referenceMelo": "662809326896633335578195593630391",
+      "locationId": "14054978258",
+      "referenceMelo": "734715241153829252871513536561526",
       "generalInformation": {
-        "info1": "dolor culpa dolore nostrud esse",
-        "info2": "in",
-        "info3": "nisi Excepteur cupidatat commodo ut",
-        "info4": "consequat cillum pariatur voluptate",
-        "info5": "esse fugiat"
+        "info1": "voluptate id aliquip velit culpa",
+        "info2": "fugiat ut nostrud laboris",
+        "info3": "ex sint",
+        "info4": "esse cupidatat",
+        "info5": "do aute"
       },
-      "statusChangeTimestamp": "1913-06-08T22:31:53.0Z",
+      "statusChangeTimestamp": "1909-04-14T21:05:34.0Z",
       "orderStatusList": [
-        "DELIVERY_PLANNED"
-      ]
+        "TERMINATED"
+      ],
+      "locationType": "MELO",
+      "statusObject": "LOCK",
+      "responseStatusCodeList": "et exercitation magna sit",
+      "processReferenceNumber": "Lorem cupidatat veniam",
+      "notificationNumber": "amet",
+      "requestReferenceNumber": "minim aliquip ea Lorem nisi",
+      "completionDate": "1945-01-05T10:10:01.0Z",
+      "deliveryDate": "aliqua laborum labore amet",
+      "shipmentPosition": 37423242,
+      "validFrom": "1955-10-25T10:49:24.0Z",
+      "referenceMalo": "cillum est ex sed",
+      "referencePriceKeyMaster": "Lorem",
+      "referenceArticleId": "in labore occaecat",
+      "startDate": "1927-07-09T23:15:45.0Z",
+      "offerNumber": "reprehenderit ut enim ad Ut",
+      "inquiryReference": "anim ullamco nulla eu occaecat",
+      "contractEnd": "1962-02-20T05:43:21.0Z",
+      "senderView": [
+        {
+          "usageFrom": "1898-08-01T06:16:18.0Z",
+          "usageTo": "1930-07-05T01:03:47.0Z",
+          "servicePeriod": "ad tempor aliquip do Excepteur",
+          "amount": {
+            "value": 3.75,
+            "unit": "HOUR"
+          },
+          "tariffLevel": "TARIFF_LEVEL_4"
+        }
+      ],
+      "validityTimespan": "irure ipsum commodo nisi consequat",
+      "privilegedEnergyQuantity": {
+        "usageFrom": "1908-08-01T18:47:33.0Z",
+        "usageTo": "1931-09-24T09:34:29.0Z",
+        "amount": {
+          "value": 3,
+          "unit": "KVAR"
+        }
+      }
     }
   ]
 }
