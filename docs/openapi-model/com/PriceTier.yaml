@@ -6,6 +6,8 @@ components:
       properties:
         unitPrice:
           $ref: ../fields/com/PriceTier/unitPrice.yaml#/components/schemas/unitPrice
+        timeBasis:
+          $ref: ../fields/com/PriceTier/timeBasis.yaml#/components/schemas/timeBasis
         tierLimitFrom:
           $ref: >-
             ../fields/com/PriceTier/tierLimitFrom.yaml#/components/schemas/tierLimitFrom

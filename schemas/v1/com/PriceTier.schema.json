@@ -15,6 +15,9 @@
         }
       }
     },
+    "timeBasis": {
+      "$ref": "../enum/TimeUnit.schema.json"
+    },
     "tierLimitFrom": {
       "type": "number",
       "format": "float",

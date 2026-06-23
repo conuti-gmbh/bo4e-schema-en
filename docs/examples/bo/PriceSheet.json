@@ -1,74 +1,75 @@
 {
   "boType": "PRICE_SHEET",
   "structureVersion": "1",
-  "designation": "esse eiusmod magna qui",
+  "designation": "aliquip Lorem dolor",
   "validity": {
-    "timeUnit": "DAY",
-    "duration": 2,
-    "startDate": "1951-04-15T04:29:24.0Z",
-    "endDate": "1937-10-18T19:17:18.0Z",
-    "unit": "SECOND",
-    "readingPeriod": "733375",
-    "billingPeriod": "349212",
-    "periodText": "magna consectetur sint in",
-    "periodId": 4
+    "timeUnit": "MINUTE",
+    "duration": 5,
+    "startDate": "1920-09-30T06:31:21.0Z",
+    "endDate": "1958-04-05T17:02:23.0Z",
+    "unit": "YEAR",
+    "readingPeriod": "522358",
+    "billingPeriod": "017035",
+    "periodText": "non sint sed",
+    "periodId": 3
   },
   "priceStatus": "FINAL",
-  "sector": "GAS",
-  "priceGridOperatorCodeNumber": "exercitation ut commodo Lorem",
-  "balancingDate": "1895-06-28T05:02:41.0Z",
-  "controlZone": "culpa sint in Excepteur in",
-  "performanceType": "CONCESSION_LEVY",
+  "sector": "WATER",
+  "priceGridOperatorCodeNumber": "velit",
+  "balancingDate": "1911-12-11T01:20:02.0Z",
+  "controlZone": "laborum aute veniam",
+  "performanceType": "METERING_SERVICE",
   "notUsed": true,
   "pricePositions": [
     {
-      "calculationMethod": "LOAD_PROFILE_TRANSMISSION_OR_DISTRIBUTION_GRID",
-      "performanceType": "ENERGY_PRICE_REACTIVE_ENERGY_CAPACITIVE",
-      "serviceDesignation": "POG_GENERATION_IMS_15_TO_30",
-      "priceUnit": "EUR",
-      "referenceQuantity": "MWH",
-      "timeBasis": "SECOND",
-      "tariffTime": "TZ_STANDARD",
-      "bdewArticleNumber": "BALANCING_ENERGY_WORK",
-      "zoningSize": "POWER_ELECTRICAL",
-      "priceKeyMaster": "eiusmod deserunt in",
-      "positionNumber": 9,
-      "meteringLevel": "MSP",
-      "description": "non sed ea magna in",
+      "calculationMethod": "SIGMOID",
+      "performanceType": "BALANCING_ENERGY_LEVY",
+      "serviceDesignation": "POG_CONSUMPTION_IMS_4K_TO_6K",
+      "priceUnit": "CT",
+      "referenceQuantity": "PERCENT",
+      "timeBasis": "WEEK",
+      "tariffTime": "TZ_NT",
+      "bdewArticleNumber": "RESERVE_GRID_CAPACITY",
+      "zoningSize": "ACTIVE_ENERGY_THERMAL",
+      "priceKeyMaster": "anim sed elit officia cillum",
+      "positionNumber": 3,
+      "meteringLevel": "MSP_NSP_UMSP",
+      "description": "Excepteur reprehenderit eiusmod aute",
       "descriptionFormat": "PARTIALLY_STRUCTURED",
       "processingPeriod": {
-        "timeUnit": "QUARTER_HOUR",
-        "duration": 6,
-        "startDate": "1966-05-06T22:14:24.0Z",
-        "endDate": "1920-01-07T03:15:31.0Z",
-        "unit": "QUARTER_HOUR",
-        "readingPeriod": "037022",
-        "billingPeriod": "191302",
-        "periodText": "laborum",
-        "periodId": 2
+        "timeUnit": "MINUTE",
+        "duration": 10,
+        "startDate": "1968-10-05T18:38:18.0Z",
+        "endDate": "1930-11-25T22:27:31.0Z",
+        "unit": "DAY",
+        "readingPeriod": "119617",
+        "billingPeriod": "611513",
+        "periodText": "Excepteur do",
+        "periodId": 6
       },
-      "articleId": "3729495469",
+      "articleId": "3284452380",
       "surchargesDiscounts": [
         {
-          "designation": "magna qui Duis in",
-          "description": "ut occaecat dolore minim sunt",
-          "surchargeDiscountType": "RELATIVE",
-          "surchargeDiscountValue": 10,
-          "surchargeDiscountCurrency": "EUR"
+          "designation": "laboris ad ex",
+          "description": "commodo Lorem reprehenderit sed",
+          "surchargeDiscountType": "ABSOLUTE",
+          "surchargeDiscountValue": 4.5,
+          "surchargeDiscountCurrency": "CT"
         }
       ],
       "priceSteps": [
         {
-          "unitPrice": 7,
-          "tierLimitFrom": 5.5,
-          "tierLimitTo": 4.75,
+          "unitPrice": 10,
+          "timeBasis": "QUARTER",
+          "tierLimitFrom": 9,
+          "tierLimitTo": 8.5,
           "sigmoidParameter": {
-            "A": 3.5,
-            "B": 9.25,
-            "C": 1.75,
-            "D": 4.25
+            "A": 1,
+            "B": 8.75,
+            "C": 8,
+            "D": 2
           },
-          "unit": "PIECE"
+          "unit": "VARH"
         }
       ]
     }
