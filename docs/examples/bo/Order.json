@@ -1,159 +1,160 @@
 {
   "boType": "ORDER",
   "structureVersion": "1",
-  "executionDate": "1900-05-30T07:12:43.0Z",
-  "completionDate": "1903-10-29T02:25:56.0Z",
-  "startDate": "1894-10-05T13:48:16.0Z",
-  "endDate": "1919-05-31T07:27:22.0Z",
+  "executionDate": "1932-03-27T06:33:39.0Z",
+  "completionDate": "1894-04-29T20:43:18.0Z",
+  "startDate": "1890-10-29T16:03:11.0Z",
+  "endDate": "1897-07-03T11:10:01.0Z",
   "sector": "ELECTRICITY",
   "deliveryAddress": {
-    "postalCode": "14337",
-    "city": "Hüttcherland",
-    "street": "In den Blechenhöfen",
-    "houseNumber": "22c",
-    "poBox": "quis in adipisicing consectetur ea",
-    "addressSupplement": "amet pariatur sunt nulla nisi",
-    "coSupplement": "Duis in",
-    "countryCode": "BO",
-    "district": "Langenfeld (Rheinland)",
+    "postalCode": "05295",
+    "city": "West Amelie",
+    "street": "Scharnhorststr.",
+    "houseNumber": "29",
+    "poBox": "sit dolore quis incididunt laborum",
+    "addressSupplement": "elit consectetur Ut",
+    "coSupplement": "ipsum do ullamco sed est",
+    "countryCode": "PK",
+    "district": "Eisenlauerburg",
     "additionalInformation": {
-      "supplement1": "in proident incididunt pariatur veniam",
-      "supplement2": "sunt",
-      "supplement3": "officia aliqua Ut do",
-      "supplement4": "reprehenderit",
-      "supplement5": "dolore"
+      "supplement1": "consectetur irure mollit",
+      "supplement2": "sint deserunt",
+      "supplement3": "in tempor Ut aute velit",
+      "supplement4": "cupidatat",
+      "supplement5": "cupidatat in"
     }
   },
-  "marketLocationId": "81528218069",
+  "marketLocationId": "52024397344",
   "minimumPrice": {
-    "value": 8,
-    "amount": 80052061,
+    "value": 6.25,
+    "amount": 92412558,
     "minimumAmount": 8,
-    "maximumAmount": 1,
+    "maximumAmount": 2,
     "unit": "EUR",
-    "referenceValue": "WH",
+    "referenceValue": "HOUR",
     "status": "PROVISIONAL",
-    "priceType": "TRANSACTION_PRICE"
+    "priceType": "SETUP_PRICE"
   },
   "maximumPrice": {
-    "value": 6.5,
-    "amount": 83769875,
-    "minimumAmount": 9,
-    "maximumAmount": 5,
+    "value": 4.75,
+    "amount": 45178987,
+    "minimumAmount": 2,
+    "maximumAmount": 4,
     "unit": "EUR",
-    "referenceValue": "DAY",
-    "status": "PROVISIONAL",
-    "priceType": "TRANSACTION_PRICE"
+    "referenceValue": "COUNT",
+    "status": "FINAL",
+    "priceType": "OPERATING_PRICE"
   },
-  "energyDirection": "FEED_IN",
-  "calculationPrice": 9,
-  "totalSum": 17,
-  "postponedDeregistrationDate": "1950-05-20T05:38:01.0Z",
-  "resolutionTimestamp": "1963-01-29T14:04:24.0Z",
+  "energyDirection": "FEED_OUT",
+  "calculationPrice": 1,
+  "totalSum": 12.5,
+  "postponedDeregistrationDate": "1899-08-06T02:28:56.0Z",
+  "resolutionTimestamp": "1953-02-13T23:21:38.0Z",
   "deliveryAddressOldDevices": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
-    "salutation": "Herr",
-    "name1": "Maak",
-    "name2": "Alica",
-    "name3": "laboris aute magna",
-    "name4": "Lorem dolore minim eiusmod",
-    "vatId": "DE101100000",
-    "creditorId": "417067",
-    "emailAddress": "Carlotta_Denzinger69@hotmail.com",
-    "website": "https://weltbekannt-tee.info/",
-    "commercialClassification": false,
-    "commercialRegisterNumber": "805553",
-    "courtOfRegistration": "Neu Elisabeth",
+    "salutation": "Prof. Dr.",
+    "name1": "Elbe",
+    "name2": "Emmi",
+    "name3": "sed non nulla eu",
+    "name4": "Excepteur sunt",
+    "vatId": "DE110110000",
+    "creditorId": "648131",
+    "emailAddress": "Danny7@yahoo.com",
+    "website": "https://kunstvoll-automobil.com",
+    "commercialClassification": true,
+    "commercialRegisterNumber": "670525",
+    "courtOfRegistration": "Mirjaburg",
     "partnerAddress": {
-      "postalCode": "28759",
-      "city": "Alt Jarnoburg",
-      "street": "Klief",
-      "houseNumber": "31a",
-      "poBox": "Lorem",
-      "addressSupplement": "irure enim aute laborum Lorem",
-      "coSupplement": "ex",
-      "countryCode": "PG",
-      "district": "Lüdenscheid",
+      "postalCode": "18523",
+      "city": "Oseidorf",
+      "street": "An der Steinrütsch",
+      "houseNumber": "59a",
+      "poBox": "dolore Duis minim reprehenderit Excepteur",
+      "addressSupplement": "mollit",
+      "coSupplement": "commodo",
+      "countryCode": "RW",
+      "district": "Ahlen",
       "additionalInformation": {
-        "supplement1": "sit Excepteur nisi",
-        "supplement2": "elit",
-        "supplement3": "tempor sint aliqua dolor incididunt",
-        "supplement4": "magna officia minim ipsum tempor",
-        "supplement5": "fugiat laboris sed cupidatat"
+        "supplement1": "et sit anim nisi",
+        "supplement2": "magna nulla Excepteur enim",
+        "supplement3": "cupidatat velit",
+        "supplement4": "aliquip",
+        "supplement5": "adipisicing ex labore quis"
       }
     },
-    "externalCustomerNumberSupplier": "786811",
+    "externalCustomerNumberSupplier": "807375",
     "externalReferences": [
       {
         "externalReferenceName": "Kundennummer beim Lieferanten",
-        "externalReferenceValue": "3948370202"
+        "externalReferenceValue": "3284678206"
       }
     ],
     "businessPartnerRole": [
-      "SUPPLIER"
+      "CUSTOMER"
     ],
     "contactChannel": [
-      "WRITTEN_LETTER"
+      "EMAIL"
     ],
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Wolff",
-      "eMailAddress": "Melina.Hajek@hotmail.com",
+      "lastName": "Koob",
+      "eMailAddress": "Juliana.Bornscheuer@hotmail.com",
       "phoneNumbers": [
         {
-          "numberType": "DEPARTMENT_FAX",
-          "phoneNumber": "+49-654-2543056"
+          "numberType": "COLLECTIVE_FAX",
+          "phoneNumber": "+49-9158-50626616"
         }
       ]
     }
   },
-  "definitionType": "SWITCHING_TIME",
+  "definitionType": "METERING_TIME",
   "positionData": [
     {
-      "positionNumber": -96406876,
-      "offerPositionNumber": "460562",
-      "energyCapture": "NOT_CAPTURED_SEPARATELY",
-      "articleNumber": "ADDITIONAL_SERVICE_PARAGRAPH_35_2_1_MSBG",
-      "positionAmount": "01",
-      "startDate": "1961-04-01T08:04:25.0Z",
-      "endDate": "1949-07-20T21:52:32.0Z",
-      "isExisting": "2",
-      "obisNumber": "anim",
-      "requestReason": "CONFIGURATION_UNCHANGED",
+      "positionNumber": 85277572,
+      "offerPositionNumber": "043066",
+      "energyCapture": "CAPTURED_SEPARATELY",
+      "articleNumber": "CONCESSION_FEE",
+      "positionAmount": "83",
+      "validFrom": "1969-08-29T09:17:55.0Z",
+      "startDate": "1893-08-15T04:35:52.0Z",
+      "endDate": "1943-01-14T01:16:14.0Z",
+      "isExisting": "0",
+      "obisNumber": "nostrud Duis Lorem id",
+      "requestReason": "INTERIM_READING",
       "generalInformation": {
-        "info1": "et ex eu sunt laboris",
-        "info2": "eu",
-        "info3": "nostrud",
-        "info4": "ipsum sint velit dolor commodo",
-        "info5": "Ut occaecat cillum"
+        "info1": "ea dolor sit sint elit",
+        "info2": "ut fugiat do irure id",
+        "info3": "do aliquip mollit sed",
+        "info4": "in Duis ad",
+        "info5": "exercitation aliquip amet culpa"
       },
       "discrepancyInfo": {
-        "discrepancy1": "esse ad ipsum et",
-        "discrepancy2": "eu laborum",
+        "discrepancy1": "id aute tempor mollit",
+        "discrepancy2": "in non tempor",
         "discrepancy3": "dolor",
-        "discrepancy4": "commodo sed",
-        "discrepancy5": "Excepteur dolore dolore"
+        "discrepancy4": "nostrud ipsum",
+        "discrepancy5": "pariatur dolore"
       },
-      "definitionType": "SWITCHING_TIME",
-      "locationId": "35680276379",
-      "meterRegister": 7,
+      "definitionType": "LOAD_CURVES",
+      "locationId": "47864748907",
+      "meterRegister": 2,
       "endpointAddress": {
-        "gwaManagement": "officia ullamco enim",
-        "gwaAdminService": "deserunt amet",
-        "gwaNTP": "dolore tempor sunt fugiat"
+        "gwaManagement": "officia qui dolor",
+        "gwaAdminService": "dolore officia cillum fugiat aliquip",
+        "gwaNTP": "ullamco culpa elit pariatur"
       },
       "certificateInformation": {
-        "uriSubCA": "consectetur reprehenderit ex cillum laborum",
-        "commonNameCertificate": "laborum occaecat",
-        "serialNumberCertificate": "pariatur Duis nostrud"
+        "uriSubCA": "velit",
+        "commonNameCertificate": "occaecat",
+        "serialNumberCertificate": "aliquip Ut in"
       },
-      "wakeUpPort": "ut amet",
-      "apnCommunicationData": "nulla minim laboris nostrud"
+      "wakeUpPort": "veniam ullamco ea non elit",
+      "apnCommunicationData": "Duis nisi eu ut elit"
     }
   ],
   "remarks": [
-    "Vitae iusto dolorem cumque maxime."
+    "Ut amet sint maiores iure."
   ]
 }

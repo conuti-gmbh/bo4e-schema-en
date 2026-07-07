@@ -25,6 +25,10 @@
         "string.numeric": 2
       }
     },
+    "validFrom": {
+      "type": "string",
+      "format": "date-time"
+    },
     "startDate": {
       "type": "string",
       "format": "date-time"
