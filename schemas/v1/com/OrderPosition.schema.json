@@ -81,6 +81,9 @@
     },
     "apnCommunicationData": {
       "type": "string"
+    },
+    "apnCommunicationDataAccessParameters": {
+      "$ref": "../com/ApnCommunicationDataAccessParameters.schema.json"
     }
   }
 }

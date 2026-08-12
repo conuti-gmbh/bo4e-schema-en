@@ -63,3 +63,6 @@ components:
         apnCommunicationData:
           $ref: >-
             ../fields/com/OrderPosition/apnCommunicationData.yaml#/components/schemas/apnCommunicationData
+        apnCommunicationDataAccessParameters:
+          $ref: >-
+            ../fields/com/OrderPosition/apnCommunicationDataAccessParameters.yaml#/components/schemas/apnCommunicationDataAccessParameters
