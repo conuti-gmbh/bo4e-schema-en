@@ -63,6 +63,33 @@
     },
     "locationType": {
       "$ref": "../enum/LocationType.schema.json"
+    },
+    "calculationFormula": {
+      "type": "string"
+    },
+    "dataQuality": {
+      "$ref": "../enum/DataQuality.schema.json"
+    },
+    "parameterIds": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "faker": {
+          "lorem.sentence": 5
+        }
+      }
+    },
+    "allocationFactors": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/AllocationFactor.schema.json"
+      }
     }
   },
   "required": [

@@ -64,8 +64,17 @@
         "string.numeric": 33
       }
     },
+    "marketLocationId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
+    },
     "energyFlowDirection": {
       "$ref": "../enum/EnergyDirection.schema.json"
+    },
+    "designationOperands": {
+      "type": "string"
     }
   }
 }

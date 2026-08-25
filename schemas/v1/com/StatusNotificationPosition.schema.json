@@ -41,8 +41,14 @@
     "errorDescription": {
       "$ref": "../com/ErrorDescription.schema.json"
     },
+    "errorDescriptionText": {
+      "type": "string"
+    },
     "justification": {
       "$ref": "../com/Justification.schema.json"
+    },
+    "justificationText": {
+      "type": "string"
     },
     "locationId": {
       "type": "string",
@@ -58,6 +64,9 @@
     },
     "generalInformation": {
       "$ref": "../com/GeneralInformation.schema.json"
+    },
+    "generalInformationText": {
+      "type": "string"
     },
     "statusChangeTimestamp": {
       "type": "string",

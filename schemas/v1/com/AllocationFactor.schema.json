@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/AllocationFactor.schema.json",
+  "title": "AllocationFactor",
+  "type": "object",
+  "properties": {
+    "designationAllocationFactor": {
+      "type": "string"
+    },
+    "factor": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
+    }
+  }
+}

@@ -1,51 +1,66 @@
 {
   "boType": "CALCULATION_FORMULA",
   "structureVersion": "1",
-  "beginDate": "1933-10-18T04:21:37.0Z",
-  "necessity": "CALCULATION_FORMULA_MUST_BE_REQUESTED",
-  "deliveryDirection": "FEED_IN",
-  "calculationStepId": 6,
+  "beginDate": "1948-04-19T11:43:05.0Z",
+  "necessity": "CALCULATION_FORMULA_NECESSARY",
+  "deliveryDirection": "FEED_OUT",
+  "calculationStepId": 9,
   "calculationStep": {
-    "calculationStepComponentId": 1,
+    "calculationStepComponentId": 4,
     "referenceCalculationStepId": 10,
     "operation": "DIVIDEND",
-    "lossFactorTransformer": 8.25,
-    "lossFactorLine": 7,
-    "allocationFactorEnergyQuantity": 3.75,
-    "meteringLocationId": "361825053924420497873215456044484",
-    "energyFlowDirection": "FEED_IN"
+    "lossFactorTransformer": 5.75,
+    "lossFactorLine": 6.5,
+    "allocationFactorEnergyQuantity": 2.25,
+    "meteringLocationId": "941079849024069214147529331116456",
+    "marketLocationId": "77877826985",
+    "energyFlowDirection": "FEED_OUT",
+    "designationOperands": "Excepteur Ut"
   },
   "calculationSteps": [
     {
-      "calculationStepComponentId": 8,
+      "calculationStepComponentId": 10,
       "referenceCalculationStepId": 6,
       "operation": "ADDITION",
-      "lossFactorTransformer": 1.5,
-      "lossFactorLine": 7.75,
-      "allocationFactorEnergyQuantity": 3,
-      "meteringLocationId": "416125881795939398543716110602777",
-      "energyFlowDirection": "FEED_OUT"
+      "lossFactorTransformer": 4.75,
+      "lossFactorLine": 4.5,
+      "allocationFactorEnergyQuantity": 6.5,
+      "meteringLocationId": "803511477262228800297852293673822",
+      "marketLocationId": "01967071514",
+      "energyFlowDirection": "FEED_IN",
+      "designationOperands": "dolore culpa deserunt Excepteur consectetur"
     }
   ],
   "purposeOfUse": [
     {
-      "marketRole": "BKV",
+      "marketRole": "BIKO",
       "purpose": [
-        "NO_PURPOSE_OF_USE_PRESENT"
+        "BALANCING_GROUP_BILLING"
       ]
     }
   ],
   "validityPeriod": {
-    "timeUnit": "MONTH",
+    "timeUnit": "HALF_YEAR",
     "duration": 8,
-    "startDate": "1930-08-10T20:23:38.0Z",
-    "endDate": "1922-07-24T02:35:41.0Z",
-    "unit": "QUARTER",
-    "readingPeriod": "123888",
-    "billingPeriod": "428599",
-    "periodText": "eiusmod",
-    "periodId": 1
+    "startDate": "1938-04-14T01:01:49.0Z",
+    "endDate": "1959-11-07T07:35:27.0Z",
+    "unit": "HOUR",
+    "readingPeriod": "320943",
+    "billingPeriod": "327341",
+    "periodText": "incididunt occaecat",
+    "periodId": 3
   },
-  "locationId": "22758919295",
-  "locationType": "TRANCHE"
+  "locationId": "96207966956",
+  "locationType": "MELO",
+  "calculationFormula": "officia qui Excepteur sed",
+  "dataQuality": "DATA_PRESENT_IN_SYSTEM",
+  "parameterIds": [
+    "Non distinctio cupiditate facilis animi."
+  ],
+  "allocationFactors": [
+    {
+      "designationAllocationFactor": "cillum mollit sint in tempor",
+      "factor": 5.75
+    }
+  ]
 }

@@ -1,82 +1,85 @@
 {
   "boType": "STATUS_NOTIFICATION",
   "structureVersion": "1",
-  "statusObject": "FIRST_INSTALLATION_IMS",
-  "statusOccasion": "PLAUSIBLE_DUE_TO_CUSTOMER_HINT",
-  "orderStatus": "ENFG_RAIL_TRANSPORT",
+  "statusObject": "FIRST_INSTALLATION_MME",
+  "statusOccasion": "REAL_METER_OVERFLOW_VERIFIED",
+  "orderStatus": "FAULTY",
   "positionData": [
     {
-      "positionNumber": 2,
-      "processingDate": "1930-06-28T18:56:23.0Z",
-      "usageFrom": "1892-05-19T15:48:31.0Z",
-      "usageTo": "1931-06-07T02:30:05.0Z",
-      "endDate": "1892-05-23T01:53:51.0Z",
-      "orderStatus": "DETECTED_FAULT",
-      "statusOccasion": "COMMUNICATION_FAULT",
-      "responseStatus": "voluptate qui nostrud",
+      "positionNumber": 3,
+      "processingDate": "1931-04-15T11:40:23.0Z",
+      "usageFrom": "1948-12-15T11:52:07.0Z",
+      "usageTo": "1890-05-22T07:02:29.0Z",
+      "endDate": "1903-07-02T09:42:47.0Z",
+      "orderStatus": "SUCCESSFUL",
+      "statusOccasion": "FAULT_RESOLUTION_NOT_POSSIBLE",
+      "responseStatus": "minim qui nisi amet irure",
       "errorDescription": {
-        "description1": "dolor quis exercitation laboris",
-        "description2": "ex adipisicing Ut labore Lorem",
-        "description3": "commodo",
-        "description4": "voluptate in esse ullamco",
-        "description5": "pariatur et"
+        "description1": "voluptate mollit ad",
+        "description2": "cupidatat minim nulla in",
+        "description3": "ut irure",
+        "description4": "exercitation dolor",
+        "description5": "aute quis culpa deserunt ex"
       },
+      "errorDescriptionText": "officia enim",
       "justification": {
-        "justification1": "officia",
-        "justification2": "voluptate laborum eiusmod",
-        "justification3": "sed",
-        "justification4": "incididunt tempor id",
-        "justification5": "Duis fugiat aute"
+        "justification1": "non",
+        "justification2": "ut",
+        "justification3": "tempor",
+        "justification4": "dolore",
+        "justification5": "veniam"
       },
-      "locationId": "14054978258",
-      "referenceMelo": "734715241153829252871513536561526",
+      "justificationText": "dolore reprehenderit",
+      "locationId": "23942335800",
+      "referenceMelo": "636574149458394154502050168572819",
       "generalInformation": {
-        "info1": "voluptate id aliquip velit culpa",
-        "info2": "fugiat ut nostrud laboris",
-        "info3": "ex sint",
-        "info4": "esse cupidatat",
-        "info5": "do aute"
+        "info1": "ut ex",
+        "info2": "ut fugiat cillum labore",
+        "info3": "labore",
+        "info4": "ea veniam qui nostrud voluptate",
+        "info5": "esse ut ipsum in in"
       },
-      "statusChangeTimestamp": "1909-04-14T21:05:34.0Z",
+      "generalInformationText": "eiusmod proident veniam nulla do",
+      "statusChangeTimestamp": "1905-10-24T14:01:54.0Z",
       "orderStatusList": [
-        "TERMINATED"
+        "ENFG_ELECTRICITY_COST_INTENSIVE_COMPANIES"
       ],
-      "locationType": "MELO",
-      "statusObject": "LOCK",
-      "responseStatusCodeList": "et exercitation magna sit",
-      "processReferenceNumber": "Lorem cupidatat veniam",
-      "notificationNumber": "amet",
-      "requestReferenceNumber": "minim aliquip ea Lorem nisi",
-      "completionDate": "1945-01-05T10:10:01.0Z",
-      "deliveryDate": "aliqua laborum labore amet",
-      "shipmentPosition": 37423242,
-      "validFrom": "1955-10-25T10:49:24.0Z",
-      "referenceMalo": "cillum est ex sed",
-      "referencePriceKeyMaster": "Lorem",
-      "referenceArticleId": "in labore occaecat",
-      "startDate": "1927-07-09T23:15:45.0Z",
-      "offerNumber": "reprehenderit ut enim ad Ut",
-      "inquiryReference": "anim ullamco nulla eu occaecat",
-      "contractEnd": "1962-02-20T05:43:21.0Z",
+      "locationType": "MALO",
+      "statusObject": "FIRST_INSTALLATION_MME",
+      "responseStatusCodeList": "sed dolor voluptate ex",
+      "processReferenceNumber": "Excepteur cillum eu sit",
+      "notificationNumber": "quis Ut minim ea deserunt",
+      "requestReferenceNumber": "enim esse mollit velit tempor",
+      "completionDate": "1928-03-12T09:14:13.0Z",
+      "deliveryDate": "exercitation in deserunt",
+      "shipmentPosition": -25947653,
+      "validFrom": "1953-01-07T12:06:21.0Z",
+      "referenceMalo": "cupidatat adipisicing",
+      "referencePriceKeyMaster": "culpa voluptate aute",
+      "referenceArticleId": "tempor officia ullamco",
+      "startDate": "1910-02-21T23:21:05.0Z",
+      "offerNumber": "nulla",
+      "inquiryReference": "irure dolore pariatur enim id",
+      "contractEnd": "1933-09-23T05:52:15.0Z",
       "senderView": [
         {
-          "usageFrom": "1898-08-01T06:16:18.0Z",
-          "usageTo": "1930-07-05T01:03:47.0Z",
-          "servicePeriod": "ad tempor aliquip do Excepteur",
+          "usageFrom": "1945-10-27T05:27:25.0Z",
+          "usageTo": "1954-06-07T22:13:06.0Z",
+          "servicePeriod": "proident culpa sit qui aute",
           "amount": {
-            "value": 3.75,
-            "unit": "HOUR"
+            "value": 9.75,
+            "unit": "W"
           },
-          "tariffLevel": "TARIFF_LEVEL_4"
+          "tariffLevel": "TARIFF_LEVEL_9"
         }
       ],
-      "validityTimespan": "irure ipsum commodo nisi consequat",
+      "validityTimespan": "eiusmod dolor",
       "privilegedEnergyQuantity": {
-        "usageFrom": "1908-08-01T18:47:33.0Z",
-        "usageTo": "1931-09-24T09:34:29.0Z",
+        "usageFrom": "1890-06-18T18:50:14.0Z",
+        "usageTo": "1898-04-23T23:13:50.0Z",
         "amount": {
-          "value": 3,
-          "unit": "KVAR"
+          "value": 1.25,
+          "unit": "YEAR"
         }
       }
     }
