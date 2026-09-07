@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/bo/SumTimeSeries.schema.json",
+  "title": "SumTimeSeries",
+  "type": "object",
+  "properties": {
+    "boType": {
+      "$ref": "../enum/BOType.schema.json",
+      "default": "SUM_TIME_SERIES"
+    },
+    "structureVersion": {
+      "type": "string",
+      "default": "1"
+    },
+    "meteringPointId": {
+      "type": "string"
+    },
+    "timeSeriesVersion": {
+      "type": "string"
+    },
+    "balancingGroup": {
+      "type": "string"
+    },
+    "balancingGroupTo": {
+      "type": "string"
+    },
+    "balancingGroupFrom": {
+      "type": "string"
+    },
+    "balancedEnergyQuantity": {
+      "$ref": "../com/Quantity.schema.json"
+    },
+    "balancedOutageQuantity": {
+      "$ref": "../com/Quantity.schema.json"
+    },
+    "balancingArea": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "designation": {
+      "$ref": "../enum/Designation.schema.json"
+    },
+    "responsibleMarketRole": {
+      "$ref": "../enum/MarketRole.schema.json"
+    },
+    "controlZone": {
+      "type": "string"
+    },
+    "timeSeriesType": {
+      "$ref": "../enum/TimeSeriesType.schema.json"
+    },
+    "referencePeriod": {
+      "$ref": "../enum/ReferencePeriod.schema.json"
+    },
+    "gridLevel": {
+      "$ref": "../enum/GridLevel.schema.json"
+    },
+    "transformation": {
+      "$ref": "../enum/GridLevel.schema.json"
+    },
+    "dataStatusTimeSeries": {
+      "$ref": "../enum/DataStatusTimeSeries.schema.json"
+    },
+    "assignmentRule": {
+      "$ref": "../enum/AssignmentRule.schema.json"
+    },
+    "timeSeriesProduct": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/TimeSeriesProduct.schema.json"
+      }
+    }
+  },
+  "required": [
+    "boType",
+    "structureVersion"
+  ]
+}

@@ -1,48 +1,48 @@
 {
   "boType": "TECHNICAL_RESOURCE",
   "structureVersion": "1",
-  "resourceId": "92936954258",
-  "sector": "ELECTRICITY",
+  "resourceId": "80606526700",
+  "sector": "GAS",
   "locationAssignment": "UNCHANGED",
-  "referenceMeteringLocation": "689042015876262405303025848865316",
-  "referenceMarketLocation": "55527976665",
-  "referenceGridLocation": "45933739038",
-  "referenceControllableResource": "27716532670",
-  "referenceTranche": "04512929835",
+  "referenceMeteringLocation": "801760886048330825323994682217373",
+  "referenceMarketLocation": "96065891606",
+  "referenceGridLocation": "09647896270",
+  "referenceControllableResource": "92345094912",
+  "referenceTranche": "87691273381",
   "ratedPower": {
-    "intake": 11,
-    "levy": 19.5
+    "intake": 25.5,
+    "levy": 18
   },
-  "storageCapacity": 36.25,
+  "storageCapacity": 34.75,
   "consumptionType": [
-    "WK"
+    "KL"
   ],
-  "heatUsage": "HEAT_PUMP",
+  "heatUsage": "HEAT_PUMP_HEATING_COOLING",
   "typeElectricMobility": "WB",
-  "generationType": "COAL",
-  "storageType": "OTHER_STORAGE_TYPE",
+  "generationType": "WIND",
+  "storageType": "BATTERY_STORAGE",
   "enwg": false,
   "commissioningDate": "COMMISSIONING_BEFORE_2024",
-  "classification": "CHANGE_OPTION_ONCE_STILL_POSSIBLE",
+  "classification": "CHANGE_WAS_CARRIED_OUT",
   "additionalFacility": false,
-  "kind": "ELECTRICITY_GENERATION",
-  "dataQuality": "DATA_PRESENT_IN_SYSTEM",
+  "kind": "ELECTRICITY_CONSUMPTION",
+  "dataQuality": "INFORMATIVE_DATA",
   "validityPeriod": {
-    "timeUnit": "HALF_YEAR",
-    "duration": 0,
-    "startDate": "1956-04-15T04:49:03.0Z",
-    "endDate": "1919-06-30T04:03:23.0Z",
-    "unit": "YEAR",
-    "readingPeriod": "747242",
-    "billingPeriod": "703637",
-    "periodText": "est velit non laborum id",
-    "periodId": 8
+    "timeUnit": "MINUTE",
+    "duration": 8,
+    "startDate": "1897-11-26T12:55:13.0Z",
+    "endDate": "1915-03-16T05:21:01.0Z",
+    "unit": "DAY",
+    "readingPeriod": "228102",
+    "billingPeriod": "937257",
+    "periodText": "est",
+    "periodId": 2
   },
   "requiredProducts": [
     {
-      "productCode": "CODE_000000",
-      "productAttributeCode": "CODE_001100",
-      "valueDetails": "542038"
+      "productCode": "CODE_101111",
+      "productAttributeCode": "CODE_000010",
+      "valueDetails": "897447"
     }
   ],
   "remoteControllability": false,

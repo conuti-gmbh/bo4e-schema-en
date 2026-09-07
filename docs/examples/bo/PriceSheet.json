@@ -1,75 +1,75 @@
 {
   "boType": "PRICE_SHEET",
   "structureVersion": "1",
-  "designation": "aliquip Lorem dolor",
+  "designation": "ullamco mollit",
   "validity": {
-    "timeUnit": "MINUTE",
-    "duration": 5,
-    "startDate": "1920-09-30T06:31:21.0Z",
-    "endDate": "1958-04-05T17:02:23.0Z",
-    "unit": "YEAR",
-    "readingPeriod": "522358",
-    "billingPeriod": "017035",
-    "periodText": "non sint sed",
-    "periodId": 3
+    "timeUnit": "YEAR",
+    "duration": 0,
+    "startDate": "1897-10-19T08:37:52.0Z",
+    "endDate": "1919-09-26T02:57:58.0Z",
+    "unit": "WEEK",
+    "readingPeriod": "402540",
+    "billingPeriod": "718500",
+    "periodText": "minim officia quis dolore",
+    "periodId": 6
   },
   "priceStatus": "FINAL",
-  "sector": "WATER",
-  "priceGridOperatorCodeNumber": "velit",
-  "balancingDate": "1911-12-11T01:20:02.0Z",
-  "controlZone": "laborum aute veniam",
-  "performanceType": "METERING_SERVICE",
+  "sector": "WASTEWATER",
+  "priceGridOperatorCodeNumber": "et",
+  "balancingDate": "1938-09-26T08:18:11.0Z",
+  "controlZone": "ad proident Lorem do",
+  "performanceType": "BASE_PRICE",
   "notUsed": true,
   "pricePositions": [
     {
-      "calculationMethod": "SIGMOID",
-      "performanceType": "BALANCING_ENERGY_LEVY",
-      "serviceDesignation": "POG_CONSUMPTION_IMS_4K_TO_6K",
-      "priceUnit": "CT",
-      "referenceQuantity": "PERCENT",
-      "timeBasis": "WEEK",
+      "calculationMethod": "PRE_ZONES_BASE_PRICE",
+      "performanceType": "LOCKING",
+      "serviceDesignation": "POG_GENERATION_IMS_OPTIONAL",
+      "priceUnit": "EUR",
+      "referenceQuantity": "MW",
+      "timeBasis": "QUARTER",
       "tariffTime": "TZ_NT",
-      "bdewArticleNumber": "RESERVE_GRID_CAPACITY",
-      "zoningSize": "ACTIVE_ENERGY_THERMAL",
-      "priceKeyMaster": "anim sed elit officia cillum",
-      "positionNumber": 3,
-      "meteringLevel": "MSP_NSP_UMSP",
-      "description": "Excepteur reprehenderit eiusmod aute",
-      "descriptionFormat": "PARTIALLY_STRUCTURED",
+      "bdewArticleNumber": "BALANCING_ENERGY_WORK",
+      "zoningSize": "USAGE_DURATION",
+      "priceKeyMaster": "quis aute consectetur culpa",
+      "positionNumber": 8,
+      "meteringLevel": "HSP_MSP_UMSP",
+      "description": "officia veniam",
+      "descriptionFormat": "CODE",
       "processingPeriod": {
-        "timeUnit": "MINUTE",
-        "duration": 10,
-        "startDate": "1968-10-05T18:38:18.0Z",
-        "endDate": "1930-11-25T22:27:31.0Z",
-        "unit": "DAY",
-        "readingPeriod": "119617",
-        "billingPeriod": "611513",
-        "periodText": "Excepteur do",
-        "periodId": 6
+        "timeUnit": "SECOND",
+        "duration": 2,
+        "startDate": "1930-10-07T14:14:33.0Z",
+        "endDate": "1964-08-18T18:54:38.0Z",
+        "unit": "MONTH",
+        "readingPeriod": "703786",
+        "billingPeriod": "896452",
+        "periodText": "veniam Duis dolor Excepteur",
+        "periodId": 8
       },
-      "articleId": "3284452380",
+      "articleId": "8429827523",
       "surchargesDiscounts": [
         {
-          "designation": "laboris ad ex",
-          "description": "commodo Lorem reprehenderit sed",
+          "designation": "do tempor commodo",
+          "description": "nostrud occaecat",
           "surchargeDiscountType": "ABSOLUTE",
-          "surchargeDiscountValue": 4.5,
-          "surchargeDiscountCurrency": "CT"
+          "surchargeDiscountValue": 3.75,
+          "surchargeDiscountCurrency": "EUR"
         }
       ],
       "priceSteps": [
         {
-          "unitPrice": 10,
-          "timeBasis": "QUARTER",
-          "tierLimitFrom": 9,
-          "tierLimitTo": 8.5,
+          "unitPrice": 9.5,
+          "timeBasis": "YEAR",
+          "tierLimitFrom": 1,
+          "tierLimitTo": 9,
           "sigmoidParameter": {
-            "A": 1,
-            "B": 8.75,
-            "C": 8,
-            "D": 2
+            "A": 3,
+            "B": 1.75,
+            "C": 1.25,
+            "D": 1.75
           },
-          "unit": "VARH"
+          "unit": "PERCENT"
         }
       ]
     }

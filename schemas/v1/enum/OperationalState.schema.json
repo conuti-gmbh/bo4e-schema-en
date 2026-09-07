@@ -6,6 +6,7 @@
   "enum": [
     "LOCKED_NO_UNLOCK",
     "LOCKED",
-    "NORMAL_OPERATION"
+    "NORMAL_OPERATION",
+    "OUTSIDE_NORMAL_OPERATION"
   ]
 }

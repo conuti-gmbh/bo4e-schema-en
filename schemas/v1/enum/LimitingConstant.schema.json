@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/LimitingConstant.schema.json",
+  "title": "LimitingConstant",
+  "type": "string",
+  "enum": [
+    "LIMITING_CONSTANT_0",
+    "LIMITING_CONSTANT_1"
+  ]
+}

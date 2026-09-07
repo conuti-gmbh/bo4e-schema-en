@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/ComputationMethod.schema.json",
+  "title": "ComputationMethod",
+  "type": "string",
+  "enum": [
+    "24H_AVERAGE",
+    "EQUIVALENT_DAILY_AVERAGE_TEMPERATURE_PROVIDED_BY_SUPPLIER",
+    "EQUIVALENT_DAILY_AVERAGE_TEMPERATURE"
+  ]
+}

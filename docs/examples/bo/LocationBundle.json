@@ -1,35 +1,35 @@
 {
   "boType": "LOCATION_BUNDLE",
   "structureVersion": "1",
-  "locationBundleStructureId": "61280835795",
-  "locationBundleNumber": -28443244,
+  "locationBundleStructureId": "03606523785",
+  "locationBundleNumber": 80912307,
   "standardizedLocationBundleStructure": false,
-  "dataQuality": "INFORMATIVE_DATA",
+  "dataQuality": "NO_DATA_EXPECTED",
   "validityPeriod": {
-    "timeUnit": "MINUTE",
+    "timeUnit": "QUARTER_HOUR",
     "duration": 0,
-    "startDate": "1898-07-15T20:15:13.0Z",
-    "endDate": "1894-10-10T23:49:05.0Z",
-    "unit": "QUARTER_HOUR",
-    "readingPeriod": "155652",
-    "billingPeriod": "229849",
-    "periodText": "Lorem",
-    "periodId": 4
+    "startDate": "1895-09-01T16:37:08.0Z",
+    "endDate": "1903-12-14T22:54:38.0Z",
+    "unit": "HOUR",
+    "readingPeriod": "972638",
+    "billingPeriod": "174399",
+    "periodText": "ullamco",
+    "periodId": 9
   },
   "assignmentObjectCode": [
     {
-      "referenceLocationType": "TRANCHE",
-      "referenceLocationId": "31689506836",
-      "upstreamLocationType": "TECHNICAL_RESOURCE",
-      "upstreamLocationId": "97699041667",
+      "referenceLocationType": "MALO",
+      "referenceLocationId": "38328496354",
+      "upstreamLocationType": "MALO",
+      "upstreamLocationId": "60214676319",
       "objectCode": [
         {
-          "objectCode": "CODE_000011",
-          "locationBundleNumber": 3
+          "objectCode": "CODE_101011",
+          "locationBundleNumber": 10
         }
       ],
       "referenceMarketLocationTechnicalResource": [
-        "02086643798"
+        "82683650808"
       ]
     }
   ]

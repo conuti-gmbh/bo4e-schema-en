@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/TimeSeriesProduct.schema.json",
+  "title": "TimeSeriesProduct",
+  "type": "object",
+  "properties": {
+    "identification": {
+      "type": "string"
+    },
+    "correctionFactor": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
+    },
+    "energyQuantity": {
+      "$ref": "../com/Consumption.schema.json"
+    },
+    "annualConsumptionForecast": {
+      "$ref": "../com/Quantity.schema.json"
+    }
+  }
+}

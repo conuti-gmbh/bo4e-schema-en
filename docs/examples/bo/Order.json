@@ -1,110 +1,110 @@
 {
   "boType": "ORDER",
   "structureVersion": "1",
-  "executionDate": "1926-09-03T16:35:43.0Z",
-  "completionDate": "1903-05-11T08:31:48.0Z",
-  "startDate": "1955-08-12T10:09:24.0Z",
-  "endDate": "1910-01-20T23:45:10.0Z",
-  "sector": "ELECTRICITY",
+  "executionDate": "1947-07-20T22:49:48.0Z",
+  "completionDate": "1911-05-17T17:01:50.0Z",
+  "startDate": "1943-09-05T10:09:12.0Z",
+  "endDate": "1910-12-04T02:41:35.0Z",
+  "sector": "WASTEWATER",
   "deliveryAddress": {
-    "postalCode": "13190",
-    "city": "Süd Letizia",
-    "street": "Auf der Weide",
-    "houseNumber": "32",
-    "poBox": "esse do id eu sit",
-    "addressSupplement": "laborum nisi quis culpa sunt",
-    "coSupplement": "et elit",
-    "countryCode": "KG",
-    "district": "Ludwigland",
+    "postalCode": "08072",
+    "city": "Steffenstadt",
+    "street": "Kreuzkamp",
+    "houseNumber": "90c",
+    "poBox": "reprehenderit magna commodo anim",
+    "addressSupplement": "est officia dolor Lorem",
+    "coSupplement": "enim dolore aute",
+    "countryCode": "CM",
+    "district": "Ost Tyronland",
     "additionalInformation": {
-      "supplement1": "nisi elit occaecat pariatur deserunt",
-      "supplement2": "et nostrud fugiat",
-      "supplement3": "sint sit",
-      "supplement4": "elit irure reprehenderit Ut voluptate",
-      "supplement5": "cillum"
+      "supplement1": "nostrud Ut deserunt",
+      "supplement2": "consectetur enim cupidatat id",
+      "supplement3": "dolor",
+      "supplement4": "ullamco eu irure",
+      "supplement5": "anim consectetur"
     }
   },
-  "marketLocationId": "52879003883",
+  "marketLocationId": "01319028741",
   "minimumPrice": {
-    "value": 6.75,
-    "amount": 28418016,
-    "minimumAmount": 9,
-    "maximumAmount": 7,
+    "value": 8.75,
+    "amount": 7929308,
+    "minimumAmount": 4,
+    "maximumAmount": 6,
     "unit": "CT",
-    "referenceValue": "MWH",
+    "referenceValue": "KWT",
     "status": "FINAL",
-    "priceType": "OPERATING_PRICE"
+    "priceType": "SETUP_PRICE"
   },
   "maximumPrice": {
-    "value": 8.25,
-    "amount": -61580993,
+    "value": 7.25,
+    "amount": 66277697,
     "minimumAmount": 2,
-    "maximumAmount": 8,
-    "unit": "CT",
-    "referenceValue": "WH",
+    "maximumAmount": 7,
+    "unit": "EUR",
+    "referenceValue": "VARH",
     "status": "FINAL",
-    "priceType": "TRANSACTION_PRICE"
+    "priceType": "SETUP_PRICE"
   },
   "energyDirection": "FEED_OUT",
-  "calculationPrice": 5.25,
-  "totalSum": 15.25,
-  "postponedDeregistrationDate": "1911-08-11T05:32:56.0Z",
-  "resolutionTimestamp": "1956-12-02T22:19:38.0Z",
+  "calculationPrice": 5.75,
+  "totalSum": 10.5,
+  "postponedDeregistrationDate": "1960-11-22T09:20:56.0Z",
+  "resolutionTimestamp": "1943-09-20T01:21:39.0Z",
   "deliveryAddressOldDevices": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
-    "salutation": "Prof. Dr.",
-    "name1": "Reus",
-    "name2": "Logan",
-    "name3": "exercitation",
-    "name4": "et mollit in",
-    "vatId": "DE101101111",
-    "creditorId": "277766",
-    "emailAddress": "Milo_Siemon93@yahoo.com",
-    "website": "https://schattig-blume.name",
-    "commercialClassification": false,
-    "commercialRegisterNumber": "487219",
-    "courtOfRegistration": "Neu Katrin",
+    "salutation": "Dr.",
+    "name1": "Bloch",
+    "name2": "Gregor",
+    "name3": "cillum adipisicing nostrud nisi in",
+    "name4": "consectetur minim exercitation laboris dolore",
+    "vatId": "DE000011111",
+    "creditorId": "196198",
+    "emailAddress": "Ann.Beckmann18@yahoo.com",
+    "website": "https://wahrhaftig-fisch.ch",
+    "commercialClassification": true,
+    "commercialRegisterNumber": "176079",
+    "courtOfRegistration": "Spöttelstadt",
     "partnerAddress": {
-      "postalCode": "95686",
-      "city": "Bad Amir",
-      "street": "Erich-Klausener-Str.",
-      "houseNumber": "817",
-      "poBox": "tempor Duis laborum nostrud culpa",
-      "addressSupplement": "Lorem non ullamco incididunt",
-      "coSupplement": "id dolore",
-      "countryCode": "SI",
-      "district": "Ferdinandscheid",
+      "postalCode": "84584",
+      "city": "Süd Skyland",
+      "street": "Rudolf-Stracke-Str.",
+      "houseNumber": "41a",
+      "poBox": "nisi et Lorem",
+      "addressSupplement": "Excepteur ex consequat aute",
+      "coSupplement": "sit proident exercitation",
+      "countryCode": "LS",
+      "district": "Kutscherauerland",
       "additionalInformation": {
-        "supplement1": "qui aliquip",
-        "supplement2": "anim nulla in sed",
-        "supplement3": "in",
-        "supplement4": "labore",
-        "supplement5": "ipsum in proident"
+        "supplement1": "Lorem",
+        "supplement2": "adipisicing quis cillum eiusmod",
+        "supplement3": "aliqua sunt Lorem",
+        "supplement4": "enim proident reprehenderit elit incididunt",
+        "supplement5": "Lorem esse"
       }
     },
-    "externalCustomerNumberSupplier": "336497",
+    "externalCustomerNumberSupplier": "212783",
     "externalReferences": [
       {
-        "externalReferenceName": "Kundennummer beim Altlieferanten",
-        "externalReferenceValue": "8442481687"
+        "externalReferenceName": "Kundennummer beim Lieferanten",
+        "externalReferenceValue": "8474264247"
       }
     ],
     "businessPartnerRole": [
-      "CUSTOMER"
+      "PROPERTY_MANAGER"
     ],
     "contactChannel": [
-      "WRITTEN_LETTER"
+      "SMS"
     ],
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Auer",
-      "eMailAddress": "Catrin_Waschbusch@gmail.com",
+      "lastName": "Schley",
+      "eMailAddress": "Lisa.Moedl@hotmail.com",
       "phoneNumbers": [
         {
-          "numberType": "COLLECTIVE_FAX",
-          "phoneNumber": "+49-679-2771486"
+          "numberType": "MOBILE_NUMBER",
+          "phoneNumber": "+49-6086-39186684"
         }
       ]
     }
@@ -112,54 +112,54 @@
   "definitionType": "SWITCHING_TIME",
   "positionData": [
     {
-      "positionNumber": -88485610,
-      "offerPositionNumber": "840315",
-      "energyCapture": "CAPTURED_SEPARATELY",
-      "articleNumber": "MSB_INCLUDING_MEASUREMENT",
-      "positionAmount": "20",
-      "validFrom": "1924-08-30T03:03:19.0Z",
-      "startDate": "1932-06-19T12:48:21.0Z",
-      "endDate": "1943-07-14T12:56:42.0Z",
-      "isExisting": "3",
-      "obisNumber": "qui",
-      "requestReason": "CHANGE_IN_LOCATION_BUNDLE",
+      "positionNumber": -76638140,
+      "offerPositionNumber": "855525",
+      "energyCapture": "NOT_CAPTURED_SEPARATELY",
+      "articleNumber": "MORE_LESS_QUANTITIES",
+      "positionAmount": "93",
+      "validFrom": "1907-06-26T17:35:45.0Z",
+      "startDate": "1950-10-20T19:33:02.0Z",
+      "endDate": "1964-09-30T23:05:21.0Z",
+      "isExisting": "7",
+      "obisNumber": "sunt ut nulla quis est",
+      "requestReason": "CONFIGURATION_UNCHANGED",
       "generalInformation": {
-        "info1": "labore dolore in",
-        "info2": "deserunt irure proident",
-        "info3": "nulla velit ut in",
-        "info4": "sint minim",
-        "info5": "Ut voluptate exercitation ea culpa"
+        "info1": "et sunt laboris",
+        "info2": "aute dolore ut",
+        "info3": "minim dolore dolore in",
+        "info4": "nisi consectetur",
+        "info5": "ad ea cillum"
       },
       "discrepancyInfo": {
-        "discrepancy1": "nostrud",
-        "discrepancy2": "Excepteur cillum in nisi",
-        "discrepancy3": "anim tempor adipisicing",
-        "discrepancy4": "Duis in deserunt dolor cupidatat",
-        "discrepancy5": "culpa"
+        "discrepancy1": "adipisicing Duis cillum",
+        "discrepancy2": "tempor",
+        "discrepancy3": "laborum Ut aliqua sit proident",
+        "discrepancy4": "est consequat irure incididunt",
+        "discrepancy5": "fugiat mollit"
       },
-      "definitionType": "LOAD_CURVES",
-      "locationId": "44572168033",
-      "meterRegister": 4,
+      "definitionType": "SWITCHING_TIME",
+      "locationId": "18286931935",
+      "meterRegister": 10,
       "endpointAddress": {
-        "gwaManagement": "quis et dolor aute ut",
-        "gwaAdminService": "eu mollit pariatur amet",
-        "gwaNTP": "ipsum sed"
+        "gwaManagement": "nisi eu Lorem",
+        "gwaAdminService": "non aliquip nostrud quis sint",
+        "gwaNTP": "cillum"
       },
       "certificateInformation": {
-        "uriSubCA": "aliqua dolore dolor non ea",
-        "commonNameCertificate": "proident et",
-        "serialNumberCertificate": "est elit exercitation in"
+        "uriSubCA": "dolore mollit reprehenderit dolor",
+        "commonNameCertificate": "et non aute in",
+        "serialNumberCertificate": "elit laborum amet dolor"
       },
-      "wakeUpPort": "in anim Ut aliquip",
-      "apnCommunicationData": "sed laboris Excepteur eiusmod",
+      "wakeUpPort": "commodo mollit voluptate reprehenderit",
+      "apnCommunicationData": "laboris in",
       "apnCommunicationDataAccessParameters": {
-        "apnName": "qui",
-        "user": "qui sed occaecat",
-        "password": "cillum minim aliqua deserunt labore"
+        "apnName": "minim Excepteur in sint id",
+        "user": "incididunt ut",
+        "password": "sunt nisi ut"
       }
     }
   ],
   "remarks": [
-    "Commodi iure fugiat perferendis cupiditate."
+    "Tempore occaecati architecto blanditiis natus."
   ]
 }

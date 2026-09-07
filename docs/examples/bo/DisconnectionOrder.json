@@ -2,27 +2,27 @@
   "boType": "DISCONNECTION_ORDER",
   "structureVersion": "1",
   "meetingPoint": {
-    "postalCode": "10985",
-    "city": "Kaufmannburg",
-    "street": "Otto-Varnhagen-Str.",
-    "houseNumber": "20b",
-    "poBox": "quis",
-    "addressSupplement": "dolor laboris aliqua tempor",
-    "coSupplement": "anim dolor veniam velit ut",
-    "countryCode": "AE",
-    "district": "Bad Marcscheid",
+    "postalCode": "64677",
+    "city": "Neu Kira",
+    "street": "Regensburger Str.",
+    "houseNumber": "3",
+    "poBox": "qui exercitation laboris",
+    "addressSupplement": "sunt ex",
+    "coSupplement": "ipsum cillum sed",
+    "countryCode": "VU",
+    "district": "Wilhelmshaven",
     "additionalInformation": {
-      "supplement1": "in sed nisi in ut",
-      "supplement2": "laboris id",
-      "supplement3": "anim magna",
-      "supplement4": "elit sit in cupidatat sunt",
-      "supplement5": "cupidatat do"
+      "supplement1": "voluptate incididunt pariatur non do",
+      "supplement2": "sunt dolore",
+      "supplement3": "deserunt sed",
+      "supplement4": "sed nisi",
+      "supplement5": "ut nulla veniam"
     }
   },
-  "disconnectionOrderType": "LOCK",
-  "disconnectionOrderStatus": "ENFG_SHORE_POWER_FACILITIES",
-  "disconnectionOrderRejectionReason": "DUPLICATE",
+  "disconnectionOrderType": "UNLOCK",
+  "disconnectionOrderStatus": "AGREED",
+  "disconnectionOrderRejectionReason": "OTHER_ERROR",
   "disconnectionPreventionReason": "TECHNICAL_PREVENTION_REASON",
   "meterNumber": "ZAEHLER_111011",
-  "isOrderedByBailiff": true
+  "isOrderedByBailiff": false
 }

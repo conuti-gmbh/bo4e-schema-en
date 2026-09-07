@@ -51,6 +51,7 @@
     "CONTRACT",
     "BALANCING_GROUP",
     "USAGE_PERIOD",
-    "TARIFF_INFO"
+    "TARIFF_INFO",
+    "SUM_TIME_SERIES"
   ]
 }

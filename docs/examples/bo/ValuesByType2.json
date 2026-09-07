@@ -1,87 +1,87 @@
 {
   "boType": "VALUES_BY_TYPE2",
   "structureVersion": "1",
-  "configurationProduct": "proident aliquip occaecat laborum",
-  "meteringProduct": "laborum ut",
+  "configurationProduct": "velit consectetur culpa nisi",
+  "meteringProduct": "esse cupidatat minim",
   "targetAddress": {
-    "targetAddress1": "ea non in",
-    "targetAddress2": "nostrud elit deserunt magna amet",
-    "targetAddress3": "ut do elit nisi reprehenderit",
-    "targetAddress4": "laborum tempor sunt",
-    "targetAddress5": "ut"
+    "targetAddress1": "cupidatat ea",
+    "targetAddress2": "qui eiusmod quis Excepteur",
+    "targetAddress3": "culpa id proident",
+    "targetAddress4": "cupidatat eu incididunt sunt",
+    "targetAddress5": "veniam"
   },
   "issuer": {
-    "issuer1": "adipisicing sed do",
-    "issuer2": "laboris id cillum",
-    "issuer3": "reprehenderit nisi",
-    "issuer4": "magna sit commodo cillum",
-    "issuer5": "aliqua non"
+    "issuer1": "est dolor anim",
+    "issuer2": "nostrud dolor nisi nulla",
+    "issuer3": "esse elit Duis",
+    "issuer4": "sint aute",
+    "issuer5": "eu esse aute"
   },
   "certificateUser": {
-    "certificateUser1": "dolor amet in id",
-    "certificateUser2": "ut commodo irure nulla consectetur",
-    "certificateUser3": "dolore reprehenderit",
-    "certificateUser4": "in quis ullamco exercitation",
-    "certificateUser5": "tempor quis"
+    "certificateUser1": "amet quis",
+    "certificateUser2": "sed Lorem cillum dolore",
+    "certificateUser3": "velit",
+    "certificateUser4": "ullamco non consectetur pariatur est",
+    "certificateUser5": "qui in"
   },
   "configurationChangeOption": "REQUIRED",
   "thresholds": [
     {
-      "upperThreshold": 12.5,
-      "lowerThreshold": 6.5,
-      "configurationProduct": "KONF_0110"
+      "upperThreshold": 14.5,
+      "lowerThreshold": 3,
+      "configurationProduct": "KONF_0010"
     }
   ],
   "meterRegisters": [
     {
-      "meterRegisterId": "356684236",
-      "designation": "incididunt magna exercitation enim",
+      "meterRegisterId": "102690316",
+      "designation": "aliquip aliqua",
       "direction": "FEED_OUT",
-      "obisCode": "Ut",
-      "transformerFactor": 3,
-      "unit": "CUBIC_METER",
+      "obisCode": "esse Duis ut",
+      "transformerFactor": 4.5,
+      "unit": "HOUR",
       "offPeakCapable": "OFF_PEAK_CAPABLE",
       "consumptionType": [
         "SB"
       ],
       "interruptibility": "NUV",
-      "heatUsage": "HEAT_PUMP_HEATING_COOLING",
+      "heatUsage": "HEAT_PUMP_HEATING",
       "concessionFee": {
-        "rate": "TAS",
-        "costs": 83926380.55712283,
-        "category": "laboris sit in cillum ea"
+        "rate": "TKS",
+        "costs": -92514257.18452193,
+        "category": "aliquip laboris sed ipsum non"
       },
-      "taxExempt": false,
-      "integerDigits": 4,
-      "decimalPlaces": 9,
+      "taxExempt": true,
+      "integerDigits": 9,
+      "decimalPlaces": 8,
       "billingRelevant": false,
-      "numberOfReadings": 9,
+      "numberOfReadings": 2,
       "meteringTimes": {
-        "register": "nostrud",
-        "meteringTimeDefinition": "id culpa eu ipsum",
+        "register": "sint quis sunt",
+        "meteringTimeDefinition": "ea amet",
         "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
       },
-      "configuration": "consequat tempor laborum",
-      "meteringProduct": "esse ut",
+      "configuration": "Ut irure",
+      "meteringProduct": "ad dolor",
       "valueGranularity": "MONTHLY",
       "necessitySecondMeasurement": "NOT_PRESENT",
       "valueTransmissionPurpose": "PRESENT",
       "typeElectricMobility": "WB",
-      "configurationProduct": "Lorem ut",
-      "noConfigurationProduct": false,
-      "loadCurveDefinition": "enim occaecat consequat ad quis",
+      "configurationProduct": "ipsum aliquip cillum occaecat tempor",
+      "noConfigurationProduct": true,
+      "loadCurveDefinition": "exercitation dolor Excepteur aliquip dolor",
       "purposesOfUse": [
         {
-          "marketRole": "NB",
+          "marketRole": "MDL",
           "purpose": [
             "REACTIVE_ENERGY_BILLING_OPERATIONS_MANAGEMENT"
           ]
         }
       ],
-      "usagePurposeNB": "do ullamco magna non",
-      "usagePurposeLF": "ex Duis",
-      "usagePurposeUENB": "incididunt cupidatat id",
-      "noProduct": true
+      "usagePurposeNB": "pariatur eiusmod laborum est do",
+      "usagePurposeLF": "ullamco est ipsum anim",
+      "usagePurposeUENB": "aute nostrud",
+      "noProduct": false
     }
   ]
 }

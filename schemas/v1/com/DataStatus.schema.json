@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/DataStatus.schema.json",
+  "title": "DataStatus",
+  "type": "object",
+  "properties": {
+    "annualConsumptionForecast": {
+      "$ref": "../com/Quantity.schema.json"
+    },
+    "actuallyBalancedEnergyQuantity": {
+      "$ref": "../com/Quantity.schema.json"
+    },
+    "toBeBalancedEnergyQuantity": {
+      "$ref": "../com/Quantity.schema.json"
+    },
+    "balancingGroup": {
+      "type": "string"
+    },
+    "balancingArea": {
+      "type": "string"
+    },
+    "loadProfiles": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/LoadProfile.schema.json"
+      }
+    },
+    "aggregationResponsibility": {
+      "$ref": "../enum/AggregationResponsibility.schema.json"
+    }
+  }
+}

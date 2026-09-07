@@ -1,33 +1,33 @@
 {
   "boType": "AD_HOC_CONTROL_CHANNEL",
   "structureVersion": "1",
-  "configurationProduct": "04300570676214",
+  "configurationProduct": "33101747933462",
   "targetAddress": {
-    "targetAddress1": "commodo sit mollit reprehenderit",
-    "targetAddress2": "qui",
-    "targetAddress3": "labore nisi fugiat laboris sed",
-    "targetAddress4": "dolor sint nisi quis",
-    "targetAddress5": "Lorem quis ut"
+    "targetAddress1": "fugiat Duis",
+    "targetAddress2": "eiusmod non pariatur sit",
+    "targetAddress3": "exercitation quis laborum fugiat elit",
+    "targetAddress4": "qui ad irure nisi mollit",
+    "targetAddress5": "qui"
   },
   "issuer": {
-    "issuer1": "ut esse aliquip commodo",
-    "issuer2": "cupidatat aliqua tempor culpa",
-    "issuer3": "dolore velit ea",
-    "issuer4": "ut tempor sed",
-    "issuer5": "in mollit occaecat"
+    "issuer1": "magna in tempor",
+    "issuer2": "Ut",
+    "issuer3": "consectetur proident sed ad officia",
+    "issuer4": "id",
+    "issuer5": "culpa incididunt quis"
   },
   "certificateUser": {
-    "certificateUser1": "dolor sunt enim eu",
-    "certificateUser2": "commodo do non",
-    "certificateUser3": "mollit",
-    "certificateUser4": "eiusmod pariatur proident",
-    "certificateUser5": "velit nisi dolor"
+    "certificateUser1": "ad enim ex aliqua elit",
+    "certificateUser2": "tempor laborum non dolore",
+    "certificateUser3": "dolor",
+    "certificateUser4": "id nulla culpa",
+    "certificateUser5": "consectetur dolor"
   },
   "IpAddressClsDevice": {
-    "IpAddressClsDevice1": "culpa",
-    "IpAddressClsDevice2": "ipsum pariatur exercitation anim",
-    "IpAddressClsDevice3": "Ut ad irure aliqua deserunt",
-    "IpAddressClsDevice4": "pariatur aute",
-    "IpAddressClsDevice5": "proident sed Ut laboris"
+    "IpAddressClsDevice1": "in labore",
+    "IpAddressClsDevice2": "eu magna",
+    "IpAddressClsDevice3": "dolore ut consequat Lorem qui",
+    "IpAddressClsDevice4": "consectetur dolore",
+    "IpAddressClsDevice5": "sint laborum ex aliqua elit"
   }
 }

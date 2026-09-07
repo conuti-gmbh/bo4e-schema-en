@@ -129,6 +129,9 @@
     "involvedMarketPartner": {
       "$ref": "../bo/MarketParticipant.schema.json"
     },
+    "operationalState": {
+      "$ref": "../enum/OperationalState.schema.json"
+    },
     "marketRoles": {
       "type": [
         "array",

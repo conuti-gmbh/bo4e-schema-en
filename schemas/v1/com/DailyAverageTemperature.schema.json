@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/DailyAverageTemperature.schema.json",
+  "title": "DailyAverageTemperature",
+  "type": "object",
+  "properties": {
+    "dailyAverageTemperatureCalculation": {
+      "$ref": "../enum/ComputationMethod.schema.json"
+    },
+    "shareA": {
+      "type": "number",
+      "format": "float"
+    },
+    "shareB": {
+      "type": "number",
+      "format": "float"
+    },
+    "shareC": {
+      "type": "number",
+      "format": "float"
+    },
+    "shareD": {
+      "type": "number",
+      "format": "float"
+    },
+    "limitingTemperature": {
+      "type": "string"
+    }
+  }
+}

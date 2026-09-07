@@ -2,34 +2,34 @@
   "boType": "STATUS_REPORT",
   "structureVersion": "1",
   "status": "ERROR",
-  "auditObject": "do",
-  "reviewDate": "1898-05-11T16:19:56.0Z",
+  "auditObject": "culpa",
+  "reviewDate": "1929-02-26T22:55:40.0Z",
   "error": {
-    "typeValue": "PROCESSING",
+    "typeValue": "SYNTAX",
     "errorDetails": [
       {
-        "code": "OBJECT_ATTRIBUTE_DIFFERS_FROM_TRANSACTION_CODED_ATTRIBUTE",
+        "code": "SENDER_NOT_ASSIGNED",
         "cause": {
-          "document": "ipsum voluptate minim sunt",
-          "message": "mollit elit est dolor aliqua",
-          "transaction": "tempor Ut dolore culpa",
+          "document": "fugiat sunt non",
+          "message": "ad cupidatat dolor est",
+          "transaction": "sunt consequat ipsum",
           "group": {
-            "group1": "nisi ut",
-            "group2": "commodo"
+            "group1": "nulla fugiat",
+            "group2": "ut"
           },
-          "segment": "incididunt ut id",
+          "segment": "culpa ullamco",
           "description": {
-            "description1": "est dolore",
-            "description2": "quis aliqua"
+            "description1": "non nulla",
+            "description2": "elit labore consequat"
           }
         },
         "description": {
-          "description1": "anim dolor exercitation ut",
-          "description2": "cillum"
+          "description1": "Lorem aliquip",
+          "description2": "minim dolor"
         }
       }
     ]
   },
-  "senderReference": "culpa labore amet minim dolor",
-  "transactionReferenceNumber": "mollit"
+  "senderReference": "fugiat",
+  "transactionReferenceNumber": "mollit sunt sed minim ut"
 }

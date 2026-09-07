@@ -1,8 +1,8 @@
 {
   "boType": "USAGE_PERIOD",
   "structureVersion": "1",
-  "usageFrom": "1953-04-06T04:31:23.0Z",
-  "usageTo": "1911-07-14T19:32:56.0Z",
-  "periodId": 1,
-  "dataQuality": "DIFFERENCE_EXPECTED_DATA"
+  "usageFrom": "1940-07-26T01:59:37.0Z",
+  "usageTo": "1939-11-18T17:22:48.0Z",
+  "periodId": 8,
+  "dataQuality": "INFORMATIVE_DATA"
 }

@@ -240,6 +240,9 @@
     "packageId": {
       "type": "string"
     },
+    "operationalState": {
+      "$ref": "../enum/OperationalState.schema.json"
+    },
     "marketLocationType": {
       "type": [
         "array",

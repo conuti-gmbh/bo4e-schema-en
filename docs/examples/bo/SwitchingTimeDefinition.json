@@ -1,19 +1,19 @@
 {
   "boType": "SWITCHING_TIME_DEFINITION",
   "structureVersion": "1",
-  "beginDate": "1892-09-16T23:47:59.0Z",
-  "closingDate": "1929-08-08T03:37:40.0Z",
-  "version": "1924-05-10T08:27:33.0Z",
-  "code": "CODE_000100",
+  "beginDate": "1961-02-14T15:48:02.0Z",
+  "closingDate": "1934-09-01T08:01:37.0Z",
+  "version": "1949-10-10T18:57:47.0Z",
+  "code": "CODE_101000",
   "necessity": "DEFINITIONS_USED",
   "switchingTimes": [
     {
-      "code": "CODE_101010",
-      "changeTimestamp": "1890-02-09T13:34:29.0Z",
-      "frequency": "ANNUAL",
-      "transmissibility": "ELECTRONIC",
+      "code": "CODE_000101",
+      "changeTimestamp": "1961-10-19T05:35:24.0Z",
+      "frequency": "ONE_TIME",
+      "transmissibility": "NON_ELECTRONIC",
       "switchingAction": "POWER_OFF",
-      "configurationProduct": "culpa pariatur dolor commodo qui"
+      "configurationProduct": "in fugiat Lorem"
     }
   ]
 }

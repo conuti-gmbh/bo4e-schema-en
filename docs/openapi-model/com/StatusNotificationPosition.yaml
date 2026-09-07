@@ -109,6 +109,12 @@ components:
         contractEnd:
           $ref: >-
             ../fields/com/StatusNotificationPosition/contractEnd.yaml#/components/schemas/contractEnd
+        runningNumber:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/runningNumber.yaml#/components/schemas/runningNumber
+        documentReferenceNumber:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/documentReferenceNumber.yaml#/components/schemas/documentReferenceNumber
         senderView:
           $ref: >-
             ../fields/com/StatusNotificationPosition/senderView.yaml#/components/schemas/senderView
@@ -118,3 +124,6 @@ components:
         privilegedEnergyQuantity:
           $ref: >-
             ../fields/com/StatusNotificationPosition/privilegedEnergyQuantity.yaml#/components/schemas/privilegedEnergyQuantity
+        contactPerson:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/contactPerson.yaml#/components/schemas/contactPerson

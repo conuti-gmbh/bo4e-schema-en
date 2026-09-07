@@ -1,22 +1,22 @@
 {
   "boType": "TRADE_DISCREPANCY",
   "structureVersion": "1",
-  "number": "759024",
-  "typeValue": "DELIVERY_NOTE_BASE_ENERGY_PRICE",
+  "number": "641579",
+  "typeValue": "DELIVERY_NOTE_ENERGY_POWER_PRICE",
   "justification": {
     "correctness": "ORDCHG",
-    "referenceDar": "DAR000101",
-    "referenceNumber": "REF111111",
-    "confirmationDar": "DAR101011",
-    "acknowledgmentNotification": "esse ad",
-    "reason": "OTHER_SEE_JUSTIFICATION",
-    "hint": "nulla deserunt ad",
+    "referenceDar": "DAR010111",
+    "referenceNumber": "REF100001",
+    "confirmationDar": "DAR011101",
+    "acknowledgmentNotification": "magna labore dolor",
+    "reason": "CORRECT_PRICE_TO_VALID_PRICE_SHEET_IN_INVOICE",
+    "hint": "tempor reprehenderit",
     "references": [
-      "REF101110"
+      "REF100001"
     ]
   },
   "toPay": {
-    "value": 1,
-    "currency": "deserunt elit occaecat amet aute"
+    "value": 9.5,
+    "currency": "cillum incididunt"
   }
 }

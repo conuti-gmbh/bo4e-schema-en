@@ -1,66 +1,66 @@
 {
   "boType": "CALCULATION_FORMULA",
   "structureVersion": "1",
-  "beginDate": "1948-04-19T11:43:05.0Z",
+  "beginDate": "1926-01-16T15:21:39.0Z",
   "necessity": "CALCULATION_FORMULA_NECESSARY",
-  "deliveryDirection": "FEED_OUT",
-  "calculationStepId": 9,
+  "deliveryDirection": "FEED_IN",
+  "calculationStepId": 2,
   "calculationStep": {
-    "calculationStepComponentId": 4,
-    "referenceCalculationStepId": 10,
-    "operation": "DIVIDEND",
-    "lossFactorTransformer": 5.75,
-    "lossFactorLine": 6.5,
-    "allocationFactorEnergyQuantity": 2.25,
-    "meteringLocationId": "941079849024069214147529331116456",
-    "marketLocationId": "77877826985",
+    "calculationStepComponentId": 2,
+    "referenceCalculationStepId": 7,
+    "operation": "POSITIVE_VALUE",
+    "lossFactorTransformer": 3.75,
+    "lossFactorLine": 2.25,
+    "allocationFactorEnergyQuantity": 3,
+    "meteringLocationId": "833533717482880310647383229428565",
+    "marketLocationId": "13270438199",
     "energyFlowDirection": "FEED_OUT",
-    "designationOperands": "Excepteur Ut"
+    "designationOperands": "ut non sit"
   },
   "calculationSteps": [
     {
-      "calculationStepComponentId": 10,
-      "referenceCalculationStepId": 6,
-      "operation": "ADDITION",
-      "lossFactorTransformer": 4.75,
-      "lossFactorLine": 4.5,
-      "allocationFactorEnergyQuantity": 6.5,
-      "meteringLocationId": "803511477262228800297852293673822",
-      "marketLocationId": "01967071514",
+      "calculationStepComponentId": 6,
+      "referenceCalculationStepId": 5,
+      "operation": "SUBTRACTION",
+      "lossFactorTransformer": 3.75,
+      "lossFactorLine": 8.5,
+      "allocationFactorEnergyQuantity": 6.25,
+      "meteringLocationId": "788700700642390575059101562162735",
+      "marketLocationId": "33918437322",
       "energyFlowDirection": "FEED_IN",
-      "designationOperands": "dolore culpa deserunt Excepteur consectetur"
+      "designationOperands": "in quis velit aliquip aliqua"
     }
   ],
   "purposeOfUse": [
     {
-      "marketRole": "BIKO",
+      "marketRole": "MSB",
       "purpose": [
-        "BALANCING_GROUP_BILLING"
+        "END_CUSTOMER_BILLING"
       ]
     }
   ],
   "validityPeriod": {
     "timeUnit": "HALF_YEAR",
     "duration": 8,
-    "startDate": "1938-04-14T01:01:49.0Z",
-    "endDate": "1959-11-07T07:35:27.0Z",
-    "unit": "HOUR",
-    "readingPeriod": "320943",
-    "billingPeriod": "327341",
-    "periodText": "incididunt occaecat",
+    "startDate": "1940-11-21T14:20:34.0Z",
+    "endDate": "1909-07-15T11:40:30.0Z",
+    "unit": "SECOND",
+    "readingPeriod": "087326",
+    "billingPeriod": "169841",
+    "periodText": "occaecat",
     "periodId": 3
   },
-  "locationId": "96207966956",
-  "locationType": "MELO",
-  "calculationFormula": "officia qui Excepteur sed",
-  "dataQuality": "DATA_PRESENT_IN_SYSTEM",
+  "locationId": "77526047174",
+  "locationType": "MABIS_METERING_POINT",
+  "calculationFormula": "nulla ipsum qui in",
+  "dataQuality": "NO_DATA_EXPECTED",
   "parameterIds": [
-    "Non distinctio cupiditate facilis animi."
+    "Architecto autem deleniti officiis consequuntur."
   ],
   "allocationFactors": [
     {
-      "designationAllocationFactor": "cillum mollit sint in tempor",
-      "factor": 5.75
+      "designationAllocationFactor": "in eu ea voluptate",
+      "factor": 4.5
     }
   ]
 }

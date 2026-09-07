@@ -80,6 +80,18 @@
     "validityPeriod": {
       "$ref": "../com/TimePeriod.schema.json"
     },
+    "dataStatusUENB": {
+      "$ref": "../com/DataStatus.schema.json"
+    },
+    "dataStatusNB": {
+      "$ref": "../com/DataStatus.schema.json"
+    },
+    "dataOfInvolvedMarketRole": {
+      "$ref": "../com/DataOfTheInvolvedMarketRole.schema.json"
+    },
+    "balancedEnergyQuantity": {
+      "$ref": "../com/Quantity.schema.json"
+    },
     "loadProfiles": {
       "type": [
         "array",

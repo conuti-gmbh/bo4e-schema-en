@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/NormalizationFactor.schema.json",
+  "title": "NormalizationFactor",
+  "type": "string",
+  "enum": [
+    "NORMALIZATION_FACTOR_1_000_000_KWH_A",
+    "NORMALIZATION_FACTOR_300_KWH_K",
+    "NORMALIZATION_FACTOR_1_000_000_KW"
+  ]
+}

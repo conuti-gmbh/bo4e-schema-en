@@ -1,92 +1,240 @@
 {
   "boType": "BALANCING",
   "structureVersion": "1",
-  "marketLocationId": "46885540313",
+  "marketLocationId": "93235932317",
   "aggregationResponsibility": "UENB",
-  "timeSeriesType": "DZR",
-  "forecastBasis": "VALUES",
-  "balancingStart": "1909-08-03T17:23:51.0Z",
-  "balancingEnd": "1897-05-07T11:26:11.0Z",
-  "balancingGroup": "in nisi",
+  "timeSeriesType": "RENEWABLE_FEED_IN_SUM_GEOTHERMAL_FEED_IN_PROFILE",
+  "forecastBasis": "PROFILES",
+  "balancingStart": "1906-12-21T02:43:34.0Z",
+  "balancingEnd": "1940-05-15T05:01:52.0Z",
+  "balancingGroup": "aute",
   "balancingGroups": [
     {
       "boType": "BALANCING_GROUP",
       "structureVersion": "1",
-      "designation": "ea laboris eu tempor dolor",
-      "priority": 4
+      "designation": "minim nulla consequat pariatur Excepteur",
+      "priority": 10
     }
   ],
-  "caseGroupAssignment": "GABI_RLMoT",
+  "caseGroupAssignment": "GABI_RLMmT",
   "temperatureWork": {
-    "value": 8,
-    "unit": "W"
+    "value": 7.5,
+    "unit": "METER_PER_SECOND",
+    "startDate": "1925-05-09T23:08:48.0Z",
+    "endDate": "1950-05-26T01:15:22.0Z"
   },
   "annualConsumptionForecast": {
-    "value": 5,
-    "unit": "KWT"
+    "value": 6,
+    "unit": "MONTH",
+    "startDate": "1940-03-29T07:21:59.0Z",
+    "endDate": "1937-08-27T22:10:14.0Z"
   },
   "customerValue": {
-    "value": 3.5,
-    "unit": "PERCENT"
+    "value": 1.75,
+    "unit": "METER_PER_SECOND",
+    "startDate": "1931-08-14T09:56:10.0Z",
+    "endDate": "1958-06-10T17:09:52.0Z"
   },
   "consumptionAllocation": {
-    "value": 9.25,
-    "unit": "HOUR"
+    "value": 8.5,
+    "unit": "PERCENT",
+    "startDate": "1962-11-24T11:08:16.0Z",
+    "endDate": "1896-02-07T15:38:33.0Z"
   },
-  "forecastBasisChoiceRight": "BY_SUPPLIER_NOT_GIVEN",
-  "forecastBasisChoiceRightReason": "NOT_DUE_TO_ENWG",
+  "forecastBasisChoiceRight": "NOT_DUE_TO_LARGE_CONSUMPTION",
+  "forecastBasisChoiceRightReason": "BY_SUPPLIER_NOT_GIVEN",
   "settlementModel": "MODEL_2_BALANCING_IN_BALANCING_AREA",
   "priorYearConsumption": {
-    "value": 4,
-    "unit": "HOUR"
+    "value": 7,
+    "unit": "VARH",
+    "startDate": "1942-07-16T17:05:01.0Z",
+    "endDate": "1923-09-06T16:38:32.0Z"
   },
-  "dataQuality": "DATA_PRESENT_IN_SYSTEM",
+  "dataQuality": "VALID_DATA",
   "validityPeriod": {
-    "timeUnit": "DAY",
-    "duration": 6,
-    "startDate": "1899-05-18T11:59:20.0Z",
-    "endDate": "1909-02-15T01:37:01.0Z",
-    "unit": "WEEK",
-    "readingPeriod": "988889",
-    "billingPeriod": "192031",
-    "periodText": "anim est do esse aute",
-    "periodId": 2
+    "timeUnit": "QUARTER",
+    "duration": 10,
+    "startDate": "1895-05-31T16:19:13.0Z",
+    "endDate": "1931-05-30T09:26:24.0Z",
+    "unit": "MONTH",
+    "readingPeriod": "796171",
+    "billingPeriod": "615850",
+    "periodText": "nulla Lorem cillum amet dolore",
+    "periodId": 1
+  },
+  "dataStatusUENB": {
+    "annualConsumptionForecast": {
+      "value": 3,
+      "unit": "PERCENT",
+      "startDate": "1912-10-24T01:11:18.0Z",
+      "endDate": "1947-09-26T14:24:20.0Z"
+    },
+    "actuallyBalancedEnergyQuantity": {
+      "value": 6.25,
+      "unit": "KWT",
+      "startDate": "1959-08-06T09:48:06.0Z",
+      "endDate": "1957-02-27T17:08:57.0Z"
+    },
+    "toBeBalancedEnergyQuantity": {
+      "value": 9.5,
+      "unit": "MWH",
+      "startDate": "1901-09-21T01:31:38.0Z",
+      "endDate": "1960-01-08T17:40:55.0Z"
+    },
+    "balancingGroup": "tempor culpa quis non ut",
+    "balancingArea": "anim laborum commodo in",
+    "loadProfiles": [
+      {
+        "designation": "consectetur ad ea",
+        "procedure": "ANALYTICAL",
+        "profileType": "TYPE_DAILY_PARAMETER_DEPENDENT_LOAD_PROFILE",
+        "profileFamily": "qui eu mollit",
+        "feedIn": false,
+        "publisher": "commodo exercitation quis consectetur",
+        "dailyParameters": {
+          "climateZone": "reprehenderit laboris velit Lorem cupidatat",
+          "temperatureMeasuringPoint": "minim sit amet eu",
+          "serviceProvider": "elit labore reprehenderit et qui",
+          "publisher": "TUM"
+        },
+        "referenceProfileDesignation": "fugiat pariatur",
+        "referenceProfile": "tempor minim proident ullamco",
+        "loadProfileType": "HOUSEHOLD",
+        "normalizationFactor": "NORMALIZATION_FACTOR_1_000_000_KW",
+        "dailyAverageTemperature": {
+          "dailyAverageTemperatureCalculation": "EQUIVALENT_DAILY_AVERAGE_TEMPERATURE",
+          "shareA": -61698512.37236559,
+          "shareB": 97148662.80154243,
+          "shareC": -98178915.76828854,
+          "shareD": 61066822.721853256,
+          "limitingTemperature": "veniam dolor incididunt in"
+        },
+        "limitingConstant": "LIMITING_CONSTANT_1"
+      }
+    ],
+    "aggregationResponsibility": "UENB"
+  },
+  "dataStatusNB": {
+    "annualConsumptionForecast": {
+      "value": 4.5,
+      "unit": "MONTH",
+      "startDate": "1925-04-28T08:46:15.0Z",
+      "endDate": "1930-01-21T04:54:42.0Z"
+    },
+    "actuallyBalancedEnergyQuantity": {
+      "value": 5,
+      "unit": "DAY",
+      "startDate": "1929-07-30T12:54:38.0Z",
+      "endDate": "1962-10-25T05:14:02.0Z"
+    },
+    "toBeBalancedEnergyQuantity": {
+      "value": 5.25,
+      "unit": "KWHK",
+      "startDate": "1913-10-07T22:47:32.0Z",
+      "endDate": "1962-08-11T10:24:33.0Z"
+    },
+    "balancingGroup": "sint irure voluptate veniam anim",
+    "balancingArea": "laboris enim tempor ullamco proident",
+    "loadProfiles": [
+      {
+        "designation": "eiusmod elit mollit",
+        "procedure": "ANALYTICAL",
+        "profileType": "TYPE_STANDARD_LOAD_PROFILE",
+        "profileFamily": "sed",
+        "feedIn": false,
+        "publisher": "veniam amet",
+        "dailyParameters": {
+          "climateZone": "aliqua culpa dolor reprehenderit",
+          "temperatureMeasuringPoint": "occaecat esse",
+          "serviceProvider": "dolor amet Duis ex",
+          "publisher": "BDEW"
+        },
+        "referenceProfileDesignation": "cillum est officia cupidatat mollit",
+        "referenceProfile": "ad laborum velit",
+        "loadProfileType": "OTHER_CONSUMING_MARKET_LOCATION",
+        "normalizationFactor": "NORMALIZATION_FACTOR_1_000_000_KWH_A",
+        "dailyAverageTemperature": {
+          "dailyAverageTemperatureCalculation": "EQUIVALENT_DAILY_AVERAGE_TEMPERATURE",
+          "shareA": 52537860.85327533,
+          "shareB": -90660333.00807619,
+          "shareC": 62008977.64230335,
+          "shareD": -61797810.690399714,
+          "limitingTemperature": "enim ipsum officia anim ullamco"
+        },
+        "limitingConstant": "LIMITING_CONSTANT_0"
+      }
+    ],
+    "aggregationResponsibility": "VNB"
+  },
+  "dataOfInvolvedMarketRole": {
+    "balancingStart": "1920-08-26T10:22:50.0Z",
+    "balancingEnd": "1916-10-27T20:28:01.0Z"
+  },
+  "balancedEnergyQuantity": {
+    "value": 4,
+    "unit": "Z16",
+    "startDate": "1967-12-08T19:31:47.0Z",
+    "endDate": "1935-04-02T04:34:51.0Z"
   },
   "loadProfiles": [
     {
-      "designation": "velit",
-      "procedure": "ANALYTICAL",
+      "designation": "dolor sunt dolor eu",
+      "procedure": "SYNTHETIC",
       "profileType": "TYPE_DAILY_PARAMETER_DEPENDENT_LOAD_PROFILE",
-      "profileFamily": "officia magna sunt voluptate",
+      "profileFamily": "dolor cupidatat",
       "feedIn": false,
-      "publisher": "aliqua dolore",
+      "publisher": "nostrud nulla",
       "dailyParameters": {
-        "climateZone": "Excepteur magna Ut in",
-        "temperatureMeasuringPoint": "proident voluptate",
-        "serviceProvider": "ad amet dolore consequat",
-        "publisher": "TUM"
+        "climateZone": "pariatur consectetur",
+        "temperatureMeasuringPoint": "adipisicing proident in labore ea",
+        "serviceProvider": "in adipisicing ut",
+        "publisher": "BDEW"
       },
-      "referenceProfileDesignation": "anim"
+      "referenceProfileDesignation": "nostrud laboris consequat",
+      "referenceProfile": "in eu sunt dolor incididunt",
+      "loadProfileType": "E_MOBILITY_CHARGING_POINT_OF_A_HOUSEHOLD",
+      "normalizationFactor": "NORMALIZATION_FACTOR_1_000_000_KW",
+      "dailyAverageTemperature": {
+        "dailyAverageTemperatureCalculation": "24H_AVERAGE",
+        "shareA": 7999939.553129256,
+        "shareB": 53859339.1540651,
+        "shareC": 55435956.29012117,
+        "shareD": -19644823.216674164,
+        "limitingTemperature": "reprehenderit culpa et enim"
+      },
+      "limitingConstant": "LIMITING_CONSTANT_0"
     }
   ],
   "loadProfilesBalancingParty": [
     {
-      "designation": "enim in proident",
+      "designation": "officia fugiat proident est",
       "procedure": "ANALYTICAL",
       "profileType": "TYPE_DAILY_PARAMETER_DEPENDENT_LOAD_PROFILE",
-      "profileFamily": "pariatur sit cillum proident",
-      "feedIn": false,
-      "publisher": "amet dolore esse qui",
+      "profileFamily": "dolore ut sunt reprehenderit nostrud",
+      "feedIn": true,
+      "publisher": "reprehenderit anim ut Duis",
       "dailyParameters": {
-        "climateZone": "sed Ut laboris laborum",
-        "temperatureMeasuringPoint": "dolore",
-        "serviceProvider": "adipisicing non cillum deserunt Lorem",
-        "publisher": "BDEW"
+        "climateZone": "adipisicing",
+        "temperatureMeasuringPoint": "tempor eu adipisicing",
+        "serviceProvider": "irure nisi",
+        "publisher": "TUM"
       },
-      "referenceProfileDesignation": "ipsum irure id aute"
+      "referenceProfileDesignation": "quis",
+      "referenceProfile": "sed dolor in ullamco",
+      "loadProfileType": "COMMERCIAL_GENERAL",
+      "normalizationFactor": "NORMALIZATION_FACTOR_1_000_000_KWH_A",
+      "dailyAverageTemperature": {
+        "dailyAverageTemperatureCalculation": "EQUIVALENT_DAILY_AVERAGE_TEMPERATURE_PROVIDED_BY_SUPPLIER",
+        "shareA": 64952193.007535726,
+        "shareB": 71773587.02198088,
+        "shareC": -31149451.353947327,
+        "shareD": 98301136.32384524,
+        "limitingTemperature": "commodo laboris cillum"
+      },
+      "limitingConstant": "LIMITING_CONSTANT_0"
     }
   ],
   "forecastBasisDetails": [
-    "SLP_SEP"
+    "TEP"
   ]
 }

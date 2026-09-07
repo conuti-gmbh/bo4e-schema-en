@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/DataStatusTimeSeries.schema.json",
+  "title": "DataStatusTimeSeries",
+  "type": "string",
+  "enum": [
+    "BILLING_DATA",
+    "BILLED_DATA",
+    "BILLING_DATA_CORRECTION_BKA",
+    "BILLED_DATA_CORRECTION_BKA"
+  ]
+}

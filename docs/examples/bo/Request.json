@@ -1,14 +1,14 @@
 {
   "boType": "REQUEST",
   "structureVersion": "1",
-  "locationType": "TECHNICAL_RESOURCE",
-  "locationId": "21097745441",
-  "requestType": "INDIVIDUAL_OFFER",
-  "subscription": "WITHOUT_SUBSCRIPTION",
-  "requestReference": "REF100111",
-  "generalInformation": "proident eu",
-  "requestCategory": "CHANGE_INDIVIDUAL_CONFIGURATION",
+  "locationType": "CONTROLLABLE_RESOURCE",
+  "locationId": "68288889448",
+  "requestType": "PURCHASE",
+  "subscription": "START_SUBSCRIPTION",
+  "requestReference": "REF101010",
+  "generalInformation": "dolore in labore Excepteur ut",
+  "requestCategory": "REDISPATCH_INDIVIDUAL_TIME_SERIES_OUTAGE_ENERGY",
   "energyDirection": "FEED_OUT",
-  "validityDuration": "476032",
-  "validFrom": "1943-03-22T17:30:01.0Z"
+  "validityDuration": "102054",
+  "validFrom": "1940-08-16T08:40:31.0Z"
 }

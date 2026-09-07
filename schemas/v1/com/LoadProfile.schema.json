@@ -27,6 +27,21 @@
     },
     "referenceProfileDesignation": {
       "type": "string"
+    },
+    "referenceProfile": {
+      "type": "string"
+    },
+    "loadProfileType": {
+      "$ref": "../enum/ProfileSubtype.schema.json"
+    },
+    "normalizationFactor": {
+      "$ref": "../enum/NormalizationFactor.schema.json"
+    },
+    "dailyAverageTemperature": {
+      "$ref": "../com/DailyAverageTemperature.schema.json"
+    },
+    "limitingConstant": {
+      "$ref": "../enum/LimitingConstant.schema.json"
     }
   }
 }

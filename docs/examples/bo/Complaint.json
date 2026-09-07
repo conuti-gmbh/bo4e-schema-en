@@ -1,27 +1,27 @@
 {
   "boType": "COMPLAINT",
   "structureVersion": "1",
-  "locationId": "87482704530",
-  "locationType": "NELO",
-  "obisNumber": "eu esse incididunt officia",
+  "locationId": "64371669253",
+  "locationType": "MELO",
+  "obisNumber": "consectetur occaecat qui amet",
   "measurementValueRequestPeriod": {
-    "timeUnit": "HOUR",
-    "duration": 7,
-    "startDate": "1955-03-11T10:34:01.0Z",
-    "endDate": "1911-01-12T18:47:55.0Z",
-    "unit": "MINUTE",
-    "readingPeriod": "424974",
-    "billingPeriod": "287630",
-    "periodText": "dolor ex aliquip",
-    "periodId": 1
+    "timeUnit": "QUARTER_HOUR",
+    "duration": 5,
+    "startDate": "1918-03-13T14:33:27.0Z",
+    "endDate": "1954-03-29T07:21:27.0Z",
+    "unit": "HALF_YEAR",
+    "readingPeriod": "990863",
+    "billingPeriod": "136489",
+    "periodText": "eu",
+    "periodId": 2
   },
-  "complaintReason": "VALUES_NOT_TRANSMITTED_AS_SPECIFIED",
+  "complaintReason": "ROLLED_OUT_DEFINITION_IMPLAUSIBLE",
   "complaintReasonNote": {
-    "remark1": "id quis",
-    "remark2": "ex velit in",
-    "remark3": "qui quis sint dolore",
-    "remark4": "deserunt mollit incididunt fugiat",
-    "remark5": "ut esse sunt id tempor"
+    "remark1": "in veniam dolor",
+    "remark2": "consequat ullamco labore occaecat adipisicing",
+    "remark3": "Duis ea",
+    "remark4": "commodo mollit pariatur incididunt Excepteur",
+    "remark5": "Lorem in dolore culpa"
   },
-  "configuration": "sed"
+  "configuration": "minim aliqua adipisicing sint"
 }

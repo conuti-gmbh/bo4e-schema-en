@@ -1,30 +1,30 @@
 {
   "boType": "METERING_TIME_DEFINITION",
   "structureVersion": "1",
-  "beginDate": "1924-07-12T10:10:02.0Z",
-  "closingDate": "1901-01-01T13:10:29.0Z",
-  "version": "1912-07-27T02:24:26.0Z",
-  "necessity": "METERING_TIME_DEFINITIONS_NOT_USED",
-  "versionSpecification": "VERSION_101000",
-  "code": "CODE_111011",
+  "beginDate": "1921-04-26T15:25:04.0Z",
+  "closingDate": "1904-01-25T15:14:42.0Z",
+  "version": "1896-09-06T21:55:07.0Z",
+  "necessity": "DEFINITIONS_USED",
+  "versionSpecification": "VERSION_000000",
+  "code": "CODE_010111",
   "meteringTimes": [
     {
-      "code": "CODE_010011",
+      "code": "CODE_101010",
       "frequency": "ANNUAL",
       "transmissibility": "NON_ELECTRONIC",
       "peakLoadDetermination": "USE_OF_PEAK_LOAD_WINDOW",
-      "isOrderable": false,
-      "typeValue": "PEAK_LOAD_TIME_WINDOW",
-      "descriptionType": "sit ullamco eiusmod quis",
-      "changeTimestamp": "1968-01-13T12:44:44.0Z",
-      "register": "exercitation"
+      "isOrderable": true,
+      "typeValue": "OFF_PEAK_TIME_WINDOW",
+      "descriptionType": "dolore in mollit",
+      "changeTimestamp": "1931-07-11T21:13:23.0Z",
+      "register": "ad laborum cupidatat ullamco veniam"
     }
   ],
   "meteringTimeRegister": [
     {
-      "register": "consequat velit ut sint",
-      "meteringTimeDefinition": "id irure aute",
-      "offPeakCapable": "OFF_PEAK_CAPABLE"
+      "register": "deserunt enim",
+      "meteringTimeDefinition": "magna aute consectetur",
+      "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
     }
   ]
 }

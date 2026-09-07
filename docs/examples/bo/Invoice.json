@@ -2,130 +2,134 @@
   "boType": "INVOICE",
   "structureVersion": "1",
   "isSelfIssued": true,
-  "processingDate": "1961-05-13T19:18:01.0Z",
-  "invoiceDate": "1943-10-19T11:08:55.0Z",
-  "dueDate": "1911-09-26T19:31:40.0Z",
+  "processingDate": "1952-10-30T11:54:30.0Z",
+  "invoiceDate": "1937-12-09T17:23:39.0Z",
+  "dueDate": "1926-10-26T04:12:41.0Z",
   "invoiceStatus": "CANCELLED",
   "provisionalBillingPeriod": {
-    "timeUnit": "QUARTER",
-    "duration": 8,
-    "startDate": "1920-06-12T19:31:08.0Z",
-    "endDate": "1947-12-01T20:07:35.0Z",
-    "unit": "MINUTE",
-    "readingPeriod": "600375",
-    "billingPeriod": "866693",
-    "periodText": "magna",
+    "timeUnit": "HALF_YEAR",
+    "duration": 9,
+    "startDate": "1924-02-14T10:46:22.0Z",
+    "endDate": "1940-10-19T22:39:18.0Z",
+    "unit": "SECOND",
+    "readingPeriod": "119791",
+    "billingPeriod": "351714",
+    "periodText": "occaecat culpa enim pariatur aliquip",
     "periodId": 6
   },
   "invoicePeriod": {
-    "timeUnit": "QUARTER",
-    "duration": 8,
-    "startDate": "1964-09-01T22:08:33.0Z",
-    "endDate": "1912-08-29T16:35:11.0Z",
-    "unit": "YEAR",
-    "readingPeriod": "350095",
-    "billingPeriod": "619468",
-    "periodText": "adipisicing",
-    "periodId": 2
+    "timeUnit": "HALF_YEAR",
+    "duration": 9,
+    "startDate": "1894-12-26T01:15:39.0Z",
+    "endDate": "1950-10-11T04:52:17.0Z",
+    "unit": "HALF_YEAR",
+    "readingPeriod": "599535",
+    "billingPeriod": "499960",
+    "periodText": "irure sed laborum minim in",
+    "periodId": 4
   },
-  "invoiceType": "BILLING_OF_CONFIGURATIONS_UNIVERSAL_ORDER_PROCESS",
-  "isReverseCharge": true,
+  "invoiceType": "LATE_PAYMENT_COSTS",
+  "isReverseCharge": false,
   "totalGrossAmount": {
-    "value": 6.25,
-    "currency": "dolor dolore aliquip qui"
+    "value": 10,
+    "currency": "cupidatat do"
   },
   "toPay": {
-    "value": 6.5,
-    "currency": "Ut dolore ut sit"
+    "value": 5.5,
+    "currency": "dolor"
   },
-  "originalInvoiceNumber": "RN_101000",
-  "referenceMessageDate": "REF_001001",
-  "referenceDocumentNumber": "DOC_010111",
-  "referencePredecessorInvoice": "RN_000110",
-  "predecessorInvoiceDate": "1892-05-27T20:39:16.0Z",
-  "priceGridOperatorCodeNumber": "ut",
-  "gridAccount": "ea in sed culpa nulla",
+  "originalInvoiceNumber": "RN_001110",
+  "referenceMessageDate": "REF_111010",
+  "referenceDocumentNumber": "DOC_001010",
+  "referencePredecessorInvoice": "RN_111111",
+  "predecessorInvoiceDate": "1967-11-22T12:13:01.0Z",
+  "priceGridOperatorCodeNumber": "fugiat",
+  "gridAccount": "enim",
   "prepaid": {
-    "value": 8.5,
-    "currency": "dolore ad officia"
+    "value": 5,
+    "currency": "cillum"
   },
   "municipalDiscount": {
-    "value": 11.75,
-    "unit": "occaecat Excepteur laborum elit",
-    "typeValue": "id",
-    "assessmentBase": 10
+    "value": 12.5,
+    "unit": "laboris aliquip minim",
+    "typeValue": "anim",
+    "assessmentBase": 12.75
   },
-  "executionDate": "1915-04-23T17:04:46.0Z",
-  "specialBillingType": "CONCESSION_FEE_FORWARDED_QUANTITIES",
+  "executionDate": "1967-06-04T11:42:34.0Z",
+  "specialBillingType": "INDIVIDUAL_ATYPICAL",
   "specialBillingTypes": [
-    "PRIVILEGE_UNDER_ENFG"
+    "CONCESSION_FEE_CHANGE_RLM"
   ],
   "energyDirection": "FEED_IN",
-  "balancingPeriodStart": "1936-08-22T16:23:57.0Z",
-  "gridAccessPeriodEnd": "1955-10-11T02:24:47.0Z",
+  "balancingPeriodStart": "1945-01-24T23:54:07.0Z",
+  "gridAccessPeriodEnd": "1966-07-10T18:19:24.0Z",
   "taxAmounts": [
     {
-      "taxCode": "ex",
-      "baseValue": 19.5,
-      "taxValue": 10.25,
-      "currency": "dolor",
-      "baseValuePrepaid": 13.25,
-      "taxValuePrepaid": 11
+      "taxCode": "aliqua ipsum",
+      "baseValue": 16,
+      "taxValue": 11.5,
+      "currency": "ut",
+      "baseValuePrepaid": 17.75,
+      "taxValuePrepaid": 15
     }
   ],
   "invoicePositions": [
     {
       "individualPrice": {
-        "value": 3.25,
-        "amount": 10685046,
-        "minimumAmount": 4,
+        "value": 7.25,
+        "amount": -7606926,
+        "minimumAmount": 3,
         "maximumAmount": 9,
-        "unit": "EUR",
-        "referenceValue": "MONTH",
-        "status": "PROVISIONAL",
-        "priceType": "OPERATING_PRICE"
+        "unit": "CT",
+        "referenceValue": "WATT_PER_SQUARE_METER",
+        "status": "FINAL",
+        "priceType": "TRANSACTION_PRICE"
       },
-      "deliveryUntil": "1926-05-01T06:01:46.0Z",
-      "deliveryFrom": "1936-05-18T14:50:17.0Z",
+      "deliveryUntil": "1921-05-18T22:48:46.0Z",
+      "deliveryFrom": "1957-05-18T06:10:46.0Z",
       "positionQuantity": {
-        "value": 3.25,
-        "unit": "WH"
+        "value": 9.25,
+        "unit": "PERCENT",
+        "startDate": "1936-08-25T13:11:10.0Z",
+        "endDate": "1940-12-24T19:18:23.0Z"
       },
-      "positionNumber": 6,
-      "articleNumber": "8355241437",
+      "positionNumber": 4,
+      "articleNumber": "6971879599",
       "subtotalNet": {
-        "value": 8.5,
-        "currency": "aute velit et"
+        "value": 1.25,
+        "currency": "adipisicing"
       },
       "subtotalTax": {
-        "taxCode": "nulla Duis irure non dolore",
-        "baseValue": 17.5,
-        "taxValue": 12.75,
-        "currency": "aliquip",
-        "baseValuePrepaid": 18.5,
-        "taxValuePrepaid": 19.75
+        "taxCode": "ut incididunt",
+        "baseValue": 18.5,
+        "taxValue": 11,
+        "currency": "est reprehenderit in elit do",
+        "baseValuePrepaid": 12.25,
+        "taxValuePrepaid": 11.25
       },
       "timeRelatedQuantity": {
-        "value": 2.75,
-        "unit": "MWH"
+        "value": 5,
+        "unit": "KVAR",
+        "startDate": "1903-11-27T20:40:35.0Z",
+        "endDate": "1924-05-09T04:05:38.0Z"
       },
       "installment": {
-        "typeValue": "MUNICIPAL_DISCOUNT_KAV",
-        "percent": 14.5
+        "typeValue": "ADJUSTMENT_P19_ELECTRICITY_NEV",
+        "percent": 17.5
       },
       "surcharge": {
         "typeValue": "TRANSFORMATION_SURCHARGE",
-        "percent": 17.75
+        "percent": 14.5
       },
       "municipalDiscount": {
-        "value": 13.5,
-        "unit": "sunt Lorem cillum",
-        "typeValue": "magna labore anim in",
-        "assessmentBase": 13.5
+        "value": 14.75,
+        "unit": "adipisicing dolor cupidatat",
+        "typeValue": "do cillum laboris et non",
+        "assessmentBase": 14
       },
-      "totalSurchargeDiscountAmount": 12.25,
-      "correctionFactor": 19,
-      "executionDate": "1932-03-17T20:40:24.0Z"
+      "totalSurchargeDiscountAmount": 11.75,
+      "correctionFactor": 10.25,
+      "executionDate": "1928-02-27T01:22:53.0Z"
     }
   ]
 }

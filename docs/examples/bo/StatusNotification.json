@@ -1,86 +1,104 @@
 {
   "boType": "STATUS_NOTIFICATION",
   "structureVersion": "1",
-  "statusObject": "FIRST_INSTALLATION_MME",
-  "statusOccasion": "REAL_METER_OVERFLOW_VERIFIED",
-  "orderStatus": "FAULTY",
+  "statusObject": "OUTAGE_ENERGY",
+  "statusOccasion": "PLAUSIBLE_DUE_TO_CONTROL_READING",
+  "orderStatus": "DETECTED_FAULT",
   "positionData": [
     {
-      "positionNumber": 3,
-      "processingDate": "1931-04-15T11:40:23.0Z",
-      "usageFrom": "1948-12-15T11:52:07.0Z",
-      "usageTo": "1890-05-22T07:02:29.0Z",
-      "endDate": "1903-07-02T09:42:47.0Z",
-      "orderStatus": "SUCCESSFUL",
-      "statusOccasion": "FAULT_RESOLUTION_NOT_POSSIBLE",
-      "responseStatus": "minim qui nisi amet irure",
+      "positionNumber": 6,
+      "processingDate": "1969-12-18T09:04:14.0Z",
+      "usageFrom": "1901-04-02T17:12:10.0Z",
+      "usageTo": "1894-08-23T07:59:26.0Z",
+      "endDate": "1909-02-13T11:03:33.0Z",
+      "orderStatus": "PLANNED",
+      "statusOccasion": "REPAIR_WITHOUT_DEVICE_CHANGE",
+      "responseStatus": "elit sit veniam",
       "errorDescription": {
-        "description1": "voluptate mollit ad",
-        "description2": "cupidatat minim nulla in",
-        "description3": "ut irure",
-        "description4": "exercitation dolor",
-        "description5": "aute quis culpa deserunt ex"
+        "description1": "laborum in id",
+        "description2": "consectetur aliquip Excepteur sunt",
+        "description3": "enim officia irure in esse",
+        "description4": "officia qui",
+        "description5": "Ut"
       },
-      "errorDescriptionText": "officia enim",
+      "errorDescriptionText": "incididunt sunt",
       "justification": {
-        "justification1": "non",
-        "justification2": "ut",
-        "justification3": "tempor",
-        "justification4": "dolore",
-        "justification5": "veniam"
+        "justification1": "quis",
+        "justification2": "tempor enim sed veniam officia",
+        "justification3": "adipisicing sit in",
+        "justification4": "ut in qui officia",
+        "justification5": "sit consectetur Lorem aliquip est"
       },
-      "justificationText": "dolore reprehenderit",
-      "locationId": "23942335800",
-      "referenceMelo": "636574149458394154502050168572819",
+      "justificationText": "aliquip",
+      "locationId": "20687119514",
+      "referenceMelo": "088882427668347561662522219451018",
       "generalInformation": {
-        "info1": "ut ex",
-        "info2": "ut fugiat cillum labore",
-        "info3": "labore",
-        "info4": "ea veniam qui nostrud voluptate",
-        "info5": "esse ut ipsum in in"
+        "info1": "aute pariatur irure incididunt",
+        "info2": "in veniam eu",
+        "info3": "incididunt ut dolore",
+        "info4": "esse deserunt est",
+        "info5": "reprehenderit ullamco"
       },
-      "generalInformationText": "eiusmod proident veniam nulla do",
-      "statusChangeTimestamp": "1905-10-24T14:01:54.0Z",
+      "generalInformationText": "ipsum veniam ex",
+      "statusChangeTimestamp": "1930-10-15T23:15:22.0Z",
       "orderStatusList": [
-        "ENFG_ELECTRICITY_COST_INTENSIVE_COMPANIES"
+        "TERMINATED"
       ],
-      "locationType": "MALO",
-      "statusObject": "FIRST_INSTALLATION_MME",
-      "responseStatusCodeList": "sed dolor voluptate ex",
-      "processReferenceNumber": "Excepteur cillum eu sit",
-      "notificationNumber": "quis Ut minim ea deserunt",
-      "requestReferenceNumber": "enim esse mollit velit tempor",
-      "completionDate": "1928-03-12T09:14:13.0Z",
-      "deliveryDate": "exercitation in deserunt",
-      "shipmentPosition": -25947653,
-      "validFrom": "1953-01-07T12:06:21.0Z",
-      "referenceMalo": "cupidatat adipisicing",
-      "referencePriceKeyMaster": "culpa voluptate aute",
-      "referenceArticleId": "tempor officia ullamco",
-      "startDate": "1910-02-21T23:21:05.0Z",
-      "offerNumber": "nulla",
-      "inquiryReference": "irure dolore pariatur enim id",
-      "contractEnd": "1933-09-23T05:52:15.0Z",
+      "locationType": "NELO",
+      "statusObject": "UNLOCK",
+      "responseStatusCodeList": "consectetur commodo pariatur deserunt",
+      "processReferenceNumber": "esse officia velit",
+      "notificationNumber": "aliqua irure",
+      "requestReferenceNumber": "Duis aliqua cillum consequat",
+      "completionDate": "1903-10-15T06:47:26.0Z",
+      "deliveryDate": "ut",
+      "shipmentPosition": -82842655,
+      "validFrom": "1943-07-10T01:40:33.0Z",
+      "referenceMalo": "id officia amet",
+      "referencePriceKeyMaster": "non ea",
+      "referenceArticleId": "nulla dolor",
+      "startDate": "1914-08-27T18:50:06.0Z",
+      "offerNumber": "velit",
+      "inquiryReference": "laborum do aliquip aute qui",
+      "contractEnd": "1892-04-06T21:05:33.0Z",
+      "runningNumber": 1,
+      "documentReferenceNumber": "anim et",
       "senderView": [
         {
-          "usageFrom": "1945-10-27T05:27:25.0Z",
-          "usageTo": "1954-06-07T22:13:06.0Z",
-          "servicePeriod": "proident culpa sit qui aute",
+          "usageFrom": "1916-09-29T23:42:22.0Z",
+          "usageTo": "1945-09-10T02:12:58.0Z",
+          "servicePeriod": "voluptate elit Lorem ex reprehenderit",
           "amount": {
-            "value": 9.75,
-            "unit": "W"
+            "value": 7,
+            "unit": "PERCENT",
+            "startDate": "1929-06-09T15:27:23.0Z",
+            "endDate": "1896-11-01T01:10:34.0Z"
           },
-          "tariffLevel": "TARIFF_LEVEL_9"
+          "tariffLevel": "TARIFF_LEVEL_2"
         }
       ],
-      "validityTimespan": "eiusmod dolor",
+      "validityTimespan": "ullamco ad dolore",
       "privilegedEnergyQuantity": {
-        "usageFrom": "1890-06-18T18:50:14.0Z",
-        "usageTo": "1898-04-23T23:13:50.0Z",
+        "usageFrom": "1896-03-20T06:05:51.0Z",
+        "usageTo": "1947-07-30T04:55:42.0Z",
         "amount": {
-          "value": 1.25,
-          "unit": "YEAR"
+          "value": 1,
+          "unit": "KWT",
+          "startDate": "1950-12-10T05:37:52.0Z",
+          "endDate": "1958-09-23T10:30:59.0Z"
         }
+      },
+      "contactPerson": {
+        "boType": "CONTACT_PERSON",
+        "structureVersion": "1",
+        "lastName": "Paesler",
+        "eMailAddress": "Liliana_Einert10@yahoo.com",
+        "phoneNumbers": [
+          {
+            "numberType": "PHONE_CENTRAL",
+            "phoneNumber": "(0576) 058836007"
+          }
+        ]
       }
     }
   ]

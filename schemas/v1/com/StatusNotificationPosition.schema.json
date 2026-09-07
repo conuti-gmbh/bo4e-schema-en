@@ -136,6 +136,18 @@
       "type": "string",
       "format": "date-time"
     },
+    "runningNumber": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
+    },
+    "documentReferenceNumber": {
+      "type": "string"
+    },
     "senderView": {
       "type": [
         "array",
@@ -150,6 +162,9 @@
     },
     "privilegedEnergyQuantity": {
       "$ref": "../com/TimeIntervalQuantity.schema.json"
+    },
+    "contactPerson": {
+      "$ref": "../bo/ContactPerson.schema.json"
     }
   }
 }

@@ -17,6 +17,14 @@
     },
     "unit": {
       "$ref": "../enum/QuantityUnit.schema.json"
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date-time"
     }
   }
 }
