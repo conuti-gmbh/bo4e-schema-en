@@ -36,6 +36,9 @@ components:
         balancedOutageQuantity:
           $ref: >-
             ../fields/bo/SumTimeSeries/balancedOutageQuantity.yaml#/components/schemas/balancedOutageQuantity
+        balancingStart:
+          $ref: >-
+            ../fields/bo/SumTimeSeries/balancingStart.yaml#/components/schemas/balancingStart
         balancingArea:
           $ref: >-
             ../fields/bo/SumTimeSeries/balancingArea.yaml#/components/schemas/balancingArea
