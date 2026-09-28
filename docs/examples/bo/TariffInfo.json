@@ -4,154 +4,163 @@
   "provider": {
     "boType": "MARKET_PARTICIPANT",
     "structureVersion": "1",
-    "businessPartnerRole": "PROPERTY_MANAGER",
-    "salutation": "Dr.",
-    "name1": "Gesell",
-    "name2": "Alana",
-    "name3": "sed labore",
-    "name4": "ex magna",
+    "businessPartnerRole": "CUSTOMER",
+    "salutation": "Frau",
+    "name1": "Gastel",
+    "name2": "Konstantin",
+    "name3": "culpa",
+    "name4": "ipsum anim mollit proident enim",
     "partnerAddress": {
-      "postalCode": "70918",
-      "city": "Ost Lioburg",
-      "street": "Hitdorfer Kirchweg",
-      "houseNumber": "582",
-      "poBox": "ex nostrud non ullamco cupidatat",
-      "addressSupplement": "pariatur",
-      "coSupplement": "pariatur minim",
-      "countryCode": "WS",
-      "district": "Bad Lyascheid",
+      "postalCode": "97836",
+      "city": "Celle",
+      "street": "Auf dem Bohnbüchel",
+      "houseNumber": "45c",
+      "poBox": "aliqua consequat dolore",
+      "addressSupplement": "magna quis exercitation ut qui",
+      "coSupplement": "sunt",
+      "countryCode": "SK",
+      "district": "Urbaniakdorf",
       "additionalInformation": {
-        "supplement1": "non quis exercitation enim tempor",
-        "supplement2": "culpa anim mollit",
-        "supplement3": "dolore aliqua irure magna nisi",
-        "supplement4": "ullamco labore et",
-        "supplement5": "consectetur ea esse"
+        "supplement1": "magna elit cillum laborum",
+        "supplement2": "anim qui sit Duis",
+        "supplement3": "in in sunt",
+        "supplement4": "ullamco veniam officia",
+        "supplement5": "in ut Lorem sunt dolore"
       }
     },
     "commercialClassification": false,
-    "externalCustomerNumberSupplier": "dolor",
-    "marketRole": "NB",
-    "roleCodeNumber": "533303632",
+    "externalCustomerNumberSupplier": "in labore tempor cillum",
+    "marketRole": "EIV",
+    "roleCodeNumber": "347794891",
     "roleCodeType": "BDEW",
-    "vatId": "DE000010010",
-    "taxNumber": "967738625",
+    "vatId": "DE001101110",
+    "taxNumber": "057339354",
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Kühnel",
-      "eMailAddress": "Mats.Kisabaka@hotmail.com",
+      "lastName": "Kahlmeyer",
+      "eMailAddress": "Matilda.Waschbusch@yahoo.com",
       "phoneNumbers": [
         {
-          "numberType": "COLLECTIVE_PHONE",
-          "phoneNumber": "(0041) 926942392"
+          "numberType": "PHONE_CENTRAL",
+          "phoneNumber": "(0935) 231112763"
         }
       ]
     },
-    "makoAddress": "aute consectetur proident in",
-    "certificateDownloadLink": "https://modisch-bahnhof.net",
-    "courtOfRegistration": "Arensdorf",
-    "commercialRegisterNumber": "410662",
-    "website": "https://vergebend-go.org",
-    "faxNumber": "(0300) 770649667",
-    "communicationRole": "FEED_IN_PROCESSES",
-    "subContracted": false,
+    "makoAddress": "ut ex magna ullamco proident",
+    "certificateDownloadLink": "https://wahlerisch-gemuse.de",
+    "courtOfRegistration": "Rädlerburg",
+    "commercialRegisterNumber": "016176",
+    "website": "https://heldenhaft-energie.com/",
+    "faxNumber": "(0699) 160594133",
+    "communicationRole": "GRID_CONNECTION_FACILITIES",
+    "subContracted": true,
     "communicationParameters": {
       "targetAddress": {
-        "targetAddress1": "reprehenderit cupidatat Ut",
-        "targetAddress2": "in Excepteur non mollit",
-        "targetAddress3": "occaecat nulla ea deserunt cupidatat",
-        "targetAddress4": "aliquip esse",
-        "targetAddress5": "reprehenderit culpa dolore et Excepteur"
+        "targetAddress1": "consectetur non",
+        "targetAddress2": "proident aliquip est laborum tempor",
+        "targetAddress3": "ut reprehenderit anim",
+        "targetAddress4": "do ullamco magna commodo",
+        "targetAddress5": "in"
       },
       "certificateIssuer": {
-        "certificateIssuer1": "labore",
-        "certificateIssuer2": "dolore laboris Ut proident exercitation",
-        "certificateIssuer3": "ipsum fugiat Duis",
-        "certificateIssuer4": "laboris labore exercitation deserunt",
-        "certificateIssuer5": "aliquip consectetur"
+        "certificateIssuer1": "ad",
+        "certificateIssuer2": "Excepteur aliquip esse",
+        "certificateIssuer3": "Excepteur deserunt labore ipsum",
+        "certificateIssuer4": "quis officia laboris in nisi",
+        "certificateIssuer5": "cupidatat voluptate"
       },
       "certificateUser": {
-        "certificateUser1": "do",
-        "certificateUser2": "reprehenderit officia",
-        "certificateUser3": "reprehenderit irure dolore in",
-        "certificateUser4": "non ullamco enim",
-        "certificateUser5": "in nisi anim"
+        "certificateUser1": "consequat fugiat laborum nulla",
+        "certificateUser2": "in Ut sit",
+        "certificateUser3": "fugiat in consectetur sit enim",
+        "certificateUser4": "do aliquip consectetur et anim",
+        "certificateUser5": "in incididunt"
       }
     },
-    "meteringPointOperatorAttribute": "COMPETITIVE_METERING_POINT_OPERATOR",
+    "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
     "bankAccount": [
       {
         "purposeOfUse": "BV_PAYMENT_UNLOCK_BILLING",
-        "iban": "CR43732250757140050088",
-        "accountHolder": "Lotte Mau",
-        "bic": "MNJWMN15",
-        "creditInstitution": "Holzner OHG"
+        "iban": "NL27WKVR9008005208",
+        "accountHolder": "Jonah Wollenberg",
+        "bic": "FTBYTNS0",
+        "creditInstitution": "Maczey-Kaiser"
       }
     ],
     "reachability": [
       {
-        "availability": "TUESDAY",
-        "time": "non irure"
+        "availability": "WEDNESDAY",
+        "time": "ullamco"
       }
     ],
-    "ipAddress": "897e:4720:d6e6:ff0a:eed4:9d5e:c1a6:c8fe",
+    "ipAddress": "bef9:32ed:c3b6:ca84:56db:b6ce:bb0f:80cb",
     "ipRange": {
-      "lowerLimit": "0f59:bbf1:d54e:f572:d91d:bacb:9daa:be1c",
-      "upperLimit": "7fc2:bbaa:8db5:22a0:cc0b:a7f3:e937:ac6b"
+      "lowerLimit": "238.171.90.63",
+      "upperLimit": "27.135.254.118"
     },
-    "assignmentFrom": "1946-04-27T20:13:23.0Z",
-    "assignmentTo": "1953-05-14T18:59:54.0Z",
+    "assignmentFrom": "1892-03-23T08:57:36.0Z",
+    "assignmentTo": "1954-08-16T01:17:34.0Z",
     "balancingGroup": "dolor",
-    "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_CHP"
+    "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_EEG",
+    "balancingGroups": [
+      {
+        "boType": "BALANCING_GROUP",
+        "structureVersion": "1",
+        "designation": "Duis exercitation",
+        "priority": 10,
+        "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_EEG"
+      }
+    ]
   },
-  "providerName": "mollit elit voluptate do et",
-  "applicableFrom": "1956-03-20T03:35:08.0Z",
-  "remark": "magna reprehenderit officia esse",
-  "designation": "esse culpa",
+  "providerName": "incididunt Ut officia elit ut",
+  "applicableFrom": "1950-08-07T06:09:58.0Z",
+  "remark": "et Ut proident aliqua fugiat",
+  "designation": "minim esse consectetur amet",
   "energyMix": {
     "share": [
       {
-        "generationType": "SOLAR",
-        "sharePercent": 17.5
+        "generationType": "CHP",
+        "sharePercent": 66
       }
     ],
-    "nuclearWaste": 16,
-    "remark": "enim quis laboris amet ea",
-    "designation": "ipsum enim eu",
-    "co2Emission": 16.75,
-    "energyType": "ELECTRICITY",
+    "nuclearWaste": 18.25,
+    "remark": "magna sed ea aliqua",
+    "designation": "cupidatat aute",
+    "co2Emission": 12,
+    "energyType": "WATER",
     "energyMixNumber": 4,
-    "validityYear": 2034,
-    "isInEcoTopTen": true,
+    "validityYear": 2030,
+    "isInEcoTopTen": false,
     "ecoLabel": [
-      "GASGREEN_GREEN_ELECTRICITY"
+      "OK_POWER"
     ],
     "ecoCertificates": [
-      "TUEV_SUED"
+      "LGA"
     ],
-    "website": "culpa aliquip cillum irure"
+    "website": "ullamco sed"
   },
   "customerTypes": [
-    "CHP"
+    "STREET_LIGHTING"
   ],
   "numberOfRegisters": "TWO_TARIFF",
-  "sector": "WATER",
+  "sector": "DISTRICT_HEATING",
   "tariffAttributes": [
     "HEATING_ELECTRICITY"
   ],
   "tariffCategory": "SPECIAL_TARIFF",
   "contractConditions": {
-    "gridAccessPayer": "SUPPLIER",
-    "gridAccessContract": "CUSTOMER_GRID_OPERATOR",
+    "gridAccessPayer": "CUSTOMER",
+    "gridAccessContract": "SUPPLIER_GRID_OPERATOR",
     "gridAccessBilling": {
-      "timeUnit": "MONTH",
-      "duration": 3,
-      "startDate": "1935-01-02T22:49:27.0Z",
-      "endDate": "1902-10-03T13:15:33.0Z",
-      "unit": "HOUR",
-      "readingPeriod": "729669",
-      "billingPeriod": "483731",
-      "periodText": "enim ex est voluptate do",
+      "timeUnit": "WEEK",
+      "duration": 0,
+      "startDate": "1890-12-26T01:44:24.0Z",
+      "endDate": "1921-02-11T19:14:16.0Z",
+      "unit": "YEAR",
+      "readingPeriod": "792354",
+      "billingPeriod": "642681",
+      "periodText": "tempor irure minim",
       "periodId": 5
     },
     "includesSingularlyUsedEquipment": true,
@@ -160,85 +169,85 @@
     "householdCustomer": false,
     "billingViaNna": true,
     "municipalDiscount": {
-      "value": 12.75,
-      "unit": "velit",
-      "typeValue": "officia dolore irure reprehenderit",
-      "assessmentBase": 16.5
+      "value": 17.75,
+      "unit": "culpa ut voluptate dolor occaecat",
+      "typeValue": "adipisicing do cillum ut",
+      "assessmentBase": 10.75
     },
-    "billingYearStart": "1928-08-04T04:31:16.0Z",
-    "nextGridAccessBilling": "9623",
-    "billingInterval": 5,
-    "gridAccessBillingInterval": 5,
+    "billingYearStart": "1965-06-04T11:27:25.0Z",
+    "nextGridAccessBilling": "5372",
+    "billingInterval": 2,
+    "gridAccessBillingInterval": 1,
     "plannedScheduledReading": {
-      "timeUnit": "MONTH",
-      "duration": 5,
-      "startDate": "1948-02-28T10:46:19.0Z",
-      "endDate": "1926-03-16T07:58:53.0Z",
-      "unit": "QUARTER_HOUR",
-      "readingPeriod": "506771",
-      "billingPeriod": "109061",
-      "periodText": "qui",
-      "periodId": 2
+      "timeUnit": "SECOND",
+      "duration": 10,
+      "startDate": "1910-06-19T23:15:33.0Z",
+      "endDate": "1919-01-12T05:28:31.0Z",
+      "unit": "MINUTE",
+      "readingPeriod": "806455",
+      "billingPeriod": "617551",
+      "periodText": "consectetur sunt ut",
+      "periodId": 8
     },
     "msbCommissioning": "CONTRACT_TO_MSB",
     "terminationNotice": {
-      "timeUnit": "QUARTER",
-      "duration": 8,
-      "startDate": "1957-08-26T15:34:16.0Z",
-      "endDate": "1926-07-02T11:44:24.0Z",
-      "unit": "DAY",
-      "readingPeriod": "805032",
-      "billingPeriod": "655466",
-      "periodText": "minim sunt",
-      "periodId": 5
-    },
-    "contractDuration": {
       "timeUnit": "DAY",
-      "duration": 9,
-      "startDate": "1912-12-31T16:07:08.0Z",
-      "endDate": "1965-04-28T16:28:42.0Z",
-      "unit": "HOUR",
-      "readingPeriod": "646350",
-      "billingPeriod": "052651",
-      "periodText": "occaecat ut nisi qui et",
+      "duration": 0,
+      "startDate": "1907-07-23T03:08:26.0Z",
+      "endDate": "1945-01-16T23:04:01.0Z",
+      "unit": "WEEK",
+      "readingPeriod": "342832",
+      "billingPeriod": "117691",
+      "periodText": "laborum commodo ad ullamco",
       "periodId": 8
     },
-    "terminationDate": "irure",
-    "installmentCycle": {
+    "contractDuration": {
       "timeUnit": "QUARTER",
-      "duration": 7,
-      "startDate": "1960-07-04T19:26:57.0Z",
-      "endDate": "1968-01-28T13:39:16.0Z",
+      "duration": 0,
+      "startDate": "1894-08-16T09:27:11.0Z",
+      "endDate": "1900-12-19T01:36:49.0Z",
       "unit": "WEEK",
-      "readingPeriod": "619684",
-      "billingPeriod": "952762",
-      "periodText": "labore laboris in",
-      "periodId": 3
+      "readingPeriod": "744312",
+      "billingPeriod": "615778",
+      "periodText": "ullamco ex officia velit nisi",
+      "periodId": 9
     },
-    "numberOfInstallments": 8,
-    "description": "occaecat ea",
+    "terminationDate": "laboris ad",
+    "installmentCycle": {
+      "timeUnit": "QUARTER_HOUR",
+      "duration": 0,
+      "startDate": "1961-01-19T09:02:58.0Z",
+      "endDate": "1911-02-04T16:14:34.0Z",
+      "unit": "YEAR",
+      "readingPeriod": "077275",
+      "billingPeriod": "854130",
+      "periodText": "velit esse dolor in",
+      "periodId": 4
+    },
+    "numberOfInstallments": 7,
+    "description": "esse aliquip",
     "contractExtension": {
-      "timeUnit": "MINUTE",
-      "duration": 2,
-      "startDate": "1953-07-15T15:34:25.0Z",
-      "endDate": "1939-11-06T13:10:21.0Z",
-      "unit": "WEEK",
-      "readingPeriod": "083184",
-      "billingPeriod": "258599",
-      "periodText": "amet nostrud laborum do sint",
+      "timeUnit": "WEEK",
+      "duration": 6,
+      "startDate": "1920-07-08T17:43:58.0Z",
+      "endDate": "1949-08-31T12:31:05.0Z",
+      "unit": "QUARTER",
+      "readingPeriod": "986146",
+      "billingPeriod": "655745",
+      "periodText": "consectetur elit",
       "periodId": 1
     }
   },
-  "website": "labore magna tempor voluptate",
+  "website": "culpa dolor aliquip est",
   "temporalValidity": {
-    "timeUnit": "HALF_YEAR",
-    "duration": 5,
-    "startDate": "1942-10-03T08:41:18.0Z",
-    "endDate": "1912-02-28T01:58:34.0Z",
-    "unit": "QUARTER_HOUR",
-    "readingPeriod": "881665",
-    "billingPeriod": "924740",
-    "periodText": "cupidatat commodo Duis",
-    "periodId": 3
+    "timeUnit": "DAY",
+    "duration": 10,
+    "startDate": "1929-03-08T05:10:06.0Z",
+    "endDate": "1951-07-12T14:46:24.0Z",
+    "unit": "HOUR",
+    "readingPeriod": "871957",
+    "billingPeriod": "960970",
+    "periodText": "aliquip nisi in Lorem officia",
+    "periodId": 9
   }
 }

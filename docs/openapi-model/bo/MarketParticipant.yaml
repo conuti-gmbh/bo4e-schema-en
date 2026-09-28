@@ -110,3 +110,6 @@ components:
         balancingGroupPurpose:
           $ref: >-
             ../fields/bo/MarketParticipant/balancingGroupPurpose.yaml#/components/schemas/balancingGroupPurpose
+        balancingGroups:
+          $ref: >-
+            ../fields/bo/MarketParticipant/balancingGroups.yaml#/components/schemas/balancingGroups

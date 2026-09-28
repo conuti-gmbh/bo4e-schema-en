@@ -1,153 +1,64 @@
 {
   "boType": "MARKET_LOCATION",
   "structureVersion": "1",
-  "marketLocationId": "33119667199",
-  "sector": "dolore nulla id",
+  "marketLocationId": "88783298261",
+  "sector": "dolor aliqua officia sunt minim",
   "energyDirection": "FEED_IN",
-  "balancingMethod": "TLP_SEPARATE",
+  "balancingMethod": "RLM",
   "consumptionType": [
-    "WK"
+    "KL"
   ],
   "interruptible": false,
-  "gridLevel": "HSP_MSP_UMSP",
-  "transformation": "HSS_HSP_UMSP",
-  "gridOperatorCodeNumber": "0368042217",
-  "areaType": "BALANCING_AREA",
-  "gridAreaNumber": "3588049965",
-  "balancingArea": "aliqua mollit pariatur et id",
-  "defaultSupplierCodeNumber": "9553039198",
-  "gasQuality": "H_GAS",
+  "gridLevel": "HSP",
+  "transformation": "MD",
+  "gridOperatorCodeNumber": "2109328192",
+  "areaType": "REGIONAL_GRID",
+  "gridAreaNumber": "4421609749",
+  "balancingArea": "cupidatat non mollit",
+  "defaultSupplierCodeNumber": "0237416536",
+  "gasQuality": "L_GAS",
   "endCustomer": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
-    "salutation": "Frau",
-    "name1": "Frauendorf",
-    "name2": "Enes",
-    "name3": "elit esse pariatur velit",
-    "name4": "irure aute",
-    "vatId": "DE101001110",
-    "creditorId": "201650",
-    "emailAddress": "Dion4@hotmail.com",
-    "website": "https://tapfer-tisch.com",
-    "commercialClassification": true,
-    "commercialRegisterNumber": "992945",
-    "courtOfRegistration": "Hameln",
-    "partnerAddress": {
-      "postalCode": "97834",
-      "city": "Langenfeld (Rheinland)",
-      "street": "Bürriger Weg",
-      "houseNumber": "5",
-      "poBox": "minim id",
-      "addressSupplement": "in officia aute",
-      "coSupplement": "dolor sint incididunt consequat minim",
-      "countryCode": "IC",
-      "district": "Bad Sandy",
-      "additionalInformation": {
-        "supplement1": "Duis esse sunt aliqua in",
-        "supplement2": "et quis ut ullamco consectetur",
-        "supplement3": "aliquip in in",
-        "supplement4": "deserunt labore fugiat sint",
-        "supplement5": "adipisicing"
-      }
-    },
-    "externalCustomerNumberSupplier": "734235",
-    "externalReferences": [
-      {
-        "externalReferenceName": "Kundennummer beim Lieferanten",
-        "externalReferenceValue": "2482078980"
-      }
-    ],
-    "businessPartnerRole": [
-      "PROSPECT"
-    ],
-    "contactChannel": [
-      "FAX"
-    ],
-    "contactPerson": {
-      "boType": "CONTACT_PERSON",
-      "structureVersion": "1",
-      "lastName": "Bönisch",
-      "eMailAddress": "Ansgar.Frosch56@yahoo.com",
-      "phoneNumbers": [
-        {
-          "numberType": "MOBILE_NUMBER",
-          "phoneNumber": "+49-6614-19410985"
-        }
-      ]
-    }
-  },
-  "locationAddress": {
-    "postalCode": "17605",
-    "city": "Bad Salzuflen",
-    "street": "An der Bergerweide",
-    "houseNumber": "93a",
-    "poBox": "culpa",
-    "addressSupplement": "dolor ipsum",
-    "coSupplement": "veniam aliquip",
-    "countryCode": "UM",
-    "district": "West Marius",
-    "additionalInformation": {
-      "supplement1": "amet aute ullamco elit Duis",
-      "supplement2": "ullamco tempor",
-      "supplement3": "in adipisicing irure",
-      "supplement4": "dolor occaecat id voluptate",
-      "supplement5": "do labore tempor deserunt"
-    }
-  },
-  "cadastralInformation": {
-    "cadastralDistrict": "veniam dolore in ut",
-    "parcel": "dolore minim quis Lorem",
-    "parcelNumber": "esse irure dolore"
-  },
-  "controlZone": "ex",
-  "marketArea": "deserunt ad Duis ut",
-  "timeSeriesType": "BI1",
-  "meteringTechnicalClassification": "IMS",
-  "lockStatus": "LOCKED",
-  "referenceMarketLocationId": "59119657509",
-  "supplyType": "EMERGENCY_DELIVERY",
-  "owner": {
-    "boType": "BUSINESS_PARTNER",
-    "structureVersion": "1",
-    "salutation": "Dr.",
-    "name1": "Rehwagen",
-    "name2": "Mirco",
-    "name3": "mollit fugiat magna sint",
-    "name4": "id do",
-    "vatId": "DE001101001",
-    "creditorId": "388494",
-    "emailAddress": "Tara.Burghagen@hotmail.com",
-    "website": "https://meisterlich-wahrheit.info/",
+    "salutation": "Herr",
+    "name1": "Jansen",
+    "name2": "Lennard",
+    "name3": "aliquip in Duis irure consequat",
+    "name4": "dolor ad aliqua nulla dolore",
+    "vatId": "DE100100111",
+    "creditorId": "590038",
+    "emailAddress": "Henry.Moede@gmail.com",
+    "website": "https://konzentriert-darm.de",
     "commercialClassification": false,
-    "commercialRegisterNumber": "545633",
-    "courtOfRegistration": "Neu Nikoland",
+    "commercialRegisterNumber": "270683",
+    "courtOfRegistration": "Lenstadt",
     "partnerAddress": {
-      "postalCode": "16840",
-      "city": "Sattelmaierscheid",
-      "street": "Köttershof",
-      "houseNumber": "46a",
-      "poBox": "quis Excepteur do eu adipisicing",
-      "addressSupplement": "eiusmod in magna pariatur ut",
-      "coSupplement": "amet pariatur labore dolore",
-      "countryCode": "CV",
-      "district": "Neu Oscarburg",
+      "postalCode": "87143",
+      "city": "Herminedorf",
+      "street": "In der Hartmannswiese",
+      "houseNumber": "773",
+      "poBox": "et aliqua eiusmod mollit elit",
+      "addressSupplement": "in cillum officia",
+      "coSupplement": "eu velit Excepteur sed sunt",
+      "countryCode": "AD",
+      "district": "Nord Elisaburg",
       "additionalInformation": {
-        "supplement1": "eiusmod",
-        "supplement2": "dolor sunt nisi consequat commodo",
-        "supplement3": "in magna et",
-        "supplement4": "est deserunt",
-        "supplement5": "exercitation minim id"
+        "supplement1": "velit proident",
+        "supplement2": "dolor",
+        "supplement3": "amet dolor ipsum",
+        "supplement4": "non sit culpa",
+        "supplement5": "ea sit nostrud"
       }
     },
-    "externalCustomerNumberSupplier": "503290",
+    "externalCustomerNumberSupplier": "886836",
     "externalReferences": [
       {
         "externalReferenceName": "Kundennummer beim Lieferanten",
-        "externalReferenceValue": "0910957955"
+        "externalReferenceValue": "7258478790"
       }
     ],
     "businessPartnerRole": [
-      "SUPPLIER"
+      "MARKET_PARTNER"
     ],
     "contactChannel": [
       "EMAIL"
@@ -155,12 +66,101 @@
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Hallmann",
-      "eMailAddress": "Nino.Ecker52@gmail.com",
+      "lastName": "Haferkamp",
+      "eMailAddress": "Lasse_Wurm@yahoo.com",
       "phoneNumbers": [
         {
-          "numberType": "PHONE_EXTENSION",
-          "phoneNumber": "+49-0061-45164306"
+          "numberType": "PHONE_CENTRAL",
+          "phoneNumber": "+49-163-7014333"
+        }
+      ]
+    }
+  },
+  "locationAddress": {
+    "postalCode": "70370",
+    "city": "Giehlscheid",
+    "street": "Atzlenbacher Str.",
+    "houseNumber": "9",
+    "poBox": "ex cupidatat",
+    "addressSupplement": "nostrud dolore aliqua consequat",
+    "coSupplement": "sunt",
+    "countryCode": "RO",
+    "district": "Janescheid",
+    "additionalInformation": {
+      "supplement1": "ipsum",
+      "supplement2": "Ut proident pariatur velit quis",
+      "supplement3": "qui",
+      "supplement4": "est",
+      "supplement5": "consequat eu irure nisi"
+    }
+  },
+  "cadastralInformation": {
+    "cadastralDistrict": "sit ipsum ut",
+    "parcel": "Ut ipsum nostrud",
+    "parcelNumber": "commodo enim sed aliquip dolore"
+  },
+  "controlZone": "in",
+  "marketArea": "proident",
+  "timeSeriesType": "SO1",
+  "meteringTechnicalClassification": "KME_MME",
+  "lockStatus": "LOCKED",
+  "referenceMarketLocationId": "68659144420",
+  "supplyType": "EMERGENCY_DELIVERY",
+  "owner": {
+    "boType": "BUSINESS_PARTNER",
+    "structureVersion": "1",
+    "salutation": "Prof. Dr.",
+    "name1": "Tsamonikian",
+    "name2": "Rocco",
+    "name3": "nostrud ullamco quis culpa",
+    "name4": "consequat dolor ea",
+    "vatId": "DE010100010",
+    "creditorId": "450485",
+    "emailAddress": "Dion.Lehner69@gmail.com",
+    "website": "https://unerbittlich-ohr.com/",
+    "commercialClassification": true,
+    "commercialRegisterNumber": "847498",
+    "courtOfRegistration": "Kneifelburg",
+    "partnerAddress": {
+      "postalCode": "60593",
+      "city": "Neuwied",
+      "street": "Kieselstr.",
+      "houseNumber": "65c",
+      "poBox": "fugiat in velit",
+      "addressSupplement": "non sit in",
+      "coSupplement": "amet quis ad elit",
+      "countryCode": "GS",
+      "district": "Annyscheid",
+      "additionalInformation": {
+        "supplement1": "nostrud",
+        "supplement2": "elit",
+        "supplement3": "ullamco proident laborum mollit Ut",
+        "supplement4": "occaecat eu tempor",
+        "supplement5": "cupidatat"
+      }
+    },
+    "externalCustomerNumberSupplier": "908693",
+    "externalReferences": [
+      {
+        "externalReferenceName": "Kundennummer beim Lieferanten",
+        "externalReferenceValue": "9856226501"
+      }
+    ],
+    "businessPartnerRole": [
+      "CUSTOMER"
+    ],
+    "contactChannel": [
+      "PHONE_CALL"
+    ],
+    "contactPerson": {
+      "boType": "CONTACT_PERSON",
+      "structureVersion": "1",
+      "lastName": "Derr",
+      "eMailAddress": "Aliya15@hotmail.com",
+      "phoneNumbers": [
+        {
+          "numberType": "FAX_EXTENSION",
+          "phoneNumber": "+49-6432-63999512"
         }
       ]
     }
@@ -168,411 +168,429 @@
   "propertyManager": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
-    "salutation": "Prof. Dr.",
-    "name1": "Wachenbrunner",
-    "name2": "Matthis",
-    "name3": "voluptate",
-    "name4": "ea commodo",
-    "vatId": "DE111110001",
-    "creditorId": "785726",
-    "emailAddress": "Justin.Klein@hotmail.com",
-    "website": "https://wesentlich-jugendliche.de",
+    "salutation": "Dr.",
+    "name1": "Oberem",
+    "name2": "Enrico",
+    "name3": "qui ad",
+    "name4": "in tempor Excepteur",
+    "vatId": "DE100111101",
+    "creditorId": "450531",
+    "emailAddress": "Alan.Amann@gmail.com",
+    "website": "https://rein-schusswaffe.ch",
     "commercialClassification": false,
-    "commercialRegisterNumber": "327850",
-    "courtOfRegistration": "Nord Xaverscheid",
+    "commercialRegisterNumber": "533059",
+    "courtOfRegistration": "Alt Isa",
     "partnerAddress": {
-      "postalCode": "83164",
-      "city": "Huebeldorf",
-      "street": "Stromstr.",
-      "houseNumber": "249",
-      "poBox": "magna exercitation officia",
-      "addressSupplement": "Duis esse dolore",
-      "coSupplement": "fugiat deserunt non in irure",
-      "countryCode": "ME",
-      "district": "Alt Milla",
+      "postalCode": "21671",
+      "city": "Bad Valeriadorf",
+      "street": "Rudolf-Mann-Platz",
+      "houseNumber": "75a",
+      "poBox": "nisi culpa dolore ea sed",
+      "addressSupplement": "in consequat nulla",
+      "coSupplement": "proident officia in nostrud quis",
+      "countryCode": "IR",
+      "district": "Knetschdorf",
       "additionalInformation": {
-        "supplement1": "cupidatat esse eu",
-        "supplement2": "ea",
-        "supplement3": "id veniam",
-        "supplement4": "qui veniam dolor dolore ipsum",
-        "supplement5": "nostrud consequat aliquip ex"
+        "supplement1": "ut ex sint",
+        "supplement2": "dolore magna adipisicing officia",
+        "supplement3": "sit occaecat",
+        "supplement4": "est quis ipsum",
+        "supplement5": "Lorem consectetur"
       }
     },
-    "externalCustomerNumberSupplier": "817325",
+    "externalCustomerNumberSupplier": "198295",
     "externalReferences": [
       {
-        "externalReferenceName": "Kundennummer beim Lieferanten",
-        "externalReferenceValue": "8084455147"
+        "externalReferenceName": "Kundennummer beim Altlieferanten",
+        "externalReferenceValue": "6935642145"
       }
     ],
     "businessPartnerRole": [
-      "MARKET_PARTNER"
+      "SERVICE_PROVIDER"
     ],
     "contactChannel": [
-      "WRITTEN_LETTER"
+      "FAX"
     ],
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Huneke",
-      "eMailAddress": "Konstantin_Savoia79@hotmail.com",
+      "lastName": "Wischer",
+      "eMailAddress": "Jasmine27@yahoo.com",
       "phoneNumbers": [
         {
-          "numberType": "PHONE_EXTENSION",
-          "phoneNumber": "(0855) 238099442"
+          "numberType": "DEPARTMENT_PHONE",
+          "phoneNumber": "(0968) 949472281"
         }
       ]
     }
   },
   "compensationRecipient": "CUSTOMER",
-  "statusGeneratingMalo": "FEED_IN_REMUNERATION_PARAGRAPH_37",
+  "statusGeneratingMalo": "CHP_REMUNERATION",
   "remoteControllability": "TECHNICALLY_REMOTE_CONTROLLABLE",
-  "promotionCountry": "dolore",
+  "promotionCountry": "labore voluptate ad eu ullamco",
   "redispatch": true,
   "futureReportingPoint": true,
-  "locationAssignment": "UNCHANGED",
-  "configurationProduct": "amet esse ut dolore",
-  "loadCurveDefinition": "qui enim non in",
-  "productDataRelevantRole": "MGV",
+  "locationAssignment": "ENDS",
+  "configurationProduct": "cillum",
+  "loadCurveDefinition": "ex velit ea est occaecat",
+  "productDataRelevantRole": "EIV",
   "involvedMarketPartner": {
     "boType": "MARKET_PARTICIPANT",
     "structureVersion": "1",
-    "businessPartnerRole": "MARKET_PARTNER",
-    "salutation": "Frau",
-    "name1": "Schielke",
-    "name2": "Romina",
-    "name3": "incididunt sunt commodo in",
-    "name4": "tempor id occaecat",
+    "businessPartnerRole": "OWNER",
+    "salutation": "Dr.",
+    "name1": "Meissner",
+    "name2": "Alan",
+    "name3": "mollit labore",
+    "name4": "laborum veniam",
     "partnerAddress": {
-      "postalCode": "43590",
-      "city": "Saarbrücken",
-      "street": "Franz-Kail-Str.",
-      "houseNumber": "9",
-      "poBox": "deserunt eu",
-      "addressSupplement": "minim consectetur velit",
-      "coSupplement": "ex quis aute aliqua magna",
-      "countryCode": "EA",
-      "district": "Hukescheid",
+      "postalCode": "81824",
+      "city": "Greifswald",
+      "street": "Dresdener Str.",
+      "houseNumber": "25a",
+      "poBox": "ad",
+      "addressSupplement": "occaecat fugiat velit",
+      "coSupplement": "commodo sint et",
+      "countryCode": "MM",
+      "district": "Lilydorf",
       "additionalInformation": {
-        "supplement1": "in",
-        "supplement2": "adipisicing Ut id incididunt aute",
-        "supplement3": "tempor minim nisi",
-        "supplement4": "ea consequat ullamco nisi",
-        "supplement5": "sit"
+        "supplement1": "laborum velit ut",
+        "supplement2": "dolore mollit et qui",
+        "supplement3": "occaecat",
+        "supplement4": "consequat ut labore",
+        "supplement5": "cupidatat Duis Ut"
       }
     },
     "commercialClassification": true,
-    "externalCustomerNumberSupplier": "laboris id dolor nisi nostrud",
-    "marketRole": "MDL",
-    "roleCodeNumber": "599534483",
+    "externalCustomerNumberSupplier": "id",
+    "marketRole": "LF",
+    "roleCodeNumber": "426564780",
     "roleCodeType": "GLN",
-    "vatId": "DE110001100",
-    "taxNumber": "386948732",
+    "vatId": "DE001101000",
+    "taxNumber": "868243257",
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Banse",
-      "eMailAddress": "Cassandra43@gmail.com",
+      "lastName": "Hohl",
+      "eMailAddress": "Ina.Achkinadze47@hotmail.com",
       "phoneNumbers": [
         {
-          "numberType": "DEPARTMENT_PHONE",
-          "phoneNumber": "+49-470-1939005"
+          "numberType": "PHONE_EXTENSION",
+          "phoneNumber": "(0658) 912905780"
         }
       ]
     },
-    "makoAddress": "veniam dolor",
-    "certificateDownloadLink": "https://entgegenkommend-zeit.name",
-    "courtOfRegistration": "Nord Emmystadt",
-    "commercialRegisterNumber": "783980",
-    "website": "https://prachtvoll-krieg.name/",
-    "faxNumber": "(09250) 0510263",
-    "communicationRole": "MMMA_PROCESSES",
-    "subContracted": false,
+    "makoAddress": "veniam sed amet fugiat sit",
+    "certificateDownloadLink": "https://siegreich-tisch.de",
+    "courtOfRegistration": "Nord Mikastadt",
+    "commercialRegisterNumber": "799906",
+    "website": "https://transparent-nationalsozialismus.org",
+    "faxNumber": "+49-384-5779616",
+    "communicationRole": "FRAMEWORK_CONTRACTS",
+    "subContracted": true,
     "communicationParameters": {
       "targetAddress": {
-        "targetAddress1": "ea tempor nulla",
-        "targetAddress2": "amet fugiat voluptate est",
-        "targetAddress3": "in occaecat ipsum",
-        "targetAddress4": "sint",
-        "targetAddress5": "labore aliqua"
+        "targetAddress1": "dolore Ut dolor et",
+        "targetAddress2": "laboris non deserunt sint dolor",
+        "targetAddress3": "ex culpa",
+        "targetAddress4": "occaecat",
+        "targetAddress5": "magna aliquip eiusmod"
       },
       "certificateIssuer": {
-        "certificateIssuer1": "anim nostrud mollit Lorem Excepteur",
-        "certificateIssuer2": "consectetur",
-        "certificateIssuer3": "ad nisi incididunt",
-        "certificateIssuer4": "anim dolore incididunt commodo id",
-        "certificateIssuer5": "Duis deserunt"
+        "certificateIssuer1": "dolor",
+        "certificateIssuer2": "proident",
+        "certificateIssuer3": "occaecat non fugiat amet",
+        "certificateIssuer4": "culpa qui",
+        "certificateIssuer5": "ut commodo nulla fugiat"
       },
       "certificateUser": {
-        "certificateUser1": "adipisicing veniam anim nisi",
-        "certificateUser2": "incididunt",
-        "certificateUser3": "dolore",
-        "certificateUser4": "ut",
-        "certificateUser5": "Lorem Duis sunt cillum"
+        "certificateUser1": "esse laboris occaecat",
+        "certificateUser2": "nulla",
+        "certificateUser3": "pariatur",
+        "certificateUser4": "ea ut exercitation in",
+        "certificateUser5": "ad"
       }
     },
-    "meteringPointOperatorAttribute": "FALLBACK_METERING_POINT_OPERATOR",
+    "meteringPointOperatorAttribute": "COMPETITIVE_METERING_POINT_OPERATOR",
     "bankAccount": [
       {
-        "purposeOfUse": "BV_PAYMENT_UNLOCK_BILLING",
-        "iban": "BG86NSER2920090838855T",
-        "accountHolder": "Sandy Schlawitz",
-        "bic": "TJSUKZEDW0K",
-        "creditInstitution": "Leitheim-Goy"
+        "purposeOfUse": "BV_PAYMENT_MMMA",
+        "iban": "AZ10IAVJ04052402168081300305",
+        "accountHolder": "Pierre Alizadeh",
+        "bic": "GSESHTM620G",
+        "creditInstitution": "Erlei AG"
       }
     ],
     "reachability": [
       {
-        "availability": "WEDNESDAY",
-        "time": "quis"
+        "availability": "TUESDAY",
+        "time": "Lorem reprehenderit ea"
       }
     ],
-    "ipAddress": "61.151.80.115",
+    "ipAddress": "dddd:5df5:2dac:d1f4:c3a9:addc:035c:7ab6",
     "ipRange": {
-      "lowerLimit": "9eff:ffb0:bf85:6daf:7072:cbe7:3c0f:b9dd",
-      "upperLimit": "2d7c:1eb9:60a8:c4c0:bf58:821d:9eb8:ee6b"
+      "lowerLimit": "71.141.63.215",
+      "upperLimit": "a82c:0a8b:32e4:fdaf:82f5:ef2c:4aba:d52f"
     },
-    "assignmentFrom": "1920-03-29T15:11:03.0Z",
-    "assignmentTo": "1899-05-12T07:44:51.0Z",
-    "balancingGroup": "in quis velit",
-    "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_EEG"
+    "assignmentFrom": "1928-11-17T02:40:48.0Z",
+    "assignmentTo": "1897-10-14T08:01:23.0Z",
+    "balancingGroup": "Lorem proident Excepteur dolore occaecat",
+    "balancingGroupPurpose": "OTHER_GENERATING_MARKET_LOCATION",
+    "balancingGroups": [
+      {
+        "boType": "BALANCING_GROUP",
+        "structureVersion": "1",
+        "designation": "sunt exercitation eiusmod consequat dolore",
+        "priority": 1,
+        "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION"
+      }
+    ]
   },
-  "gridFeeModule": "PERCENTAGE_REDUCTION_ENERGY_PRICE_MODULE_2",
-  "dataQuality": "EXPECTED_DATA",
+  "gridFeeModule": "FLAT_RATE_GRID_FEE_REDUCTION_MODULE_1",
+  "dataQuality": "NO_DATA",
   "validityPeriod": {
-    "timeUnit": "DAY",
-    "duration": 1,
-    "startDate": "1966-04-15T16:14:16.0Z",
-    "endDate": "1959-01-21T14:02:52.0Z",
-    "unit": "QUARTER",
-    "readingPeriod": "131860",
-    "billingPeriod": "749355",
-    "periodText": "dolore nostrud",
-    "periodId": 3
+    "timeUnit": "MINUTE",
+    "duration": 8,
+    "startDate": "1940-08-14T02:59:54.0Z",
+    "endDate": "1898-05-27T17:18:40.0Z",
+    "unit": "HOUR",
+    "readingPeriod": "294869",
+    "billingPeriod": "743791",
+    "periodText": "Duis nostrud in minim",
+    "periodId": 8
   },
   "marketRoles": [
     {
       "boType": "MARKET_PARTICIPANT",
       "structureVersion": "1",
-      "businessPartnerRole": "CUSTOMER",
-      "salutation": "Prof. Dr.",
-      "name1": "Schönebeck",
-      "name2": "Finnley",
-      "name3": "eiusmod",
-      "name4": "dolore in pariatur",
+      "businessPartnerRole": "OWNER",
+      "salutation": "Frau",
+      "name1": "Töpfer",
+      "name2": "Leopold",
+      "name3": "nisi enim",
+      "name4": "ipsum",
       "partnerAddress": {
-        "postalCode": "07081",
-        "city": "Grevenbroich",
-        "street": "Schlebuscher Heide",
-        "houseNumber": "96c",
-        "poBox": "voluptate",
-        "addressSupplement": "ut eiusmod",
-        "coSupplement": "velit adipisicing",
-        "countryCode": "RU",
-        "district": "Wolfenbüttel",
+        "postalCode": "93134",
+        "city": "Süd Brian",
+        "street": "Johann-Wirtz-Weg",
+        "houseNumber": "672",
+        "poBox": "et est",
+        "addressSupplement": "consectetur voluptate",
+        "coSupplement": "cillum",
+        "countryCode": "XK",
+        "district": "Kassel",
         "additionalInformation": {
-          "supplement1": "dolor elit",
-          "supplement2": "minim amet cupidatat",
-          "supplement3": "minim consequat cillum irure",
-          "supplement4": "in cillum dolore adipisicing",
-          "supplement5": "mollit occaecat laboris velit sed"
+          "supplement1": "deserunt Ut Lorem dolor exercitation",
+          "supplement2": "sit",
+          "supplement3": "exercitation dolor sunt",
+          "supplement4": "nisi",
+          "supplement5": "do Excepteur officia"
         }
       },
-      "commercialClassification": false,
-      "externalCustomerNumberSupplier": "Ut cillum ex Duis officia",
-      "marketRole": "BKV",
-      "roleCodeNumber": "872314164",
-      "roleCodeType": "DVGW",
-      "vatId": "DE001010001",
-      "taxNumber": "444340888",
+      "commercialClassification": true,
+      "externalCustomerNumberSupplier": "in",
+      "marketRole": "GMSB",
+      "roleCodeNumber": "754714053",
+      "roleCodeType": "BDEW",
+      "vatId": "DE000011010",
+      "taxNumber": "351626281",
       "contactPerson": {
         "boType": "CONTACT_PERSON",
         "structureVersion": "1",
-        "lastName": "Plass",
-        "eMailAddress": "Celine38@gmail.com",
+        "lastName": "Preuk",
+        "eMailAddress": "Victor52@hotmail.com",
         "phoneNumbers": [
           {
-            "numberType": "FAX_CENTRAL",
-            "phoneNumber": "(0421) 002011661"
+            "numberType": "COLLECTIVE_PHONE",
+            "phoneNumber": "(0525) 731044095"
           }
         ]
       },
-      "makoAddress": "veniam",
-      "certificateDownloadLink": "https://zuvorkommend-proton.org/",
-      "courtOfRegistration": "Alt Lisanne",
-      "commercialRegisterNumber": "232906",
-      "website": "https://erfreulich-telefon.org/",
-      "faxNumber": "+49-2248-75555297",
-      "communicationRole": "GRID_CONNECTION_FACILITIES",
+      "makoAddress": "proident est sed",
+      "certificateDownloadLink": "https://auszeichnungswurdig-zinn.net/",
+      "courtOfRegistration": "Lewisburg",
+      "commercialRegisterNumber": "055362",
+      "website": "https://lockig-computer.net/",
+      "faxNumber": "(0661) 487030406",
+      "communicationRole": "BALANCING_PROCESSES",
       "subContracted": false,
       "communicationParameters": {
         "targetAddress": {
-          "targetAddress1": "nulla do Excepteur",
-          "targetAddress2": "qui nostrud quis",
-          "targetAddress3": "ea dolor incididunt",
-          "targetAddress4": "adipisicing",
-          "targetAddress5": "nulla esse dolor anim eiusmod"
+          "targetAddress1": "quis ea mollit",
+          "targetAddress2": "Lorem",
+          "targetAddress3": "veniam dolor ad laborum velit",
+          "targetAddress4": "dolore sit nostrud",
+          "targetAddress5": "sint"
         },
         "certificateIssuer": {
-          "certificateIssuer1": "proident voluptate occaecat Duis do",
-          "certificateIssuer2": "est sint in aute",
-          "certificateIssuer3": "irure sint nisi commodo dolor",
-          "certificateIssuer4": "commodo adipisicing et magna irure",
-          "certificateIssuer5": "laborum ut non exercitation adipisicing"
+          "certificateIssuer1": "aliquip ut Lorem elit",
+          "certificateIssuer2": "magna aliqua consequat",
+          "certificateIssuer3": "esse est aliquip dolor in",
+          "certificateIssuer4": "Lorem in esse elit",
+          "certificateIssuer5": "Excepteur deserunt amet in"
         },
         "certificateUser": {
-          "certificateUser1": "sed exercitation sit voluptate sint",
-          "certificateUser2": "dolore",
-          "certificateUser3": "Lorem enim aliquip labore sunt",
-          "certificateUser4": "irure exercitation culpa",
-          "certificateUser5": "culpa veniam"
+          "certificateUser1": "pariatur",
+          "certificateUser2": "nulla irure",
+          "certificateUser3": "incididunt adipisicing cupidatat",
+          "certificateUser4": "irure cupidatat sunt aliqua eu",
+          "certificateUser5": "magna deserunt qui labore"
         }
       },
-      "meteringPointOperatorAttribute": "COMPETITIVE_METERING_POINT_OPERATOR",
+      "meteringPointOperatorAttribute": "FALLBACK_METERING_POINT_OPERATOR",
       "bankAccount": [
         {
-          "purposeOfUse": "BV_PAYMENT_NNA",
-          "iban": "MC020217984265486628793W550",
-          "accountHolder": "Dominik Feuerbach",
-          "bic": "NVOCLBCD",
-          "creditInstitution": "Erm GmbH & Co. KG"
+          "purposeOfUse": "BV_PAYMENT_UNLOCK_BILLING",
+          "iban": "GI89UBLO0968506P1665P30",
+          "accountHolder": "Nelli Pohl",
+          "bic": "RYYSWS35",
+          "creditInstitution": "Töpfer UG"
         }
       ],
       "reachability": [
         {
-          "availability": "BREAK",
-          "time": "est in culpa cupidatat id"
+          "availability": "WEDNESDAY",
+          "time": "irure non"
         }
       ],
-      "ipAddress": "208.28.139.186",
+      "ipAddress": "8cd1:cd2c:ceed:3bbb:b106:a3bf:dbcf:5ceb",
       "ipRange": {
-        "lowerLimit": "115.193.88.16",
-        "upperLimit": "197.215.162.114"
+        "lowerLimit": "6fa0:ff82:bd03:2dfc:d76b:772f:c588:efcf",
+        "upperLimit": "7.51.100.14"
       },
-      "assignmentFrom": "1958-06-16T13:06:40.0Z",
-      "assignmentTo": "1914-02-06T02:47:55.0Z",
-      "balancingGroup": "Excepteur laborum est",
-      "balancingGroupPurpose": "OTHER_GENERATING_MARKET_LOCATION"
+      "assignmentFrom": "1957-11-17T23:02:58.0Z",
+      "assignmentTo": "1915-01-16T20:01:52.0Z",
+      "balancingGroup": "aute officia sint eu",
+      "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION",
+      "balancingGroups": [
+        {
+          "boType": "BALANCING_GROUP",
+          "structureVersion": "1",
+          "designation": "commodo magna",
+          "priority": 4,
+          "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION"
+        }
+      ]
     }
   ],
   "meterRegisters": [
     {
-      "meterRegisterId": "627146422",
-      "designation": "irure",
-      "direction": "FEED_IN",
-      "obisCode": "Lorem et dolore",
-      "transformerFactor": 4.5,
-      "unit": "KWH",
-      "offPeakCapable": "OFF_PEAK_CAPABLE",
+      "meterRegisterId": "582880347",
+      "designation": "dolor",
+      "direction": "FEED_OUT",
+      "obisCode": "id ad occaecat",
+      "transformerFactor": 3.5,
+      "unit": "DAY",
+      "offPeakCapable": "NOT_OFF_PEAK_CAPABLE",
       "consumptionType": [
         "KL"
       ],
-      "interruptibility": "UV",
-      "heatUsage": "HEAT_PUMP_HEATING_COOLING",
+      "interruptibility": "NUV",
+      "heatUsage": "DIRECT_HEATING",
       "concessionFee": {
-        "rate": "TA",
-        "costs": 9219260.646091774,
-        "category": "cillum sint"
+        "rate": "TK",
+        "costs": -74837080.9852359,
+        "category": "labore fugiat"
       },
-      "taxExempt": false,
-      "integerDigits": 4,
-      "decimalPlaces": 2,
+      "taxExempt": true,
+      "integerDigits": 7,
+      "decimalPlaces": 1,
       "billingRelevant": true,
-      "numberOfReadings": 4,
+      "numberOfReadings": 5,
       "meteringTimes": {
-        "register": "officia in qui",
-        "meteringTimeDefinition": "laborum sit Ut mollit",
+        "register": "mollit adipisicing dolore deserunt occaecat",
+        "meteringTimeDefinition": "laborum",
         "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
       },
-      "configuration": "id labore aliqua velit",
-      "meteringProduct": "veniam",
+      "configuration": "ex exercitation aliquip sunt veniam",
+      "meteringProduct": "officia mollit Duis adipisicing",
       "valueGranularity": "ANNUAL",
       "necessitySecondMeasurement": "PRESENT",
-      "valueTransmissionPurpose": "PRESENT",
+      "valueTransmissionPurpose": "NOT_PRESENT",
       "typeElectricMobility": "WB",
-      "configurationProduct": "ullamco sit consequat",
-      "noConfigurationProduct": true,
-      "loadCurveDefinition": "veniam",
+      "configurationProduct": "quis in ad incididunt sit",
+      "noConfigurationProduct": false,
+      "loadCurveDefinition": "sed",
       "purposesOfUse": [
         {
           "marketRole": "UBA",
           "purpose": [
-            "MORE_LESS_QUANTITIES_BILLING"
+            "REACTIVE_ENERGY_BILLING"
           ]
         }
       ],
-      "usagePurposeNB": "Duis",
-      "usagePurposeLF": "aute reprehenderit labore do proident",
-      "usagePurposeUENB": "tempor consequat eu sunt",
-      "noProduct": false
+      "usagePurposeNB": "proident velit consequat",
+      "usagePurposeLF": "deserunt dolore voluptate",
+      "usagePurposeUENB": "laborum adipisicing nulla sit",
+      "noProduct": true
     }
   ],
   "meterRegistersInvolvedMarketRole": [
-    "MSBA"
+    "DL"
   ],
   "consumptionQuantity": [
     {
-      "startDate": "1931-05-25T21:09:30.0Z",
-      "endDate": "1918-08-05T07:09:45.0Z",
+      "startDate": "1969-02-20T08:44:58.0Z",
+      "endDate": "1937-09-05T17:26:24.0Z",
       "valueDeterminationMethod": "FORECAST",
-      "measurementValueStatus": "PROVISIONAL_VALUE",
-      "obisNumber": "Ut",
-      "value": 13.5,
-      "unit": "YEAR",
-      "type": "ENERGY_POWER_DAILY_PARAMETER_DEPENDENT_MALO",
-      "tariffLevel": "TARIFF_LEVEL_4",
-      "usageTimestamp": "1921-06-17T09:25:34.0Z",
-      "executionTimestamp": "1960-11-03T01:02:41.0Z",
-      "position": 8769322296,
-      "readingDate": "1931-09-11T16:27:13.0Z",
-      "servicePeriod": "148142",
+      "measurementValueStatus": "ENERGY_QUANTITY_SUMMED",
+      "obisNumber": "tempor",
+      "value": 15,
+      "unit": "HOUR",
+      "type": "ESTIMATED_ANNUAL_QUANTITY",
+      "tariffLevel": "TARIFF_LEVEL_6",
+      "usageTimestamp": "1931-10-26T07:37:54.0Z",
+      "executionTimestamp": "1911-06-07T12:54:01.0Z",
+      "position": 5948390786,
+      "readingDate": "1903-10-18T07:08:23.0Z",
+      "servicePeriod": "562956",
       "statusAdditionalInformation": [
         {
-          "kind": "MEASUREMENT_CLASSIFICATION",
-          "status": "FAULTY_VALUES"
+          "kind": "SUBSTITUTE_VALUE_FORMATION_METHOD",
+          "status": "VOLTAGE_OUTAGE"
         }
       ]
     }
   ],
   "associatedMeteringLocations": [
     {
-      "meteringLocationId": "500674063213640202068885952281017",
-      "arithmetic": "MULTIPLICATION",
-      "validSince": "1948-09-29T14:29:36.0Z",
-      "validTo": "1951-05-28T07:44:10.0Z"
+      "meteringLocationId": "726192632537883223428077657419499",
+      "arithmetic": "DIVISION",
+      "validSince": "1945-12-18T09:21:26.0Z",
+      "validTo": "1904-12-11T01:19:34.0Z"
     }
   ],
   "gridAccessBillingData": [
     {
-      "articleId": "8263066888",
-      "articleIdType": "ARTICLE_ID",
-      "quantity": 5,
-      "municipalDiscount": 2.75,
-      "surcharge": 3.5,
-      "installment": 3,
+      "articleId": "2360211253",
+      "articleIdType": "GROUP_ARTICLE_ID",
+      "quantity": 8,
+      "municipalDiscount": 7,
+      "surcharge": 7,
+      "installment": 9,
       "singularEquipment": {
-        "value": 9.25,
-        "unit": "Z16",
-        "startDate": "1934-06-11T20:01:01.0Z",
-        "endDate": "1965-04-02T02:26:22.0Z"
+        "value": 6.75,
+        "unit": "MW",
+        "startDate": "1965-10-08T11:21:05.0Z",
+        "endDate": "1964-03-18T11:47:16.0Z"
       },
       "priceSingularEquipment": {
-        "value": 2.75,
-        "amount": -44890694,
-        "minimumAmount": 3,
-        "maximumAmount": 6,
+        "value": 8.25,
+        "amount": -70951931,
+        "minimumAmount": 10,
+        "maximumAmount": 5,
         "unit": "CT",
-        "referenceValue": "KW",
-        "status": "PROVISIONAL",
-        "priceType": "SETUP_PRICE"
+        "referenceValue": "KWT",
+        "status": "FINAL",
+        "priceType": "TRANSACTION_PRICE"
       },
       "billingReactivePower": true,
-      "payerReactivePower": "SUPPLIER",
+      "payerReactivePower": "CONNECTION_USER",
       "payerReactivePowerSupplier": false,
       "differenceData": false,
       "meteringTimes": {
-        "register": "sunt ipsum",
-        "meteringTimeDefinition": "consequat pariatur",
+        "register": "amet",
+        "meteringTimeDefinition": "eu",
         "offPeakCapable": "OFF_PEAK_CAPABLE"
       }
     }
@@ -580,55 +598,55 @@
   "meteringPointOperationBillingData": [
     {
       "meteringPointOperationBilling": false,
-      "articleId": "4066145953",
+      "articleId": "2789165270",
       "articleIdType": "GROUP_ARTICLE_ID",
       "quantity": 4,
       "surcharge": 1,
-      "installment": 9.5
+      "installment": 3.5
     }
   ],
   "energyOrigin": [
     {
-      "generationType": "SOLAR",
-      "sharePercent": 8.5
+      "generationType": "WATER",
+      "sharePercent": 84
     }
   ],
   "requiredProductPackage": [
     {
-      "productPackageId": -1166682,
+      "productPackageId": -41523656,
       "product": [
         {
-          "productCode": "CODE_001000",
-          "productAttributeCode": "CODE_110101",
-          "valueDetails": "624789"
+          "productCode": "CODE_100110",
+          "productAttributeCode": "CODE_101101",
+          "valueDetails": "616162"
         }
       ],
-      "implementationLevelRequirement": "ASSIGNMENT_ONLY_IF_PRODUCT_PACKAGE_IMPLEMENTABLE",
-      "prioritization": "PRIORITY5"
+      "implementationLevelRequirement": "ASSIGNMENT_EVEN_IF_PRODUCT_PACKAGE_NOT_IMPLEMENTABLE",
+      "prioritization": "PRIORITY2"
     }
   ],
   "geoCoordinates": {
-    "latitude": "labore quis Duis in sed",
-    "longitude": "non anim",
-    "eastingValue": "sit sint reprehenderit",
-    "northValue": "Lorem do voluptate officia est",
-    "zone": "UTMZone31",
-    "northing": "deserunt cillum",
-    "easting": "elit proident Ut est in"
+    "latitude": "eu et Duis",
+    "longitude": "occaecat dolore",
+    "eastingValue": "nisi qui cupidatat mollit",
+    "northValue": "ex tempor",
+    "zone": "UTMZone33",
+    "northing": "commodo",
+    "easting": "aliqua"
   },
-  "packageId": "tempor",
-  "operationalState": "LOCKED",
+  "packageId": "ipsum",
+  "operationalState": "OUTSIDE_NORMAL_OPERATION",
   "marketLocationType": [
     {
-      "typeValue": "CUSTOMER_FACILITY",
-      "validFrom": "1943-08-24T02:29:57.0Z",
-      "validTo": "1936-06-07T18:10:39.0Z"
+      "typeValue": "DORMANT_MARKET_LOCATION",
+      "validFrom": "1942-12-10T22:02:27.0Z",
+      "validTo": "1927-04-12T08:55:15.0Z"
     }
   ],
   "associatedMarketLocations": [
     {
-      "marketLocationId": "11878616336",
-      "typeValue": "STANDARD_MARKET_LOCATION"
+      "marketLocationId": "53912332860",
+      "typeValue": "CUSTOMER_FACILITY"
     }
   ],
   "technicalInstallations": [

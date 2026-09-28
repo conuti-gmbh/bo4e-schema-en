@@ -147,6 +147,15 @@
     },
     "balancingGroupPurpose": {
       "$ref": "../enum/BalancingGroupPurpose.schema.json"
+    },
+    "balancingGroups": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../bo/BalancingGroup.schema.json"
+      }
     }
   },
   "required": [

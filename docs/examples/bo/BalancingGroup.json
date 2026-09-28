@@ -1,6 +1,7 @@
 {
   "boType": "BALANCING_GROUP",
   "structureVersion": "1",
-  "designation": "labore",
-  "priority": 1
+  "designation": "in ut",
+  "priority": 2,
+  "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_EEG"
 }

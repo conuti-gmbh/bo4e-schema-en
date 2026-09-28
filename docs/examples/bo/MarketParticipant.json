@@ -2,102 +2,111 @@
   "boType": "MARKET_PARTICIPANT",
   "structureVersion": "1",
   "businessPartnerRole": "OWNER",
-  "salutation": "Herr",
-  "name1": "Bichler",
-  "name2": "Lisann",
-  "name3": "ut labore",
-  "name4": "do voluptate eu",
+  "salutation": "Prof. Dr.",
+  "name1": "Niedermeier",
+  "name2": "Joseph",
+  "name3": "commodo dolor est sed",
+  "name4": "non",
   "partnerAddress": {
-    "postalCode": "92085",
-    "city": "Alexaburg",
-    "street": "Dianastr.",
-    "houseNumber": "480",
-    "poBox": "mollit",
-    "addressSupplement": "nulla exercitation minim ut",
-    "coSupplement": "do aliquip ut in",
-    "countryCode": "UY",
-    "district": "Nord Junaland",
+    "postalCode": "63782",
+    "city": "Neumünster",
+    "street": "Kämper Weg",
+    "houseNumber": "76b",
+    "poBox": "mollit eu cillum deserunt laboris",
+    "addressSupplement": "esse laboris proident amet",
+    "coSupplement": "irure reprehenderit qui nostrud",
+    "countryCode": "LC",
+    "district": "Alt Fine",
     "additionalInformation": {
-      "supplement1": "veniam minim",
-      "supplement2": "ea tempor et",
-      "supplement3": "est",
-      "supplement4": "tempor",
-      "supplement5": "ea eu consequat adipisicing enim"
+      "supplement1": "amet in veniam",
+      "supplement2": "dolor id eiusmod qui",
+      "supplement3": "velit exercitation tempor",
+      "supplement4": "in eiusmod enim",
+      "supplement5": "nostrud veniam ullamco exercitation"
     }
   },
-  "commercialClassification": false,
-  "externalCustomerNumberSupplier": "adipisicing culpa",
-  "marketRole": "ESA",
-  "roleCodeNumber": "664826298",
-  "roleCodeType": "GLN",
-  "vatId": "DE100010100",
-  "taxNumber": "567619335",
+  "commercialClassification": true,
+  "externalCustomerNumberSupplier": "nostrud est esse",
+  "marketRole": "NB",
+  "roleCodeNumber": "120915261",
+  "roleCodeType": "GS1",
+  "vatId": "DE110001011",
+  "taxNumber": "314310327",
   "contactPerson": {
     "boType": "CONTACT_PERSON",
     "structureVersion": "1",
-    "lastName": "Camara",
-    "eMailAddress": "Tom_Lanig54@gmail.com",
+    "lastName": "Illing",
+    "eMailAddress": "Mads.Helpling41@hotmail.com",
     "phoneNumbers": [
       {
-        "numberType": "DEPARTMENT_PHONE",
-        "phoneNumber": "+49-5098-40702033"
+        "numberType": "FAX_CENTRAL",
+        "phoneNumber": "(0240) 907673487"
       }
     ]
   },
-  "makoAddress": "consectetur eiusmod Duis exercitation pariatur",
-  "certificateDownloadLink": "https://konsequent-hinduismus.com",
-  "courtOfRegistration": "Alt Laurensscheid",
-  "commercialRegisterNumber": "130169",
-  "website": "https://personlich-adverb.ch/",
-  "faxNumber": "(01156) 3677951",
-  "communicationRole": "FEED_IN_PROCESSES",
+  "makoAddress": "id commodo",
+  "certificateDownloadLink": "https://wunderhubsch-virus.org/",
+  "courtOfRegistration": "Süd Iven",
+  "commercialRegisterNumber": "772273",
+  "website": "https://spritzig-elefant.name/",
+  "faxNumber": "+49-5273-73095345",
+  "communicationRole": "BILLING_PROCESSES",
   "subContracted": false,
   "communicationParameters": {
     "targetAddress": {
-      "targetAddress1": "in dolor",
-      "targetAddress2": "quis nisi Duis aliquip Excepteur",
-      "targetAddress3": "anim dolore consectetur qui",
-      "targetAddress4": "aliquip",
-      "targetAddress5": "aliqua ipsum id consequat"
+      "targetAddress1": "occaecat ullamco cupidatat exercitation Ut",
+      "targetAddress2": "voluptate ex",
+      "targetAddress3": "Lorem dolor enim",
+      "targetAddress4": "nisi officia",
+      "targetAddress5": "in aliqua irure"
     },
     "certificateIssuer": {
-      "certificateIssuer1": "laborum et laboris dolor elit",
-      "certificateIssuer2": "Ut quis sed consectetur",
-      "certificateIssuer3": "sed",
-      "certificateIssuer4": "ad voluptate Lorem",
-      "certificateIssuer5": "eu incididunt consectetur"
+      "certificateIssuer1": "proident Ut veniam",
+      "certificateIssuer2": "minim ut",
+      "certificateIssuer3": "sit est",
+      "certificateIssuer4": "ea in enim voluptate",
+      "certificateIssuer5": "esse eu et cillum"
     },
     "certificateUser": {
-      "certificateUser1": "dolor sit fugiat",
-      "certificateUser2": "sunt qui",
-      "certificateUser3": "dolor nulla ullamco",
-      "certificateUser4": "enim ut officia minim fugiat",
-      "certificateUser5": "in in"
+      "certificateUser1": "irure tempor",
+      "certificateUser2": "nisi ullamco consectetur Duis in",
+      "certificateUser3": "Ut magna elit dolore",
+      "certificateUser4": "velit sint",
+      "certificateUser5": "est dolor aliqua cillum"
     }
   },
   "meteringPointOperatorAttribute": "DEFAULT_METERING_POINT_OPERATOR",
   "bankAccount": [
     {
-      "purposeOfUse": "BV_OTHER",
-      "iban": "MR3923200824450698082009008",
-      "accountHolder": "Ludwig Berends",
-      "bic": "LKBXSXTT7ET",
-      "creditInstitution": "Dethloff-Proske"
+      "purposeOfUse": "BV_PAYMENT_MMMA",
+      "iban": "GT219296845A4122535042A1087R",
+      "accountHolder": "Frau Janne Frey",
+      "bic": "EYAVPFJMXXX",
+      "creditInstitution": "Kampf Gruppe"
     }
   ],
   "reachability": [
     {
-      "availability": "MONDAY",
-      "time": "id"
+      "availability": "THURSDAY",
+      "time": "et adipisicing"
     }
   ],
-  "ipAddress": "dd0a:e619:38af:dcaa:aa4e:5ec6:df1c:795b",
+  "ipAddress": "38.253.21.31",
   "ipRange": {
-    "lowerLimit": "77.41.70.66",
-    "upperLimit": "8650:cfa7:42aa:0412:e172:ff2f:0fef:05f2"
+    "lowerLimit": "edaa:ba87:bf4d:b5ea:fda7:ee3e:4c6c:8736",
+    "upperLimit": "da42:6665:2d2e:20be:f4b0:cddc:1e36:b7b8"
   },
-  "assignmentFrom": "1939-07-16T08:13:06.0Z",
-  "assignmentTo": "1957-05-15T07:39:58.0Z",
-  "balancingGroup": "Duis dolore in",
-  "balancingGroupPurpose": "OTHER_GENERATING_MARKET_LOCATION"
+  "assignmentFrom": "1894-04-15T10:42:51.0Z",
+  "assignmentTo": "1915-10-04T21:18:17.0Z",
+  "balancingGroup": "do fugiat",
+  "balancingGroupPurpose": "GENERATING_MARKET_LOCATION_CHP",
+  "balancingGroups": [
+    {
+      "boType": "BALANCING_GROUP",
+      "structureVersion": "1",
+      "designation": "magna fugiat aliquip eu",
+      "priority": 4,
+      "balancingGroupPurpose": "CONSUMING_MARKET_LOCATION"
+    }
+  ]
 }
