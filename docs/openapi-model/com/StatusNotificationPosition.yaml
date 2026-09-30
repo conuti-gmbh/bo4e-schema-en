@@ -127,3 +127,9 @@ components:
         contactPerson:
           $ref: >-
             ../fields/com/StatusNotificationPosition/contactPerson.yaml#/components/schemas/contactPerson
+        timeSeriesVersion:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/timeSeriesVersion.yaml#/components/schemas/timeSeriesVersion
+        balancingStart:
+          $ref: >-
+            ../fields/com/StatusNotificationPosition/balancingStart.yaml#/components/schemas/balancingStart
