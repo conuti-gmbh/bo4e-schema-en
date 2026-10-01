@@ -55,6 +55,9 @@
     "controlZone": {
       "type": "string"
     },
+    "timeSeriesKind": {
+      "$ref": "../enum/TimeSeriesKind.schema.json"
+    },
     "timeSeriesType": {
       "$ref": "../enum/TimeSeriesType.schema.json"
     },

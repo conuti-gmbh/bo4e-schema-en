@@ -1,0 +1,4 @@
+components:
+  schemas:
+    timeSeriesKind:
+      $ref: ../../../enum/TimeSeriesKind.yaml#/components/schemas/TimeSeriesKind

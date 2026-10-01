@@ -1,0 +1,8 @@
+components:
+  schemas:
+    TimeSeriesKind:
+      title: TimeSeriesKind
+      type: string
+      enum:
+        - SUM_TIME_SERIES
+        - TRANSFER_TIME_SERIES

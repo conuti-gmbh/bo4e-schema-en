@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/enum/TimeSeriesKind.schema.json",
+  "title": "TimeSeriesKind",
+  "type": "string",
+  "enum": [
+    "SUM_TIME_SERIES",
+    "TRANSFER_TIME_SERIES"
+  ]
+}

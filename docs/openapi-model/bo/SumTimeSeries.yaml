@@ -51,6 +51,9 @@ components:
         controlZone:
           $ref: >-
             ../fields/bo/SumTimeSeries/controlZone.yaml#/components/schemas/controlZone
+        timeSeriesKind:
+          $ref: >-
+            ../fields/bo/SumTimeSeries/timeSeriesKind.yaml#/components/schemas/timeSeriesKind
         timeSeriesType:
           $ref: >-
             ../fields/bo/SumTimeSeries/timeSeriesType.yaml#/components/schemas/timeSeriesType

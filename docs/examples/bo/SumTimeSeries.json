@@ -1,67 +1,68 @@
 {
   "boType": "SUM_TIME_SERIES",
   "structureVersion": "1",
-  "meteringPointId": "sunt minim non irure",
-  "timeSeriesVersion": "enim sed esse officia",
-  "balancingGroup": "dolore reprehenderit eu dolore labore",
-  "balancingGroupTo": "voluptate aliqua",
-  "balancingGroupFrom": "in occaecat ipsum",
+  "meteringPointId": "reprehenderit",
+  "timeSeriesVersion": "in enim",
+  "balancingGroup": "quis",
+  "balancingGroupTo": "consequat non enim eiusmod",
+  "balancingGroupFrom": "ut pariatur sed amet",
   "balancedEnergyQuantity": {
-    "value": 4.5,
-    "unit": "MONTH",
-    "startDate": "1895-08-26T21:47:23.0Z",
-    "endDate": "1919-05-09T22:43:09.0Z"
+    "value": 4.25,
+    "unit": "WH",
+    "startDate": "1964-11-11T22:21:41.0Z",
+    "endDate": "1891-09-18T08:16:43.0Z"
   },
   "balancedOutageQuantity": {
-    "value": 7.5,
-    "unit": "WATT_PER_SQUARE_METER",
-    "startDate": "1912-03-25T01:52:42.0Z",
-    "endDate": "1937-03-21T15:40:29.0Z"
+    "value": 4.25,
+    "unit": "COUNT",
+    "startDate": "1951-09-24T23:25:29.0Z",
+    "endDate": "1944-08-04T03:24:04.0Z"
   },
-  "balancingStart": "1938-04-06T13:09:51.0Z",
+  "balancingStart": "1934-07-13T23:01:22.0Z",
   "balancingArea": [
-    "officia"
+    "ex dolor"
   ],
-  "designation": "LF_SZR_B_RZ",
-  "responsibleMarketRole": "ESA",
-  "controlZone": "ipsum",
-  "timeSeriesType": "RENEWABLE_FEED_IN_SUM_WIND_ONSHORE_DAILY_PARAMETER_DEPENDENT_FEED_IN_PROFILE",
-  "referencePeriod": "MONTH",
-  "gridLevel": "HSS_HSP_UMSP",
-  "transformation": "MD",
-  "dataStatusTimeSeries": "BILLED_DATA_CORRECTION_BKA",
-  "assignmentRule": "SAME_SUPPLY_DIRECTION",
+  "designation": "ASZR",
+  "responsibleMarketRole": "MSBA",
+  "controlZone": "sint Excepteur culpa in",
+  "timeSeriesKind": "SUM_TIME_SERIES",
+  "timeSeriesType": "TES",
+  "referencePeriod": "DAY",
+  "gridLevel": "HSP_MSP_UMSP",
+  "transformation": "MSP_NSP_UMSP",
+  "dataStatusTimeSeries": "BILLED_DATA",
+  "assignmentRule": "OPPOSITE_SUPPLY_DIRECTION",
   "timeSeriesProduct": [
     {
-      "identification": "et dolor",
-      "correctionFactor": 19.75,
+      "identification": "esse laboris do Ut",
+      "correctionFactor": 10.75,
       "energyQuantity": {
-        "startDate": "1967-02-26T11:33:33.0Z",
-        "endDate": "1939-06-21T12:26:23.0Z",
-        "valueDeterminationMethod": "MEASUREMENT",
-        "measurementValueStatus": "ENERGY_QUANTITY_SUMMED",
-        "obisNumber": "culpa",
-        "value": 19.25,
-        "unit": "MWH",
-        "type": "ENERGY_POWER_DAILY_PARAMETER_DEPENDENT_MALO",
-        "tariffLevel": "TARIFF_LEVEL_0",
-        "usageTimestamp": "1937-03-24T22:43:31.0Z",
-        "executionTimestamp": "1955-05-31T14:51:21.0Z",
-        "position": 5057933110,
-        "readingDate": "1940-10-17T16:22:25.0Z",
-        "servicePeriod": "477383",
+        "startDate": "1924-11-09T05:56:57.0Z",
+        "endDate": "1918-10-08T01:25:15.0Z",
+        "valueDeterminationMethod": "FORECAST",
+        "measurementValueStatus": "BASIS_POG_DETERMINATION",
+        "obisNumber": "ea cillum sunt elit eiusmod",
+        "value": 10.25,
+        "unit": "VARH",
+        "type": "TUM_CUSTOMER_VALUE",
+        "tariffLevel": "TARIFF_LEVEL_7",
+        "usageTimestamp": "1959-05-16T17:05:48.0Z",
+        "executionTimestamp": "1945-11-10T03:23:52.0Z",
+        "position": 3897570520,
+        "readingDate": "1939-11-30T01:01:08.0Z",
+        "servicePeriod": "258001",
         "statusAdditionalInformation": [
           {
-            "kind": "SUBSTITUTE_VALUE_FORMATION_METHOD",
-            "status": "HISTORICAL_MEASUREMENT_VALUES"
+            "kind": "GAS_QUALITY",
+            "status": "FAULT_DEFECT_METERING_DEVICE"
           }
         ]
       },
       "annualConsumptionForecast": {
-        "value": 1,
-        "unit": "KWH",
-        "startDate": "1925-12-11T03:31:07.0Z",
-        "endDate": "1899-03-05T10:33:19.0Z"
+        "value": 2.25,
+        "unit": "Z16",
+        "startDate": "1916-04-14T07:27:39.0Z",
+        "endDate": "1903-11-08T08:18:14.0Z"
       }
     }
   ]
