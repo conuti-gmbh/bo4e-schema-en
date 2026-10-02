@@ -41,6 +41,12 @@
       "type": "string",
       "format": "date-time"
     },
+    "balancingMonth": {
+      "type": "string"
+    },
+    "beginMonth": {
+      "type": "string"
+    },
     "referenceMasterDataNotificationMsb": {
       "type": "string",
       "faker": {

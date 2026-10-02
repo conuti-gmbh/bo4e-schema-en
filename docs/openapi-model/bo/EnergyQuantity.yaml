@@ -35,6 +35,12 @@ components:
         beginDate:
           $ref: >-
             ../fields/bo/EnergyQuantity/beginDate.yaml#/components/schemas/beginDate
+        balancingMonth:
+          $ref: >-
+            ../fields/bo/EnergyQuantity/balancingMonth.yaml#/components/schemas/balancingMonth
+        beginMonth:
+          $ref: >-
+            ../fields/bo/EnergyQuantity/beginMonth.yaml#/components/schemas/beginMonth
         referenceMasterDataNotificationMsb:
           $ref: >-
             ../fields/bo/EnergyQuantity/referenceMasterDataNotificationMsb.yaml#/components/schemas/referenceMasterDataNotificationMsb
