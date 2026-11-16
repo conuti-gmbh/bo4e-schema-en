@@ -1,68 +1,68 @@
 {
   "boType": "SUM_TIME_SERIES",
   "structureVersion": "1",
-  "meteringPointId": "reprehenderit",
-  "timeSeriesVersion": "in enim",
-  "balancingGroup": "quis",
-  "balancingGroupTo": "consequat non enim eiusmod",
-  "balancingGroupFrom": "ut pariatur sed amet",
+  "meteringPointId": "ut laborum Duis",
+  "timeSeriesVersion": "dolore laboris",
+  "balancingGroup": "in ea culpa minim",
+  "balancingGroupTo": "consectetur",
+  "balancingGroupFrom": "consequat in laborum eiusmod mollit",
   "balancedEnergyQuantity": {
-    "value": 4.25,
-    "unit": "WH",
-    "startDate": "1964-11-11T22:21:41.0Z",
-    "endDate": "1891-09-18T08:16:43.0Z"
+    "value": 9.5,
+    "unit": "COUNT",
+    "startDate": "1956-09-03T09:58:50.0Z",
+    "endDate": "1952-06-19T08:34:19.0Z"
   },
   "balancedOutageQuantity": {
     "value": 4.25,
     "unit": "COUNT",
-    "startDate": "1951-09-24T23:25:29.0Z",
-    "endDate": "1944-08-04T03:24:04.0Z"
+    "startDate": "1955-08-27T04:36:18.0Z",
+    "endDate": "1926-08-16T15:09:06.0Z"
   },
-  "balancingStart": "1934-07-13T23:01:22.0Z",
+  "balancingStart": "1901-01-03T18:43:27.0Z",
   "balancingArea": [
-    "ex dolor"
+    "in"
   ],
-  "designation": "ASZR",
-  "responsibleMarketRole": "MSBA",
-  "controlZone": "sint Excepteur culpa in",
-  "timeSeriesKind": "SUM_TIME_SERIES",
-  "timeSeriesType": "TES",
+  "designation": "NGZ",
+  "responsibleMarketRole": "MGV",
+  "controlZone": "ut minim",
+  "timeSeriesKind": "TRANSFER_TIME_SERIES",
+  "timeSeriesType": "EEG_TRANSFER_LANDFILL_SEWAGE_MINE_GAS_STANDARD_FEED_IN_PROFILE",
   "referencePeriod": "DAY",
-  "gridLevel": "HSP_MSP_UMSP",
-  "transformation": "MSP_NSP_UMSP",
-  "dataStatusTimeSeries": "BILLED_DATA",
-  "assignmentRule": "OPPOSITE_SUPPLY_DIRECTION",
+  "gridLevel": "HSP",
+  "transformation": "MD",
+  "dataStatusTimeSeries": "BILLED_DATA_CORRECTION_BKA",
+  "assignmentRule": "SAME_SUPPLY_DIRECTION",
   "timeSeriesProduct": [
     {
-      "identification": "esse laboris do Ut",
-      "correctionFactor": 10.75,
+      "identification": "in Duis",
+      "correctionFactor": 10.25,
       "energyQuantity": {
-        "startDate": "1924-11-09T05:56:57.0Z",
-        "endDate": "1918-10-08T01:25:15.0Z",
+        "startDate": "1930-02-26T22:15:01.0Z",
+        "endDate": "1950-02-04T03:24:23.0Z",
         "valueDeterminationMethod": "FORECAST",
-        "measurementValueStatus": "BASIS_POG_DETERMINATION",
-        "obisNumber": "ea cillum sunt elit eiusmod",
-        "value": 10.25,
-        "unit": "VARH",
+        "measurementValueStatus": "PROVISIONAL_VALUE",
+        "obisNumber": "laboris sit Excepteur id",
+        "value": 19.25,
+        "unit": "MWH",
         "type": "TUM_CUSTOMER_VALUE",
-        "tariffLevel": "TARIFF_LEVEL_7",
-        "usageTimestamp": "1959-05-16T17:05:48.0Z",
-        "executionTimestamp": "1945-11-10T03:23:52.0Z",
-        "position": 3897570520,
-        "readingDate": "1939-11-30T01:01:08.0Z",
-        "servicePeriod": "258001",
+        "tariffLevel": "TARIFF_LEVEL_8",
+        "usageTimestamp": "1928-10-04T08:25:39.0Z",
+        "executionTimestamp": "1957-03-19T14:02:44.0Z",
+        "position": 8285896246,
+        "readingDate": "1963-09-13T11:35:39.0Z",
+        "servicePeriod": "534252",
         "statusAdditionalInformation": [
           {
-            "kind": "GAS_QUALITY",
-            "status": "FAULT_DEFECT_METERING_DEVICE"
+            "kind": "PLAUSIBILITY_HINT",
+            "status": "CALCULATION_CHANGE"
           }
         ]
       },
       "annualConsumptionForecast": {
-        "value": 2.25,
-        "unit": "Z16",
-        "startDate": "1916-04-14T07:27:39.0Z",
-        "endDate": "1903-11-08T08:18:14.0Z"
+        "value": 6.5,
+        "unit": "KWHK",
+        "startDate": "1906-01-30T07:47:54.0Z",
+        "endDate": "1906-12-03T15:37:15.0Z"
       }
     }
   ]

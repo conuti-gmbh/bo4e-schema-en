@@ -83,10 +83,13 @@
     "volumeCapture": {
       "$ref": "../enum/VolumeCapture.schema.json"
     },
-    "serialNumber": {
-      "type": "string",
-      "faker": {
-        "string.numeric": 10
+    "serialNumbers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "faker": {
+          "string.numeric": 10
+        }
       }
     },
     "deviceAttribute": {

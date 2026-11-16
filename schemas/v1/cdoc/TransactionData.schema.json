@@ -343,6 +343,10 @@
     },
     "profileDescription": {
       "type": "string"
+    },
+    "allocationListCompletionDate": {
+      "type": "string",
+      "format": "date-time"
     }
   }
 }

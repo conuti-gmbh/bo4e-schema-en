@@ -21,8 +21,12 @@
     "locationType": {
       "$ref": "../enum/LocationType.schema.json"
     },
-    "obisNumber": {
-      "type": "string"
+    "obisNumbers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 25
     },
     "measurementValueRequestPeriod": {
       "$ref": "../com/TimePeriod.schema.json"

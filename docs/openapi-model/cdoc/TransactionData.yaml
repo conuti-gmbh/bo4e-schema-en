@@ -303,3 +303,6 @@ components:
         profileDescription:
           $ref: >-
             ../fields/cdoc/TransactionData/profileDescription.yaml#/components/schemas/profileDescription
+        allocationListCompletionDate:
+          $ref: >-
+            ../fields/cdoc/TransactionData/allocationListCompletionDate.yaml#/components/schemas/allocationListCompletionDate

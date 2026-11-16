@@ -1,4 +1,0 @@
-components:
-  schemas:
-    obisNumber:
-      type: string

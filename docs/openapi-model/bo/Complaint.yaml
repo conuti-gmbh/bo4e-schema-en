@@ -21,9 +21,9 @@ components:
         locationType:
           $ref: >-
             ../fields/bo/Complaint/locationType.yaml#/components/schemas/locationType
-        obisNumber:
+        obisNumbers:
           $ref: >-
-            ../fields/bo/Complaint/obisNumber.yaml#/components/schemas/obisNumber
+            ../fields/bo/Complaint/obisNumbers.yaml#/components/schemas/obisNumbers
         measurementValueRequestPeriod:
           $ref: >-
             ../fields/bo/Complaint/measurementValueRequestPeriod.yaml#/components/schemas/measurementValueRequestPeriod
