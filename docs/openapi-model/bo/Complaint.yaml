@@ -21,6 +21,9 @@ components:
         locationType:
           $ref: >-
             ../fields/bo/Complaint/locationType.yaml#/components/schemas/locationType
+        obisNumber:
+          $ref: >-
+            ../fields/bo/Complaint/obisNumber.yaml#/components/schemas/obisNumber
         obisNumbers:
           $ref: >-
             ../fields/bo/Complaint/obisNumbers.yaml#/components/schemas/obisNumbers

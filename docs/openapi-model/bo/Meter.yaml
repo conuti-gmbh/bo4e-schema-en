@@ -57,6 +57,9 @@ components:
         volumeCapture:
           $ref: >-
             ../fields/bo/Meter/volumeCapture.yaml#/components/schemas/volumeCapture
+        serialNumber:
+          $ref: >-
+            ../fields/bo/Meter/serialNumber.yaml#/components/schemas/serialNumber
         serialNumbers:
           $ref: >-
             ../fields/bo/Meter/serialNumbers.yaml#/components/schemas/serialNumbers

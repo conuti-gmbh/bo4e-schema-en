@@ -210,6 +210,9 @@ components:
         endAtDate:
           $ref: >-
             ../fields/cdoc/TransactionData/endAtDate.yaml#/components/schemas/endAtDate
+        endAtNextPossibleDate:
+          $ref: >-
+            ../fields/cdoc/TransactionData/endAtNextPossibleDate.yaml#/components/schemas/endAtNextPossibleDate
         nextProcessing:
           $ref: >-
             ../fields/cdoc/TransactionData/nextProcessing.yaml#/components/schemas/nextProcessing

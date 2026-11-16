@@ -222,6 +222,10 @@
       "type": "string",
       "format": "date-time"
     },
+    "endAtNextPossibleDate": {
+      "type": "string",
+      "format": "date-time"
+    },
     "nextProcessing": {
       "type": "string",
       "format": "date-time"

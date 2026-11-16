@@ -1,29 +1,30 @@
 {
   "boType": "COMPLAINT",
   "structureVersion": "1",
-  "locationId": "18939421015",
-  "locationType": "TECHNICAL_RESOURCE",
+  "locationId": "20483498276",
+  "locationType": "MELO",
+  "obisNumber": "id consectetur",
   "obisNumbers": [
-    "Lorem id"
+    "exercitation mollit et"
   ],
   "measurementValueRequestPeriod": {
-    "timeUnit": "MINUTE",
-    "duration": 2,
-    "startDate": "1929-12-19T04:13:04.0Z",
-    "endDate": "1892-02-12T04:56:29.0Z",
-    "unit": "MONTH",
-    "readingPeriod": "635715",
-    "billingPeriod": "702911",
-    "periodText": "eu proident",
-    "periodId": 8
+    "timeUnit": "DAY",
+    "duration": 8,
+    "startDate": "1935-08-06T10:56:49.0Z",
+    "endDate": "1916-11-14T01:18:58.0Z",
+    "unit": "QUARTER_HOUR",
+    "readingPeriod": "183621",
+    "billingPeriod": "238739",
+    "periodText": "in do",
+    "periodId": 6
   },
-  "complaintReason": "CONFIGURATION_HAS_NO_EFFECT",
+  "complaintReason": "ROLLED_OUT_DEFINITION_IMPLAUSIBLE",
   "complaintReasonNote": {
-    "remark1": "ut magna et in",
-    "remark2": "non Ut enim esse mollit",
-    "remark3": "deserunt dolore labore",
-    "remark4": "magna ullamco aliquip",
-    "remark5": "reprehenderit"
+    "remark1": "dolor eu velit ipsum",
+    "remark2": "do aliquip Excepteur veniam",
+    "remark3": "esse",
+    "remark4": "ut",
+    "remark5": "dolore sed"
   },
-  "configuration": "Ut elit"
+  "configuration": "elit"
 }

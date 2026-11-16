@@ -4,4 +4,3 @@ components:
       type: array
       items:
         type: string
-      maxItems: 25
