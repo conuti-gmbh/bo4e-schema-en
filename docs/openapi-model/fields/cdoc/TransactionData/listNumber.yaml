@@ -1,4 +1,4 @@
 components:
   schemas:
     listNumber:
-      type: integer
+      type: string
