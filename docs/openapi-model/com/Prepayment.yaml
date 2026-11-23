@@ -1,0 +1,16 @@
+components:
+  schemas:
+    Prepayment:
+      title: Prepayment
+      type: object
+      properties:
+        value:
+          $ref: ../fields/com/Prepayment/value.yaml#/components/schemas/value
+        currency:
+          $ref: ../fields/com/Prepayment/currency.yaml#/components/schemas/currency
+        referencePredecessorInvoice:
+          $ref: >-
+            ../fields/com/Prepayment/referencePredecessorInvoice.yaml#/components/schemas/referencePredecessorInvoice
+        predecessorInvoiceDate:
+          $ref: >-
+            ../fields/com/Prepayment/predecessorInvoiceDate.yaml#/components/schemas/predecessorInvoiceDate

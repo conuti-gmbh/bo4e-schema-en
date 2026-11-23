@@ -1,0 +1,7 @@
+components:
+  schemas:
+    prepayments:
+      type: array
+      items:
+        $ref: ../../../com/Prepayment.yaml#/components/schemas/Prepayment
+      nullable: true

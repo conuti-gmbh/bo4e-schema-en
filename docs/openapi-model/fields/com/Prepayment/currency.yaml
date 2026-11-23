@@ -1,0 +1,4 @@
+components:
+  schemas:
+    currency:
+      $ref: ../../../enum/CurrencyUnit.yaml#/components/schemas/CurrencyUnit

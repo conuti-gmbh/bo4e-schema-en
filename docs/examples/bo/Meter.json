@@ -1,179 +1,179 @@
 {
   "boType": "METER",
   "structureVersion": "1",
-  "meterNumber": "ZAEHLER_010101",
+  "meterNumber": "ZAEHLER_111000",
   "sector": "GAS",
-  "meterCharacteristic": "BIDIRECTIONAL_METER",
-  "meterType": "DIAPHRAGM_GAS_METER",
-  "tariffType": "SMART_METER",
-  "meterConstant": 20,
-  "calibrationUntil": "3623",
+  "meterCharacteristic": "SINGLE_DIRECTION_METER",
+  "meterType": "WATER_METER",
+  "tariffType": "MULTI_TARIFF",
+  "meterConstant": 27.5,
+  "calibrationUntil": "1103",
   "meterManufacturer": {
     "boType": "BUSINESS_PARTNER",
     "structureVersion": "1",
-    "salutation": "Herr",
-    "name1": "Unger",
-    "name2": "Björn",
-    "name3": "deserunt enim mollit",
-    "name4": "ullamco",
-    "vatId": "DE010110111",
-    "creditorId": "068287",
-    "emailAddress": "Lutz.Wiechmann56@hotmail.com",
-    "website": "https://simpel-korper.name/",
+    "salutation": "Prof. Dr.",
+    "name1": "Brüggmann",
+    "name2": "Frederike",
+    "name3": "laboris labore magna non quis",
+    "name4": "nostrud sint",
+    "vatId": "DE010100000",
+    "creditorId": "284351",
+    "emailAddress": "Enes7@hotmail.com",
+    "website": "https://ekstatisch-architektur.de/",
     "commercialClassification": true,
-    "commercialRegisterNumber": "947022",
-    "courtOfRegistration": "Castrop-Rauxel",
+    "commercialRegisterNumber": "057408",
+    "courtOfRegistration": "Alt Dustin",
     "partnerAddress": {
-      "postalCode": "80979",
-      "city": "Leoniescheid",
-      "street": "Borussiastr.",
-      "houseNumber": "262",
-      "poBox": "magna exercitation",
-      "addressSupplement": "amet non ullamco",
-      "coSupplement": "in Ut ut esse",
-      "countryCode": "SF",
-      "district": "Calvinland",
+      "postalCode": "38194",
+      "city": "West Timmscheid",
+      "street": "Am Birkenberg",
+      "houseNumber": "95",
+      "poBox": "ea in tempor exercitation et",
+      "addressSupplement": "dolor et aute",
+      "coSupplement": "Ut adipisicing aliquip mollit",
+      "countryCode": "SN",
+      "district": "Dresden",
       "additionalInformation": {
-        "supplement1": "aliquip amet laboris qui",
-        "supplement2": "minim",
-        "supplement3": "dolore Ut",
-        "supplement4": "aliquip",
-        "supplement5": "do non adipisicing eu"
+        "supplement1": "laborum",
+        "supplement2": "in Ut",
+        "supplement3": "labore occaecat",
+        "supplement4": "mollit",
+        "supplement5": "laboris"
       }
     },
-    "externalCustomerNumberSupplier": "444939",
+    "externalCustomerNumberSupplier": "217461",
     "externalReferences": [
       {
-        "externalReferenceName": "Kundennummer beim Altlieferanten",
-        "externalReferenceValue": "1010599886"
+        "externalReferenceName": "Kundennummer beim Lieferanten",
+        "externalReferenceValue": "2697313542"
       }
     ],
     "businessPartnerRole": [
-      "CUSTOMER"
+      "PROSPECT"
     ],
     "contactChannel": [
-      "FAX"
+      "WRITTEN_LETTER"
     ],
     "contactPerson": {
       "boType": "CONTACT_PERSON",
       "structureVersion": "1",
-      "lastName": "Blassneck",
-      "eMailAddress": "Ilias_Nabow58@yahoo.com",
+      "lastName": "Rink",
+      "eMailAddress": "Katrin.Krueger@yahoo.com",
       "phoneNumbers": [
         {
-          "numberType": "PHONE_EXTENSION",
-          "phoneNumber": "+49-992-4770704"
+          "numberType": "PHONE_CENTRAL",
+          "phoneNumber": "+49-321-8363728"
         }
       ]
     }
   },
-  "gateway": "GATEWAY_100101",
-  "remoteSwitch": "NOT_PRESENT",
-  "measurementValueCapture": "REMOTE_READABLE",
+  "gateway": "GATEWAY_100001",
+  "remoteSwitch": "PRESENT",
+  "measurementValueCapture": "MANUALLY_READ",
   "meterTypeSpecification": "EDL40",
-  "mountingType": "DOUBLE_SOCKET",
-  "meterSize": "GAS_G6",
-  "quantityConverterType": "STATE_QUANTITY_CONVERTER",
+  "mountingType": "DIN_RAIL",
+  "meterSize": "DENSITY_QUANTITY_CONVERTER",
+  "quantityConverterType": "TEMPERATURE_QUANTITY_CONVERTER",
   "volumeCapture": "CREEP_QUANTITY_SUPPRESSION",
-  "serialNumber": "5839771146",
+  "serialNumber": "1858135313",
   "serialNumbers": [
-    "1360623200"
+    "7856266767"
   ],
-  "deviceAttribute": "WATER_WZ04",
-  "manufacturingDate": "4165",
-  "yearOfConstruction": "0869",
-  "meteringLocationId": "632316675400676263694987802570891",
-  "marketLocationId": "89226361087",
+  "deviceAttribute": "PLC_COM",
+  "manufacturingDate": "2146",
+  "yearOfConstruction": "7426",
+  "meteringLocationId": "294707426912136778966781937371488",
+  "marketLocationId": "19513436827",
   "devices": [
     {
-      "deviceType": "VOLTAGE_TRANSFORMER",
-      "designation": "exercitation nostrud dolor",
-      "deviceNumber": "02579",
-      "deviceReference": "REF_011111",
+      "deviceType": "SINGLE_PHASE_METER",
+      "designation": "esse consequat pariatur proident Lorem",
+      "deviceNumber": "95710",
+      "deviceReference": "REF_011100",
       "deviceProperties": {
-        "deviceType": "MEASURING_TRANSFORMER_SET_IMS_MME",
-        "deviceAttribute": "WATER_VWZ06",
-        "volumeCapture": "CREEP_QUANTITY_SUPPRESSION",
-        "serialNumber": "8561473966",
-        "manufacturingDate": "6345",
-        "yearOfConstruction": "8558",
-        "calibrationUntil": "6230",
-        "factor": 3,
-        "firmwareVersion": "FW_0011",
-        "manufacturerTypeDesignation": "TYP_110000",
-        "simCardNumber": "73530723559657372046",
-        "modemIdentifierIMSI": "408107917454412",
-        "telecommunicationsProvider": "TK_0100",
-        "ipVersion": "9"
+        "deviceType": "ETHERNET_COM",
+        "deviceAttribute": "WATER_VWZ05",
+        "volumeCapture": "CHARACTERISTIC_CURVE_CORRECTION",
+        "serialNumber": "5112253650",
+        "manufacturingDate": "5215",
+        "yearOfConstruction": "0966",
+        "calibrationUntil": "6105",
+        "factor": 7.5,
+        "firmwareVersion": "FW_1011",
+        "manufacturerTypeDesignation": "TYP_111101",
+        "simCardNumber": "37659311953850991734",
+        "modemIdentifierIMSI": "886661028740943",
+        "telecommunicationsProvider": "TK_1010",
+        "ipVersion": "1"
       },
-      "volumeCapture": "CREEP_QUANTITY_SUPPRESSION",
+      "volumeCapture": "CHARACTERISTIC_CURVE_CORRECTION",
       "additionalDeviceNumbers": [
-        "17113"
+        "86515"
       ]
     }
   ],
   "meterRegisters": [
     {
-      "meterRegisterId": "367764974",
-      "designation": "officia ullamco",
+      "meterRegisterId": "187410545",
+      "designation": "ullamco quis enim est qui",
       "direction": "FEED_OUT",
-      "obisCode": "esse enim irure",
-      "transformerFactor": 2,
-      "unit": "KVARH",
-      "offPeakCapable": "OFF_PEAK_CAPABLE",
+      "obisCode": "labore aliquip consequat",
+      "transformerFactor": 3,
+      "unit": "KVAR",
+      "offPeakCapable": "NOT_OFF_PEAK_CAPABLE",
       "consumptionType": [
-        "KL"
+        "EMOB"
       ],
-      "interruptibility": "UV",
-      "heatUsage": "HEAT_PUMP",
+      "interruptibility": "NUV",
+      "heatUsage": "HEAT_PUMP_HEATING_COOLING",
       "concessionFee": {
         "rate": "TSS",
-        "costs": -62698571.36043359,
-        "category": "dolore qui est"
+        "costs": -53214657.63808218,
+        "category": "cupidatat"
       },
-      "taxExempt": false,
+      "taxExempt": true,
       "integerDigits": 1,
-      "decimalPlaces": 4,
-      "billingRelevant": false,
-      "numberOfReadings": 2,
+      "decimalPlaces": 9,
+      "billingRelevant": true,
+      "numberOfReadings": 9,
       "meteringTimes": {
-        "register": "non incididunt laborum sunt anim",
-        "meteringTimeDefinition": "velit ut Excepteur",
-        "offPeakCapable": "OFF_PEAK_CAPABLE"
+        "register": "occaecat ut elit dolore reprehenderit",
+        "meteringTimeDefinition": "ex deserunt sint",
+        "offPeakCapable": "NOT_OFF_PEAK_CAPABLE"
       },
-      "configuration": "non est incididunt",
-      "meteringProduct": "et sunt magna consequat amet",
-      "valueGranularity": "MONTHLY",
-      "necessitySecondMeasurement": "NOT_PRESENT",
+      "configuration": "irure",
+      "meteringProduct": "consectetur",
+      "valueGranularity": "ANNUAL",
+      "necessitySecondMeasurement": "PRESENT",
       "valueTransmissionPurpose": "NOT_PRESENT",
-      "typeElectricMobility": "LP",
-      "configurationProduct": "cillum",
+      "typeElectricMobility": "WB",
+      "configurationProduct": "veniam consectetur qui minim",
       "noConfigurationProduct": false,
-      "loadCurveDefinition": "est sed",
+      "loadCurveDefinition": "fugiat magna",
       "purposesOfUse": [
         {
-          "marketRole": "UBA",
+          "marketRole": "ESA",
           "purpose": [
-            "REACTIVE_ENERGY_BILLING_OPERATIONS_MANAGEMENT"
+            "BALANCING_GROUP_BILLING"
           ]
         }
       ],
-      "usagePurposeNB": "Ut ea ipsum",
-      "usagePurposeLF": "mollit nulla esse sed ad",
-      "usagePurposeUENB": "quis dolor",
-      "noProduct": true
+      "usagePurposeNB": "qui quis magna reprehenderit minim",
+      "usagePurposeLF": "exercitation",
+      "usagePurposeUENB": "consectetur cillum tempor",
+      "noProduct": false
     }
   ],
-  "dataQuality": "DIFFERENCE_EXPECTED_DATA",
+  "dataQuality": "VALID_DATA",
   "validityPeriod": {
-    "timeUnit": "QUARTER_HOUR",
+    "timeUnit": "QUARTER",
     "duration": 4,
-    "startDate": "1965-07-14T13:13:49.0Z",
-    "endDate": "1923-08-12T04:16:23.0Z",
-    "unit": "QUARTER_HOUR",
-    "readingPeriod": "361645",
-    "billingPeriod": "640956",
-    "periodText": "deserunt eu",
+    "startDate": "1958-02-26T06:22:44.0Z",
+    "endDate": "1966-06-07T16:11:46.0Z",
+    "unit": "YEAR",
+    "readingPeriod": "096875",
+    "billingPeriod": "906179",
+    "periodText": "consectetur voluptate Duis ullamco laborum",
     "periodId": 8
   }
 }

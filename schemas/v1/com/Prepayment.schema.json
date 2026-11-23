@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema-en/main/schemas/v1/com/Prepayment.schema.json",
+  "title": "Prepayment",
+  "type": "object",
+  "properties": {
+    "value": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
+    },
+    "currency": {
+      "$ref": "../enum/CurrencyUnit.schema.json"
+    },
+    "referencePredecessorInvoice": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "RN_",
+          "length": 6
+        }
+      }
+    },
+    "predecessorInvoiceDate": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

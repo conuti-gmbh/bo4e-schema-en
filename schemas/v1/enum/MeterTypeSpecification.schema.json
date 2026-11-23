@@ -8,6 +8,8 @@
     "EDL21",
     "OTHER_EHZ",
     "MME_STANDARD",
-    "MME_MEDA"
+    "MME_MEDA",
+    "MRL_CLS_MODULE",
+    "MRL_LMN_MODULE"
   ]
 }

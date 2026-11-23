@@ -97,6 +97,15 @@
     "prepaid": {
       "$ref": "../com/Amount.schema.json"
     },
+    "prepayments": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "../com/Prepayment.schema.json"
+      }
+    },
     "municipalDiscount": {
       "$ref": "../com/MunicipalDiscount.schema.json"
     },
